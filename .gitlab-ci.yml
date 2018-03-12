@@ -1,0 +1,37 @@
+image: $CI_REGISTRY/mc504/qemu-man:latest
+
+
+before_script:
+  # Start of script
+  - echo "#! /bin/sh" > /home/script.sh
+  # These should be your commands
+  - echo "cd /usr/src" >> /home/script.sh
+  - echo "make build MKUPDATE=yes" >> /home/script.sh
+  
+  # This part is needed if you want to reboot the machine within the test script
+  # So it will reset the serial consoles and the boot config to restart and be handled by pexpect (within qemu-man script)
+  - echo "# Restore our configuration from .local" >> /home/script.sh
+  - echo "cp ~/.local/gettytab /etc/gettytab" >> /home/script.sh
+  - echo "cp ~/.local/ttys /etc/ttys" >> /home/script.sh
+  - echo "cp ~/.local/boot.cfg /boot.cfg" >> /home/script.sh
+
+  # Then you can put more commands
+  # For instance you can then reboot it and do some commands
+  - echo "shutdown -r now" >> /home/script.sh
+  - echo "ls -l" >> /home/script.sh
+  
+  # This line is needed after the script so the pexpect (on qemu-man.py) can catch the end of the script
+  # This is the default value, but can be modified on the qemu-man call with --script-end-message
+  - echo "echo Finished script" >> /home/script.sh
+   
+
+build:
+  stage: build
+  script:
+    # You can check that your script is doing what you expect
+    - cat /home/script.sh
+    # You can customize this line with different parameters if needed. Check the qemu-man repo for all the options
+    - python -u /qemu-man.py --guest-minix-source /usr/src --host-minix-source `pwd`
+  tags:
+    # This tag is needed to run the virtualization (if you don't use it, the script will take forever)
+    - docker-kvm

@@ -1,0 +1,3072 @@
+Archive member included because of file (symbol)
+
+libdns_pic.a(spnego.pico)     (--whole-archive)
+libdns_pic.a(gssapi_link.pico)
+                              (--whole-archive)
+libdns_pic.a(sdlz.pico)       (--whole-archive)
+libdns_pic.a(tkey.pico)       (--whole-archive)
+libdns_pic.a(sdb.pico)        (--whole-archive)
+libdns_pic.a(portlist.pico)   (--whole-archive)
+libdns_pic.a(dbtable.pico)    (--whole-archive)
+libdns_pic.a(client.pico)     (--whole-archive)
+libdns_pic.a(clientinfo.pico)
+                              (--whole-archive)
+libdns_pic.a(byaddr.pico)     (--whole-archive)
+libdns_pic.a(lookup.pico)     (--whole-archive)
+libdns_pic.a(tsec.pico)       (--whole-archive)
+libdns_pic.a(opensslgost_link.pico)
+                              (--whole-archive)
+libdns_pic.a(opensslecdsa_link.pico)
+                              (--whole-archive)
+libdns_pic.a(opensslrsa_link.pico)
+                              (--whole-archive)
+libdns_pic.a(openssldsa_link.pico)
+                              (--whole-archive)
+libdns_pic.a(openssldh_link.pico)
+                              (--whole-archive)
+libdns_pic.a(openssl_link.pico)
+                              (--whole-archive)
+libdns_pic.a(key.pico)        (--whole-archive)
+libdns_pic.a(hmac_link.pico)  (--whole-archive)
+libdns_pic.a(dst_parse.pico)  (--whole-archive)
+libdns_pic.a(dst_api.pico)    (--whole-archive)
+libdns_pic.a(dst_result.pico)
+                              (--whole-archive)
+libdns_pic.a(dst_lib.pico)    (--whole-archive)
+libdns_pic.a(update.pico)     (--whole-archive)
+libdns_pic.a(zt.pico)         (--whole-archive)
+libdns_pic.a(zonekey.pico)    (--whole-archive)
+libdns_pic.a(zone.pico)       (--whole-archive)
+libdns_pic.a(xfrin.pico)      (--whole-archive)
+libdns_pic.a(private.pico)    (--whole-archive)
+libdns_pic.a(timer.pico)      (--whole-archive)
+libdns_pic.a(rriterator.pico)
+                              (--whole-archive)
+libdns_pic.a(keydata.pico)    (--whole-archive)
+libdns_pic.a(journal.pico)    (--whole-archive)
+libdns_pic.a(view.pico)       (--whole-archive)
+libdns_pic.a(rrl.pico)        (--whole-archive)
+libdns_pic.a(request.pico)    (--whole-archive)
+libdns_pic.a(order.pico)      (--whole-archive)
+libdns_pic.a(dns64.pico)      (--whole-archive)
+libdns_pic.a(validator.pico)  (--whole-archive)
+libdns_pic.a(keytable.pico)   (--whole-archive)
+libdns_pic.a(ds.pico)         (--whole-archive)
+libdns_pic.a(tsig.pico)       (--whole-archive)
+libdns_pic.a(ssu.pico)        (--whole-archive)
+libdns_pic.a(gssapictx.pico)  (--whole-archive)
+libdns_pic.a(ssu_external.pico)
+                              (--whole-archive)
+libdns_pic.a(dlz.pico)        (--whole-archive)
+libdns_pic.a(soa.pico)        (--whole-archive)
+libdns_pic.a(rpz.pico)        (--whole-archive)
+libdns_pic.a(result.pico)     (--whole-archive)
+libdns_pic.a(lib.pico)        (--whole-archive)
+libdns_pic.a(ecdb.pico)       (--whole-archive)
+libdns_pic.a(resolver.pico)   (--whole-archive)
+libdns_pic.a(rootns.pico)     (--whole-archive)
+libdns_pic.a(peer.pico)       (--whole-archive)
+libdns_pic.a(forward.pico)    (--whole-archive)
+libdns_pic.a(dispatch.pico)   (--whole-archive)
+libdns_pic.a(cache.pico)      (--whole-archive)
+libdns_pic.a(adb.pico)        (--whole-archive)
+libdns_pic.a(acl.pico)        (--whole-archive)
+libdns_pic.a(tcpmsg.pico)     (--whole-archive)
+libdns_pic.a(iptable.pico)    (--whole-archive)
+libdns_pic.a(rdataslab.pico)  (--whole-archive)
+libdns_pic.a(rdatasetiter.pico)
+                              (--whole-archive)
+libdns_pic.a(rdataset.pico)   (--whole-archive)
+libdns_pic.a(rbtdb64.pico)    (--whole-archive)
+libdns_pic.a(rbtdb.pico)      (--whole-archive)
+libdns_pic.a(stats.pico)      (--whole-archive)
+libdns_pic.a(rbt.pico)        (--whole-archive)
+libdns_pic.a(nsec3.pico)      (--whole-archive)
+libdns_pic.a(nsec.pico)       (--whole-archive)
+libdns_pic.a(acache.pico)     (--whole-archive)
+libdns_pic.a(version.pico)    (--whole-archive)
+libdns_pic.a(ncache.pico)     (--whole-archive)
+libdns_pic.a(name.pico)       (--whole-archive)
+libdns_pic.a(message.pico)    (--whole-archive)
+libdns_pic.a(dnssec.pico)     (--whole-archive)
+libdns_pic.a(diff.pico)       (--whole-archive)
+libdns_pic.a(masterdump.pico)
+                              (--whole-archive)
+libdns_pic.a(dbiterator.pico)
+                              (--whole-archive)
+libdns_pic.a(db.pico)         (--whole-archive)
+libdns_pic.a(callbacks.pico)  (--whole-archive)
+libdns_pic.a(master.pico)     (--whole-archive)
+libdns_pic.a(log.pico)        (--whole-archive)
+libdns_pic.a(rdatalist.pico)  (--whole-archive)
+libdns_pic.a(rdata.pico)      (--whole-archive)
+libdns_pic.a(rcode.pico)      (--whole-archive)
+libdns_pic.a(compress.pico)   (--whole-archive)
+libdns_pic.a(ttl.pico)        (--whole-archive)
+libdns_pic.a(time.pico)       (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+dns_dnssec_stats    0x4               libdns_pic.a(dnssec.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(spnego.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(gssapi_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(sdlz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(tkey.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(sdb.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(portlist.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dbtable.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(client.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(clientinfo.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(byaddr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(lookup.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(tsec.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(opensslgost_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(opensslecdsa_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(opensslrsa_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(openssldsa_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(openssldh_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(openssl_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(key.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(hmac_link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dst_parse.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dst_api.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dst_result.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dst_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(update.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(zt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(zonekey.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(zone.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(xfrin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(private.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(timer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rriterator.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(keydata.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(journal.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(view.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rrl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(request.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(order.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dns64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(validator.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(keytable.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ds.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(tsig.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ssu.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(gssapictx.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ssu_external.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dlz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(soa.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rpz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(result.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ecdb.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(resolver.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rootns.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(peer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(forward.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dispatch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(cache.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(adb.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(acl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(tcpmsg.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(iptable.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rdataslab.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rdatasetiter.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rdataset.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rbtdb64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rbtdb.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(stats.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rbt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(nsec3.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(nsec.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(acache.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(version.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ncache.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(name.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(message.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dnssec.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(diff.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(masterdump.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(dbiterator.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(db.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(callbacks.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(master.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(log.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rdatalist.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rdata.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(rcode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(compress.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(ttl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libdns_pic.a(time.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libdns_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/external/bsd/bind/lib/libisc/libisc.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4     0x2e10
+ *(.hash)
+ .hash          0x000000f4     0x2e10 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00002f04     0x77b0
+ *(.dynsym)
+ .dynsym        0x00002f04     0x77b0 /usr/lib/crti.o
+
+.dynstr         0x0000a6b4     0x9378
+ *(.dynstr)
+ .dynstr        0x0000a6b4     0x9378 /usr/lib/crti.o
+
+.gnu.version    0x00013a2c        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00013a2c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00013a2c        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00013a2c     0x20a8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00013a2c       0x48 /usr/lib/crti.o
+ .rel.data.rel.ro.local
+                0x00013a74      0x568 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00013fdc       0xd8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000140b4     0x1868 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0001591c      0x1b8 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00015ad4     0x2938
+ *(.rel.plt)
+ .rel.plt       0x00015ad4     0x2938 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00018410        0xa
+ *(SORT(.init))
+ .init          0x00018410        0x3 /usr/lib/crti.o
+                0x00018410                _init
+ .init          0x00018413        0x5 /usr/lib/crtbeginS.o
+ .init          0x00018418        0x2 /usr/lib/crtn.o
+
+.plt            0x00018420     0x5280
+ *(.plt)
+ .plt           0x00018420     0x5280 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x0001d6a0   0x17d7e0
+                0x0001d6a0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x0001d6a0        0x0 /usr/lib/crti.o
+ .text          0x0001d6a0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0001d78f        0x1 
+ .text          0x0001d790        0x0 libdns_pic.a(spnego.pico)
+ .text          0x0001d790        0x0 libdns_pic.a(gssapi_link.pico)
+ .text          0x0001d790     0x4084 libdns_pic.a(sdlz.pico)
+                0x0001d790                dns_sdlz_putrr
+                0x0001dc20                dns_sdlz_putnamedrr
+                0x0001e2c0                dns_sdlz_putsoa
+                0x0001e3d0                dns_sdlzregister
+                0x0001e710                dns_sdlzunregister
+                0x0001e800                dns_sdlz_setdb
+ *fill*         0x00021814        0xc 
+ .text          0x00021820     0x432c libdns_pic.a(tkey.pico)
+                0x00021820                dns_tkeyctx_create
+                0x00021960                dns_tkeyctx_destroy
+                0x00021ab0                dns_tkey_processquery
+                0x00023790                dns_tkey_builddhquery
+                0x000240f0                dns_tkey_buildgssquery
+                0x00024360                dns_tkey_builddeletequery
+                0x00024490                dns_tkey_processdhresponse
+                0x00024f10                dns_tkey_processgssresponse
+                0x00025490                dns_tkey_processdeleteresponse
+                0x00025710                dns_tkey_gssnegotiate
+ *fill*         0x00025b4c        0x4 
+ .text          0x00025b50     0x2f58 libdns_pic.a(sdb.pico)
+                0x00025b50                dns_sdb_register
+                0x000260e0                dns_sdb_unregister
+                0x000261b0                dns_sdb_putrdata
+                0x00026400                dns_sdb_putrr
+                0x000267b0                dns_sdb_putnamedrr
+                0x00026b20                dns_sdb_putnamedrdata
+                0x00026b90                dns_sdb_putsoa
+ *fill*         0x00028aa8        0x8 
+ .text          0x00028ab0      0x948 libdns_pic.a(portlist.pico)
+                0x00028ab0                dns_portlist_create
+                0x00028c00                dns_portlist_add
+                0x00028f50                dns_portlist_remove
+                0x000290a0                dns_portlist_match
+                0x000291d0                dns_portlist_attach
+                0x00029290                dns_portlist_detach
+ *fill*         0x000293f8        0x8 
+ .text          0x00029400      0xc98 libdns_pic.a(dbtable.pico)
+                0x00029400                dns_dbtable_create
+                0x00029600                dns_dbtable_attach
+                0x00029760                dns_dbtable_detach
+                0x00029950                dns_dbtable_add
+                0x00029aa0                dns_dbtable_remove
+                0x00029c00                dns_dbtable_adddefault
+                0x00029d60                dns_dbtable_getdefault
+                0x00029e80                dns_dbtable_removedefault
+                0x00029f50                dns_dbtable_find
+ *fill*         0x0002a098        0x8 
+ .text          0x0002a0a0     0x7c95 libdns_pic.a(client.pico)
+                0x0002a0a0                dns_client_create
+                0x0002a270                dns_client_createx
+                0x0002a2e0                dns_client_createx2
+                0x0002a8b0                dns_client_destroy
+                0x0002abd0                dns_client_setservers
+                0x0002ad60                dns_client_clearservers
+                0x0002aeb0                dns_client_setdlv
+                0x0002b040                dns_client_resolve
+                0x0002b330                dns_client_startresolve
+                0x0002bb00                dns_client_cancelresolve
+                0x0002cee0                dns_client_freeresanswer
+                0x0002d150                dns_client_destroyrestrans
+                0x0002d480                dns_client_addtrustedkey
+                0x0002d610                dns_client_request
+                0x0002d910                dns_client_startrequest
+                0x0002e0f0                dns_client_cancelrequest
+                0x0002e1e0                dns_client_destroyreqtrans
+                0x0002e4e0                dns_client_update
+                0x0002e770                dns_client_startupdate
+                0x0002f4f0                dns_client_cancelupdate
+                0x0002fe90                dns_client_destroyupdatetrans
+                0x00030290                dns_client_mctx
+                0x000302f0                dns_client_updaterec
+                0x00030770                dns_client_freeupdate
+ *fill*         0x00031d35        0xb 
+ .text          0x00031d40       0x33 libdns_pic.a(clientinfo.pico)
+                0x00031d40                dns_clientinfomethods_init
+                0x00031d60                dns_clientinfo_init
+ *fill*         0x00031d73        0xd 
+ .text          0x00031d80      0xb3a libdns_pic.a(byaddr.pico)
+                0x00031d80                dns_byaddr_createptrname
+                0x00031dc0                dns_byaddr_createptrname2
+                0x00031f40                dns_byaddr_create
+                0x00032680                dns_byaddr_cancel
+                0x00032750                dns_byaddr_destroy
+ *fill*         0x000328ba        0x6 
+ .text          0x000328c0     0x12f3 libdns_pic.a(lookup.pico)
+                0x000328c0                dns_lookup_create
+                0x000337e0                dns_lookup_cancel
+                0x000338f0                dns_lookup_destroy
+ *fill*         0x00033bb3        0xd 
+ .text          0x00033bc0      0x44a libdns_pic.a(tsec.pico)
+                0x00033bc0                dns_tsec_create
+                0x00033dd0                dns_tsec_destroy
+                0x00033ee0                dns_tsec_gettype
+                0x00033f40                dns_tsec_getkey
+ *fill*         0x0003400a        0x6 
+ .text          0x00034010      0xf78 libdns_pic.a(opensslgost_link.pico)
+                0x00034010                EVP_gost
+                0x00034030                isc_gost_init
+                0x000340b0                isc_gost_invalidate
+                0x000340d0                isc_gost_update
+                0x00034170                isc_gost_final
+                0x00034210                dst__opensslgost_init
+ *fill*         0x00034f88        0x8 
+ .text          0x00034f90     0x10bf libdns_pic.a(opensslecdsa_link.pico)
+                0x00034f90                dst__opensslecdsa_init
+ *fill*         0x0003604f        0x1 
+ .text          0x00036050     0x1f2e libdns_pic.a(opensslrsa_link.pico)
+                0x00036050                dst__opensslrsa_init
+ *fill*         0x00037f7e        0x2 
+ .text          0x00037f80     0x136e libdns_pic.a(openssldsa_link.pico)
+                0x00037f80                dst__openssldsa_init
+ *fill*         0x000392ee        0x2 
+ .text          0x000392f0     0x164e libdns_pic.a(openssldh_link.pico)
+                0x000392f0                dst__openssldh_init
+ *fill*         0x0003a93e        0x2 
+ .text          0x0003a940      0xa1e libdns_pic.a(openssl_link.pico)
+                0x0003a940                dst__openssl_init
+                0x0003af40                dst__openssl_destroy
+                0x0003b0c0                dst__openssl_toresult
+                0x0003b110                dst__openssl_toresult2
+                0x0003b150                dst__openssl_toresult3
+                0x0003b310                dst__openssl_getengine
+ *fill*         0x0003b35e        0x2 
+ .text          0x0003b360      0x7f3 libdns_pic.a(key.pico)
+                0x0003b360                dst_region_computeid
+                0x0003b460                dst_region_computerid
+                0x0003b570                dst_key_name
+                0x0003b5d0                dst_key_size
+                0x0003b630                dst_key_proto
+                0x0003b690                dst_key_alg
+                0x0003b6f0                dst_key_flags
+                0x0003b750                dst_key_id
+                0x0003b7b0                dst_key_rid
+                0x0003b810                dst_key_class
+                0x0003b870                dst_key_iszonekey
+                0x0003b8f0                dst_key_isnullkey
+                0x0003b970                dst_key_setbits
+                0x0003ba40                dst_key_getbits
+                0x0003baa0                dst_key_setttl
+                0x0003bb00                dst_key_getttl
+ *fill*         0x0003bb53        0xd 
+ .text          0x0003bb60     0x3461 libdns_pic.a(hmac_link.pico)
+                0x0003bb60                dst__hmacmd5_init
+                0x0003bbc0                dst__hmacsha1_init
+                0x0003bc20                dst__hmacsha224_init
+                0x0003bc80                dst__hmacsha256_init
+                0x0003bce0                dst__hmacsha384_init
+                0x0003bd40                dst__hmacsha512_init
+ *fill*         0x0003efc1        0xf 
+ .text          0x0003efd0     0x16f6 libdns_pic.a(dst_parse.pico)
+                0x0003efd0                dst__privstruct_free
+                0x0003f080                dst__privstruct_parse
+                0x0003ff10                dst__privstruct_writefile
+ *fill*         0x000406c6        0xa 
+ .text          0x000406d0     0x4e3c libdns_pic.a(dst_api.pico)
+                0x000406d0                dst_lib_init
+                0x00040710                dst_lib_init2
+                0x00040a90                dst_lib_destroy
+                0x00040b40                dst_algorithm_supported
+                0x00040bb0                dst_ds_digest_supported
+                0x00040bd0                dst_context_create
+                0x00040c20                dst_context_create4
+                0x00040e10                dst_context_create2
+                0x00040e60                dst_context_create3
+                0x00040eb0                dst_context_destroy
+                0x00040f80                dst_context_adddata
+                0x00041040                dst_context_sign
+                0x00041170                dst_context_verify
+                0x00041270                dst_context_verify2
+                0x00041390                dst_key_computesecret
+                0x00041530                dst_key_isprivate
+                0x000415c0                dst_key_tofile
+                0x00041c50                dst_key_setexternal
+                0x00041c70                dst_key_isexternal
+                0x00041c80                dst_key_fromfile
+                0x000420b0                dst_key_fromnamedfile
+                0x000426b0                dst_key_free
+                0x000429f0                dst_key_read_public
+                0x00043120                dst_key_todns
+                0x000432b0                dst_key_fromdns
+                0x00043600                dst_key_frombuffer
+                0x000436c0                dst_key_tobuffer
+                0x000437b0                dst_key_privatefrombuffer
+                0x00043970                dst_key_getgssctx
+                0x000439c0                dst_key_fromgssapi
+                0x00043ae0                dst_key_buildinternal
+                0x00043cd0                dst_key_fromlabel
+                0x00043f00                dst_key_generate
+                0x00043f70                dst_key_generate2
+                0x00044170                dst_key_getnum
+                0x00044240                dst_key_setnum
+                0x000442e0                dst_key_unsetnum
+                0x00044370                dst_key_gettime
+                0x00044440                dst_key_settime
+                0x000444d0                dst_key_unsettime
+                0x00044560                dst_key_getprivateformat
+                0x00044630                dst_key_setprivateformat
+                0x000446a0                dst_key_compare
+                0x00044840                dst_key_pubcompare
+                0x00044a00                dst_key_paramcompare
+                0x00044af0                dst_key_attach
+                0x00044bf0                dst_key_buildfilename
+                0x00044cb0                dst_key_sigsize
+                0x00044e00                dst_key_secretsize
+                0x00044ed0                dst_key_setflags
+                0x00044f30                dst_key_format
+                0x00044fe0                dst_key_dump
+                0x000450c0                dst_key_restore
+                0x00045200                dst_key_inactive
+                0x00045260                dst_key_setinactive
+                0x000452c0                dst__entropy_getdata
+                0x00045330                dst__entropy_status
+                0x00045360                dst_key_tkeytoken
+ *fill*         0x0004550c        0x4 
+ .text          0x00045510      0x119 libdns_pic.a(dst_result.pico)
+                0x00045510                dst_result_totext
+                0x000455a0                dst_result_register
+ *fill*         0x00045629        0x7 
+ .text          0x00045630       0x42 libdns_pic.a(dst_lib.pico)
+                0x00045630                dst_lib_initmsgcat
+ *fill*         0x00045672        0xe 
+ .text          0x00045680     0x3e0d libdns_pic.a(update.pico)
+                0x00045680                dns_update_signatures
+                0x00048d80                dns_update_soaserial
+ *fill*         0x0004948d        0x3 
+ .text          0x00049490     0x14f8 libdns_pic.a(zt.pico)
+                0x00049490                dns_zt_create
+                0x00049630                dns_zt_mount
+                0x00049750                dns_zt_unmount
+                0x00049850                dns_zt_find
+                0x00049980                dns_zt_attach
+                0x00049af0                dns_zt_flushanddetach
+                0x00049cb0                dns_zt_detach
+                0x00049cd0                dns_zt_load
+                0x00049dd0                dns_zt_apply
+                0x00049e60                dns_zt_asyncload
+                0x0004a1b0                dns_zt_apply2
+                0x0004a470                dns_zt_loadnew
+                0x0004a5b0                dns_zt_freezezones
+ *fill*         0x0004a988        0x8 
+ .text          0x0004a990       0xa0 libdns_pic.a(zonekey.pico)
+                0x0004a990                dns_zonekey_iszonekey
+ .text          0x0004aa30    0x36019 libdns_pic.a(zone.pico)
+                0x0004aa30                dns_zone_create
+                0x0004b230                dns_zone_setdbtype
+                0x0004bd50                dns_zone_setclass
+                0x0004c300                dns_zone_getclass
+                0x0004c360                dns_zone_setnotifytype
+                0x0004c450                dns_zone_getserial2
+                0x0004cb10                dns_zone_getserial
+                0x0004cb50                dns_zone_settype
+                0x0004cd30                dns_zone_getdbtype
+                0x0004cf40                dns_zone_setview
+                0x0004d230                dns_zone_getview
+                0x0004d290                dns_zone_setorigin
+                0x0004d5f0                dns_zone_setacache
+                0x0004d7d0                dns_zone_setfile
+                0x0004d810                dns_zone_setfile2
+                0x0004db10                dns_zone_getfile
+                0x0004db70                dns_zone_getmaxttl
+                0x0004dbd0                dns_zone_setmaxttl
+                0x0004dce0                dns_zone_setjournal
+                0x0004de40                dns_zone_getjournal
+                0x0004dea0                dns_zone_isdynamic
+                0x0004df50                dns_zone_rpz_enable
+                0x0004e0f0                dns_zone_get_rpz_num
+                0x0004e100                dns_zone_rpz_enable_db
+                0x0004e170                dns_zone_load
+                0x0004f180                dns_zone_loadnew
+                0x0004f1b0                dns_zone_asyncload
+                0x0004f6f0                dns__zone_loadpending
+                0x0004f750                dns_zone_loadandthaw
+                0x0004f800                dns_zone_setrawdata
+                0x0004f900                dns_zone_synckeyzone
+                0x0004fa00                dns_zone_getdb
+                0x000509e0                dns_zone_attach
+                0x00050aa0                dns_zone_detach
+                0x00050ce0                dns_zone_idetach
+                0x00051a70                dns_zone_iattach
+                0x00051bb0                dns_zone_getmctx
+                0x00051c10                dns_zone_getmgr
+                0x00051c70                dns_zone_setflag
+                0x00051d80                dns_zone_setoption
+                0x00051e90                dns_zone_setoption2
+                0x00051fa0                dns_zone_getoptions
+                0x00052000                dns_zone_getoptions2
+                0x00052060                dns_zone_setkeyopt
+                0x00052170                dns_zone_getkeyopts
+                0x000521d0                dns_zone_setxfrsource4
+                0x000522e0                dns_zone_getxfrsource4
+                0x00052340                dns_zone_setxfrsource4dscp
+                0x00052430                dns_zone_getxfrsource4dscp
+                0x00052490                dns_zone_setxfrsource6
+                0x000525a0                dns_zone_getxfrsource6
+                0x00052600                dns_zone_getxfrsource6dscp
+                0x00052660                dns_zone_setxfrsource6dscp
+                0x00052750                dns_zone_setaltxfrsource4
+                0x00052860                dns_zone_getaltxfrsource4
+                0x000528c0                dns_zone_setaltxfrsource4dscp
+                0x000529b0                dns_zone_getaltxfrsource4dscp
+                0x00052a10                dns_zone_setaltxfrsource6
+                0x00052b20                dns_zone_getaltxfrsource6
+                0x00052b80                dns_zone_setaltxfrsource6dscp
+                0x00052c70                dns_zone_getaltxfrsource6dscp
+                0x00052cd0                dns_zone_setnotifysrc4
+                0x00052de0                dns_zone_getnotifysrc4
+                0x00052e40                dns_zone_setnotifysrc4dscp
+                0x00052f30                dns_zone_getnotifysrc4dscp
+                0x00052f90                dns_zone_setnotifysrc6
+                0x000530a0                dns_zone_getnotifysrc6
+                0x00053100                dns_zone_setnotifysrc6dscp
+                0x000531f0                dns_zone_getnotifysrc6dscp
+                0x00053250                dns_zone_setalsonotify
+                0x000532a0                dns_zone_setalsonotifydscpkeys
+                0x00053580                dns_zone_setalsonotifywithkeys
+                0x00053b00                dns_zone_setmasters
+                0x00053b40                dns_zone_setmasterswithkeys
+                0x00053fa0                dns_zone_setdb
+                0x000540d0                dns_zone_maintenance
+                0x000548a0                dns_zone_markdirty
+                0x000550d0                dns_zone_expire
+                0x00055290                dns_zone_refresh
+                0x000554b0                dns_zone_log
+                0x000556c0                dns_zone_flush
+                0x00055db0                dns_zone_dump
+                0x00055ee0                dns_zone_dumptostream3
+                0x00056110                dns_zone_dumptostream2
+                0x00056150                dns_zone_dumptostream
+                0x00056190                dns_zone_fulldumptostream
+                0x000561d0                dns_zone_unload
+                0x00056420                dns_zone_setminrefreshtime
+                0x000564b0                dns_zone_setmaxrefreshtime
+                0x00056540                dns_zone_setminretrytime
+                0x000565d0                dns_zone_setmaxretrytime
+                0x00056660                dns_zone_notify
+                0x000567a0                dns_zone_notifyreceive
+                0x00057120                dns_zonemgr_unreachabledel
+                0x00057500                dns_zone_setnotifyacl
+                0x00057620                dns_zone_setqueryacl
+                0x00057740                dns_zone_setqueryonacl
+                0x00057860                dns_zone_setupdateacl
+                0x00057980                dns_zone_setforwardacl
+                0x00057aa0                dns_zone_setxfracl
+                0x00057bc0                dns_zone_getnotifyacl
+                0x00057c20                dns_zone_getqueryacl
+                0x00057c80                dns_zone_getqueryonacl
+                0x00057ce0                dns_zone_getupdateacl
+                0x00057d40                dns_zone_getforwardacl
+                0x00057da0                dns_zone_getxfracl
+                0x00057e00                dns_zone_clearupdateacl
+                0x00057f00                dns_zone_clearforwardacl
+                0x00058000                dns_zone_clearnotifyacl
+                0x00058100                dns_zone_clearqueryacl
+                0x00058200                dns_zone_clearqueryonacl
+                0x00058300                dns_zone_clearxfracl
+                0x00058400                dns_zone_getupdatedisabled
+                0x00058460                dns_zone_setupdatedisabled
+                0x000584c0                dns_zone_getzeronosoattl
+                0x00058520                dns_zone_setzeronosoattl
+                0x00058580                dns_zone_setchecknames
+                0x000585e0                dns_zone_getchecknames
+                0x00058640                dns_zone_setjournalsize
+                0x000586a0                dns_zone_getjournalsize
+                0x00058700                dns_zone_name
+                0x00058790                dns_zone_logc
+                0x00058870                dns_zone_setmaxxfrin
+                0x000588d0                dns_zone_getmaxxfrin
+                0x00058930                dns_zone_setmaxxfrout
+                0x00058990                dns_zone_getmaxxfrout
+                0x000589f0                dns_zone_gettype
+                0x00058a50                dns_zone_getorigin
+                0x00058ab0                dns_zone_settask
+                0x00058c40                dns_zone_gettask
+                0x00058cb0                dns_zone_setidlein
+                0x00058d20                dns_zone_getidlein
+                0x00058d80                dns_zone_setidleout
+                0x00058de0                dns_zone_getidleout
+                0x00058e40                dns_zone_replacedb
+                0x00059910                dns_zone_getssutable
+                0x00059a80                dns_zone_setssutable
+                0x00059ba0                dns_zone_setsigvalidityinterval
+                0x00059c00                dns_zone_getsigvalidityinterval
+                0x00059c60                dns_zone_setsigresigninginterval
+                0x00059db0                dns_zone_getsigresigninginterval
+                0x00059e10                dns_zone_forwardupdate
+                0x0005a450                dns_zone_next
+                0x0005a4f0                dns_zone_first
+                0x0005a590                dns_zonemgr_create
+                0x0005aa90                dns_zonemgr_createzone
+                0x0005ab90                dns_zonemgr_managezone
+                0x0005afa0                dns_zonemgr_releasezone
+                0x0005b390                dns_zonemgr_attach
+                0x0005b4d0                dns_zonemgr_detach
+                0x0005b5f0                dns_zonemgr_forcemaint
+                0x0005b7a0                dns_zonemgr_resumexfrs
+                0x0005b8c0                dns_zonemgr_shutdown
+                0x0005baf0                dns_zonemgr_setsize
+                0x0005bdd0                dns_zonemgr_settransfersin
+                0x0005be30                dns_zonemgr_getttransfersin
+                0x0005be90                dns_zonemgr_settransfersperns
+                0x0005bef0                dns_zonemgr_getttransfersperns
+                0x0005bf50                dns_zonemgr_setiolimit
+                0x0005bfe0                dns_zonemgr_getiolimit
+                0x0005c040                dns_zonemgr_setserialqueryrate
+                0x0005c2d0                dns_zonemgr_getserialqueryrate
+                0x0005c330                dns_zonemgr_unreachable
+                0x0005c4c0                dns_zonemgr_unreachableadd
+                0x0005c6d0                dns_zone_forcereload
+                0x0005c7f0                dns_zone_isforced
+                0x0005c850                dns_zone_setstatistics
+                0x0005c860                dns_zone_getstatscounters
+                0x0005c870                dns_zone_setstats
+                0x0005c9b0                dns_zone_setrequeststats
+                0x0005caf0                dns_zone_setrcvquerystats
+                0x0005cc20                dns_zone_getrequeststats
+                0x0005cc40                dns_zone_getrcvquerystats
+                0x0005cc60                dns_zone_dialup
+                0x0005cd40                dns_zone_setdialup
+                0x0005cec0                dns_zone_setkeydirectory
+                0x0005d030                dns_zone_getkeydirectory
+                0x0005d090                dns_zonemgr_getcount
+                0x0005d240                dns_zone_checknames
+                0x0005d480                dns_zone_setcheckmx
+                0x0005d4e0                dns_zone_setchecksrv
+                0x0005d540                dns_zone_setcheckns
+                0x0005d5a0                dns_zone_setisself
+                0x0005d690                dns_zone_setnotifydelay
+                0x0005d780                dns_zone_getnotifydelay
+                0x0005d7e0                dns_zone_signwithkey
+                0x0005dc00                dns_zone_addnsec3chain
+                0x0005e3e0                dns_zone_setnodes
+                0x0005e450                dns_zone_setsignatures
+                0x0005e4c0                dns_zone_setprivatetype
+                0x0005e520                dns_zone_getprivatetype
+                0x0005e580                dns_zone_rekey
+                0x0005e6b0                dns_zone_nscheck
+                0x0005ec70                dns_zone_setadded
+                0x0005ed60                dns_zone_getadded
+                0x0005edc0                dns_zone_dlzpostload
+                0x000629a0                dns_zone_setrefreshkeyinterval
+                0x00062a20                dns_zone_setrequestixfr
+                0x00062a80                dns_zone_getrequestixfr
+                0x00062ae0                dns_zone_setserialupdatemethod
+                0x00062b40                dns_zone_getserialupdatemethod
+                0x00062ba0                dns_zone_link
+                0x000630e0                dns_zone_getraw
+                0x000632b0                dns_zone_keydone
+                0x00063d30                dns_zone_setnsec3param
+                0x00064990                dns_zone_getloadtime
+                0x00064ac0                dns_zone_getexpiretime
+                0x00064bf0                dns_zone_getrefreshtime
+                0x00064d20                dns_zone_getrefreshkeytime
+                0x00064e50                dns_zone_getincludes
+                0x00065070                dns_zone_setstatlevel
+                0x000650d0                dns_zone_getstatlevel
+ *fill*         0x00080a49        0x7 
+ .text          0x00080a50     0x2f08 libdns_pic.a(xfrin.pico)
+                0x00080a50                dns_xfrin_create
+                0x00080b70                dns_xfrin_create3
+                0x00081190                dns_xfrin_create2
+                0x00081400                dns_xfrin_shutdown
+                0x00081560                dns_xfrin_attach
+                0x000815c0                dns_xfrin_detach
+ *fill*         0x00083958        0x8 
+ .text          0x00083960      0xc6c libdns_pic.a(private.pico)
+                0x00083960                dns_private_chains
+                0x00084320                dns_private_totext
+ *fill*         0x000845cc        0x4 
+ .text          0x000845d0       0x8c libdns_pic.a(timer.pico)
+                0x000845d0                dns_timer_setidle
+ *fill*         0x0008465c        0x4 
+ .text          0x00084660      0x82c libdns_pic.a(rriterator.pico)
+                0x00084660                dns_rriterator_init
+                0x00084780                dns_rriterator_first
+                0x00084930                dns_rriterator_nextrrset
+                0x00084ac0                dns_rriterator_next
+                0x00084be0                dns_rriterator_pause
+                0x00084c60                dns_rriterator_destroy
+                0x00084d10                dns_rriterator_current
+ *fill*         0x00084e8c        0x4 
+ .text          0x00084e90      0x1cc libdns_pic.a(keydata.pico)
+                0x00084e90                dns_keydata_todnskey
+                0x00084f70                dns_keydata_fromdnskey
+ *fill*         0x0008505c        0x4 
+ .text          0x00085060     0x573b libdns_pic.a(journal.pico)
+                0x00085060                dns_db_createsoatuple
+                0x00085200                dns_journal_open
+                0x00085ed0                dns_journal_begin_transaction
+                0x000860b0                dns_journal_writediff
+                0x00086490                dns_journal_commit
+                0x00087260                dns_journal_write_transaction
+                0x000873c0                dns_journal_destroy
+                0x000875b0                dns_journal_rollforward
+                0x00087c30                dns_journal_print
+                0x000880d0                dns_journal_first_serial
+                0x000880e0                dns_journal_last_serial
+                0x000880f0                dns_journal_iter_init
+                0x000881a0                dns_journal_first_rr
+                0x00088280                dns_journal_current_rr
+                0x00088300                dns_journal_next_rr
+                0x00088330                dns_journal_set_sourceserial
+                0x000883a0                dns_journal_get_sourceserial
+                0x00088ac0                dns_db_diff
+                0x00088b30                dns_db_diffx
+                0x000899a0                dns_journal_compact
+ *fill*         0x0008a79b        0x5 
+ .text          0x0008a7a0     0x5a09 libdns_pic.a(view.pico)
+                0x0008a7a0                dns_view_create
+                0x0008b390                dns_view_attach
+                0x0008b450                dns_view_flushanddetach
+                0x0008b6e0                dns_view_detach
+                0x0008b700                dns_view_dialup
+                0x0008b7e0                dns_view_weakattach
+                0x0008b8e0                dns_view_weakdetach
+                0x0008c720                dns_view_createzonetable
+                0x0008c7f0                dns_view_createresolver
+                0x0008cae0                dns_view_setcache
+                0x0008cb20                dns_view_setcache2
+                0x0008cc60                dns_view_iscacheshared
+                0x0008ccc0                dns_view_sethints
+                0x0008cdc0                dns_view_setkeyring
+                0x0008ce70                dns_view_setdynamickeyring
+                0x0008cf20                dns_view_getdynamickeyring
+                0x0008cfc0                dns_view_restorekeyring
+                0x0008d080                dns_view_setdstport
+                0x0008d0e0                dns_view_freeze
+                0x0008d1b0                dns_view_thaw
+                0x0008d240                dns_view_addzone
+                0x0008d300                dns_view_findzone
+                0x0008d400                dns_view_find
+                0x0008d480                dns_view_find2
+                0x0008dd00                dns_view_simplefind
+                0x0008de70                dns_view_findzonecut
+                0x0008dee0                dns_view_findzonecut2
+                0x0008e470                dns_viewlist_find
+                0x0008e5c0                dns_viewlist_findzone
+                0x0008e7d0                dns_view_load
+                0x0008e860                dns_view_loadnew
+                0x0008e8f0                dns_view_asyncload
+                0x0008e990                dns_view_gettsig
+                0x0008ea30                dns_view_getpeertsig
+                0x0008eb20                dns_view_checksig
+                0x0008ebd0                dns_view_dumpdbtostream
+                0x0008ec90                dns_view_flushcache
+                0x0008ecc0                dns_view_flushcache2
+                0x0008edb0                dns_view_flushname
+                0x0008edf0                dns_view_flushnode
+                0x0008eec0                dns_view_adddelegationonly
+                0x0008f0b0                dns_view_excludedelegationonly
+                0x0008f2a0                dns_view_isdelegationonly
+                0x0008f3e0                dns_view_setrootdelonly
+                0x0008f440                dns_view_getrootdelonly
+                0x0008f4a0                dns_view_freezezones
+                0x0008f530                dns_view_setadbstats
+                0x0008f600                dns_view_getadbstats
+                0x0008f6a0                dns_view_setresstats
+                0x0008f770                dns_view_getresstats
+                0x0008f810                dns_view_setresquerystats
+                0x0008f8e0                dns_view_getresquerystats
+                0x0008f980                dns_view_initsecroots
+                0x0008fa00                dns_view_getsecroots
+                0x0008faa0                dns_view_issecuredomain
+                0x0008fb20                dns_view_untrust
+                0x0008fc70                dns_view_setnewzones
+                0x0008fe00                dns_view_searchdlz
+ *fill*         0x000901a9        0x7 
+ .text          0x000901b0     0x33eb libdns_pic.a(rrl.pico)
+                0x000901b0                dns_rrl
+                0x00092820                dns_rrl_view_destroy
+                0x00092b70                dns_rrl_init
+ *fill*         0x0009359b        0x5 
+ .text          0x000935a0     0x419f libdns_pic.a(request.pico)
+                0x000935a0                dns_requestmgr_create
+                0x000938f0                dns_requestmgr_whenshutdown
+                0x00093a60                dns_requestmgr_shutdown
+                0x00093b90                dns_requestmgr_attach
+                0x00093ce0                dns_requestmgr_detach
+                0x000940f0                dns_request_createraw
+                0x00094170                dns_request_createraw4
+                0x00094bb0                dns_request_createraw2
+                0x00094c50                dns_request_createraw3
+                0x00095c40                dns_request_create
+                0x00095cd0                dns_request_createvia4
+                0x00096970                dns_request_createvia
+                0x00096a00                dns_request_createvia2
+                0x00096aa0                dns_request_createvia3
+                0x00096b30                dns_request_cancel
+                0x00096c70                dns_request_getresponse
+                0x00096d90                dns_request_usedtcp
+                0x00096df0                dns_request_destroy
+ *fill*         0x0009773f        0x1 
+ .text          0x00097740      0x6c5 libdns_pic.a(order.pico)
+                0x00097740                dns_order_create
+                0x00097850                dns_order_add
+                0x00097a10                dns_order_find
+                0x00097b10                dns_order_attach
+                0x00097bd0                dns_order_detach
+ *fill*         0x00097e05        0xb 
+ .text          0x00097e10      0xb56 libdns_pic.a(dns64.pico)
+                0x00097e10                dns_dns64_create
+                0x00098110                dns_dns64_destroy
+                0x00098200                dns_dns64_aaaafroma
+                0x00098440                dns_dns64_next
+                0x00098450                dns_dns64_append
+                0x00098480                dns_dns64_unlink
+                0x00098530                dns_dns64_aaaaok
+ *fill*         0x00098966        0xa 
+ .text          0x00098970     0x9704 libdns_pic.a(validator.pico)
+                0x00098970                dns_validator_create
+                0x00099600                dns_validator_send
+                0x00099700                dns_validator_cancel
+                0x000999e0                dns_validator_destroy
+ *fill*         0x000a2074        0xc 
+ .text          0x000a2080     0x21c2 libdns_pic.a(keytable.pico)
+                0x000a2080                dns_keytable_create
+                0x000a2290                dns_keytable_attach
+                0x000a2400                dns_keytable_detach
+                0x000a2600                dns_keytable_add
+                0x000a28e0                dns_keytable_marksecure
+                0x000a2920                dns_keytable_delete
+                0x000a2ab0                dns_keytable_deletekeynode
+                0x000a2d00                dns_keynode_detach
+                0x000a2e10                dns_keytable_find
+                0x000a30a0                dns_keynode_attach
+                0x000a3130                dns_keytable_nextkeynode
+                0x000a32e0                dns_keytable_findkeynode
+                0x000a35d0                dns_keytable_findnextkeynode
+                0x000a37f0                dns_keytable_finddeepestmatch
+                0x000a3970                dns_keytable_attachkeynode
+                0x000a3b10                dns_keytable_detachkeynode
+                0x000a3c50                dns_keytable_issecuredomain
+                0x000a3e20                dns_keytable_dump
+                0x000a4040                dns_keynode_key
+                0x000a40a0                dns_keynode_managed
+                0x000a4100                dns_keynode_create
+                0x000a41c0                dns_keynode_detachall
+ *fill*         0x000a4242        0xe 
+ .text          0x000a4250      0x59b libdns_pic.a(ds.pico)
+                0x000a4250                dns_ds_buildrdata
+ *fill*         0x000a47eb        0x5 
+ .text          0x000a47f0     0x479d libdns_pic.a(tsig.pico)
+                0x000a47f0                dns_tsigkey_createfromkey
+                0x000a5230                dns_tsigkeyring_dumpanddetach
+                0x000a5670                dns_tsigkey_create
+                0x000a5a80                dns_tsigkey_attach
+                0x000a5b40                dns_tsigkey_detach
+                0x000a5d80                dns_tsigkey_setdeleted
+                0x000a5f70                dns_tsig_sign
+                0x000a6ac0                dns_tsig_verify
+                0x000a7d90                dns_tsigkey_find
+                0x000a8420                dns_tsigkeyring_create
+                0x000a8710                dns_tsigkeyring_add
+                0x000a8780                dns_tsigkeyring_attach
+                0x000a88f0                dns_tsigkeyring_detach
+                0x000a8a60                dns_keyring_restore
+ *fill*         0x000a8f8d        0x3 
+ .text          0x000a8f90     0x1b2d libdns_pic.a(ssu.pico)
+                0x000a8f90                dns_ssutable_create
+                0x000a9090                dns_ssutable_attach
+                0x000a91f0                dns_ssutable_detach
+                0x000a9580                dns_ssutable_addrule
+                0x000a99a0                dns_ssutable_checkrules
+                0x000aa650                dns_ssurule_isgrant
+                0x000aa6b0                dns_ssurule_identity
+                0x000aa710                dns_ssurule_matchtype
+                0x000aa770                dns_ssurule_name
+                0x000aa7d0                dns_ssurule_types
+                0x000aa860                dns_ssutable_firstrule
+                0x000aa900                dns_ssutable_nextrule
+                0x000aa9a0                dns_ssutable_createdlz
+ *fill*         0x000aaabd        0x3 
+ .text          0x000aaac0      0x16f libdns_pic.a(gssapictx.pico)
+                0x000aaac0                dst_gssapi_acquirecred
+                0x000aab20                dst_gssapi_identitymatchesrealmkrb5
+                0x000aab30                dst_gssapi_identitymatchesrealmms
+                0x000aab40                dst_gssapi_releasecred
+                0x000aab50                dst_gssapi_initctx
+                0x000aab60                dst_gssapi_acceptctx
+                0x000aab70                dst_gssapi_deletectx
+                0x000aab80                gss_error_tostring
+                0x000aabd0                gss_log
+ *fill*         0x000aac2f        0x1 
+ .text          0x000aac30      0x63c libdns_pic.a(ssu_external.pico)
+                0x000aac30                dns_ssu_external_match
+ *fill*         0x000ab26c        0x4 
+ .text          0x000ab270     0x14e5 libdns_pic.a(dlz.pico)
+                0x000ab270                dns_dlzallowzonexfr
+                0x000ab3c0                dns_dlzcreate
+                0x000ab8a0                dns_dlzdestroy
+                0x000ab9f0                dns_dlzregister
+                0x000abe40                dns_dlzstrtoargv
+                0x000abfd0                dns_dlzunregister
+                0x000ac230                dns_dlz_writeablezone
+                0x000ac560                dns_dlzconfigure
+                0x000ac620                dns_dlz_ssumatch
+ *fill*         0x000ac755        0xb 
+ .text          0x000ac760      0x61c libdns_pic.a(soa.pico)
+                0x000ac760                dns_soa_buildrdata
+                0x000ac8e0                dns_soa_getserial
+                0x000ac9e0                dns_soa_getrefresh
+                0x000aca00                dns_soa_getretry
+                0x000aca20                dns_soa_getexpire
+                0x000aca40                dns_soa_getminimum
+                0x000aca60                dns_soa_setserial
+                0x000acb00                dns_soa_setrefresh
+                0x000acba0                dns_soa_setretry
+                0x000acc40                dns_soa_setexpire
+                0x000acce0                dns_soa_setminimum
+ *fill*         0x000acd7c        0x4 
+ .text          0x000acd80     0x4a03 libdns_pic.a(rpz.pico)
+                0x000acd80                dns_rpz_type2str
+                0x000acdd0                dns_rpz_str2policy
+                0x000acf10                dns_rpz_policy2str
+                0x000acf70                dns_rpz_new_zones
+                0x000ad260                dns_rpz_attach_rpzs
+                0x000ad2f0                dns_rpz_detach_rpzs
+                0x000ad720                dns_rpz_beginload
+                0x000ad9a0                dns_rpz_ready
+                0x000aef30                dns_rpz_add
+                0x000af390                dns_rpz_delete
+                0x000afae0                dns_rpz_find_ip
+                0x000b0290                dns_rpz_find_name
+                0x000b04b0                dns_rpz_decode_cname
+ *fill*         0x000b1783        0xd 
+ .text          0x000b1790      0x18b libdns_pic.a(result.pico)
+                0x000b1790                dns_result_totext
+                0x000b1870                dns_result_register
+                0x000b1890                dns_result_torcode
+ *fill*         0x000b191b        0x5 
+ .text          0x000b1920      0x2dc libdns_pic.a(lib.pico)
+                0x000b1920                dns_lib_initmsgcat
+                0x000b1970                dns_lib_init
+                0x000b1b30                dns_lib_shutdown
+ *fill*         0x000b1bfc        0x4 
+ .text          0x000b1c00     0x1687 libdns_pic.a(ecdb.pico)
+                0x000b1c00                dns_ecdb_register
+                0x000b1ea0                dns_ecdb_unregister
+ *fill*         0x000b3287        0x9 
+ .text          0x000b3290    0x16555 libdns_pic.a(resolver.pico)
+                0x000b3290                dns_resolver_create
+                0x000b3bd0                dns_resolver_prime
+                0x000b4020                dns_resolver_createfetch
+                0x000b4370                dns_resolver_freeze
+                0x000b43d0                dns_resolver_attach
+                0x000b45b0                dns_resolver_whenshutdown
+                0x000b4720                dns_resolver_shutdown
+                0x000b4bc0                dns_resolver_detach
+                0x000b5260                dns_resolver_createfetch3
+                0x000b6690                dns_resolver_createfetch2
+                0x000b7680                dns_resolver_cancelfetch
+                0x000b7900                dns_resolver_destroyfetch
+                0x000b7d60                dns_resolver_logfetch
+                0x000b80d0                dns_resolver_dispatchmgr
+                0x000b8130                dns_resolver_dispatchv4
+                0x000b8190                dns_resolver_dispatchv6
+                0x000b81f0                dns_resolver_socketmgr
+                0x000b8250                dns_resolver_taskmgr
+                0x000b82b0                dns_resolver_getlamettl
+                0x000b8310                dns_resolver_setlamettl
+                0x000b8370                dns_resolver_nrunning
+                0x000b83f0                dns_resolver_addalternate
+                0x000b85d0                dns_resolver_setudpsize
+                0x000b8630                dns_resolver_getudpsize
+                0x000b8690                dns_resolver_flushbadcache
+                0x000b89a0                dns_resolver_flushbadnames
+                0x000b8ba0                dns_resolver_addbadcache
+                0x000b9070                dns_resolver_getbadcache
+                0x000b92b0                dns_resolver_printbadcache
+                0x000b9500                dns_resolver_reset_algorithms
+                0x000b9570                dns_resolver_disable_algorithm
+                0x000b9780                dns_resolver_algorithm_supported
+                0x000b9870                dns_resolver_reset_ds_digests
+                0x000b98e0                dns_resolver_disable_ds_digest
+                0x000b9af0                dns_resolver_ds_digest_supported
+                0x000b9bc0                dns_resolver_resetmustbesecure
+                0x000b9c30                dns_resolver_setmustbesecure
+                0x000b9ce0                dns_resolver_getmustbesecure
+                0x000b9d80                dns_resolver_getclientsperquery
+                0x000b9e60                dns_resolver_setclientsperquery
+                0x000b9f30                dns_resolver_getzeronosoattl
+                0x000b9f90                dns_resolver_setzeronosoattl
+                0x000b9ff0                dns_resolver_getoptions
+                0x000ba050                dns_resolver_gettimeout
+                0x000ba0b0                dns_resolver_settimeout
+                0x000ba130                dns_resolver_setquerydscp4
+                0x000ba190                dns_resolver_getquerydscp4
+                0x000ba1f0                dns_resolver_setquerydscp6
+                0x000ba250                dns_resolver_getquerydscp6
+                0x000ba2b0                dns_resolver_setmaxdepth
+                0x000ba310                dns_resolver_getmaxdepth
+                0x000ba370                dns_resolver_setmaxqueries
+                0x000ba3d0                dns_resolver_getmaxqueries
+ *fill*         0x000c97e5        0xb 
+ .text          0x000c97f0     0x1696 libdns_pic.a(rootns.pico)
+                0x000c97f0                dns_rootns_create
+                0x000c9df0                dns_root_checkhints
+ *fill*         0x000cae86        0xa 
+ .text          0x000cae90     0x22c9 libdns_pic.a(peer.pico)
+                0x000cae90                dns_peerlist_new
+                0x000caf30                dns_peerlist_attach
+                0x000cb020                dns_peerlist_detach
+                0x000cb240                dns_peerlist_addpeer
+                0x000cb370                dns_peer_attach
+                0x000cb460                dns_peerlist_peerbyaddr
+                0x000cb530                dns_peerlist_currpeer
+                0x000cb560                dns_peer_new
+                0x000cb6d0                dns_peer_newprefix
+                0x000cb800                dns_peer_detach
+                0x000cba30                dns_peer_setbogus
+                0x000cbab0                dns_peer_getbogus
+                0x000cbb50                dns_peer_setprovideixfr
+                0x000cbbd0                dns_peer_getprovideixfr
+                0x000cbc70                dns_peer_setrequestixfr
+                0x000cbcf0                dns_peer_getrequestixfr
+                0x000cbd90                dns_peer_setsupportedns
+                0x000cbe10                dns_peer_getsupportedns
+                0x000cbeb0                dns_peer_setrequestnsid
+                0x000cbf30                dns_peer_getrequestnsid
+                0x000cbfd0                dns_peer_setrequestsit
+                0x000cc050                dns_peer_getrequestsit
+                0x000cc0f0                dns_peer_settransfers
+                0x000cc170                dns_peer_gettransfers
+                0x000cc210                dns_peer_settransferformat
+                0x000cc290                dns_peer_gettransferformat
+                0x000cc330                dns_peer_getkey
+                0x000cc3e0                dns_peer_setkey
+                0x000cc470                dns_peer_setkeybycharp
+                0x000cc680                dns_peer_settransfersource
+                0x000cc770                dns_peer_gettransfersource
+                0x000cc820                dns_peer_setnotifysource
+                0x000cc910                dns_peer_getnotifysource
+                0x000cc9c0                dns_peer_setquerysource
+                0x000ccab0                dns_peer_getquerysource
+                0x000ccb60                dns_peer_setudpsize
+                0x000ccbe0                dns_peer_getudpsize
+                0x000ccc80                dns_peer_setmaxudp
+                0x000ccd00                dns_peer_getmaxudp
+                0x000ccda0                dns_peer_setnotifydscp
+                0x000cce40                dns_peer_getnotifydscp
+                0x000ccee0                dns_peer_settransferdscp
+                0x000ccf80                dns_peer_gettransferdscp
+                0x000cd020                dns_peer_setquerydscp
+                0x000cd0c0                dns_peer_getquerydscp
+ *fill*         0x000cd159        0x7 
+ .text          0x000cd160      0xbd3 libdns_pic.a(forward.pico)
+                0x000cd160                dns_fwdtable_create
+                0x000cd3f0                dns_fwdtable_addfwd
+                0x000cd710                dns_fwdtable_add
+                0x000cda40                dns_fwdtable_delete
+                0x000cdb40                dns_fwdtable_find
+                0x000cdb80                dns_fwdtable_find2
+                0x000cdc80                dns_fwdtable_destroy
+ *fill*         0x000cdd33        0xd 
+ .text          0x000cdd40     0x916d libdns_pic.a(dispatch.pico)
+                0x000cdd40                dns_dispatchmgr_create
+                0x000ce400                dns_dispatchmgr_setavailports
+                0x000ce770                dns_dispatchmgr_setblackhole
+                0x000ce7f0                dns_dispatchmgr_getblackhole
+                0x000ce850                dns_dispatchmgr_setblackportlist
+                0x000ce8a0                dns_dispatchmgr_getblackportlist
+                0x000ce900                dns_dispatchmgr_destroy
+                0x000cef00                dns_dispatchmgr_setstats
+                0x000cefc0                dns_dispatch_createtcp
+                0x000d0020                dns_dispatch_getudp_dup
+                0x000d1190                dns_dispatch_getudp
+                0x000d1210                dns_dispatch_attach
+                0x000d1320                dns_dispatch_detach
+                0x000d14f0                dns_dispatch_addresponse2
+                0x000d1560                dns_dispatch_addresponse3
+                0x000d3660                dns_dispatch_addresponse
+                0x000d3730                dns_dispatch_starttcp
+                0x000d3820                dns_dispatch_removeresponse
+                0x000d4410                dns_dispatch_getsocket
+                0x000d4470                dns_dispatch_getentrysocket
+                0x000d44d0                dns_dispatch_getlocaladdress
+                0x000d4580                dns_dispatch_cancel
+                0x000d4680                dns_dispatch_getattributes
+                0x000d46e0                dns_dispatch_changeattributes
+                0x000d48a0                dns_dispatch_importrecv
+                0x000d4c50                dns_dispatchset_get
+                0x000d4cf0                dns_dispatchset_create
+                0x000d5080                dns_dispatchset_cancelall
+                0x000d5140                dns_dispatchset_destroy
+                0x000d5260                dns_dispatch_setdscp
+                0x000d52c0                dns_dispatch_getdscp
+ *fill*         0x000d6ead        0x3 
+ .text          0x000d6eb0     0x30cd libdns_pic.a(cache.pico)
+                0x000d6eb0                dns_cache_create
+                0x000d6f20                dns_cache_create3
+                0x000d7550                dns_cache_create2
+                0x000d78b0                dns_cache_attach
+                0x000d79a0                dns_cache_detach
+                0x000d7b50                dns_cache_dump
+                0x000d7f80                dns_cache_attachdb
+                0x000d80b0                dns_cache_setfilename
+                0x000d81f0                dns_cache_load
+                0x000d82c0                dns_cache_setcleaninginterval
+                0x000d8400                dns_cache_getcleaninginterval
+                0x000d84b0                dns_cache_getname
+                0x000d8510                dns_cache_clean
+                0x000d8660                dns_cache_setcachesize
+                0x000d8890                dns_cache_getcachesize
+                0x000d8940                dns_cache_flush
+                0x000d8ae0                dns_cache_flushname
+                0x000d8b20                dns_cache_flushnode
+                0x000d8f30                dns_cache_getstats
+                0x000d8f90                dns_cache_updatestats
+                0x000d9030                dns_cache_dumpstats
+ *fill*         0x000d9f7d        0x3 
+ .text          0x000d9f80     0xc374 libdns_pic.a(adb.pico)
+                0x000d9f80                dns_adb_create
+                0x000dc340                dns_adb_attach
+                0x000dc430                dns_adb_detach
+                0x000dc690                dns_adb_whenshutdown
+                0x000dc860                dns_adb_shutdown
+                0x000dcea0                dns_adb_createfind
+                0x000dcf30                dns_adb_createfind2
+                0x000df270                dns_adb_destroyfind
+                0x000df8d0                dns_adb_cancelfind
+                0x000dfd10                dns_adb_dump
+                0x000e0570                dns_adb_dumpfind
+                0x000e0760                dns_adb_marklame
+                0x000e09e0                dns_adb_adjustsrtt
+                0x000e0be0                dns_adb_agesrtt
+                0x000e0d40                dns_adb_changeflags
+                0x000e0f10                dns_adb_noedns
+                0x000e1090                dns_adb_plainresponse
+                0x000e11d0                dns_adb_timeout
+                0x000e1320                dns_adb_ednsto
+                0x000e14e0                dns_adb_setudpsize
+                0x000e1640                dns_adb_getudpsize
+                0x000e1760                dns_adb_probesize
+                0x000e17a0                dns_adb_probesize2
+                0x000e1910                dns_adb_setsit
+                0x000e1b00                dns_adb_getsit
+                0x000e1c60                dns_adb_findaddrinfo
+                0x000e2580                dns_adb_freeaddrinfo
+                0x000e29a0                dns_adb_flush
+                0x000e2af0                dns_adb_flushname
+                0x000e3030                dns_adb_flushnames
+                0x000e3200                dns_adb_setadbsize
+ *fill*         0x000e62f4        0xc 
+ .text          0x000e6300     0x10af libdns_pic.a(acl.pico)
+                0x000e6300                dns_acl_create
+                0x000e64b0                dns_acl_detach
+                0x000e66c0                dns_acl_any
+                0x000e6750                dns_acl_none
+                0x000e67e0                dns_acl_isany
+                0x000e6840                dns_acl_isnone
+                0x000e68a0                dns_acl_match
+                0x000e6be0                dns_aclelement_match
+                0x000e6cd0                dns_acl_merge
+                0x000e6fa0                dns_acl_attach
+                0x000e7030                dns_acl_isinsecure
+                0x000e7230                dns_aclenv_init
+                0x000e72b0                dns_aclenv_copy
+                0x000e7380                dns_aclenv_destroy
+ *fill*         0x000e73af        0x1 
+ .text          0x000e73b0      0x713 libdns_pic.a(tcpmsg.pico)
+                0x000e73b0                dns_tcpmsg_init
+                0x000e7490                dns_tcpmsg_setmaxsize
+                0x000e7520                dns_tcpmsg_readmessage
+                0x000e7850                dns_tcpmsg_cancelread
+                0x000e78c0                dns_tcpmsg_keepbuffer
+                0x000e7960                dns_tcpmsg_invalidate
+ *fill*         0x000e7ac3        0xd 
+ .text          0x000e7ad0      0x648 libdns_pic.a(iptable.pico)
+                0x000e7ad0                dns_iptable_create
+                0x000e7ba0                dns_iptable_detach
+                0x000e7cc0                dns_iptable_addprefix
+                0x000e7f40                dns_iptable_merge
+                0x000e8090                dns_iptable_attach
+ *fill*         0x000e8118        0x8 
+ .text          0x000e8120     0x2457 libdns_pic.a(rdataslab.pico)
+                0x000e8120                dns_rdataslab_fromrdataset
+                0x000e86c0                dns_rdataslab_tordataset
+                0x000e87a0                dns_rdataslab_size
+                0x000e8830                dns_rdataslab_merge
+                0x000e98b0                dns_rdataslab_subtract
+                0x000ea0e0                dns_rdataslab_equal
+                0x000ea1b0                dns_rdataslab_equalx
+ *fill*         0x000ea577        0x9 
+ .text          0x000ea580      0x244 libdns_pic.a(rdatasetiter.pico)
+                0x000ea580                dns_rdatasetiter_destroy
+                0x000ea640                dns_rdatasetiter_first
+                0x000ea6a0                dns_rdatasetiter_next
+                0x000ea700                dns_rdatasetiter_current
+ *fill*         0x000ea7c4        0xc 
+ .text          0x000ea7d0     0x21db libdns_pic.a(rdataset.pico)
+                0x000ea7d0                dns_trust_totext
+                0x000ea800                dns_rdataset_init
+                0x000ea8c0                dns_rdataset_invalidate
+                0x000ea9a0                dns_rdataset_disassociate
+                0x000eaa90                dns_rdataset_isassociated
+                0x000eaaf0                dns_rdataset_makequestion
+                0x000eab90                dns_rdataset_count
+                0x000eac20                dns_rdataset_clone
+                0x000ead10                dns_rdataset_first
+                0x000eada0                dns_rdataset_next
+                0x000eae30                dns_rdataset_current
+                0x000eaec0                dns_rdataset_towiresorted
+                0x000ebc20                dns_rdataset_towirepartial
+                0x000ebcb0                dns_rdataset_towire
+                0x000ebd10                dns_rdataset_additionaldata
+                0x000ebf50                dns_rdataset_addnoqname
+                0x000ebff0                dns_rdataset_getnoqname
+                0x000ec090                dns_rdataset_addclosest
+                0x000ec130                dns_rdataset_getclosest
+                0x000ec1d0                dns_rdataset_getadditional
+                0x000ec420                dns_rdataset_setadditional
+                0x000ec500                dns_rdataset_putadditional
+                0x000ec5c0                dns_rdataset_settrust
+                0x000ec660                dns_rdataset_expire
+                0x000ec6f0                dns_rdataset_clearprefetch
+                0x000ec780                dns_rdataset_trimttl
+ *fill*         0x000ec9ab        0x5 
+ .text          0x000ec9b0    0x14c71 libdns_pic.a(rbtdb64.pico)
+                0x000ec9b0                dns_rbtdb64_create
+ *fill*         0x00101621        0xf 
+ .text          0x00101630    0x14971 libdns_pic.a(rbtdb.pico)
+                0x00101630                dns_rbtdb_create
+ *fill*         0x00115fa1        0xf 
+ .text          0x00115fb0      0xd4f libdns_pic.a(stats.pico)
+                0x00115fb0                dns_stats_attach
+                0x001160a0                dns_stats_detach
+                0x001161e0                dns_generalstats_create
+                0x00116370                dns_rdatatypestats_create
+                0x001163e0                dns_rdatasetstats_create
+                0x00116450                dns_opcodestats_create
+                0x001164c0                dns_generalstats_increment
+                0x00116530                dns_rdatatypestats_increment
+                0x001165c0                dns_rdatasetstats_increment
+                0x00116680                dns_rdatasetstats_decrement
+                0x00116730                dns_opcodestats_increment
+                0x001167a0                dns_generalstats_dump
+                0x00116820                dns_rdatatypestats_dump
+                0x00116920                dns_rdatasetstats_dump
+                0x00116b20                dns_opcodestats_dump
+                0x00116bf0                dns_stats_alloccounters
+                0x00116cb0                dns_stats_freecounters
+ *fill*         0x00116cff        0x1 
+ .text          0x00116d00     0x6871 libdns_pic.a(rbt.pico)
+                0x00116d00                dns_rbtnode_nodename
+                0x00116d40                dns_rbt_root
+                0x00116d50                dns__rbtnode_getdistance
+                0x00116d70                dns_rbt_serialize_align
+                0x00116db0                dns_rbt_serialize_tree
+                0x00117800                dns_rbt_deserialize_tree
+                0x00117a20                dns_rbt_create
+                0x00118370                dns_rbt_destroy
+                0x001183c0                dns_rbt_destroy2
+                0x00118600                dns_rbt_nodecount
+                0x00118660                dns_rbt_hashsize
+                0x001186c0                dns_rbt_addnode
+                0x00119820                dns_rbtnodechain_init
+                0x001198a0                dns_rbt_addname
+                0x00119960                dns_rbt_findnode
+                0x0011a980                dns_rbtnodechain_reset
+                0x0011ab70                dns_rbtnodechain_prev
+                0x0011ad60                dns_rbt_findname
+                0x0011ae20                dns_rbt_deletename
+                0x0011af30                dns_rbt_deletenode
+                0x0011ba80                dns_rbt_namefromnode
+                0x0011bb70                dns_rbt_fullnamefromnode
+                0x0011bd50                dns_rbt_formatnodename
+                0x0011bec0                dns__rbt_getheight
+                0x0011bf30                dns__rbt_checkproperties
+                0x0011c090                dns_rbt_printnodeinfo
+                0x0011c430                dns_rbt_printtext
+                0x0011c790                dns_rbt_printdot
+                0x0011cad0                dns_rbtnodechain_current
+                0x0011cd10                dns_rbtnodechain_down
+                0x0011cf50                dns_rbtnodechain_nextflat
+                0x0011d030                dns_rbtnodechain_next
+                0x0011d2e0                dns_rbtnodechain_first
+                0x0011d3b0                dns_rbtnodechain_last
+                0x0011d500                dns_rbtnodechain_invalidate
+ *fill*         0x0011d571        0xf 
+ .text          0x0011d580     0x553d libdns_pic.a(nsec3.pico)
+                0x0011d580                dns_nsec3_buildrdata
+                0x0011da60                dns_nsec3_typepresent
+                0x0011dc80                dns_nsec3_hashname
+                0x0011de30                dns_nsec3_hashlength
+                0x0011de50                dns_nsec3_supportedhash
+                0x0011de60                dns_nsec3_addnsec3
+                0x0011f170                dns_nsec3_delnsec3
+                0x00120140                dns_nsec3_addnsec3s
+                0x00120340                dns_nsec3param_fromprivate
+                0x00120440                dns_nsec3param_toprivate
+                0x00120540                dns_nsec3param_deletechains
+                0x00120ef0                dns_nsec3_addnsec3sx
+                0x00121570                dns_nsec3_delnsec3s
+                0x001215c0                dns_nsec3_delnsec3sx
+                0x001219e0                dns_nsec3_active
+                0x00121a30                dns_nsec3_activex
+                0x00121ed0                dns_nsec3_maxiterations
+                0x00122110                dns_nsec3_noexistnodata
+ *fill*         0x00122abd        0x3 
+ .text          0x00122ac0      0xfa2 libdns_pic.a(nsec.pico)
+                0x00122ac0                dns_nsec_setbit
+                0x00122b00                dns_nsec_isset
+                0x00122b30                dns_nsec_compressbitmap
+                0x00122be0                dns_nsec_buildrdata
+                0x00122f40                dns_nsec_build
+                0x001230c0                dns_nsec_typepresent
+                0x001232f0                dns_nsec_nseconly
+                0x00123520                dns_nsec_noexistnodata
+ *fill*         0x00123a62        0xe 
+ .text          0x00123a70     0x4785 libdns_pic.a(acache.pico)
+                0x00123a70                dns_acache_create
+                0x00124670                dns_acache_attach
+                0x00124730                dns_acache_countquerymiss
+                0x00124750                dns_acache_detach
+                0x00124a10                dns_acache_shutdown
+                0x00124bd0                dns_acache_setdb
+                0x00124e30                dns_acache_putdb
+                0x001258b0                dns_acache_detachentry
+                0x00125a10                dns_acache_createentry
+                0x00125cb0                dns_acache_getentry
+                0x001261f0                dns_acache_setentry
+                0x001267d0                dns_acache_attachentry
+                0x00126b90                dns_acache_cancelentry
+                0x00126d10                dns_acache_setcleaninginterval
+                0x00126ed0                dns_acache_setcachesize
+ *fill*         0x001281f5        0x3 
+ .text          0x001281f8        0x0 libdns_pic.a(version.pico)
+ *fill*         0x001281f8        0x8 
+ .text          0x00128200     0x1d51 libdns_pic.a(ncache.pico)
+                0x00128200                dns_ncache_add
+                0x001288e0                dns_ncache_addoptout
+                0x00128940                dns_ncache_towire
+                0x00128fa0                dns_ncache_getrdataset
+                0x001293f0                dns_ncache_getsigrdataset
+                0x001299d0                dns_ncache_current
+ *fill*         0x00129f51        0xf 
+ .text          0x00129f60     0x51a5 libdns_pic.a(name.pico)
+                0x00129f60                dns_name_init
+                0x00129fc0                dns_name_reset
+                0x0012a070                dns_name_invalidate
+                0x0012a100                dns_name_isvalid
+                0x0012a190                dns_name_setbuffer
+                0x0012a220                dns_name_hasbuffer
+                0x0012a280                dns_name_isabsolute
+                0x0012a2e0                dns_name_ismailbox
+                0x0012a4f0                dns_name_ishostname
+                0x0012a6d0                dns_name_iswildcard
+                0x0012a770                dns_name_internalwildcard
+                0x0012a8b0                dns_name_hash
+                0x0012a990                dns_name_fullhash
+                0x0012aa10                dns_fullname_hash
+                0x0012aa90                dns_name_hashbylabel
+                0x0012ae80                dns_name_fullcompare
+                0x0012b1f0                dns_name_compare
+                0x0012b230                dns_name_equal
+                0x0012b3b0                dns_name_caseequal
+                0x0012b4a0                dns_name_rdatacompare
+                0x0012b720                dns_name_issubdomain
+                0x0012b770                dns_name_matcheswildcard
+                0x0012b960                dns_name_getlabelsequence
+                0x0012bb70                dns_name_countlabels
+                0x0012bc00                dns_name_getlabel
+                0x0012bd40                dns_name_clone
+                0x0012be60                dns_name_fromregion
+                0x0012bff0                dns_name_toregion
+                0x0012c080                dns_name_fromtext
+                0x0012ca60                dns_name_totext
+                0x0012caa0                dns_name_totext2
+                0x0012ce80                dns_name_toprincipal
+                0x0012cec0                dns_name_tofilenametext
+                0x0012d1c0                dns_name_downcase
+                0x0012d520                dns_name_fromwire
+                0x0012d9b0                dns_name_towire
+                0x0012dcf0                dns_name_concatenate
+                0x0012e160                dns_name_split
+                0x0012e340                dns_name_dup
+                0x0012e500                dns_name_dupwithoffsets
+                0x0012e6f0                dns_name_free
+                0x0012e830                dns_name_digest
+                0x0012e9a0                dns_name_dynamic
+                0x0012ea00                dns_name_print
+                0x0012eae0                dns_name_settotextfilter
+                0x0012eb00                dns_name_format
+                0x0012ebc0                dns_name_tostring
+                0x0012ed10                dns_name_fromstring
+                0x0012ed60                dns_name_fromstring2
+                0x0012ef40                dns_name_copy
+                0x0012f100                dns_name_destroy
+ *fill*         0x0012f105        0xb 
+ .text          0x0012f110     0x9846 libdns_pic.a(message.pico)
+                0x0012f110                dns_message_create
+                0x0012f6b0                dns_message_reset
+                0x001301f0                dns_message_destroy
+                0x001302e0                dns_message_find
+                0x00130390                dns_message_findtype
+                0x00130460                dns_message_parse
+                0x00131c20                dns_message_renderbegin
+                0x00131d60                dns_message_renderchangebuffer
+                0x00131ec0                dns_message_renderrelease
+                0x00131f50                dns_message_renderreserve
+                0x00131fe0                dns_message_rendersection
+                0x00132770                dns_message_renderheader
+                0x00132920                dns_message_renderend
+                0x00132f50                dns_message_renderreset
+                0x00133110                dns_message_puttempname
+                0x001331f0                dns_message_puttemprdataset
+                0x001332e0                dns_message_firstname
+                0x00133380                dns_message_nextname
+                0x00133450                dns_message_currentname
+                0x00133540                dns_message_findname
+                0x00133780                dns_message_movename
+                0x00133970                dns_message_addname
+                0x00133a80                dns_message_removename
+                0x00133c20                dns_message_gettempname
+                0x00133cf0                dns_message_gettempoffsets
+                0x00133e30                dns_message_gettemprdata
+                0x00134050                dns_message_gettemprdataset
+                0x00134110                dns_message_gettemprdatalist
+                0x00134320                dns_message_puttemprdata
+                0x001343e0                dns_message_puttemprdatalist
+                0x001344a0                dns_message_peekheader
+                0x00134550                dns_message_reply
+                0x00134cd0                dns_message_getopt
+                0x00134d30                dns_message_setopt
+                0x00134f40                dns_message_gettsig
+                0x00134fd0                dns_message_settsigkey
+                0x00135220                dns_message_gettsigkey
+                0x00135280                dns_message_setquerytsig
+                0x00135600                dns_message_takebuffer
+                0x001356f0                dns_message_getquerytsig
+                0x00135870                dns_message_getsig0
+                0x00135920                dns_message_setsig0key
+                0x00135b00                dns_message_getsig0key
+                0x00135b60                dns_message_signer
+                0x00135f80                dns_message_resetsig
+                0x00136010                dns_message_rechecksig
+                0x001360b0                dns_message_checksig
+                0x00136500                dns_message_sectiontotext
+                0x00136910                dns_message_pseudosectiontotext
+                0x00137640                dns_message_totext
+                0x00137db0                dns_message_getrawmessage
+                0x00137e10                dns_message_setsortorder
+                0x00137e80                dns_message_settimeadjust
+                0x00137ee0                dns_message_gettimeadjust
+                0x00137f40                dns_opcode_totext
+                0x00137fd0                dns_message_logpacket
+                0x00138030                dns_message_logfmtpacket
+                0x001381c0                dns_message_buildopt
+ *fill*         0x00138956        0xa 
+ .text          0x00138960     0x4c08 libdns_pic.a(dnssec.pico)
+                0x00138960                dns_dnssec_keyfromrdata
+                0x00138b20                dns_dnssec_sign
+                0x00139670                dns_dnssec_verify2
+                0x001396d0                dns_dnssec_verify3
+                0x00139f60                dns_dnssec_verify
+                0x00139fd0                dns_dnssec_keyactive
+                0x0013a110                dns_dnssec_findzonekeys2
+                0x0013a770                dns_dnssec_findzonekeys
+                0x0013a7e0                dns_dnssec_signmessage
+                0x0013ae50                dns_dnssec_verifymessage
+                0x0013b250                dns_dnssec_selfsigns
+                0x0013b390                dns_dnssec_signs
+                0x0013b5e0                dns_dnsseckey_create
+                0x0013b740                dns_dnsseckey_destroy
+                0x0013b7e0                dns_dnssec_findmatchingkeys
+                0x0013c060                dns_dnssec_keylistfromrdataset
+                0x0013c980                dns_dnssec_updatekeys
+ *fill*         0x0013d568        0x8 
+ .text          0x0013d570     0x19fa libdns_pic.a(diff.pico)
+                0x0013d570                dns_difftuple_create
+                0x0013d730                dns_difftuple_free
+                0x0013d7d0                dns_difftuple_copy
+                0x0013d830                dns_diff_init
+                0x0013d860                dns_diff_clear
+                0x0013d9d0                dns_diff_append
+                0x0013da10                dns_diff_appendminimal
+                0x0013dd00                dns_diff_apply
+                0x0013e580                dns_diff_applysilently
+                0x0013e5c0                dns_diff_load
+                0x0013e870                dns_diff_sort
+                0x0013eac0                dns_diff_print
+ *fill*         0x0013ef6a        0x6 
+ .text          0x0013ef70     0x3c2f libdns_pic.a(masterdump.pico)
+                0x0013ef70                dns_rdataset_totext
+                0x0013fcf0                dns_master_rdatasettotext
+                0x0013fd70                dns_master_questiontotext
+                0x0013fdf0                dns_dumpctx_attach
+                0x0013ff50                dns_dumpctx_detach
+                0x00140190                dns_dumpctx_version
+                0x001401f0                dns_dumpctx_db
+                0x00140250                dns_dumpctx_cancel
+                0x00140300                dns_master_dumptostreaminc
+                0x00140770                dns_master_dumptostream
+                0x001407d0                dns_master_dumptostream3
+                0x00140880                dns_master_dumptostream2
+                0x001410c0                dns_master_dumpinc
+                0x00141130                dns_master_dumpinc3
+                0x00141350                dns_master_dumpinc2
+                0x00141500                dns_master_dump
+                0x00141560                dns_master_dump3
+                0x00141680                dns_master_dump2
+                0x00141810                dns_master_dumpnodetostream
+                0x00141f70                dns_master_dumpnode
+                0x001420e0                dns_master_stylecreate
+                0x001421a0                dns_master_stylecreate2
+                0x00142260                dns_master_styledestroy
+ *fill*         0x00142b9f        0x1 
+ .text          0x00142ba0      0x4e6 libdns_pic.a(dbiterator.pico)
+                0x00142ba0                dns_dbiterator_destroy
+                0x00142c60                dns_dbiterator_first
+                0x00142cc0                dns_dbiterator_last
+                0x00142d20                dns_dbiterator_seek
+                0x00142d80                dns_dbiterator_prev
+                0x00142de0                dns_dbiterator_next
+                0x00142e40                dns_dbiterator_current
+                0x00142f10                dns_dbiterator_pause
+                0x00142f70                dns_dbiterator_origin
+                0x00143030                dns_dbiterator_setcleanmode
+ *fill*         0x00143086        0xa 
+ .text          0x00143090     0x32ca libdns_pic.a(db.pico)
+                0x00143090                dns_db_create
+                0x00143380                dns_db_attach
+                0x00143440                dns_db_detach
+                0x00143500                dns_db_ondestroy
+                0x00143570                dns_db_iscache
+                0x001435d0                dns_db_iszone
+                0x00143630                dns_db_isstub
+                0x00143690                dns_db_isdnssec
+                0x00143730                dns_db_issecure
+                0x001437c0                dns_db_ispersistent
+                0x00143820                dns_db_origin
+                0x00143880                dns_db_class
+                0x001438e0                dns_db_beginload
+                0x00143970                dns_db_endload
+                0x00143a30                dns_db_load
+                0x00143a70                dns_db_load3
+                0x00143c80                dns_db_load2
+                0x00143cc0                dns_db_serialize
+                0x00143d30                dns_db_dump
+                0x00143d70                dns_db_dump2
+                0x00143dd0                dns_db_currentversion
+                0x00143e90                dns_db_newversion
+                0x00143f50                dns_db_attachversion
+                0x00144080                dns_db_closeversion
+                0x00144180                dns_db_findnode
+                0x00144250                dns_db_findnodeext
+                0x00144310                dns_db_findnsec3node
+                0x001443a0                dns_db_find
+                0x001445e0                dns_db_findext
+                0x00144820                dns_db_findzonecut
+                0x00144970                dns_db_attachnode
+                0x00144a30                dns_db_detachnode
+                0x00144af0                dns_db_transfernode
+                0x00144c10                dns_db_expirenode
+                0x00144cd0                dns_db_printnode
+                0x00144d60                dns_db_createiterator
+                0x00144df0                dns_db_findrdataset
+                0x00145000                dns_db_allrdatasets
+                0x00145090                dns_db_addrdataset
+                0x001452a0                dns_db_subtractrdataset
+                0x00145460                dns_db_deleterdataset
+                0x00145570                dns_db_overmem
+                0x001455d0                dns_db_getsoaserial
+                0x00145910                dns_db_nodecount
+                0x00145970                dns_db_hashsize
+                0x001459e0                dns_db_settask
+                0x00145a40                dns_db_register
+                0x00145d60                dns_db_unregister
+                0x00146030                dns_db_getoriginnode
+                0x00146100                dns_db_getrrsetstats
+                0x00146170                dns_db_setcachestats
+                0x001461e0                dns_db_getnsec3parameters
+                0x00146280                dns_db_setsigningtime
+                0x001462a0                dns_db_getsigningtime
+                0x001462c0                dns_db_resigned
+                0x001462e0                dns_db_rpz_attach
+                0x00146340                dns_db_rpz_ready
+ *fill*         0x0014635a        0x6 
+ .text          0x00146360      0x22f libdns_pic.a(callbacks.pico)
+                0x00146360                dns_rdatacallbacks_init
+                0x001464b0                dns_rdatacallbacks_init_stdio
+ *fill*         0x0014658f        0x1 
+ .text          0x00146590     0xad3a libdns_pic.a(master.pico)
+                0x00146590                dns_loadctx_attach
+                0x001466f0                dns_loadctx_detach
+                0x001469b0                dns_master_loadfile
+                0x00146ab0                dns_master_loadfile5
+                0x00146bb0                dns_master_loadfile2
+                0x00146cb0                dns_master_loadfile3
+                0x00146db0                dns_master_loadfile4
+                0x00147490                dns_master_loadfileinc
+                0x00147530                dns_master_loadfileinc4
+                0x001475d0                dns_master_loadfileinc2
+                0x00147670                dns_master_loadfileinc3
+                0x00147710                dns_master_loadfileinc5
+                0x001478a0                dns_master_loadstream
+                0x001479e0                dns_master_loadstreaminc
+                0x00147bb0                dns_master_loadbuffer
+                0x00147cf0                dns_master_loadbufferinc
+                0x00147ec0                dns_master_loadlexer
+                0x00147fe0                dns_master_loadlexerinc
+                0x00148180                dns_loadctx_cancel
+                0x00148240                dns_master_initrawheader
+ *fill*         0x001512ca        0x6 
+ .text          0x001512d0       0x8c libdns_pic.a(log.pico)
+                0x001512d0                dns_log_init
+                0x00151340                dns_log_setcontext
+ *fill*         0x0015135c        0x4 
+ .text          0x00151360      0x8b6 libdns_pic.a(rdatalist.pico)
+                0x00151360                dns_rdatalist_init
+                0x001513e0                dns_rdatalist_tordataset
+                0x001514f0                dns_rdatalist_fromrdataset
+                0x00151550                isc__rdatalist_disassociate
+                0x00151560                isc__rdatalist_first
+                0x00151580                isc__rdatalist_next
+                0x001515f0                isc__rdatalist_current
+                0x00151680                isc__rdatalist_clone
+                0x00151710                isc__rdatalist_count
+                0x00151780                isc__rdatalist_addnoqname
+                0x00151880                isc__rdatalist_getnoqname
+                0x001519d0                isc__rdatalist_addclosest
+                0x00151ad0                isc__rdatalist_getclosest
+ *fill*         0x00151c16        0xa 
+ .text          0x00151c20    0x4628a libdns_pic.a(rdata.pico)
+                0x00151c20                dns_rdata_txt_first
+                0x00151cf0                dns_rdata_txt_next
+                0x00151e60                dns_rdata_txt_current
+                0x00152040                dns_rdata_opt_first
+                0x00152110                dns_rdata_opt_next
+                0x001522d0                dns_rdata_opt_current
+                0x001524d0                dns_rdata_apl_first
+                0x00152640                dns_rdata_apl_next
+                0x00152830                dns_rdata_apl_current
+                0x00152a80                dns_rdata_hip_first
+                0x00152aa0                dns_rdata_hip_next
+                0x00152b50                dns_rdata_hip_current
+                0x00152c00                dns_rdata_init
+                0x00152c80                dns_rdata_reset
+                0x00152d40                dns_rdata_clone
+                0x00152e60                dns_rdata_compare
+                0x0015ae60                dns_rdata_toregion
+                0x0015af10                dns_rdata_casecompare
+                0x0015c560                dns_rdata_fromregion
+                0x0015c650                dns_rdata_fromwire
+                0x00161bc0                dns_rdata_towire
+                0x00164e90                dns_rdata_fromtext
+                0x001712f0                dns_rdata_totext
+                0x0017f950                dns_rdata_tofmttext
+                0x0017fa00                dns_rdata_fromstruct
+                0x001867b0                dns_rdata_tostruct
+                0x0018d5c0                dns_rdata_freestruct
+                0x0018ed30                dns_rdata_additionaldata
+                0x00190330                dns_rdata_digest
+                0x00191bf0                dns_rdata_checkowner
+                0x00192a40                dns_rdata_checknames
+                0x00193e20                dns_rdatatype_attributes
+                0x00193f10                dns_rdatatype_fromtext
+                0x00195310                dns_rdatatype_totext
+                0x00196320                dns_rdatatype_format
+                0x001963c0                dns_rdata_covers
+                0x00196490                dns_rdatatype_ismeta
+                0x001964c0                dns_rdatatype_issingleton
+                0x001964f0                dns_rdatatype_notquestion
+                0x00196520                dns_rdatatype_questiononly
+                0x00196550                dns_rdatatype_atparent
+                0x00196580                dns_rdataclass_ismeta
+                0x001965b0                dns_rdatatype_isdnssec
+                0x001965e0                dns_rdatatype_iszonecutauth
+                0x00196610                dns_rdatatype_isknown
+                0x00196640                dns_rdata_exists
+                0x00196700                dns_rdata_notexist
+                0x001967c0                dns_rdata_deleterrset
+                0x00196880                dns_rdata_makedelete
+                0x001968d0                dns_rdata_updateop
+ *fill*         0x00197eaa        0x6 
+ .text          0x00197eb0     0x1481 libdns_pic.a(rcode.pico)
+                0x00197eb0                dns_rcode_fromtext
+                0x00197f80                dns_rcode_totext
+                0x00198080                dns_tsigrcode_fromtext
+                0x00198150                dns_tsigrcode_totext
+                0x00198250                dns_cert_fromtext
+                0x00198320                dns_cert_totext
+                0x00198420                dns_secalg_fromtext
+                0x001984f0                dns_secalg_totext
+                0x001985f0                dns_secalg_format
+                0x001986a0                dns_secproto_fromtext
+                0x00198770                dns_secproto_totext
+                0x00198870                dns_hashalg_fromtext
+                0x00198940                dns_keyflags_fromtext
+                0x00198b50                dns_dsdigest_fromtext
+                0x00198c20                dns_dsdigest_totext
+                0x00198d20                dns_dsdigest_format
+                0x00198dd0                dns_rdataclass_fromtext
+                0x001990a0                dns_rdataclass_totext
+                0x001992a0                dns_rdataclass_format
+ *fill*         0x00199331        0xf 
+ .text          0x00199340      0xc33 libdns_pic.a(compress.pico)
+                0x00199340                dns_compress_init
+                0x00199400                dns_compress_invalidate
+                0x001994d0                dns_compress_setmethods
+                0x00199540                dns_compress_getmethods
+                0x001995a0                dns_compress_setsensitive
+                0x00199610                dns_compress_getsensitive
+                0x00199670                dns_compress_getedns
+                0x001996d0                dns_compress_findglobal
+                0x001999d0                dns_compress_add
+                0x00199c10                dns_compress_rollback
+                0x00199ce0                dns_decompress_init
+                0x00199d80                dns_decompress_invalidate
+                0x00199de0                dns_decompress_setmethods
+                0x00199e60                dns_decompress_getmethods
+                0x00199ec0                dns_decompress_edns
+                0x00199f20                dns_decompress_type
+ *fill*         0x00199f73        0xd 
+ .text          0x00199f80      0x6a6 libdns_pic.a(ttl.pico)
+                0x00199f80                dns_ttl_totext
+                0x0019a330                dns_counter_fromtext
+                0x0019a5f0                dns_ttl_fromtext
+ *fill*         0x0019a626        0xa 
+ .text          0x0019a630      0x84e libdns_pic.a(time.pico)
+                0x0019a630                dns_time64_totext
+                0x0019a9e0                dns_time64_from32
+                0x0019aa40                dns_time32_totext
+                0x0019aab0                dns_time64_fromtext
+                0x0019ae40                dns_time32_fromtext
+ *fill*         0x0019ae7e        0x2 
+ .text          0x0019ae80        0x0 /usr/lib/crtendS.o
+ .text          0x0019ae80        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0019ae80        0xa
+ *(SORT(.fini))
+ .fini          0x0019ae80        0x3 /usr/lib/crti.o
+                0x0019ae80                _fini
+ .fini          0x0019ae83        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0019ae88        0x2 /usr/lib/crtn.o
+                0x0019ae8a                PROVIDE (__etext, .)
+                0x0019ae8a                PROVIDE (_etext, .)
+                0x0019ae8a                PROVIDE (etext, .)
+
+.rodata         0x0019ae90    0x2dde8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0019ae90      0xb61 libdns_pic.a(sdlz.pico)
+                                0xbe7 (size before relaxing)
+ *fill*         0x0019b9f1        0x3 
+ .rodata        0x0019b9f4       0x2c libdns_pic.a(tkey.pico)
+ .rodata.str1.1
+                0x0019ba20      0x77f libdns_pic.a(tkey.pico)
+                                0x828 (size before relaxing)
+ .rodata.cst16  0x0019c19f       0x10 libdns_pic.a(tkey.pico)
+ *fill*         0x0019c1af        0x1 
+ .rodata.str1.16
+                0x0019c1b0       0x20 libdns_pic.a(tkey.pico)
+                                 0x11 (size before relaxing)
+ .rodata.str1.1
+                0x0019c1d0      0x613 libdns_pic.a(sdb.pico)
+                                0xa34 (size before relaxing)
+ .rodata.str1.1
+                0x0019c7e3      0x1f4 libdns_pic.a(portlist.pico)
+ .rodata.str1.1
+                0x0019c9d7      0x45f libdns_pic.a(dbtable.pico)
+                                0x4cf (size before relaxing)
+ *fill*         0x0019ce36        0xa 
+ .rodata        0x0019ce40       0x70 libdns_pic.a(client.pico)
+ .rodata.str1.1
+                0x0019ceb0     0x12c6 libdns_pic.a(client.pico)
+                               0x142c (size before relaxing)
+ .rodata.str1.1
+                0x0019e176      0x2ba libdns_pic.a(byaddr.pico)
+ .rodata.cst16  0x0019e430       0x10 libdns_pic.a(byaddr.pico)
+ .rodata        0x0019e440       0x18 libdns_pic.a(byaddr.pico)
+ .rodata.str1.1
+                0x0019e458      0x2f9 libdns_pic.a(lookup.pico)
+                                0x365 (size before relaxing)
+ *fill*         0x0019e751        0x3 
+ .rodata        0x0019e754       0x18 libdns_pic.a(lookup.pico)
+ .rodata.str1.1
+                0x0019e76c      0x106 libdns_pic.a(tsec.pico)
+                                0x130 (size before relaxing)
+ .rodata.str1.1
+                0x0019e872      0x22e libdns_pic.a(opensslgost_link.pico)
+                                0x26b (size before relaxing)
+ .rodata.str1.1
+                0x0019eaa0      0x13c libdns_pic.a(opensslecdsa_link.pico)
+                                0x172 (size before relaxing)
+ .rodata        0x0019ebdc       0x48 libdns_pic.a(opensslrsa_link.pico)
+ .rodata.str1.1
+                0x0019ec24      0x10c libdns_pic.a(opensslrsa_link.pico)
+                                0x188 (size before relaxing)
+ .rodata        0x0019ed30       0x14 libdns_pic.a(openssldsa_link.pico)
+ .rodata.str1.1
+                0x0019ed44       0xb6 libdns_pic.a(openssldsa_link.pico)
+                                 0xf8 (size before relaxing)
+ *fill*         0x0019edfa        0x2 
+ .rodata        0x0019edfc       0x21 libdns_pic.a(openssldh_link.pico)
+ .rodata.str1.1
+                0x0019ee1d      0x453 libdns_pic.a(openssldh_link.pico)
+                                0x48a (size before relaxing)
+ .rodata.str1.1
+                0x0019f270       0xf7 libdns_pic.a(openssl_link.pico)
+                                 0xf8 (size before relaxing)
+ .rodata.str1.1
+                0x0019f367       0xef libdns_pic.a(key.pico)
+                                0x105 (size before relaxing)
+ .rodata.str1.1
+                0x0019f456      0x119 libdns_pic.a(hmac_link.pico)
+                                0x12e (size before relaxing)
+ *fill*         0x0019f56f        0x1 
+ .rodata        0x0019f570       0xb8 libdns_pic.a(dst_parse.pico)
+ .rodata.str1.1
+                0x0019f628      0x312 libdns_pic.a(dst_parse.pico)
+                                0x32c (size before relaxing)
+ *fill*         0x0019f93a        0x2 
+ .rodata        0x0019f93c       0x74 libdns_pic.a(dst_api.pico)
+ .rodata.str1.1
+                0x0019f9b0      0x891 libdns_pic.a(dst_api.pico)
+                                0x9da (size before relaxing)
+ .rodata.str1.1
+                0x001a0241      0x21f libdns_pic.a(dst_result.pico)
+                                0x23b (size before relaxing)
+ .rodata.str1.1
+                0x001a0460        0xb libdns_pic.a(dst_lib.pico)
+ .rodata.str1.1
+                0x001a046b      0x492 libdns_pic.a(update.pico)
+                                0x4b5 (size before relaxing)
+ *fill*         0x001a08fd        0x3 
+ .rodata        0x001a0900       0x34 libdns_pic.a(update.pico)
+ .rodata.str1.1
+                0x001a0934      0x2f4 libdns_pic.a(zt.pico)
+                                0x30b (size before relaxing)
+ .rodata.str1.1
+                0x001a0c28       0x4a libdns_pic.a(zonekey.pico)
+ *fill*         0x001a0c72        0x2 
+ .rodata        0x001a0c74      0x1f0 libdns_pic.a(zone.pico)
+ .rodata.str1.1
+                0x001a0e64     0x53e7 libdns_pic.a(zone.pico)
+                               0x578b (size before relaxing)
+ *fill*         0x001a624b        0x1 
+ .rodata        0x001a624c       0x44 libdns_pic.a(xfrin.pico)
+ .rodata.str1.1
+                0x001a6290      0x568 libdns_pic.a(xfrin.pico)
+                                0x5e1 (size before relaxing)
+ .rodata.str1.1
+                0x001a67f8       0xba libdns_pic.a(private.pico)
+ *fill*         0x001a68b2        0x2 
+ .rodata        0x001a68b4       0x18 libdns_pic.a(private.pico)
+ .rodata.str1.1
+                0x001a68cc      0x1e7 libdns_pic.a(rriterator.pico)
+ .rodata.str1.1
+                0x001a6ab3       0x62 libdns_pic.a(keydata.pico)
+ .rodata.str1.1
+                0x001a6b15      0x96c libdns_pic.a(journal.pico)
+                                0x9fb (size before relaxing)
+ *fill*         0x001a7481        0xf 
+ .rodata        0x001a7490       0x38 libdns_pic.a(journal.pico)
+ .rodata.str1.1
+                0x001a74c8      0x96b libdns_pic.a(view.pico)
+                                0xbc6 (size before relaxing)
+ *fill*         0x001a7e33        0x1 
+ .rodata        0x001a7e34       0x18 libdns_pic.a(view.pico)
+ .rodata        0x001a7e4c       0x90 libdns_pic.a(rrl.pico)
+ .rodata.str1.1
+                0x001a7edc      0x55c libdns_pic.a(rrl.pico)
+                                0x597 (size before relaxing)
+ .rodata.str1.1
+                0x001a8438      0xd42 libdns_pic.a(request.pico)
+                                0xf85 (size before relaxing)
+ .rodata.str1.1
+                0x001a917a      0x27a libdns_pic.a(order.pico)
+                                0x2ca (size before relaxing)
+ .rodata.str1.1
+                0x001a93f4      0x2d4 libdns_pic.a(dns64.pico)
+                                0x301 (size before relaxing)
+ .rodata        0x001a96c8       0x28 libdns_pic.a(dns64.pico)
+ .rodata.str1.1
+                0x001a96f0     0x13f5 libdns_pic.a(validator.pico)
+                               0x1645 (size before relaxing)
+ *fill*         0x001aaae5        0x3 
+ .rodata        0x001aaae8       0x24 libdns_pic.a(validator.pico)
+ .rodata.str1.1
+                0x001aab0c      0x784 libdns_pic.a(keytable.pico)
+                                0x8de (size before relaxing)
+ .rodata.str1.1
+                0x001ab290       0x62 libdns_pic.a(ds.pico)
+                                 0x83 (size before relaxing)
+ .rodata.str1.1
+                0x001ab2f2      0xa66 libdns_pic.a(tsig.pico)
+                                0xc58 (size before relaxing)
+ .rodata        0x001abd58       0x18 libdns_pic.a(tsig.pico)
+ .rodata        0x001abd70       0x38 libdns_pic.a(ssu.pico)
+ .rodata.str1.1
+                0x001abda8      0x4a8 libdns_pic.a(ssu.pico)
+                                0x60c (size before relaxing)
+ .rodata.str1.1
+                0x001ac250       0x86 libdns_pic.a(gssapictx.pico)
+ .rodata.str1.1
+                0x001ac2d6      0x1f7 libdns_pic.a(ssu_external.pico)
+ .rodata.str1.1
+                0x001ac4cd      0x528 libdns_pic.a(dlz.pico)
+                                0x69b (size before relaxing)
+ .rodata.str1.1
+                0x001ac9f5       0x75 libdns_pic.a(soa.pico)
+                                 0xbf (size before relaxing)
+ *fill*         0x001aca6a        0x2 
+ .rodata        0x001aca6c       0x2c libdns_pic.a(rpz.pico)
+ .rodata.str1.1
+                0x001aca98      0x7b3 libdns_pic.a(rpz.pico)
+                                0x83c (size before relaxing)
+ *fill*         0x001ad24b        0x1 
+ .rodata        0x001ad24c       0xa0 libdns_pic.a(result.pico)
+ .rodata.str1.1
+                0x001ad2ec      0x753 libdns_pic.a(result.pico)
+                                0x7fd (size before relaxing)
+ .rodata.str1.1
+                0x001ada3f       0xac libdns_pic.a(lib.pico)
+ .rodata.str1.1
+                0x001adaeb      0x59f libdns_pic.a(ecdb.pico)
+                                0x715 (size before relaxing)
+ *fill*         0x001ae08a        0x2 
+ .rodata        0x001ae08c       0x2c libdns_pic.a(resolver.pico)
+ .rodata.str1.1
+                0x001ae0b8     0x293d libdns_pic.a(resolver.pico)
+                               0x2e7f (size before relaxing)
+ .rodata.str1.1
+                0x001b09f5      0x1d5 libdns_pic.a(rootns.pico)
+                                0x24b (size before relaxing)
+ *fill*         0x001b0bca        0x2 
+ .rodata        0x001b0bcc       0x18 libdns_pic.a(rootns.pico)
+ .rodata.str1.1
+                0x001b0be4      0x4d2 libdns_pic.a(peer.pico)
+                                0x529 (size before relaxing)
+ .rodata.str1.1
+                0x001b10b6      0x2fe libdns_pic.a(forward.pico)
+ .rodata.str1.1
+                0x001b13b4     0x1d6c libdns_pic.a(dispatch.pico)
+                               0x1efe (size before relaxing)
+ .rodata.str1.1
+                0x001b3120      0xa97 libdns_pic.a(cache.pico)
+                                0xbc2 (size before relaxing)
+ .rodata.str1.1
+                0x001b3bb7     0x2df4 libdns_pic.a(adb.pico)
+                               0x2fc3 (size before relaxing)
+ *fill*         0x001b69ab        0x1 
+ .rodata.str4.4
+                0x001b69ac       0x98 libdns_pic.a(adb.pico)
+ .rodata        0x001b6a44       0x34 libdns_pic.a(adb.pico)
+ .rodata        0x001b6a78       0x20 libdns_pic.a(acl.pico)
+ .rodata.str1.1
+                0x001b6a98      0x262 libdns_pic.a(acl.pico)
+                                0x282 (size before relaxing)
+ .rodata.str1.1
+                0x001b6cfa      0x106 libdns_pic.a(tcpmsg.pico)
+                                0x144 (size before relaxing)
+ .rodata.str1.1
+                0x001b6e00      0x17d libdns_pic.a(iptable.pico)
+                                0x1b6 (size before relaxing)
+ .rodata.str1.1
+                0x001b6f7d      0x16a libdns_pic.a(rdataslab.pico)
+                                0x1b6 (size before relaxing)
+ *fill*         0x001b70e7        0x1 
+ .rodata        0x001b70e8       0x18 libdns_pic.a(rdataslab.pico)
+ .rodata.str1.1
+                0x001b7100       0xe0 libdns_pic.a(rdatasetiter.pico)
+                                0x21d (size before relaxing)
+ .rodata.str1.1
+                0x001b71e0      0x43f libdns_pic.a(rdataset.pico)
+                                0x5a2 (size before relaxing)
+ *fill*         0x001b761f        0x1 
+ .rodata        0x001b7620       0x18 libdns_pic.a(rdataset.pico)
+ .rodata        0x001b7638       0x28 libdns_pic.a(rbtdb64.pico)
+ .rodata.str1.1
+                0x001b7660     0x23fd libdns_pic.a(rbtdb64.pico)
+                               0x26d7 (size before relaxing)
+ *fill*         0x001b9a5d        0x3 
+ .rodata        0x001b9a60       0x28 libdns_pic.a(rbtdb.pico)
+ .rodata.str1.1
+                0x001b9a88      0x18a libdns_pic.a(rbtdb.pico)
+                               0x26cf (size before relaxing)
+ .rodata.str1.1
+                0x001b9c12      0x48d libdns_pic.a(stats.pico)
+                                0x4e7 (size before relaxing)
+ *fill*         0x001ba09f        0x1 
+ .rodata        0x001ba0a0       0x14 libdns_pic.a(rbt.pico)
+ .rodata.str1.1
+                0x001ba0b4      0xe71 libdns_pic.a(rbt.pico)
+                                0xf09 (size before relaxing)
+ .rodata.str1.1
+                0x001baf25      0x571 libdns_pic.a(nsec3.pico)
+                                0x65f (size before relaxing)
+ *fill*         0x001bb496        0x2 
+ .rodata        0x001bb498       0x18 libdns_pic.a(nsec3.pico)
+ .rodata.str1.1
+                0x001bb4b0      0x293 libdns_pic.a(nsec.pico)
+                                0x2de (size before relaxing)
+ *fill*         0x001bb743        0x1 
+ .rodata        0x001bb744       0x18 libdns_pic.a(nsec.pico)
+ .rodata.str1.1
+                0x001bb75c     0x1409 libdns_pic.a(acache.pico)
+                               0x17b4 (size before relaxing)
+ *fill*         0x001bcb65        0x3 
+ .rodata        0x001bcb68       0x20 libdns_pic.a(version.pico)
+                0x001bcb68                dns_version
+                0x001bcb72                dns_major
+                0x001bcb77                dns_mapapi
+                0x001bcb7c                dns_libinterface
+                0x001bcb80                dns_librevision
+                0x001bcb84                dns_libage
+ .rodata.str1.1
+                0x001bcb88      0x279 libdns_pic.a(ncache.pico)
+                                0x3b7 (size before relaxing)
+ *fill*         0x001bce01        0x3 
+ .rodata        0x001bce04       0x18 libdns_pic.a(ncache.pico)
+ .rodata        0x001bce1c      0x218 libdns_pic.a(name.pico)
+ .rodata.str1.1
+                0x001bd034      0xe5b libdns_pic.a(name.pico)
+                                0xfb6 (size before relaxing)
+ .rodata.str1.1
+                0x001bde8f     0x117b libdns_pic.a(message.pico)
+                               0x140c (size before relaxing)
+ *fill*         0x001bf00a        0x2 
+ .rodata        0x001bf00c       0x18 libdns_pic.a(message.pico)
+ .rodata.str1.1
+                0x001bf024      0x810 libdns_pic.a(dnssec.pico)
+                                0x95d (size before relaxing)
+ .rodata        0x001bf834       0x18 libdns_pic.a(dnssec.pico)
+ .rodata        0x001bf84c       0x30 libdns_pic.a(diff.pico)
+ .rodata.str1.1
+                0x001bf87c      0x401 libdns_pic.a(diff.pico)
+                                0x532 (size before relaxing)
+ *fill*         0x001bfc7d        0x3 
+ .rodata        0x001bfc80      0x118 libdns_pic.a(masterdump.pico)
+                0x001bfc80                dns_master_style_keyzone
+                0x001bfca0                dns_master_style_default
+                0x001bfcc0                dns_master_style_full
+                0x001bfce0                dns_master_style_explicitttl
+                0x001bfd00                dns_master_style_cache
+                0x001bfd20                dns_master_style_simple
+                0x001bfd40                dns_master_style_debug
+                0x001bfd60                dns_master_style_comment
+ .rodata.str1.1
+                0x001bfd98      0x63a libdns_pic.a(masterdump.pico)
+                                0x7f3 (size before relaxing)
+ .rodata.str1.1
+                0x001c03d2      0x188 libdns_pic.a(dbiterator.pico)
+                                0x202 (size before relaxing)
+ .rodata.str1.1
+                0x001c055a      0xa44 libdns_pic.a(db.pico)
+                                0xe5c (size before relaxing)
+ *fill*         0x001c0f9e        0x2 
+ .rodata        0x001c0fa0       0x18 libdns_pic.a(db.pico)
+ .rodata.str1.1
+                0x001c0fb8       0x4d libdns_pic.a(callbacks.pico)
+ .rodata.str1.1
+                0x001c1005      0xfb0 libdns_pic.a(master.pico)
+                               0x1181 (size before relaxing)
+ *fill*         0x001c1fb5        0x3 
+ .rodata        0x001c1fb8       0x18 libdns_pic.a(master.pico)
+ .rodata.str1.1
+                0x001c1fd0      0x1e4 libdns_pic.a(log.pico)
+                                0x20c (size before relaxing)
+ .rodata.str1.1
+                0x001c21b4       0xed libdns_pic.a(rdatalist.pico)
+                                0x1da (size before relaxing)
+ *fill*         0x001c22a1        0x3 
+ .rodata        0x001c22a4     0x1f49 libdns_pic.a(rdata.pico)
+ .rodata.str1.1
+                0x001c41ed     0x4573 libdns_pic.a(rdata.pico)
+                               0x4db3 (size before relaxing)
+ .rodata.cst16  0x001c8760       0x10 libdns_pic.a(rdata.pico)
+ .rodata        0x001c8770       0x38 libdns_pic.a(rcode.pico)
+ .rodata.str1.1
+                0x001c87a8      0x22b libdns_pic.a(rcode.pico)
+                                0x30d (size before relaxing)
+ .rodata.str1.1
+                0x001c89d3      0x1bd libdns_pic.a(compress.pico)
+                                0x254 (size before relaxing)
+ .rodata.str1.1
+                0x001c8b90       0x8b libdns_pic.a(ttl.pico)
+                                 0x9a (size before relaxing)
+ *fill*         0x001c8c1b        0x1 
+ .rodata        0x001c8c1c       0x30 libdns_pic.a(time.pico)
+ .rodata.str1.1
+                0x001c8c4c       0x2c libdns_pic.a(time.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x001c8c78     0x4c34
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x001c8c78     0x4c34 libdns_pic.a(sdlz.pico)
+
+.eh_frame       0x001cd8ac    0x1268c
+ *(.eh_frame)
+ .eh_frame      0x001cd8ac       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x001cd8e8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x001cd8e8      0x764 libdns_pic.a(sdlz.pico)
+ .eh_frame      0x001ce04c      0x21c libdns_pic.a(tkey.pico)
+                                0x234 (size before relaxing)
+ .eh_frame      0x001ce268      0x618 libdns_pic.a(sdb.pico)
+                                0x630 (size before relaxing)
+ .eh_frame      0x001ce880       0xf8 libdns_pic.a(portlist.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x001ce978      0x13c libdns_pic.a(dbtable.pico)
+                                0x154 (size before relaxing)
+ .eh_frame      0x001ceab4      0x514 libdns_pic.a(client.pico)
+                                0x52c (size before relaxing)
+ .eh_frame      0x001cefc8       0x38 libdns_pic.a(clientinfo.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x001cf000       0xdc libdns_pic.a(byaddr.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x001cf0dc       0xbc libdns_pic.a(lookup.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x001cf198       0x78 libdns_pic.a(tsec.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x001cf210      0x284 libdns_pic.a(opensslgost_link.pico)
+                                0x29c (size before relaxing)
+ .eh_frame      0x001cf494      0x1bc libdns_pic.a(opensslecdsa_link.pico)
+                                0x1d4 (size before relaxing)
+ .eh_frame      0x001cf650      0x214 libdns_pic.a(opensslrsa_link.pico)
+                                0x22c (size before relaxing)
+ .eh_frame      0x001cf864      0x1d0 libdns_pic.a(openssldsa_link.pico)
+                                0x1e8 (size before relaxing)
+ .eh_frame      0x001cfa34      0x1b4 libdns_pic.a(openssldh_link.pico)
+                                0x1cc (size before relaxing)
+ .eh_frame      0x001cfbe8      0x1bc libdns_pic.a(openssl_link.pico)
+                                0x1d4 (size before relaxing)
+ .eh_frame      0x001cfda4      0x1cc libdns_pic.a(key.pico)
+                                0x1e4 (size before relaxing)
+ .eh_frame      0x001cff70      0xa34 libdns_pic.a(hmac_link.pico)
+                                0xa4c (size before relaxing)
+ .eh_frame      0x001d09a4       0x80 libdns_pic.a(dst_parse.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x001d0a24      0x814 libdns_pic.a(dst_api.pico)
+                                0x82c (size before relaxing)
+ .eh_frame      0x001d1238       0x38 libdns_pic.a(dst_result.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x001d1270       0x1c libdns_pic.a(dst_lib.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x001d128c      0x268 libdns_pic.a(update.pico)
+                                0x280 (size before relaxing)
+ .eh_frame      0x001d14f4      0x288 libdns_pic.a(zt.pico)
+                                0x2a0 (size before relaxing)
+ .eh_frame      0x001d177c       0x1c libdns_pic.a(zonekey.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x001d1798     0x2508 libdns_pic.a(zone.pico)
+                               0x2520 (size before relaxing)
+ .eh_frame      0x001d3ca0      0x238 libdns_pic.a(xfrin.pico)
+                                0x250 (size before relaxing)
+ .eh_frame      0x001d3ed8       0x40 libdns_pic.a(private.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x001d3f18       0x20 libdns_pic.a(timer.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x001d3f38       0xdc libdns_pic.a(rriterator.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x001d4014       0x40 libdns_pic.a(keydata.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x001d4054      0x3d0 libdns_pic.a(journal.pico)
+                                0x3e8 (size before relaxing)
+ .eh_frame      0x001d4424      0x790 libdns_pic.a(view.pico)
+                                0x7a8 (size before relaxing)
+ .eh_frame      0x001d4bb4      0x1a0 libdns_pic.a(rrl.pico)
+                                0x1b8 (size before relaxing)
+ .eh_frame      0x001d4d54      0x3f8 libdns_pic.a(request.pico)
+                                0x410 (size before relaxing)
+ .eh_frame      0x001d514c       0x9c libdns_pic.a(order.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x001d51e8       0xd8 libdns_pic.a(dns64.pico)
+                                 0xf0 (size before relaxing)
+ .eh_frame      0x001d52c0      0x460 libdns_pic.a(validator.pico)
+                                0x478 (size before relaxing)
+ .eh_frame      0x001d5720      0x2f0 libdns_pic.a(keytable.pico)
+                                0x308 (size before relaxing)
+ .eh_frame      0x001d5a10       0x20 libdns_pic.a(ds.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x001d5a30      0x258 libdns_pic.a(tsig.pico)
+                                0x270 (size before relaxing)
+ .eh_frame      0x001d5c88      0x184 libdns_pic.a(ssu.pico)
+                                0x19c (size before relaxing)
+ .eh_frame      0x001d5e0c      0x104 libdns_pic.a(gssapictx.pico)
+                                0x11c (size before relaxing)
+ .eh_frame      0x001d5f10       0x3c libdns_pic.a(ssu_external.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x001d5f4c      0x140 libdns_pic.a(dlz.pico)
+                                0x158 (size before relaxing)
+ .eh_frame      0x001d608c      0x158 libdns_pic.a(soa.pico)
+                                0x170 (size before relaxing)
+ .eh_frame      0x001d61e4      0x2d0 libdns_pic.a(rpz.pico)
+                                0x2e8 (size before relaxing)
+ .eh_frame      0x001d64b4       0x74 libdns_pic.a(result.pico)
+                                 0x8c (size before relaxing)
+ .eh_frame      0x001d6528       0x5c libdns_pic.a(lib.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x001d6584      0x32c libdns_pic.a(ecdb.pico)
+                                0x344 (size before relaxing)
+ .eh_frame      0x001d68b0      0xcfc libdns_pic.a(resolver.pico)
+                                0xd14 (size before relaxing)
+ .eh_frame      0x001d75ac       0x80 libdns_pic.a(rootns.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x001d762c      0x548 libdns_pic.a(peer.pico)
+                                0x560 (size before relaxing)
+ .eh_frame      0x001d7b74       0xfc libdns_pic.a(forward.pico)
+                                0x114 (size before relaxing)
+ .eh_frame      0x001d7c70      0x728 libdns_pic.a(dispatch.pico)
+                                0x740 (size before relaxing)
+ .eh_frame      0x001d8398      0x3f0 libdns_pic.a(cache.pico)
+                                0x408 (size before relaxing)
+ .eh_frame      0x001d8788      0x7d8 libdns_pic.a(adb.pico)
+                                0x7f0 (size before relaxing)
+ .eh_frame      0x001d8f60      0x1dc libdns_pic.a(acl.pico)
+                                0x1f4 (size before relaxing)
+ .eh_frame      0x001d913c       0xf4 libdns_pic.a(tcpmsg.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x001d9230       0x9c libdns_pic.a(iptable.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x001d92cc      0x1ac libdns_pic.a(rdataslab.pico)
+                                0x1c4 (size before relaxing)
+ .eh_frame      0x001d9478       0x78 libdns_pic.a(rdatasetiter.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x001d94f0      0x3cc libdns_pic.a(rdataset.pico)
+                                0x3e4 (size before relaxing)
+ .eh_frame      0x001d98bc      0xdbc libdns_pic.a(rbtdb64.pico)
+                                0xdd4 (size before relaxing)
+ .eh_frame      0x001da678      0xdbc libdns_pic.a(rbtdb.pico)
+                                0xdd4 (size before relaxing)
+ .eh_frame      0x001db434      0x280 libdns_pic.a(stats.pico)
+                                0x298 (size before relaxing)
+ .eh_frame      0x001db6b4      0x5b4 libdns_pic.a(rbt.pico)
+                                0x5cc (size before relaxing)
+ .eh_frame      0x001dbc68      0x2d8 libdns_pic.a(nsec3.pico)
+                                0x2f0 (size before relaxing)
+ .eh_frame      0x001dbf40       0xf8 libdns_pic.a(nsec.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x001dc038      0x330 libdns_pic.a(acache.pico)
+                                0x348 (size before relaxing)
+ .eh_frame      0x001dc368      0x1ac libdns_pic.a(ncache.pico)
+                                0x1c4 (size before relaxing)
+ .eh_frame      0x001dc514      0x638 libdns_pic.a(name.pico)
+                                0x650 (size before relaxing)
+ .eh_frame      0x001dcb4c      0x82c libdns_pic.a(message.pico)
+                                0x844 (size before relaxing)
+ .eh_frame      0x001dd378      0x334 libdns_pic.a(dnssec.pico)
+                                0x34c (size before relaxing)
+ .eh_frame      0x001dd6ac      0x190 libdns_pic.a(diff.pico)
+                                0x1a8 (size before relaxing)
+ .eh_frame      0x001dd83c      0x490 libdns_pic.a(masterdump.pico)
+                                0x4a8 (size before relaxing)
+ .eh_frame      0x001ddccc      0x124 libdns_pic.a(dbiterator.pico)
+                                0x13c (size before relaxing)
+ .eh_frame      0x001dddf0      0x690 libdns_pic.a(db.pico)
+                                0x6a8 (size before relaxing)
+ .eh_frame      0x001de480       0x90 libdns_pic.a(callbacks.pico)
+                                 0xa8 (size before relaxing)
+ .eh_frame      0x001de510      0x438 libdns_pic.a(master.pico)
+                                0x450 (size before relaxing)
+ .eh_frame      0x001de948       0x3c libdns_pic.a(log.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x001de984      0x184 libdns_pic.a(rdatalist.pico)
+                                0x19c (size before relaxing)
+ .eh_frame      0x001deb08      0xea4 libdns_pic.a(rdata.pico)
+                                0xebc (size before relaxing)
+ .eh_frame      0x001df9ac      0x280 libdns_pic.a(rcode.pico)
+                                0x298 (size before relaxing)
+ .eh_frame      0x001dfc2c      0x1d4 libdns_pic.a(compress.pico)
+                                0x1ec (size before relaxing)
+ .eh_frame      0x001dfe00       0x98 libdns_pic.a(ttl.pico)
+                                 0xb0 (size before relaxing)
+ .eh_frame      0x001dfe98       0x9c libdns_pic.a(time.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x001dff34        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x001dff38       0x18
+ .note.netbsd.ident
+                0x001dff38       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x001dff50       0x14
+ .note.netbsd.pax
+                0x001dff50       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x001dff64                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x001e0000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x001e0000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x001e0000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x001e0004        0x4 /usr/lib/crtendS.o
+                0x001e0004                __CTOR_LIST_END__
+
+.dtors          0x001e0008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x001e0008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x001e000c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x001e0010        0x4
+ *(.jcr)
+ .jcr           0x001e0010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x001e0010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x001e0020      0x594
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x001e0020      0x128 libdns_pic.a(dst_parse.pico)
+ .data.rel.ro.local
+                0x001e0148        0x8 libdns_pic.a(zone.pico)
+ .data.rel.ro.local
+                0x001e0150       0x94 libdns_pic.a(rpz.pico)
+ .data.rel.ro.local
+                0x001e01e4       0x1c libdns_pic.a(adb.pico)
+ .data.rel.ro.local
+                0x001e0200       0x28 libdns_pic.a(rdataset.pico)
+ .data.rel.ro.local
+                0x001e0228       0xa4 libdns_pic.a(message.pico)
+ *fill*         0x001e02cc        0x4 
+ .data.rel.ro.local
+                0x001e02d0       0x18 libdns_pic.a(diff.pico)
+ .data.rel.ro.local
+                0x001e02e8       0x84 libdns_pic.a(master.pico)
+ .data.rel.ro.local
+                0x001e036c       0x98 libdns_pic.a(rdata.pico)
+ .data.rel.ro.local
+                0x001e0404      0x18c libdns_pic.a(rcode.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x001e0590       0x24 libdns_pic.a(tsec.pico)
+
+.dynamic        0x001e05b4       0xc0
+ *(.dynamic)
+ .dynamic       0x001e05b4       0xc0 /usr/lib/crti.o
+                0x001e05b4                _DYNAMIC
+
+.got            0x001e0674       0xdc
+ *(.got)
+ .got           0x001e0674       0xdc /usr/lib/crti.o
+ *(.igot)
+                0x001e0750                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x001e0750     0x14a8
+ *(.got.plt)
+ .got.plt       0x001e0750     0x14a8 /usr/lib/crti.o
+                0x001e0750                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x001e1bf8     0x2040
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x001e1bf8        0x0 /usr/lib/crti.o
+ .data          0x001e1bf8        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x001e1bf8       0x26 /usr/lib/crtbeginS.o
+                0x001e1bf8                __dso_handle
+ *fill*         0x001e1c1e        0x2 
+ .data          0x001e1c20        0x0 libdns_pic.a(spnego.pico)
+ .data          0x001e1c20        0x4 libdns_pic.a(gssapi_link.pico)
+                0x001e1c20                gssapi_link_unneeded
+ .data          0x001e1c24        0x0 libdns_pic.a(sdlz.pico)
+ .data.rel.local
+                0x001e1c24       0xf8 libdns_pic.a(sdlz.pico)
+ .data.rel      0x001e1d1c       0x40 libdns_pic.a(sdlz.pico)
+ .data          0x001e1d5c        0x0 libdns_pic.a(tkey.pico)
+ .data          0x001e1d5c        0x0 libdns_pic.a(sdb.pico)
+ .data.rel.local
+                0x001e1d5c       0xe0 libdns_pic.a(sdb.pico)
+ .data.rel      0x001e1e3c       0x40 libdns_pic.a(sdb.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(portlist.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(dbtable.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(client.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(clientinfo.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(byaddr.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(lookup.pico)
+ .data          0x001e1e7c        0x0 libdns_pic.a(tsec.pico)
+ .data          0x001e1e7c       0x6c libdns_pic.a(opensslgost_link.pico)
+                0x001e1e7c                gost_prefix
+ .data.rel.local
+                0x001e1ee8       0x54 libdns_pic.a(opensslgost_link.pico)
+ .data          0x001e1f3c        0x0 libdns_pic.a(opensslecdsa_link.pico)
+ .data.rel.local
+                0x001e1f3c       0x54 libdns_pic.a(opensslecdsa_link.pico)
+ .data          0x001e1f90        0x0 libdns_pic.a(opensslrsa_link.pico)
+ .data.rel.local
+                0x001e1f90       0x54 libdns_pic.a(opensslrsa_link.pico)
+ .data          0x001e1fe4        0x0 libdns_pic.a(openssldsa_link.pico)
+ .data.rel.local
+                0x001e1fe4       0x54 libdns_pic.a(openssldsa_link.pico)
+ .data          0x001e2038        0x0 libdns_pic.a(openssldh_link.pico)
+ .data.rel.local
+                0x001e2038       0x54 libdns_pic.a(openssldh_link.pico)
+ .data          0x001e208c        0x0 libdns_pic.a(openssl_link.pico)
+ .data          0x001e208c        0x0 libdns_pic.a(key.pico)
+ .data          0x001e208c        0x0 libdns_pic.a(hmac_link.pico)
+ .data.rel.local
+                0x001e208c      0x1f8 libdns_pic.a(hmac_link.pico)
+ .data          0x001e2284        0x0 libdns_pic.a(dst_parse.pico)
+ .data.rel.local
+                0x001e2284       0x2c libdns_pic.a(dst_parse.pico)
+ .data          0x001e22b0        0x0 libdns_pic.a(dst_api.pico)
+ .data          0x001e22b0        0x0 libdns_pic.a(dst_result.pico)
+ .data.rel.local
+                0x001e22b0       0x5c libdns_pic.a(dst_result.pico)
+ .data          0x001e230c        0x0 libdns_pic.a(dst_lib.pico)
+ .data          0x001e230c       0x18 libdns_pic.a(update.pico)
+ .data          0x001e2324        0x0 libdns_pic.a(zt.pico)
+ .data.rel.local
+                0x001e2324        0x4 libdns_pic.a(zt.pico)
+ .data          0x001e2328        0x0 libdns_pic.a(zonekey.pico)
+ .data          0x001e2328       0x30 libdns_pic.a(zone.pico)
+                0x001e2328                dns_zone_mkey_hour
+                0x001e232c                dns_zone_mkey_day
+                0x001e2330                dns_zone_mkey_month
+ .data.rel.local
+                0x001e2358        0x4 libdns_pic.a(zone.pico)
+ .data          0x001e235c        0x0 libdns_pic.a(xfrin.pico)
+ .data          0x001e235c        0x0 libdns_pic.a(private.pico)
+ .data          0x001e235c        0x0 libdns_pic.a(timer.pico)
+ .data          0x001e235c        0x0 libdns_pic.a(rriterator.pico)
+ .data          0x001e235c        0x0 libdns_pic.a(keydata.pico)
+ .data          0x001e235c       0x34 libdns_pic.a(journal.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(view.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(rrl.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(request.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(order.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(dns64.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(validator.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(keytable.pico)
+ .data          0x001e2390        0x0 libdns_pic.a(ds.pico)
+ .data          0x001e2390       0x8b libdns_pic.a(tsig.pico)
+ *fill*         0x001e241b        0x1 
+ .data.rel.local
+                0x001e241c      0x180 libdns_pic.a(tsig.pico)
+                0x001e2448                dns_tsig_hmacmd5_name
+                0x001e2478                dns_tsig_gssapi_name
+                0x001e24a8                dns_tsig_gssapims_name
+                0x001e24d8                dns_tsig_hmacsha1_name
+                0x001e2508                dns_tsig_hmacsha224_name
+                0x001e2538                dns_tsig_hmacsha256_name
+                0x001e2568                dns_tsig_hmacsha384_name
+                0x001e2598                dns_tsig_hmacsha512_name
+ .data          0x001e259c        0x0 libdns_pic.a(ssu.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(gssapictx.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(ssu_external.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(dlz.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(soa.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(rpz.pico)
+ .data          0x001e259c        0x0 libdns_pic.a(result.pico)
+ .data.rel.local
+                0x001e259c      0x1fc libdns_pic.a(result.pico)
+ .data          0x001e2798        0x0 libdns_pic.a(lib.pico)
+ .data          0x001e2798        0x0 libdns_pic.a(ecdb.pico)
+ .data.rel.local
+                0x001e2798       0xfc libdns_pic.a(ecdb.pico)
+ .data          0x001e2894        0x4 libdns_pic.a(resolver.pico)
+ .data          0x001e2898      0x936 libdns_pic.a(rootns.pico)
+ *fill*         0x001e31ce        0x2 
+ .data          0x001e31d0        0x0 libdns_pic.a(peer.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(forward.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(dispatch.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(cache.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(adb.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(acl.pico)
+ .data          0x001e31d0        0x0 libdns_pic.a(tcpmsg.pico)
+ .data          0x001e31d0        0x4 libdns_pic.a(iptable.pico)
+                0x001e31d0                dns_iptable_pos
+ .data          0x001e31d4        0x0 libdns_pic.a(rdataslab.pico)
+ .data.rel.local
+                0x001e31d4       0x40 libdns_pic.a(rdataslab.pico)
+ .data          0x001e3214        0x0 libdns_pic.a(rdatasetiter.pico)
+ .data          0x001e3214        0x0 libdns_pic.a(rdataset.pico)
+ .data.rel.local
+                0x001e3214       0x40 libdns_pic.a(rdataset.pico)
+ .data          0x001e3254        0x0 libdns_pic.a(rbtdb64.pico)
+ .data.rel.local
+                0x001e3254      0x1cc libdns_pic.a(rbtdb64.pico)
+ .data          0x001e3420        0x0 libdns_pic.a(rbtdb.pico)
+ .data.rel.local
+                0x001e3420      0x1cc libdns_pic.a(rbtdb.pico)
+ .data          0x001e35ec        0x0 libdns_pic.a(stats.pico)
+ .data.rel.local
+                0x001e35ec       0x20 libdns_pic.a(stats.pico)
+                0x001e35ec                dns_statscounter_names
+ .data          0x001e360c        0x0 libdns_pic.a(rbt.pico)
+ .data          0x001e360c        0x0 libdns_pic.a(nsec3.pico)
+ .data          0x001e360c        0x0 libdns_pic.a(nsec.pico)
+ .data          0x001e360c        0x0 libdns_pic.a(acache.pico)
+ .data          0x001e360c        0x0 libdns_pic.a(version.pico)
+ .data          0x001e360c        0x0 libdns_pic.a(ncache.pico)
+ .data.rel.local
+                0x001e360c       0x40 libdns_pic.a(ncache.pico)
+ .data          0x001e364c        0x2 libdns_pic.a(name.pico)
+ *fill*         0x001e364e        0x2 
+ .data.rel.local
+                0x001e3650       0x60 libdns_pic.a(name.pico)
+                0x001e367c                dns_rootname
+                0x001e36ac                dns_wildcardname
+ .data          0x001e36b0        0x0 libdns_pic.a(message.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(dnssec.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(diff.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(masterdump.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(dbiterator.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(db.pico)
+ .data          0x001e36b0        0x0 libdns_pic.a(callbacks.pico)
+ .data          0x001e36b0       0x2a libdns_pic.a(master.pico)
+ *fill*         0x001e36da        0x2 
+ .data          0x001e36dc        0x0 libdns_pic.a(log.pico)
+ .data.rel.local
+                0x001e36dc      0x178 libdns_pic.a(log.pico)
+                0x001e36dc                dns_categories
+                0x001e375c                dns_modules
+ .data          0x001e3854        0x0 libdns_pic.a(rdatalist.pico)
+ .data.rel      0x001e3854       0x40 libdns_pic.a(rdatalist.pico)
+ .data          0x001e3894       0x2a libdns_pic.a(rdata.pico)
+ *fill*         0x001e38be        0x2 
+ .data          0x001e38c0        0x0 libdns_pic.a(rcode.pico)
+ .data.rel.local
+                0x001e38c0      0x378 libdns_pic.a(rcode.pico)
+ .data          0x001e3c38        0x0 libdns_pic.a(compress.pico)
+ .data          0x001e3c38        0x0 libdns_pic.a(ttl.pico)
+ .data          0x001e3c38        0x0 libdns_pic.a(time.pico)
+ .data          0x001e3c38        0x0 /usr/lib/crtendS.o
+ .data          0x001e3c38        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x001e3c38                _edata = .
+                0x001e3c38                PROVIDE (edata, .)
+                0x001e3c38                . = .
+                0x001e3c38                __bss_start = .
+
+.bss            0x001e3c38      0x5a4
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x001e3c38        0x0 /usr/lib/crti.o
+ .bss           0x001e3c38        0x0 /usr/lib/crtbeginS.o
+ .bss           0x001e3c38        0x0 libdns_pic.a(spnego.pico)
+ .bss           0x001e3c38        0x0 libdns_pic.a(gssapi_link.pico)
+ .bss           0x001e3c38        0x0 libdns_pic.a(sdlz.pico)
+ .bss           0x001e3c38        0x0 libdns_pic.a(tkey.pico)
+ .bss           0x001e3c38        0x4 libdns_pic.a(sdb.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(portlist.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(dbtable.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(client.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(clientinfo.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(byaddr.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(lookup.pico)
+ .bss           0x001e3c3c        0x0 libdns_pic.a(tsec.pico)
+ .bss           0x001e3c3c        0x8 libdns_pic.a(opensslgost_link.pico)
+ .bss           0x001e3c44        0x0 libdns_pic.a(opensslecdsa_link.pico)
+ .bss           0x001e3c44        0x0 libdns_pic.a(opensslrsa_link.pico)
+ .bss           0x001e3c44        0x0 libdns_pic.a(openssldsa_link.pico)
+ .bss           0x001e3c44       0x50 libdns_pic.a(openssldh_link.pico)
+ .bss           0x001e3c94       0x10 libdns_pic.a(openssl_link.pico)
+ .bss           0x001e3ca4        0x0 libdns_pic.a(key.pico)
+ .bss           0x001e3ca4        0x0 libdns_pic.a(hmac_link.pico)
+ .bss           0x001e3ca4        0x0 libdns_pic.a(dst_parse.pico)
+ .bss           0x001e3ca4      0x40c libdns_pic.a(dst_api.pico)
+                0x001e3ca4                dst__memory_pool
+ .bss           0x001e40b0        0x1 libdns_pic.a(dst_result.pico)
+ *fill*         0x001e40b1        0x3 
+ .bss           0x001e40b4        0x5 libdns_pic.a(dst_lib.pico)
+                0x001e40b4                dst_msgcat
+ *fill*         0x001e40b9        0x3 
+ .bss           0x001e40bc        0x0 libdns_pic.a(update.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(zt.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(zonekey.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(zone.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(xfrin.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(private.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(timer.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(rriterator.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(keydata.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(journal.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(view.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(rrl.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(request.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(order.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(dns64.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(validator.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(keytable.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(ds.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(tsig.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(ssu.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(gssapictx.pico)
+ .bss           0x001e40bc        0x0 libdns_pic.a(ssu_external.pico)
+ .bss           0x001e40bc       0x18 libdns_pic.a(dlz.pico)
+ .bss           0x001e40d4        0x0 libdns_pic.a(soa.pico)
+ .bss           0x001e40d4        0x0 libdns_pic.a(rpz.pico)
+ .bss           0x001e40d4        0x1 libdns_pic.a(result.pico)
+ *fill*         0x001e40d5        0x3 
+ .bss           0x001e40d8       0x1c libdns_pic.a(lib.pico)
+                0x001e40d8                dns_pps
+                0x001e40dc                dns_msgcat
+ .bss           0x001e40f4        0x0 libdns_pic.a(ecdb.pico)
+ .bss           0x001e40f4        0x4 libdns_pic.a(resolver.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(rootns.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(peer.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(forward.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(dispatch.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(cache.pico)
+ .bss           0x001e40f8        0x0 libdns_pic.a(adb.pico)
+ .bss           0x001e40f8        0x9 libdns_pic.a(acl.pico)
+ *fill*         0x001e4101        0x3 
+ .bss           0x001e4104        0x0 libdns_pic.a(tcpmsg.pico)
+ .bss           0x001e4104        0x4 libdns_pic.a(iptable.pico)
+                0x001e4104                dns_iptable_neg
+ .bss           0x001e4108        0x1 libdns_pic.a(rdataslab.pico)
+ *fill*         0x001e4109        0x3 
+ .bss           0x001e410c        0x0 libdns_pic.a(rdatasetiter.pico)
+ .bss           0x001e410c        0x0 libdns_pic.a(rdataset.pico)
+ .bss           0x001e410c       0x25 libdns_pic.a(rbtdb64.pico)
+ *fill*         0x001e4131        0x3 
+ .bss           0x001e4134       0x25 libdns_pic.a(rbtdb.pico)
+ *fill*         0x001e4159        0x3 
+ .bss           0x001e415c        0x0 libdns_pic.a(stats.pico)
+ .bss           0x001e415c       0x20 libdns_pic.a(rbt.pico)
+ .bss           0x001e417c        0x0 libdns_pic.a(nsec3.pico)
+ .bss           0x001e417c        0x0 libdns_pic.a(nsec.pico)
+ .bss           0x001e417c        0x0 libdns_pic.a(acache.pico)
+ .bss           0x001e417c        0x0 libdns_pic.a(version.pico)
+ .bss           0x001e417c        0x0 libdns_pic.a(ncache.pico)
+ .bss           0x001e417c        0x7 libdns_pic.a(name.pico)
+ *fill*         0x001e4183        0x1 
+ .bss           0x001e4184        0x0 libdns_pic.a(message.pico)
+ .bss           0x001e4184        0x0 libdns_pic.a(dnssec.pico)
+ .bss           0x001e4184        0x0 libdns_pic.a(diff.pico)
+ .bss           0x001e4184        0x0 libdns_pic.a(masterdump.pico)
+ .bss           0x001e4184        0x0 libdns_pic.a(dbiterator.pico)
+ .bss           0x001e4184       0x48 libdns_pic.a(db.pico)
+ .bss           0x001e41cc        0x0 libdns_pic.a(callbacks.pico)
+ .bss           0x001e41cc        0x0 libdns_pic.a(master.pico)
+ .bss           0x001e41cc        0x4 libdns_pic.a(log.pico)
+                0x001e41cc                dns_lctx
+ .bss           0x001e41d0        0x0 libdns_pic.a(rdatalist.pico)
+ .bss           0x001e41d0        0x8 libdns_pic.a(rdata.pico)
+ .bss           0x001e41d8        0x0 libdns_pic.a(rcode.pico)
+ .bss           0x001e41d8        0x0 libdns_pic.a(compress.pico)
+ .bss           0x001e41d8        0x0 libdns_pic.a(ttl.pico)
+ .bss           0x001e41d8        0x0 libdns_pic.a(time.pico)
+ .bss           0x001e41d8        0x0 /usr/lib/crtendS.o
+ .bss           0x001e41d8        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x001e41d8        0x4 libdns_pic.a(dnssec.pico)
+                0x001e41d8                dns_dnssec_stats
+                0x001e41dc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x001e41dc                . = ALIGN (0x4)
+                0x001e41dc                . = ALIGN (0x4)
+                0x001e41dc                _end = .
+                0x001e41dc                PROVIDE (end, .)
+                0x001e41dc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libdns_pic.a(spnego.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libdns_pic.a(gssapi_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(sdlz.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(tkey.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(sdb.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(portlist.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dbtable.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(client.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(clientinfo.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(byaddr.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(lookup.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(tsec.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(opensslgost_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(opensslecdsa_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(opensslrsa_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(openssldsa_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(openssldh_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(openssl_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(key.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(hmac_link.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dst_parse.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dst_api.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dst_result.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dst_lib.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(update.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(zt.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(zonekey.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(zone.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(xfrin.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(private.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(timer.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rriterator.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(keydata.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(journal.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(view.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rrl.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(request.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(order.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dns64.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(validator.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(keytable.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ds.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(tsig.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ssu.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(gssapictx.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ssu_external.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dlz.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(soa.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rpz.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(result.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(lib.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ecdb.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(resolver.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rootns.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(peer.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(forward.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dispatch.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(cache.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(adb.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(acl.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(tcpmsg.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(iptable.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rdataslab.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rdatasetiter.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rdataset.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rbtdb64.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rbtdb.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(stats.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rbt.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(nsec3.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(nsec.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(acache.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(version.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ncache.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(name.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(message.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dnssec.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(diff.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(masterdump.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(dbiterator.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(db.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(callbacks.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(master.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(log.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rdatalist.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rdata.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(rcode.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(compress.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(ttl.pico)
+ .comment       0x00000000       0x30 libdns_pic.a(time.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libdns.so.8.2 elf32-i386-minix)

@@ -1,0 +1,529 @@
+Archive member included because of file (symbol)
+
+libisccc_pic.a(version.pico)  (--whole-archive)
+libisccc_pic.a(result.pico)   (--whole-archive)
+libisccc_pic.a(lib.pico)      (--whole-archive)
+libisccc_pic.a(ccmsg.pico)    (--whole-archive)
+libisccc_pic.a(cc.pico)       (--whole-archive)
+libisccc_pic.a(base64.pico)   (--whole-archive)
+libisccc_pic.a(alist.pico)    (--whole-archive)
+libisccc_pic.a(symtab.pico)   (--whole-archive)
+libisccc_pic.a(sexpr.pico)    (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(version.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(result.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(ccmsg.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(cc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(base64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(alist.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(symtab.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisccc_pic.a(sexpr.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libisccc_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/external/bsd/bind/lib/libisc/libisc.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x380
+ *(.hash)
+ .hash          0x000000f4      0x380 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000474      0x7d0
+ *(.dynsym)
+ .dynsym        0x00000474      0x7d0 /usr/lib/crti.o
+
+.dynstr         0x00000c44      0x8aa
+ *(.dynstr)
+ .dynstr        0x00000c44      0x8aa /usr/lib/crti.o
+
+.gnu.version    0x000014ee        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000014f0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000014f0        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000014f0       0x80
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000014f0        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000014f8       0x30 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00001528       0x48 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001570      0x260
+ *(.rel.plt)
+ .rel.plt       0x00001570      0x260 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000017d0        0xa
+ *(SORT(.init))
+ .init          0x000017d0        0x3 /usr/lib/crti.o
+                0x000017d0                _init
+ .init          0x000017d3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000017d8        0x2 /usr/lib/crtn.o
+
+.plt            0x000017e0      0x4d0
+ *(.plt)
+ .plt           0x000017e0      0x4d0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00001cb0     0x43a0
+                0x00001cb0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00001cb0        0x0 /usr/lib/crti.o
+ .text          0x00001cb0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00001d9f        0x1 
+ .text          0x00001da0        0x0 libisccc_pic.a(version.pico)
+ .text          0x00001da0      0x119 libisccc_pic.a(result.pico)
+                0x00001da0                isccc_result_totext
+                0x00001e30                isccc_result_register
+ *fill*         0x00001eb9        0x7 
+ .text          0x00001ec0       0x42 libisccc_pic.a(lib.pico)
+                0x00001ec0                isccc_lib_initmsgcat
+ *fill*         0x00001f02        0xe 
+ .text          0x00001f10      0x623 libisccc_pic.a(ccmsg.pico)
+                0x00001f10                isccc_ccmsg_init
+                0x00001ff0                isccc_ccmsg_setmaxsize
+                0x00002050                isccc_ccmsg_readmessage
+                0x00002360                isccc_ccmsg_cancelread
+                0x000023d0                isccc_ccmsg_invalidate
+ *fill*         0x00002533        0xd 
+ .text          0x00002540     0x1eb0 libisccc_pic.a(cc.pico)
+                0x00002540                isccc_cc_towire
+                0x00002a50                isccc_cc_fromwire
+                0x00003030                isccc_cc_createmessage
+                0x00003360                isccc_cc_createack
+                0x000035f0                isccc_cc_lookupuint32
+                0x00003670                isccc_cc_lookupstring
+                0x00003710                isccc_cc_definestring
+                0x00003760                isccc_cc_isack
+                0x000037d0                isccc_cc_isreply
+                0x00003840                isccc_cc_createresponse
+                0x00003b30                isccc_cc_defineuint32
+                0x00003bb0                isccc_cc_createsymtab
+                0x00003c20                isccc_cc_cleansymtab
+                0x00003c80                isccc_cc_checkdup
+ .text          0x000043f0       0xed libisccc_pic.a(base64.pico)
+                0x000043f0                isccc_base64_encode
+                0x00004480                isccc_base64_decode
+ *fill*         0x000044dd        0x3 
+ .text          0x000044e0      0x996 libisccc_pic.a(alist.pico)
+                0x000044e0                isccc_alist_create
+                0x00004540                isccc_alist_alistp
+                0x00004590                isccc_alist_emptyp
+                0x00004610                isccc_alist_first
+                0x00004690                isccc_alist_assq
+                0x000047b0                isccc_alist_delete
+                0x00004900                isccc_alist_define
+                0x000049a0                isccc_alist_definestring
+                0x00004a00                isccc_alist_definebinary
+                0x00004a60                isccc_alist_lookup
+                0x00004aa0                isccc_alist_lookupstring
+                0x00004b10                isccc_alist_lookupbinary
+                0x00004b80                isccc_alist_prettyprint
+ *fill*         0x00004e76        0xa 
+ .text          0x00004e80      0xae1 libisccc_pic.a(symtab.pico)
+                0x00004e80                isccc_symtab_create
+                0x00004f90                isccc_symtab_destroy
+                0x00005170                isccc_symtab_lookup
+                0x00005330                isccc_symtab_define
+                0x00005690                isccc_symtab_undefine
+                0x00005870                isccc_symtab_foreach
+ *fill*         0x00005961        0xf 
+ .text          0x00005970      0x6e0 libisccc_pic.a(sexpr.pico)
+                0x00005970                isccc_sexpr_cons
+                0x000059b0                isccc_sexpr_tconst
+                0x000059d0                isccc_sexpr_fromstring
+                0x00005a30                isccc_sexpr_frombinary
+                0x00005ac0                isccc_sexpr_free
+                0x00005b40                isccc_sexpr_print
+                0x00005d30                isccc_sexpr_car
+                0x00005d80                isccc_sexpr_cdr
+                0x00005dd0                isccc_sexpr_setcar
+                0x00005e20                isccc_sexpr_setcdr
+                0x00005e70                isccc_sexpr_addtolist
+                0x00005f30                isccc_sexpr_listp
+                0x00005f50                isccc_sexpr_emptyp
+                0x00005f60                isccc_sexpr_stringp
+                0x00005f80                isccc_sexpr_binaryp
+                0x00005fa0                isccc_sexpr_tostring
+                0x00006000                isccc_sexpr_tobinary
+ .text          0x00006050        0x0 /usr/lib/crtendS.o
+ .text          0x00006050        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00006050        0xa
+ *(SORT(.fini))
+ .fini          0x00006050        0x3 /usr/lib/crti.o
+                0x00006050                _fini
+ .fini          0x00006053        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00006058        0x2 /usr/lib/crtn.o
+                0x0000605a                PROVIDE (__etext, .)
+                0x0000605a                PROVIDE (_etext, .)
+                0x0000605a                PROVIDE (etext, .)
+
+.rodata         0x0000605c      0x806
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000605c       0x18 libisccc_pic.a(version.pico)
+                0x0000605c                isccc_version
+                0x00006068                isccc_libinterface
+                0x0000606c                isccc_librevision
+                0x00006070                isccc_libage
+ .rodata.str1.1
+                0x00006074       0x97 libisccc_pic.a(result.pico)
+ .rodata.str1.1
+                0x0000610b        0xd libisccc_pic.a(lib.pico)
+ .rodata.str1.1
+                0x00006118      0x11b libisccc_pic.a(ccmsg.pico)
+ *fill*         0x00006233        0x1 
+ .rodata        0x00006234       0xe1 libisccc_pic.a(cc.pico)
+ .rodata.str1.1
+                0x00006315      0x146 libisccc_pic.a(cc.pico)
+                                0x14c (size before relaxing)
+ .rodata.str1.1
+                0x0000645b       0xf2 libisccc_pic.a(alist.pico)
+                                0x104 (size before relaxing)
+ .rodata.str1.1
+                0x0000654d      0x1f8 libisccc_pic.a(symtab.pico)
+ *fill*         0x00006745        0x3 
+ .rodata        0x00006748       0x10 libisccc_pic.a(sexpr.pico)
+ .rodata.str1.1
+                0x00006758      0x10a libisccc_pic.a(sexpr.pico)
+                                0x11f (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00006864      0x244
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00006864      0x244 libisccc_pic.a(result.pico)
+
+.eh_frame       0x00006aa8      0x8a4
+ *(.eh_frame)
+ .eh_frame      0x00006aa8       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00006ae4        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00006ae4       0x50 libisccc_pic.a(result.pico)
+ .eh_frame      0x00006b34       0x1c libisccc_pic.a(lib.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00006b50       0xd4 libisccc_pic.a(ccmsg.pico)
+                                 0xec (size before relaxing)
+ .eh_frame      0x00006c24      0x288 libisccc_pic.a(cc.pico)
+                                0x2a0 (size before relaxing)
+ .eh_frame      0x00006eac       0x40 libisccc_pic.a(base64.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00006eec      0x18c libisccc_pic.a(alist.pico)
+                                0x1a4 (size before relaxing)
+ .eh_frame      0x00007078       0xe0 libisccc_pic.a(symtab.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00007158      0x1f0 libisccc_pic.a(sexpr.pico)
+                                0x208 (size before relaxing)
+ .eh_frame      0x00007348        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0000734c       0x18
+ .note.netbsd.ident
+                0x0000734c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00007364       0x14
+ .note.netbsd.pax
+                0x00007364       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00007378                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00008378                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00008378        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00008378        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000837c        0x4 /usr/lib/crtendS.o
+                0x0000837c                __CTOR_LIST_END__
+
+.dtors          0x00008380        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00008380        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00008384        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00008388        0x4
+ *(.jcr)
+ .jcr           0x00008388        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00008388        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000838c       0xc0
+ *(.dynamic)
+ .dynamic       0x0000838c       0xc0 /usr/lib/crti.o
+                0x0000838c                _DYNAMIC
+
+.got            0x0000844c       0x24
+ *(.got)
+ .got           0x0000844c       0x24 /usr/lib/crti.o
+ *(.igot)
+                0x00008470                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00008470      0x13c
+ *(.got.plt)
+ .got.plt       0x00008470      0x13c /usr/lib/crti.o
+                0x00008470                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000085ac       0x90
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000085ac        0x0 /usr/lib/crti.o
+ .data          0x000085ac        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000085ac       0x26 /usr/lib/crtbeginS.o
+                0x000085ac                __dso_handle
+ *fill*         0x000085d2        0x2 
+ .data          0x000085d4        0x0 libisccc_pic.a(version.pico)
+ .data          0x000085d4        0x0 libisccc_pic.a(result.pico)
+ .data.rel.local
+                0x000085d4       0x18 libisccc_pic.a(result.pico)
+ .data          0x000085ec        0x0 libisccc_pic.a(lib.pico)
+ .data          0x000085ec        0x0 libisccc_pic.a(ccmsg.pico)
+ .data          0x000085ec        0x0 libisccc_pic.a(cc.pico)
+ .data          0x000085ec        0x0 libisccc_pic.a(base64.pico)
+ .data          0x000085ec       0x41 libisccc_pic.a(alist.pico)
+ *fill*         0x0000862d        0x3 
+ .data          0x00008630        0x0 libisccc_pic.a(symtab.pico)
+ .data          0x00008630        0xc libisccc_pic.a(sexpr.pico)
+ .data          0x0000863c        0x0 /usr/lib/crtendS.o
+ .data          0x0000863c        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0000863c                _edata = .
+                0x0000863c                PROVIDE (edata, .)
+                0x0000863c                . = .
+                0x0000863c                __bss_start = .
+
+.bss            0x0000863c        0xc
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000863c        0x0 /usr/lib/crti.o
+ .bss           0x0000863c        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0000863c        0x0 libisccc_pic.a(version.pico)
+ .bss           0x0000863c        0x1 libisccc_pic.a(result.pico)
+ *fill*         0x0000863d        0x3 
+ .bss           0x00008640        0x5 libisccc_pic.a(lib.pico)
+                0x00008640                isccc_msgcat
+ *fill*         0x00008645        0x3 
+ .bss           0x00008648        0x0 libisccc_pic.a(ccmsg.pico)
+ .bss           0x00008648        0x0 libisccc_pic.a(cc.pico)
+ .bss           0x00008648        0x0 libisccc_pic.a(base64.pico)
+ .bss           0x00008648        0x0 libisccc_pic.a(alist.pico)
+ .bss           0x00008648        0x0 libisccc_pic.a(symtab.pico)
+ .bss           0x00008648        0x0 libisccc_pic.a(sexpr.pico)
+ .bss           0x00008648        0x0 /usr/lib/crtendS.o
+ .bss           0x00008648        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00008648                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00008648                . = ALIGN (0x4)
+                0x00008648                . = ALIGN (0x4)
+                0x00008648                _end = .
+                0x00008648                PROVIDE (end, .)
+                0x00008648                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libisccc_pic.a(version.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libisccc_pic.a(result.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(lib.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(ccmsg.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(cc.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(base64.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(alist.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(symtab.pico)
+ .comment       0x00000000       0x30 libisccc_pic.a(sexpr.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libisccc.so.8.2 elf32-i386-minix)

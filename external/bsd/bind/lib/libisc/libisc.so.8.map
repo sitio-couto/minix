@@ -1,0 +1,2176 @@
+Archive member included because of file (symbol)
+
+libisc_pic.a(aes.pico)        (--whole-archive)
+libisc_pic.a(thread.pico)     (--whole-archive)
+libisc_pic.a(mutex.pico)      (--whole-archive)
+libisc_pic.a(condition.pico)  (--whole-archive)
+libisc_pic.a(syslog.pico)     (--whole-archive)
+libisc_pic.a(resource.pico)   (--whole-archive)
+libisc_pic.a(os.pico)         (--whole-archive)
+libisc_pic.a(interfaceiter.pico)
+                              (--whole-archive)
+libisc_pic.a(fsaccess.pico)   (--whole-archive)
+libisc_pic.a(version.pico)    (--whole-archive)
+libisc_pic.a(taskpool.pico)   (--whole-archive)
+libisc_pic.a(symtab.pico)     (--whole-archive)
+libisc_pic.a(strtoul.pico)    (--whole-archive)
+libisc_pic.a(serial.pico)     (--whole-archive)
+libisc_pic.a(rwlock.pico)     (--whole-archive)
+libisc_pic.a(region.pico)     (--whole-archive)
+libisc_pic.a(regex.pico)      (--whole-archive)
+libisc_pic.a(ratelimiter.pico)
+                              (--whole-archive)
+libisc_pic.a(radix.pico)      (--whole-archive)
+libisc_pic.a(quota.pico)      (--whole-archive)
+libisc_pic.a(portset.pico)    (--whole-archive)
+libisc_pic.a(pool.pico)       (--whole-archive)
+libisc_pic.a(netscope.pico)   (--whole-archive)
+libisc_pic.a(mutexblock.pico)
+                              (--whole-archive)
+libisc_pic.a(lfsr.pico)       (--whole-archive)
+libisc_pic.a(iterated_hash.pico)
+                              (--whole-archive)
+libisc_pic.a(inet_aton.pico)  (--whole-archive)
+libisc_pic.a(httpd.pico)      (--whole-archive)
+libisc_pic.a(hmacsha.pico)    (--whole-archive)
+libisc_pic.a(hmacmd5.pico)    (--whole-archive)
+libisc_pic.a(hex.pico)        (--whole-archive)
+libisc_pic.a(counter.pico)    (--whole-archive)
+libisc_pic.a(crc64.pico)      (--whole-archive)
+libisc_pic.a(commandline.pico)
+                              (--whole-archive)
+libisc_pic.a(base64.pico)     (--whole-archive)
+libisc_pic.a(base32.pico)     (--whole-archive)
+libisc_pic.a(string.pico)     (--whole-archive)
+libisc_pic.a(sha2.pico)       (--whole-archive)
+libisc_pic.a(safe.pico)       (--whole-archive)
+libisc_pic.a(md5.pico)        (--whole-archive)
+libisc_pic.a(lex.pico)        (--whole-archive)
+libisc_pic.a(parseint.pico)   (--whole-archive)
+libisc_pic.a(msgcat.pico)     (--whole-archive)
+libisc_pic.a(socket.pico)     (--whole-archive)
+libisc_pic.a(net.pico)        (--whole-archive)
+libisc_pic.a(stats.pico)      (--whole-archive)
+libisc_pic.a(sockaddr.pico)   (--whole-archive)
+libisc_pic.a(netaddr.pico)    (--whole-archive)
+libisc_pic.a(hash.pico)       (--whole-archive)
+libisc_pic.a(bufferlist.pico)
+                              (--whole-archive)
+libisc_pic.a(buffer.pico)     (--whole-archive)
+libisc_pic.a(entropy.pico)    (--whole-archive)
+libisc_pic.a(sha1.pico)       (--whole-archive)
+libisc_pic.a(refcount.pico)   (--whole-archive)
+libisc_pic.a(keyboard.pico)   (--whole-archive)
+libisc_pic.a(file.pico)       (--whole-archive)
+libisc_pic.a(random.pico)     (--whole-archive)
+libisc_pic.a(log.pico)        (--whole-archive)
+libisc_pic.a(stdio.pico)      (--whole-archive)
+libisc_pic.a(dir.pico)        (--whole-archive)
+libisc_pic.a(result.pico)     (--whole-archive)
+libisc_pic.a(lib.pico)        (--whole-archive)
+libisc_pic.a(errno2result.pico)
+                              (--whole-archive)
+libisc_pic.a(backtrace.pico)  (--whole-archive)
+libisc_pic.a(backtrace-emptytbl.pico)
+                              (--whole-archive)
+libisc_pic.a(app.pico)        (--whole-archive)
+libisc_pic.a(timer.pico)      (--whole-archive)
+libisc_pic.a(heap.pico)       (--whole-archive)
+libisc_pic.a(time.pico)       (--whole-archive)
+libisc_pic.a(strerror.pico)   (--whole-archive)
+libisc_pic.a(tm.pico)         (--whole-archive)
+libisc_pic.a(task.pico)       (--whole-archive)
+libisc_pic.a(stdtime.pico)    (--whole-archive)
+libisc_pic.a(event.pico)      (--whole-archive)
+libisc_pic.a(mem.pico)        (--whole-archive)
+libisc_pic.a(error.pico)      (--whole-archive)
+libisc_pic.a(bind9.pico)      (--whole-archive)
+libisc_pic.a(ondestroy.pico)  (--whole-archive)
+libisc_pic.a(assertions.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+isc_commandline_argument
+                    0x4               libisc_pic.a(commandline.pico)
+isc_commandline_option
+                    0x4               libisc_pic.a(commandline.pico)
+isc_commandline_progname
+                    0x4               libisc_pic.a(commandline.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(aes.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(thread.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(mutex.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(condition.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(syslog.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(resource.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(os.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(interfaceiter.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(fsaccess.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(version.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(taskpool.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(symtab.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(strtoul.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(serial.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(rwlock.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(region.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(regex.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(ratelimiter.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(radix.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(quota.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(portset.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(pool.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(netscope.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(mutexblock.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(lfsr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(iterated_hash.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(inet_aton.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(httpd.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(hmacsha.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(hmacmd5.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(hex.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(counter.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(crc64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(commandline.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(base64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(base32.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(string.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(sha2.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(safe.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(md5.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(lex.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(parseint.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(msgcat.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(socket.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(net.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(stats.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(sockaddr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(netaddr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(hash.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(bufferlist.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(buffer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(entropy.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(sha1.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(refcount.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(keyboard.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(file.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(random.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(log.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(stdio.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(dir.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(result.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(errno2result.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(backtrace.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(backtrace-emptytbl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(app.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(timer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(heap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(time.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(strerror.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(tm.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(task.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(stdtime.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(event.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(mem.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(error.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(bind9.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(ondestroy.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libisc_pic.a(assertions.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libisc_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4     0x169c
+ *(.hash)
+ .hash          0x000000f4     0x169c /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00001790     0x39c0
+ *(.dynsym)
+ .dynsym        0x00001790     0x39c0 /usr/lib/crti.o
+
+.dynstr         0x00005150     0x4034
+ *(.dynstr)
+ .dynstr        0x00005150     0x4034 /usr/lib/crti.o
+
+.gnu.version    0x00009184        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00009184        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00009184        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00009184      0xb38
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00009184      0x228 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000093ac      0x3d8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00009784      0x258 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000099dc      0x2e0 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00009cbc      0xb28
+ *(.rel.plt)
+ .rel.plt       0x00009cbc      0xb28 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x0000a7f0        0xa
+ *(SORT(.init))
+ .init          0x0000a7f0        0x3 /usr/lib/crti.o
+                0x0000a7f0                _init
+ .init          0x0000a7f3        0x5 /usr/lib/crtbeginS.o
+ .init          0x0000a7f8        0x2 /usr/lib/crtn.o
+
+.plt            0x0000a800     0x1660
+ *(.plt)
+ .plt           0x0000a800     0x1660 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x0000be60    0x3dfa4
+                0x0000be60                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x0000be60        0x0 /usr/lib/crti.o
+ .text          0x0000be60       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000bf4f        0x1 
+ .text          0x0000bf50      0x383 libisc_pic.a(aes.pico)
+                0x0000bf50                isc_aes128_crypt
+                0x0000c080                isc_aes192_crypt
+                0x0000c1b0                isc_aes256_crypt
+ *fill*         0x0000c2d3        0xd 
+ .text          0x0000c2e0        0x5 libisc_pic.a(thread.pico)
+                0x0000c2e0                isc_thread_setconcurrency
+ *fill*         0x0000c2e5        0xb 
+ .text          0x0000c2f0        0x5 libisc_pic.a(mutex.pico)
+ *fill*         0x0000c2f5        0xb 
+ .text          0x0000c300        0x5 libisc_pic.a(condition.pico)
+ *fill*         0x0000c305        0xb 
+ .text          0x0000c310       0xbb libisc_pic.a(syslog.pico)
+                0x0000c310                isc_syslog_facilityfromstring
+ *fill*         0x0000c3cb        0x5 
+ .text          0x0000c3d0      0x284 libisc_pic.a(resource.pico)
+                0x0000c3d0                isc_resource_setlimit
+                0x0000c500                isc_resource_getlimit
+                0x0000c5b0                isc_resource_getcurlimit
+ *fill*         0x0000c654        0xc 
+ .text          0x0000c660       0x75 libisc_pic.a(os.pico)
+                0x0000c660                isc_os_ncpus
+ *fill*         0x0000c6d5        0xb 
+ .text          0x0000c6e0      0x7d1 libisc_pic.a(interfaceiter.pico)
+                0x0000c6e0                isc_interfaceiter_create
+                0x0000c8d0                isc_interfaceiter_current
+                0x0000c940                isc_interfaceiter_first
+                0x0000cbe0                isc_interfaceiter_next
+                0x0000cc90                isc_interfaceiter_destroy
+ *fill*         0x0000ceb1        0xf 
+ .text          0x0000cec0      0x2dc libisc_pic.a(fsaccess.pico)
+                0x0000cec0                isc_fsaccess_add
+                0x0000cf60                isc_fsaccess_remove
+                0x0000d010                isc_fsaccess_set
+ .text          0x0000d19c        0x0 libisc_pic.a(version.pico)
+ *fill*         0x0000d19c        0x4 
+ .text          0x0000d1a0      0x5b1 libisc_pic.a(taskpool.pico)
+                0x0000d1a0                isc_taskpool_create
+                0x0000d3a0                isc_taskpool_destroy
+                0x0000d460                isc_taskpool_gettask
+                0x0000d4b0                isc_taskpool_size
+                0x0000d500                isc_taskpool_expand
+                0x0000d6d0                isc_taskpool_setprivilege
+ *fill*         0x0000d751        0xf 
+ .text          0x0000d760      0xe13 libisc_pic.a(symtab.pico)
+                0x0000d760                isc_symtab_create
+                0x0000d920                isc_symtab_destroy
+                0x0000dae0                isc_symtab_lookup
+                0x0000dc60                isc_symtab_define
+                0x0000e280                isc_symtab_undefine
+                0x0000e520                isc_symtab_count
+ *fill*         0x0000e573        0xd 
+ .text          0x0000e580      0x1b9 libisc_pic.a(strtoul.pico)
+                0x0000e580                isc_strtoul
+ *fill*         0x0000e739        0x7 
+ .text          0x0000e740       0xd1 libisc_pic.a(serial.pico)
+                0x0000e740                isc_serial_lt
+                0x0000e770                isc_serial_gt
+                0x0000e790                isc_serial_le
+                0x0000e7c0                isc_serial_ge
+                0x0000e7e0                isc_serial_eq
+                0x0000e800                isc_serial_ne
+ *fill*         0x0000e811        0xf 
+ .text          0x0000e820      0x45c libisc_pic.a(rwlock.pico)
+                0x0000e820                isc_rwlock_init
+                0x0000e880                isc_rwlock_lock
+                0x0000e920                isc_rwlock_trylock
+                0x0000e9c0                isc_rwlock_tryupgrade
+                0x0000ea80                isc_rwlock_downgrade
+                0x0000eb40                isc_rwlock_unlock
+                0x0000ec00                isc_rwlock_destroy
+ *fill*         0x0000ec7c        0x4 
+ .text          0x0000ec80       0xbb libisc_pic.a(region.pico)
+                0x0000ec80                isc_region_compare
+ *fill*         0x0000ed3b        0x5 
+ .text          0x0000ed40      0x610 libisc_pic.a(regex.pico)
+                0x0000ed40                isc_regex_validate
+ .text          0x0000f350      0xfc6 libisc_pic.a(ratelimiter.pico)
+                0x0000f350                isc_ratelimiter_create
+                0x0000f770                isc_ratelimiter_setinterval
+                0x0000f890                isc_ratelimiter_setpertic
+                0x0000f8f0                isc_ratelimiter_enqueue
+                0x0000fb10                isc_ratelimiter_dequeue
+                0x0000fca0                isc_ratelimiter_shutdown
+                0x0000fe90                isc_ratelimiter_attach
+                0x0000ffa0                isc_ratelimiter_detach
+                0x000100f0                isc_ratelimiter_stall
+                0x00010210                isc_ratelimiter_release
+ *fill*         0x00010316        0xa 
+ .text          0x00010320     0x173d libisc_pic.a(radix.pico)
+                0x00010320                isc_radix_create
+                0x00010410                isc_radix_destroy
+                0x00010670                isc_radix_process
+                0x00010760                isc_radix_search
+                0x00010a40                isc_radix_insert
+                0x00011620                isc_radix_remove
+ *fill*         0x00011a5d        0x3 
+ .text          0x00011a60      0x4ca libisc_pic.a(quota.pico)
+                0x00011a60                isc_quota_init
+                0x00011a90                isc_quota_destroy
+                0x00011b20                isc_quota_soft
+                0x00011ba0                isc_quota_max
+                0x00011c20                isc_quota_reserve
+                0x00011cc0                isc_quota_release
+                0x00011d60                isc_quota_attach
+                0x00011e50                isc_quota_detach
+ *fill*         0x00011f2a        0x6 
+ .text          0x00011f30      0x42a libisc_pic.a(portset.pico)
+                0x00011f30                isc_portset_create
+                0x00011fd0                isc_portset_destroy
+                0x00012050                isc_portset_isset
+                0x000120b0                isc_portset_nports
+                0x00012100                isc_portset_add
+                0x00012180                isc_portset_remove
+                0x000121c0                isc_portset_addrange
+                0x00012290                isc_portset_removerange
+ *fill*         0x0001235a        0x6 
+ .text          0x00012360      0x67e libisc_pic.a(pool.pico)
+                0x00012360                isc_pool_create
+                0x000125e0                isc_pool_destroy
+                0x000126b0                isc_pool_get
+                0x000126f0                isc_pool_count
+                0x00012740                isc_pool_expand
+ *fill*         0x000129de        0x2 
+ .text          0x000129e0       0x7d libisc_pic.a(netscope.pico)
+                0x000129e0                isc_netscope_pton
+ *fill*         0x00012a5d        0x3 
+ .text          0x00012a60       0x6c libisc_pic.a(mutexblock.pico)
+                0x00012a60                isc_mutexblock_init
+                0x00012aa0                isc_mutexblock_destroy
+ *fill*         0x00012acc        0x4 
+ .text          0x00012ad0      0x455 libisc_pic.a(lfsr.pico)
+                0x00012ad0                isc_lfsr_init
+                0x00012bd0                isc_lfsr_generate
+                0x00012d30                isc_lfsr_skip
+                0x00012de0                isc_lfsr_generate32
+ *fill*         0x00012f25        0xb 
+ .text          0x00012f30       0x94 libisc_pic.a(iterated_hash.pico)
+                0x00012f30                isc_iterated_hash
+ *fill*         0x00012fc4        0xc 
+ .text          0x00012fd0      0x247 libisc_pic.a(inet_aton.pico)
+                0x00012fd0                isc_net_aton
+ *fill*         0x00013217        0x9 
+ .text          0x00013220     0x1e66 libisc_pic.a(httpd.pico)
+                0x00013220                isc_httpdmgr_create
+                0x000138c0                isc_httpdmgr_shutdown
+                0x00013980                isc_httpd_response
+                0x00013b20                isc_httpd_addheader
+                0x00013be0                isc_httpd_endheaders
+                0x00013c50                isc_httpd_addheaderuint
+                0x00013d10                isc_httpdmgr_addurl
+                0x00013d60                isc_httpdmgr_addurl2
+ *fill*         0x00015086        0xa 
+ .text          0x00015090     0x129a libisc_pic.a(hmacsha.pico)
+                0x00015090                isc_hmacsha1_init
+                0x00015280                isc_hmacsha1_invalidate
+                0x000152c0                isc_hmacsha1_update
+                0x000152e0                isc_hmacsha1_sign
+                0x00015450                isc_hmacsha224_init
+                0x00015650                isc_hmacsha224_invalidate
+                0x00015690                isc_hmacsha224_update
+                0x000156b0                isc_hmacsha224_sign
+                0x00015800                isc_hmacsha256_init
+                0x00015a00                isc_hmacsha256_invalidate
+                0x00015a40                isc_hmacsha256_update
+                0x00015a60                isc_hmacsha256_sign
+                0x00015bb0                isc_hmacsha384_init
+                0x00015cc0                isc_hmacsha384_invalidate
+                0x00015d00                isc_hmacsha384_update
+                0x00015d20                isc_hmacsha384_sign
+                0x00015e30                isc_hmacsha512_init
+                0x00015f40                isc_hmacsha512_invalidate
+                0x00015f80                isc_hmacsha512_update
+                0x00015fa0                isc_hmacsha512_sign
+                0x000160b0                isc_hmacsha1_verify
+                0x00016130                isc_hmacsha224_verify
+                0x000161b0                isc_hmacsha256_verify
+                0x00016230                isc_hmacsha384_verify
+                0x000162b0                isc_hmacsha512_verify
+ *fill*         0x0001632a        0x6 
+ .text          0x00016330      0x512 libisc_pic.a(hmacmd5.pico)
+                0x00016330                isc_hmacmd5_init
+                0x00016520                isc_hmacmd5_invalidate
+                0x000165d0                isc_hmacmd5_update
+                0x000165f0                isc_hmacmd5_sign
+                0x00016780                isc_hmacmd5_verify
+                0x000167d0                isc_hmacmd5_verify2
+ *fill*         0x00016842        0xe 
+ .text          0x00016850      0x4e1 libisc_pic.a(hex.pico)
+                0x00016850                isc_hex_totext
+                0x000169e0                isc_hex_tobuffer
+                0x00016bc0                isc_hex_decodestring
+ *fill*         0x00016d31        0xf 
+ .text          0x00016d40      0x4ed libisc_pic.a(counter.pico)
+                0x00016d40                isc_counter_create
+                0x00016e10                isc_counter_increment
+                0x00016ea0                isc_counter_used
+                0x00016f00                isc_counter_setlimit
+                0x00016fb0                isc_counter_attach
+                0x000170d0                isc_counter_detach
+ *fill*         0x0001722d        0x3 
+ .text          0x00017230      0x181 libisc_pic.a(crc64.pico)
+                0x00017230                isc_crc64_init
+                0x00017290                isc_crc64_update
+                0x00017360                isc_crc64_final
+ *fill*         0x000173b1        0xf 
+ .text          0x000173c0      0x282 libisc_pic.a(commandline.pico)
+                0x000173c0                isc_commandline_parse
+ *fill*         0x00017642        0xe 
+ .text          0x00017650      0x716 libisc_pic.a(base64.pico)
+                0x00017650                isc_base64_totext
+                0x000179f0                isc_base64_tobuffer
+                0x00017cc0                isc_base64_decodestring
+ *fill*         0x00017d66        0xa 
+ .text          0x00017d70      0xdb3 libisc_pic.a(base32.pico)
+                0x00017d70                isc_base32_totext
+                0x000181b0                isc_base32hex_totext
+                0x00018200                isc_base32hexnp_totext
+                0x00018250                isc_base32_tobuffer
+                0x000183f0                isc_base32hex_tobuffer
+                0x00018430                isc_base32hexnp_tobuffer
+                0x00018470                isc_base32_decodestring
+                0x00018570                isc_base32hex_decodestring
+                0x00018670                isc_base32hexnp_decodestring
+                0x00018770                isc_base32_decoderegion
+                0x000188c0                isc_base32hex_decoderegion
+                0x00018900                isc_base32hexnp_decoderegion
+ *fill*         0x00018b23        0xd 
+ .text          0x00018b30      0x936 libisc_pic.a(string.pico)
+                0x00018b30                isc_string_touint64
+                0x00018ce0                isc_string_copy
+                0x00018da0                isc_string_copy_truncate
+                0x00018e40                isc_string_append
+                0x00018f40                isc_string_append_truncate
+                0x00019010                isc_string_printf
+                0x000190e0                isc_string_printf_truncate
+                0x00019180                isc_string_regiondup
+                0x00019250                isc_string_separate
+                0x000192d0                isc_string_strlcpy
+                0x00019340                isc_string_strlcat
+                0x000193d0                isc_string_strcasestr
+ *fill*         0x00019466        0xa 
+ .text          0x00019470     0x1ef8 libisc_pic.a(sha2.pico)
+                0x00019470                isc_sha224_init
+                0x000194e0                isc_sha224_invalidate
+                0x00019500                isc_sha224_update
+                0x00019520                isc_sha256_update
+                0x000196e0                isc_sha224_final
+                0x00019740                isc_sha256_final
+                0x00019a70                isc_sha256_init
+                0x00019ae0                isc_sha256_invalidate
+                0x00019b00                isc_sha256_transform
+                0x00019d60                isc_sha512_init
+                0x00019db0                isc_sha512_invalidate
+                0x00019df0                isc_sha512_transform
+                0x0001a2f0                isc_sha512_update
+                0x0001a540                isc_sha512_last
+                0x0001a6c0                isc_sha512_final
+                0x0001a960                isc_sha384_init
+                0x0001a9b0                isc_sha384_invalidate
+                0x0001a9f0                isc_sha384_update
+                0x0001aa10                isc_sha384_final
+                0x0001ac30                isc_sha224_end
+                0x0001ad10                isc_sha224_data
+                0x0001ae80                isc_sha256_end
+                0x0001af30                isc_sha256_data
+                0x0001b030                isc_sha512_end
+                0x0001b0f0                isc_sha512_data
+                0x0001b1d0                isc_sha384_end
+                0x0001b290                isc_sha384_data
+ *fill*         0x0001b368        0x8 
+ .text          0x0001b370       0x3e libisc_pic.a(safe.pico)
+                0x0001b370                isc_safe_memcmp
+ *fill*         0x0001b3ae        0x2 
+ .text          0x0001b3b0      0x9fd libisc_pic.a(md5.pico)
+                0x0001b3b0                isc_md5_init
+                0x0001b3f0                isc_md5_invalidate
+                0x0001b410                isc_md5_update
+                0x0001bc00                isc_md5_final
+ *fill*         0x0001bdad        0x3 
+ .text          0x0001bdb0     0x1e8f libisc_pic.a(lex.pico)
+                0x0001bdb0                isc_lex_create
+                0x0001bf10                isc_lex_destroy
+                0x0001c050                isc_lex_close
+                0x0001c1e0                isc_lex_getcomments
+                0x0001c240                isc_lex_setcomments
+                0x0001c2a0                isc_lex_getspecials
+                0x0001c310                isc_lex_setspecials
+                0x0001c380                isc_lex_openfile
+                0x0001c5c0                isc_lex_openstream
+                0x0001c660                isc_lex_openbuffer
+                0x0001c700                isc_lex_gettoken
+                0x0001d6b0                isc_lex_getmastertoken
+                0x0001d780                isc_lex_ungettoken
+                0x0001d890                isc_lex_getoctaltoken
+                0x0001d930                isc_lex_getlasttokentext
+                0x0001da60                isc_lex_getsourcename
+                0x0001dac0                isc_lex_getsourceline
+                0x0001db20                isc_lex_setsourcename
+                0x0001dbe0                isc_lex_isfile
+ *fill*         0x0001dc3f        0x1 
+ .text          0x0001dc40      0x1b0 libisc_pic.a(parseint.pico)
+                0x0001dc40                isc_parse_uint32
+                0x0001dcc0                isc_parse_uint16
+                0x0001dd60                isc_parse_uint8
+ .text          0x0001ddf0      0x25e libisc_pic.a(msgcat.pico)
+                0x0001ddf0                isc_msgcat_open
+                0x0001deb0                isc_msgcat_close
+                0x0001df50                isc_msgcat_get
+ *fill*         0x0001e04e        0x2 
+ .text          0x0001e050     0xb231 libisc_pic.a(socket.pico)
+                0x0001e050                isc__socket_create
+                0x0001e3d0                isc__socket_dup
+                0x0001e480                isc__socket_open
+                0x0001f240                isc__socket_fdwatchcreate
+                0x0001fc80                isc__socket_fdwatchpoke
+                0x0001fdd0                isc__socket_attach
+                0x0001fec0                isc__socket_detach
+                0x00020260                isc__socket_close
+                0x00020910                isc__socketmgr_setreserved
+                0x00020970                isc__socketmgr_maxudp
+                0x000209d0                isc__socketmgr_create
+                0x00020a10                isc__socketmgr_create2
+                0x00020ef0                isc_socketmgr_getmaxsockets
+                0x00020f80                isc_socketmgr_setstats
+                0x00021080                isc__socketmgr_destroy
+                0x00021420                isc__socket_recvv
+                0x00021980                isc__socket_recv
+                0x00021b80                isc__socket_recv2
+                0x00021c20                isc__socket_send
+                0x00021c80                isc__socket_sendto
+                0x000221c0                isc__socket_sendv
+                0x00022220                isc__socket_sendtov2
+                0x00022560                isc__socket_sendtov
+                0x000225c0                isc__socket_sendto2
+                0x000226e0                isc__socket_cleanunix
+                0x00022a40                isc__socket_permunix
+                0x00022c00                isc__socket_bind
+                0x00022f80                isc__socket_filter
+                0x00022fe0                isc__socket_listen
+                0x000231e0                isc__socket_accept
+                0x000237e0                isc__socket_connect
+                0x00023d80                isc__socket_getpeername
+                0x00023ea0                isc__socket_getsockname
+                0x00024020                isc__socket_cancel
+                0x00024530                isc__socket_gettype
+                0x00024590                isc__socket_isbound
+                0x00024650                isc__socket_ipv6only
+                0x000247b0                isc__socket_dscp
+                0x00024a60                isc_socket_socketevent
+                0x00024b20                isc__socketmgr_waitevents
+                0x00024c10                isc__socketmgr_dispatch
+                0x00025420                isc__socket_setname
+                0x00025510                isc__socket_getname
+                0x00025520                isc__socket_gettag
+                0x00025530                isc__socket_register
+                0x000255f0                isc_socket_register
+                0x000256b0                isc__socket_getfd
+                0x000256c0                isc_socketmgr_createinctx
+                0x000257a0                isc_socketmgr_create
+                0x00025880                isc_socketmgr_destroy
+                0x00025930                isc_socket_create
+                0x000259c0                isc_socket_attach
+                0x00025aa0                isc_socket_detach
+                0x00025b50                isc_socket_bind
+                0x00025bc0                isc_socket_sendto
+                0x00025c30                isc_socket_connect
+                0x00025ca0                isc_socket_recv
+                0x00025d10                isc_socket_cancel
+                0x00025d80                isc_socket_getsockname
+                0x00025df0                isc_socket_ipv6only
+                0x00025e60                isc_socket_dscp
+                0x00025ed0                isc_socket_gettype
+                0x00025f70                isc_socket_setname
+                0x00025fd0                isc_socket_fdwatchcreate
+                0x00026040                isc_socket_fdwatchpoke
+                0x000260c0                isc_socket_dup
+                0x000261b0                isc_socket_getfd
+                0x00026220                isc_socket_open
+                0x00026240                isc_socket_close
+                0x00026270                isc_socketmgr_create2
+                0x00026290                isc_socket_recvv
+                0x000262b0                isc_socket_recv2
+                0x00026350                isc_socket_send
+                0x000263b0                isc_socket_sendv
+                0x00026410                isc_socket_sendtov
+                0x00026470                isc_socket_sendtov2
+                0x00026490                isc_socket_sendto2
+                0x000264b0                isc_socket_cleanunix
+                0x000264d0                isc_socket_permunix
+                0x000264f0                isc_socket_filter
+                0x00026550                isc_socket_listen
+                0x00026570                isc_socket_accept
+                0x00026590                isc_socket_getpeername
+ *fill*         0x00029281        0xf 
+ .text          0x00029290     0x12d1 libisc_pic.a(net.pico)
+                0x00029290                isc_net_probeipv4
+                0x000292f0                isc_net_probeipv6
+                0x00029350                isc_net_probeunix
+                0x000293b0                isc_net_probe_ipv6only
+                0x00029630                isc_net_probe_ipv6pktinfo
+                0x000297b0                isc_net_probedscp
+                0x00029c80                isc_net_getudpportrange
+                0x00029ce0                isc_net_disableipv4
+                0x00029d50                isc_net_disableipv6
+                0x00029dc0                isc_net_enableipv4
+                0x00029e30                isc_net_enableipv6
+ *fill*         0x0002a561        0xf 
+ .text          0x0002a570      0x742 libisc_pic.a(stats.pico)
+                0x0002a570                isc_stats_attach
+                0x0002a660                isc_stats_detach
+                0x0002a7f0                isc_stats_ncounters
+                0x0002a850                isc_stats_create
+                0x0002aa10                isc_stats_increment
+                0x0002aab0                isc_stats_decrement
+                0x0002ab50                isc_stats_dump
+                0x0002ac20                isc_stats_set
+ *fill*         0x0002acb2        0xe 
+ .text          0x0002acc0      0xd0f libisc_pic.a(sockaddr.pico)
+                0x0002acc0                isc_sockaddr_equal
+                0x0002ad00                isc_sockaddr_compare
+                0x0002ae50                isc_sockaddr_eqaddr
+                0x0002ae90                isc_sockaddr_eqaddrprefix
+                0x0002aef0                isc_sockaddr_totext
+                0x0002b090                isc_sockaddr_format
+                0x0002b130                isc_sockaddr_hash
+                0x0002b2a0                isc_sockaddr_any
+                0x0002b310                isc_sockaddr_any6
+                0x0002b390                isc_sockaddr_fromin
+                0x0002b400                isc_sockaddr_anyofpf
+                0x0002b4f0                isc_sockaddr_fromin6
+                0x0002b580                isc_sockaddr_v6fromin
+                0x0002b600                isc_sockaddr_pf
+                0x0002b610                isc_sockaddr_fromnetaddr
+                0x0002b700                isc_sockaddr_setport
+                0x0002b790                isc_sockaddr_getport
+                0x0002b820                isc_sockaddr_ismulticast
+                0x0002b870                isc_sockaddr_isexperimental
+                0x0002b8c0                isc_sockaddr_issitelocal
+                0x0002b910                isc_sockaddr_islinklocal
+                0x0002b960                isc_sockaddr_frompath
+ *fill*         0x0002b9cf        0x1 
+ .text          0x0002b9d0      0x9f4 libisc_pic.a(netaddr.pico)
+                0x0002b9d0                isc_netaddr_equal
+                0x0002ba90                isc_netaddr_eqprefix
+                0x0002bbd0                isc_netaddr_totext
+                0x0002bd90                isc_netaddr_format
+                0x0002be50                isc_netaddr_prefixok
+                0x0002bf30                isc_netaddr_masktoprefixlen
+                0x0002bfd0                isc_netaddr_fromin
+                0x0002c000                isc_netaddr_fromin6
+                0x0002c040                isc_netaddr_frompath
+                0x0002c0b0                isc_netaddr_setzone
+                0x0002c100                isc_netaddr_getzone
+                0x0002c110                isc_netaddr_fromsockaddr
+                0x0002c1c0                isc_netaddr_any
+                0x0002c1f0                isc_netaddr_any6
+                0x0002c240                isc_netaddr_ismulticast
+                0x0002c280                isc_netaddr_isexperimental
+                0x0002c2b0                isc_netaddr_islinklocal
+                0x0002c2f0                isc_netaddr_issitelocal
+                0x0002c320                isc_netaddr_fromv4mapped
+ *fill*         0x0002c3c4        0xc 
+ .text          0x0002c3d0      0xc04 libisc_pic.a(hash.pico)
+                0x0002c3d0                isc_hash_ctxcreate
+                0x0002c610                isc_hash_create
+                0x0002c750                isc_hash_ctxinit
+                0x0002c8d0                isc_hash_init
+                0x0002c930                isc_hash_ctxattach
+                0x0002c9f0                isc_hash_ctxdetach
+                0x0002cc60                isc_hash_destroy
+                0x0002cd20                isc_hash_ctxcalc
+                0x0002ce50                isc_hash_calc
+                0x0002cf90                isc__hash_setvec
+ *fill*         0x0002cfd4        0xc 
+ .text          0x0002cfe0      0x11b libisc_pic.a(bufferlist.pico)
+                0x0002cfe0                isc_bufferlist_usedcount
+                0x0002d070                isc_bufferlist_availablecount
+ *fill*         0x0002d0fb        0x5 
+ .text          0x0002d100     0x14fd libisc_pic.a(buffer.pico)
+                0x0002d100                isc__buffer_init
+                0x0002d190                isc__buffer_initnull
+                0x0002d1e0                isc_buffer_reinit
+                0x0002d280                isc__buffer_invalidate
+                0x0002d360                isc__buffer_region
+                0x0002d3f0                isc__buffer_usedregion
+                0x0002d480                isc__buffer_availableregion
+                0x0002d520                isc__buffer_add
+                0x0002d5b0                isc__buffer_subtract
+                0x0002d650                isc__buffer_clear
+                0x0002d6c0                isc__buffer_consumedregion
+                0x0002d750                isc__buffer_remainingregion
+                0x0002d7f0                isc__buffer_activeregion
+                0x0002d890                isc__buffer_setactive
+                0x0002d920                isc__buffer_first
+                0x0002d980                isc__buffer_forward
+                0x0002da10                isc__buffer_back
+                0x0002daa0                isc_buffer_compact
+                0x0002db30                isc_buffer_getuint8
+                0x0002dbc0                isc__buffer_putuint8
+                0x0002dc60                isc_buffer_getuint16
+                0x0002dd10                isc__buffer_putuint16
+                0x0002ddb0                isc__buffer_putuint24
+                0x0002de50                isc_buffer_getuint32
+                0x0002df10                isc__buffer_putuint32
+                0x0002dfc0                isc_buffer_getuint48
+                0x0002e090                isc__buffer_putuint48
+                0x0002e160                isc__buffer_putmem
+                0x0002e210                isc__buffer_putstr
+                0x0002e2f0                isc_buffer_copyregion
+                0x0002e3b0                isc_buffer_allocate
+                0x0002e4b0                isc_buffer_free
+ *fill*         0x0002e5fd        0x3 
+ .text          0x0002e600     0x303c libisc_pic.a(entropy.pico)
+                0x0002e600                isc_entropy_getdata
+                0x0002f6f0                isc_entropy_create
+                0x0002f840                isc_entropy_destroysource
+                0x0002fd30                isc_entropy_createcallbacksource
+                0x00030030                isc_entropy_stopcallbacksources
+                0x00030130                isc_entropy_createsamplesource
+                0x000303d0                isc_entropy_addsample
+                0x00030720                isc_entropy_addcallbacksample
+                0x000307f0                isc_entropy_putdata
+                0x000308d0                isc_entropy_stats
+                0x00030a30                isc_entropy_status
+                0x00030ab0                isc_entropy_attach
+                0x00030ba0                isc_entropy_detach
+                0x00030ce0                isc_entropy_usebestsource
+                0x00030e70                isc_entropy_createfilesource
+ *fill*         0x0003163c        0x4 
+ .text          0x00031640     0x136e libisc_pic.a(sha1.pico)
+                0x00031640                isc_sha1_init
+                0x000316c0                isc_sha1_invalidate
+                0x000316e0                isc_sha1_update
+                0x00032860                isc_sha1_final
+ *fill*         0x000329ae        0x2 
+ .text          0x000329b0       0x4f libisc_pic.a(refcount.pico)
+                0x000329b0                isc_refcount_init
+ *fill*         0x000329ff        0x1 
+ .text          0x00032a00      0x2a2 libisc_pic.a(keyboard.pico)
+                0x00032a00                isc_keyboard_open
+                0x00032b20                isc_keyboard_close
+                0x00032bb0                isc_keyboard_getchar
+                0x00032c90                isc_keyboard_canceled
+ *fill*         0x00032ca2        0xe 
+ .text          0x00032cb0     0x1538 libisc_pic.a(file.pico)
+                0x00032cb0                isc_file_getsizefd
+                0x00032d50                isc_file_mode
+                0x00032e20                isc_file_getmodtime
+                0x00032f00                isc_file_getsize
+                0x00032fd0                isc_file_settime
+                0x000330b0                isc_file_mktemplate
+                0x000330f0                isc_file_template
+                0x00033240                isc_file_renameunique
+                0x00033420                isc_file_openunique
+                0x00033460                isc_file_openuniquemode
+                0x000336c0                isc_file_openuniqueprivate
+                0x00033700                isc_file_bopenunique
+                0x00033740                isc_file_bopenuniqueprivate
+                0x00033780                isc_file_bopenuniquemode
+                0x000337a0                isc_file_remove
+                0x00033820                isc_file_rename
+                0x000338d0                isc_file_exists
+                0x00033960                isc_file_isplainfile
+                0x000339f0                isc_file_isplainfilefd
+                0x00033a80                isc_file_isdirectory
+                0x00033b10                isc_file_isabsolute
+                0x00033b70                isc_file_iscurrentdir
+                0x00033bd0                isc_file_ischdiridempotent
+                0x00033c40                isc_file_basename
+                0x00033cb0                isc_file_progname
+                0x00033d70                isc_file_absolutepath
+                0x00033ea0                isc_file_truncate
+                0x00033f00                isc_file_safecreate
+                0x00034080                isc_file_splitpath
+                0x000341b0                isc_file_mmap
+                0x000341d0                isc_file_munmap
+ *fill*         0x000341e8        0x8 
+ .text          0x000341f0      0x137 libisc_pic.a(random.pico)
+                0x000341f0                isc_random_seed
+                0x00034240                isc_random_get
+                0x000342b0                isc_random_jitter
+ *fill*         0x00034327        0x9 
+ .text          0x00034330     0x3314 libisc_pic.a(log.pico)
+                0x00034330                isc_log_create
+                0x00034520                isc_log_registercategories
+                0x00034600                isc_log_registermodules
+                0x000346e0                isc_logconfig_create
+                0x00034ad0                isc_logconfig_destroy
+                0x00034ee0                isc_log_destroy
+                0x00035100                isc_log_createchannel
+                0x00035430                isc_logconfig_get
+                0x000354b0                isc_logconfig_use
+                0x00035600                isc_log_categorybyname
+                0x000356d0                isc_log_modulebyname
+                0x000357a0                isc_log_usechannel
+                0x00035ac0                isc_log_write
+                0x00036e70                isc_log_vwrite
+                0x00036ee0                isc_log_write1
+                0x00036f50                isc_log_vwrite1
+                0x00036fc0                isc_log_iwrite
+                0x00037030                isc_log_ivwrite
+                0x00037090                isc_log_iwrite1
+                0x00037100                isc_log_ivwrite1
+                0x00037160                isc_log_setcontext
+                0x00037180                isc_log_setdebuglevel
+                0x00037270                isc_log_getdebuglevel
+                0x000372d0                isc_log_setduplicateinterval
+                0x00037330                isc_log_getduplicateinterval
+                0x00037390                isc_log_settag
+                0x000374a0                isc_log_gettag
+                0x00037500                isc_log_opensyslog
+                0x00037520                isc_log_closefilelogs
+                0x00037610                isc_log_wouldlog
+ *fill*         0x00037644        0xc 
+ .text          0x00037650      0x384 libisc_pic.a(stdio.pico)
+                0x00037650                isc_stdio_open
+                0x000376b0                isc_stdio_close
+                0x00037700                isc_stdio_seek
+                0x00037770                isc_stdio_tell
+                0x00037800                isc_stdio_read
+                0x00037890                isc_stdio_write
+                0x00037910                isc_stdio_flush
+                0x00037960                isc_stdio_sync
+ *fill*         0x000379d4        0xc 
+ .text          0x000379e0      0x5d1 libisc_pic.a(dir.pico)
+                0x000379e0                isc_dir_init
+                0x00037a50                isc_dir_open
+                0x00037b70                isc_dir_read
+                0x00037c20                isc_dir_close
+                0x00037c90                isc_dir_reset
+                0x00037d00                isc_dir_chdir
+                0x00037d80                isc_dir_chroot
+                0x00037e10                isc_dir_createunique
+ *fill*         0x00037fb1        0xf 
+ .text          0x00037fc0      0x3ac libisc_pic.a(result.pico)
+                0x00037fc0                isc_result_totext
+                0x00038190                isc_result_register
+ *fill*         0x0003836c        0x4 
+ .text          0x00038370      0x157 libisc_pic.a(lib.pico)
+                0x00038370                isc_lib_initmsgcat
+                0x000383c0                isc_lib_register
+ *fill*         0x000384c7        0x9 
+ .text          0x000384d0      0x113 libisc_pic.a(errno2result.pico)
+                0x000384d0                isc___errno2result
+ *fill*         0x000385e3        0xd 
+ .text          0x000385f0      0x213 libisc_pic.a(backtrace.pico)
+                0x000385f0                isc_backtrace_gettrace
+                0x00038670                isc_backtrace_getsymbolfromindex
+                0x00038720                isc_backtrace_getsymbol
+ *fill*         0x00038803        0x1 
+ .text          0x00038804        0x0 libisc_pic.a(backtrace-emptytbl.pico)
+ *fill*         0x00038804        0xc 
+ .text          0x00038810     0x1d66 libisc_pic.a(app.pico)
+                0x00038810                isc__app_ctxstart
+                0x00038b00                isc__app_start
+                0x00038b50                isc__app_onrun
+                0x00038ba0                isc__app_ctxonrun
+                0x00038c90                isc__nothread_wait_hack
+                0x00038f20                isc__nothread_signal_hack
+                0x00038f80                isc__app_ctxrun
+                0x000391b0                isc__app_run
+                0x000391e0                isc__app_ctxshutdown
+                0x000392e0                isc__app_shutdown
+                0x00039310                isc__app_ctxsuspend
+                0x00039400                isc__app_reload
+                0x00039430                isc__app_ctxfinish
+                0x000394b0                isc__app_finish
+                0x00039540                isc__app_block
+                0x000395d0                isc__app_unblock
+                0x00039660                isc__appctx_create
+                0x00039760                isc__appctx_destroy
+                0x00039810                isc__appctx_settaskmgr
+                0x00039870                isc__appctx_setsocketmgr
+                0x000398d0                isc__appctx_settimermgr
+                0x00039930                isc__app_register
+                0x000399f0                isc_app_register
+                0x00039ab0                isc_appctx_create
+                0x00039b90                isc_appctx_destroy
+                0x00039c90                isc_app_ctxstart
+                0x00039d00                isc_app_ctxrun
+                0x00039d70                isc_app_ctxonrun
+                0x00039de0                isc_app_ctxsuspend
+                0x00039e60                isc_app_ctxshutdown
+                0x00039ee0                isc_app_ctxfinish
+                0x00039fb0                isc_appctx_settaskmgr
+                0x0003a080                isc_appctx_setsocketmgr
+                0x0003a150                isc_appctx_settimermgr
+                0x0003a220                isc_app_start
+                0x0003a290                isc_app_onrun
+                0x0003a2f0                isc_app_run
+                0x0003a330                isc_app_shutdown
+                0x0003a370                isc_app_reload
+                0x0003a3b0                isc_app_finish
+                0x0003a440                isc_app_block
+                0x0003a4e0                isc_app_unblock
+ *fill*         0x0003a576        0xa 
+ .text          0x0003a580     0x1f2b libisc_pic.a(timer.pico)
+                0x0003a580                isc__timer_create
+                0x0003ac30                isc__timer_reset
+                0x0003af90                isc_timer_gettype
+                0x0003b040                isc__timer_touch
+                0x0003b140                isc__timer_attach
+                0x0003b230                isc__timer_detach
+                0x0003b540                isc__timermgr_create
+                0x0003b7f0                isc_timermgr_poke
+                0x0003b800                isc__timermgr_destroy
+                0x0003b9f0                isc__timermgr_dispatch
+                0x0003bdb0                isc__timermgr_nextevent
+                0x0003bdf0                isc__timer_register
+                0x0003beb0                isc_timer_register
+                0x0003bf70                isc_timermgr_createinctx
+                0x0003c050                isc_timermgr_create
+                0x0003c130                isc_timermgr_destroy
+                0x0003c1d0                isc_timer_create
+                0x0003c240                isc_timer_attach
+                0x0003c320                isc_timer_detach
+                0x0003c3d0                isc_timer_reset
+                0x0003c440                isc_timer_touch
+ *fill*         0x0003c4ab        0x5 
+ .text          0x0003c4b0      0x996 libisc_pic.a(heap.pico)
+                0x0003c4b0                isc_heap_create
+                0x0003c5d0                isc_heap_destroy
+                0x0003c6e0                isc_heap_insert
+                0x0003c970                isc_heap_delete
+                0x0003cbc0                isc_heap_increased
+                0x0003cc60                isc_heap_decreased
+                0x0003cd00                isc_heap_element
+                0x0003cd90                isc_heap_foreach
+ *fill*         0x0003ce46        0xa 
+ .text          0x0003ce50      0xf55 libisc_pic.a(time.pico)
+                0x0003ce50                isc_interval_set
+                0x0003cee0                isc_interval_iszero
+                0x0003cf70                isc_time_set
+                0x0003d000                isc_time_settoepoch
+                0x0003d060                isc_time_isepoch
+                0x0003d0f0                isc_time_now
+                0x0003d2d0                isc_time_nowplusinterval
+                0x0003d550                isc_time_compare
+                0x0003d610                isc_time_add
+                0x0003d700                isc_time_subtract
+                0x0003d7e0                isc_time_microdiff
+                0x0003d8f0                isc_time_seconds
+                0x0003d970                isc_time_secondsastimet
+                0x0003da00                isc_time_nanoseconds
+                0x0003da80                isc_time_formattimestamp
+                0x0003db70                isc_time_formathttptimestamp
+                0x0003dc30                isc_time_parsehttptimestamp
+                0x0003dcf0                isc_time_formatISO8601
+ *fill*         0x0003dda5        0xb 
+ .text          0x0003ddb0      0x100 libisc_pic.a(strerror.pico)
+                0x0003ddb0                isc__strerror
+ .text          0x0003deb0      0xf17 libisc_pic.a(tm.pico)
+                0x0003deb0                isc_tm_timegm
+                0x0003dfd0                isc_tm_strptime
+ *fill*         0x0003edc7        0x9 
+ .text          0x0003edd0     0x3e75 libisc_pic.a(task.pico)
+                0x0003edd0                isc__task_create
+                0x0003f050                isc__task_attach
+                0x0003f140                isc__task_detach
+                0x0003f3c0                isc__task_send
+                0x0003f710                isc__task_sendanddetach
+                0x0003f9d0                isc__task_purgerange
+                0x0003fcb0                isc__task_purge
+                0x0003fd40                isc_task_purgeevent
+                0x0003fee0                isc__task_unsendrange
+                0x0003ff30                isc__task_unsend
+                0x0003ff80                isc__task_onshutdown
+                0x00040120                isc__task_shutdown
+                0x00040490                isc__task_destroy
+                0x000405c0                isc_task_shutdown
+                0x00040630                isc_task_detach
+                0x000406e0                isc__task_setname
+                0x000407d0                isc__task_getname
+                0x00040830                isc__task_gettag
+                0x00040890                isc__task_getcurrenttime
+                0x00040970                isc__taskmgr_create
+                0x00040b10                isc__taskmgr_destroy
+                0x00040e70                isc__taskmgr_ready
+                0x00040f10                isc__taskmgr_dispatch
+                0x00041830                isc__taskmgr_setmode
+                0x000418b0                isc__taskmgr_mode
+                0x00041930                isc_taskmgr_setexcltask
+                0x000419e0                isc_taskmgr_excltask
+                0x00041a80                isc__task_beginexclusive
+                0x00041a90                isc__task_endexclusive
+                0x00041aa0                isc__task_setprivilege
+                0x00041c50                isc__task_privilege
+                0x00041cd0                isc__task_register
+                0x00041d90                isc_task_register
+                0x00041e50                isc_task_exiting
+                0x00041eb0                isc_taskmgr_createinctx
+                0x00041f90                isc_taskmgr_create
+                0x00042080                isc_taskmgr_destroy
+                0x00042130                isc_taskmgr_setmode
+                0x00042200                isc_taskmgr_mode
+                0x000422d0                isc_task_create
+                0x00042370                isc_task_attach
+                0x00042450                isc_task_send
+                0x00042530                isc_task_sendanddetach
+                0x00042650                isc_task_unsend
+                0x000426f0                isc_task_onshutdown
+                0x00042760                isc_task_destroy
+                0x00042790                isc_task_setname
+                0x00042800                isc_task_purge
+                0x000428f0                isc_task_beginexclusive
+                0x00042960                isc_task_endexclusive
+                0x000429d0                isc_task_setprivilege
+                0x00042a40                isc_task_privilege
+                0x00042b20                isc_task_getcurrenttime
+                0x00042b50                isc_task_purgerange
+ *fill*         0x00042c45        0xb 
+ .text          0x00042c50      0x182 libisc_pic.a(stdtime.pico)
+                0x00042c50                isc_stdtime_get
+ *fill*         0x00042dd2        0xe 
+ .text          0x00042de0      0x2ba libisc_pic.a(event.pico)
+                0x00042de0                isc_event_allocate
+                0x00042f20                isc_event_constallocate
+                0x00043010                isc_event_free
+ *fill*         0x0004309a        0x6 
+ .text          0x000430a0     0x65cb libisc_pic.a(mem.pico)
+                0x000430a0                isc_mem_createx
+                0x00043100                isc_mem_createx2
+                0x00043590                isc__mem_attach
+                0x00043690                isc__mem_detach
+                0x00043c80                isc___mem_putanddetach
+                0x00044090                isc__mem_free
+                0x000444b0                isc__mem_destroy
+                0x00044780                isc_mem_ondestroy
+                0x00044820                isc___mem_get
+                0x00044aa0                isc__mem_allocate
+                0x00045030                isc___mem_put
+                0x00045390                isc__mem_waterack
+                0x00045470                isc_mem_stats
+                0x000458a0                isc___mem_allocate
+                0x00045bc0                isc___mem_reallocate
+                0x00045e20                isc___mem_free
+                0x00046130                isc___mem_strdup
+                0x00046260                isc__mem_setdestroycheck
+                0x00046320                isc_mem_setquota
+                0x000463e0                isc_mem_getquota
+                0x000464a0                isc__mem_inuse
+                0x00046560                isc__mem_maxinuse
+                0x00046620                isc__mem_total
+                0x000466e0                isc__mem_setwater
+                0x00046860                isc__mem_isovermem
+                0x000468c0                isc_mem_setname
+                0x000469b0                isc_mem_getname
+                0x00046a20                isc_mem_gettag
+                0x00046a80                isc__mempool_create
+                0x00046cd0                isc__mem_get
+                0x00046d40                isc__mempool_setname
+                0x00046e50                isc__mempool_destroy
+                0x000473b0                isc__mem_put
+                0x00047420                isc__mempool_associatelock
+                0x000474d0                isc___mempool_get
+                0x000477f0                isc___mempool_put
+                0x00047bd0                isc__mempool_setfreemax
+                0x00047ca0                isc_mempool_getfreemax
+                0x00047d60                isc_mempool_getfreecount
+                0x00047e20                isc__mempool_setmaxalloc
+                0x00047f20                isc_mempool_getmaxalloc
+                0x00047fe0                isc__mempool_getallocated
+                0x000480a0                isc__mempool_setfillcount
+                0x000481a0                isc_mempool_getfillcount
+                0x00048260                isc__mem_register
+                0x00048350                isc_mem_register
+                0x00048440                isc_mem_create2
+                0x000484a0                isc__mem_printactive
+                0x00048530                isc_mem_printallactive
+                0x00048630                isc_mem_checkdestroyed
+                0x00048770                isc_mem_references
+                0x00048830                isc__mem_create2
+                0x00048900                isc_mem_create
+                0x00048a80                isc_mem_attach
+                0x00048b60                isc_mem_detach
+                0x00048c10                isc_mem_destroy
+                0x00048cc0                isc_mem_setdestroycheck
+                0x00048d20                isc_mem_setwater
+                0x00048d90                isc_mem_waterack
+                0x00048e00                isc_mem_inuse
+                0x00048e70                isc_mem_maxinuse
+                0x00048ee0                isc_mem_total
+                0x00048f50                isc_mem_isovermem
+                0x00048ff0                isc_mempool_create
+                0x00049050                isc_mempool_destroy
+                0x00049100                isc_mempool_getallocated
+                0x00049170                isc_mempool_setmaxalloc
+                0x000491e0                isc_mempool_setfreemax
+                0x00049250                isc_mempool_setname
+                0x000492c0                isc_mempool_associatelock
+                0x000493c0                isc_mempool_setfillcount
+                0x00049430                isc__mem_putanddetach
+                0x000494b0                isc__mem_reallocate
+                0x00049520                isc__mem_strdup
+                0x00049590                isc__mempool_get
+                0x00049600                isc__mempool_put
+ *fill*         0x0004966b        0x5 
+ .text          0x00049670      0x276 libisc_pic.a(error.pico)
+                0x00049670                isc_error_setunexpected
+                0x00049720                isc_error_setfatal
+                0x00049800                isc_error_unexpected
+                0x00049840                isc_error_fatal
+                0x00049880                isc_error_runtimecheck
+ *fill*         0x000498e6        0x2 
+ .text          0x000498e8        0x0 libisc_pic.a(bind9.pico)
+ *fill*         0x000498e8        0x8 
+ .text          0x000498f0      0x2a1 libisc_pic.a(ondestroy.pico)
+                0x000498f0                isc_ondestroy_init
+                0x00049910                isc_ondestroy_register
+                0x00049a40                isc_ondestroy_notify
+ *fill*         0x00049b91        0xf 
+ .text          0x00049ba0      0x264 libisc_pic.a(assertions.pico)
+                0x00049ba0                isc_assertion_failed
+                0x00049be0                isc_assertion_setcallback
+                0x00049de0                isc_assertion_typetotext
+ .text          0x00049e04        0x0 /usr/lib/crtendS.o
+ .text          0x00049e04        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00049e10        0xa
+ *(SORT(.fini))
+ .fini          0x00049e10        0x3 /usr/lib/crti.o
+                0x00049e10                _fini
+ .fini          0x00049e13        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00049e18        0x2 /usr/lib/crtn.o
+                0x00049e1a                PROVIDE (__etext, .)
+                0x00049e1a                PROVIDE (_etext, .)
+                0x00049e1a                PROVIDE (etext, .)
+
+.rodata         0x00049e20     0xa6ff
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00049e20      0x142 libisc_pic.a(aes.pico)
+ .rodata.str1.1
+                0x00049f62       0xd5 libisc_pic.a(syslog.pico)
+                                 0xdc (size before relaxing)
+ .rodata.str1.1
+                0x0004a037       0x90 libisc_pic.a(resource.pico)
+ *fill*         0x0004a0c7        0x9 
+ .rodata        0x0004a0d0       0x24 libisc_pic.a(resource.pico)
+ .rodata.str1.1
+                0x0004a0f4        0x8 libisc_pic.a(os.pico)
+ .rodata.str1.1
+                0x0004a0fc      0x192 libisc_pic.a(interfaceiter.pico)
+                                0x1a8 (size before relaxing)
+ .rodata.str1.1
+                0x0004a28e       0xa1 libisc_pic.a(fsaccess.pico)
+ *fill*         0x0004a32f        0x1 
+ .rodata        0x0004a330       0x18 libisc_pic.a(version.pico)
+                0x0004a330                isc_version
+                0x0004a33c                isc_libinterface
+                0x0004a340                isc_librevision
+                0x0004a344                isc_libage
+ .rodata.str1.1
+                0x0004a348       0xbf libisc_pic.a(taskpool.pico)
+ .rodata.str1.1
+                0x0004a407      0x27e libisc_pic.a(symtab.pico)
+                                0x292 (size before relaxing)
+ .rodata.str1.1
+                0x0004a685      0x155 libisc_pic.a(rwlock.pico)
+ .rodata.str1.1
+                0x0004a7da       0x55 libisc_pic.a(region.pico)
+ *fill*         0x0004a82f        0x1 
+ .rodata        0x0004a830       0x38 libisc_pic.a(regex.pico)
+ .rodata.str1.1
+                0x0004a868       0x61 libisc_pic.a(regex.pico)
+ *fill*         0x0004a8c9        0x3 
+ .rodata        0x0004a8cc       0x10 libisc_pic.a(ratelimiter.pico)
+ .rodata.str1.1
+                0x0004a8dc      0x3e4 libisc_pic.a(ratelimiter.pico)
+                                0x416 (size before relaxing)
+ .rodata.str1.1
+                0x0004acc0      0x33d libisc_pic.a(radix.pico)
+                                0x3b8 (size before relaxing)
+ .rodata.str1.1
+                0x0004affd      0x134 libisc_pic.a(quota.pico)
+ .rodata.str1.1
+                0x0004b131       0xa8 libisc_pic.a(portset.pico)
+ .rodata.str1.1
+                0x0004b1d9       0x2f libisc_pic.a(pool.pico)
+                                 0xb1 (size before relaxing)
+ .rodata.str1.1
+                0x0004b208       0xa8 libisc_pic.a(lfsr.pico)
+                                 0xb2 (size before relaxing)
+ .rodata.str1.1
+                0x0004b2b0      0x547 libisc_pic.a(httpd.pico)
+                                0x59d (size before relaxing)
+ .rodata.str1.1
+                0x0004b7f7       0x69 libisc_pic.a(hmacsha.pico)
+ .rodata.str1.1
+                0x0004b860       0x3d libisc_pic.a(hmacmd5.pico)
+ .rodata        0x0004b89d       0x11 libisc_pic.a(hex.pico)
+ .rodata.str1.1
+                0x0004b8ae       0x3f libisc_pic.a(hex.pico)
+ .rodata.str1.1
+                0x0004b8ed      0x223 libisc_pic.a(counter.pico)
+                                0x2ad (size before relaxing)
+ .rodata.str1.1
+                0x0004bb10       0x43 libisc_pic.a(crc64.pico)
+                                 0x57 (size before relaxing)
+ *fill*         0x0004bb53        0x5 
+ .rodata        0x0004bb58      0x800 libisc_pic.a(crc64.pico)
+ .rodata.str1.1
+                0x0004c358       0xaa libisc_pic.a(commandline.pico)
+ .rodata        0x0004c402       0x42 libisc_pic.a(base64.pico)
+ .rodata.str1.1
+                0x0004c444       0x31 libisc_pic.a(base64.pico)
+                                 0x42 (size before relaxing)
+ *fill*         0x0004c475        0x3 
+ .rodata        0x0004c478       0xa4 libisc_pic.a(base32.pico)
+ .rodata.str1.1
+                0x0004c51c       0x31 libisc_pic.a(base32.pico)
+                                 0x42 (size before relaxing)
+ .rodata.str1.1
+                0x0004c54d       0x51 libisc_pic.a(string.pico)
+                                 0x7b (size before relaxing)
+ *fill*         0x0004c59e        0x2 
+ .rodata        0x0004c5a0      0x440 libisc_pic.a(sha2.pico)
+ .rodata.str1.1
+                0x0004c9e0      0x124 libisc_pic.a(sha2.pico)
+ .rodata        0x0004cb04       0x24 libisc_pic.a(lex.pico)
+ .rodata.str1.1
+                0x0004cb28      0x266 libisc_pic.a(lex.pico)
+                                0x28a (size before relaxing)
+ .rodata.str1.1
+                0x0004cd8e      0x146 libisc_pic.a(msgcat.pico)
+                                0x15a (size before relaxing)
+ .rodata        0x0004ced4      0x260 libisc_pic.a(socket.pico)
+ .rodata.str1.1
+                0x0004d134     0x1a0a libisc_pic.a(socket.pico)
+                               0x1b28 (size before relaxing)
+ .rodata.str1.1
+                0x0004eb3e      0x162 libisc_pic.a(net.pico)
+                                0x1ab (size before relaxing)
+ .rodata.str1.1
+                0x0004eca0      0x229 libisc_pic.a(stats.pico)
+ .rodata.str1.1
+                0x0004eec9       0xd0 libisc_pic.a(sockaddr.pico)
+                                 0xd5 (size before relaxing)
+ .rodata.str1.1
+                0x0004ef99      0x2d3 libisc_pic.a(netaddr.pico)
+                                0x317 (size before relaxing)
+ .rodata        0x0004f26c       0x10 libisc_pic.a(netaddr.pico)
+ .rodata.str1.1
+                0x0004f27c      0x3ac libisc_pic.a(hash.pico)
+                                0x4a9 (size before relaxing)
+ .rodata        0x0004f628      0x100 libisc_pic.a(hash.pico)
+ .rodata.str1.1
+                0x0004f728       0x47 libisc_pic.a(bufferlist.pico)
+                                 0xa1 (size before relaxing)
+ .rodata.str1.1
+                0x0004f76f      0x315 libisc_pic.a(buffer.pico)
+                                0x34d (size before relaxing)
+ .rodata        0x0004fa84       0x34 libisc_pic.a(entropy.pico)
+ .rodata.str1.1
+                0x0004fab8      0x70f libisc_pic.a(entropy.pico)
+                                0x76c (size before relaxing)
+ .rodata.str1.1
+                0x000501c7       0x7e libisc_pic.a(sha1.pico)
+                                 0x94 (size before relaxing)
+ .rodata        0x00050245        0x2 libisc_pic.a(sha1.pico)
+ .rodata.str1.1
+                0x00050247       0x46 libisc_pic.a(refcount.pico)
+ .rodata.str1.1
+                0x0005028d       0x6b libisc_pic.a(keyboard.pico)
+ .rodata.str1.1
+                0x000502f8      0x1ab libisc_pic.a(file.pico)
+                                0x1c3 (size before relaxing)
+ .rodata.str1.1
+                0x000504a3       0x5b libisc_pic.a(random.pico)
+                                 0x6e (size before relaxing)
+ *fill*         0x000504fe        0x2 
+ .rodata        0x00050500       0x28 libisc_pic.a(log.pico)
+ .rodata.str1.1
+                0x00050528      0xadc libisc_pic.a(log.pico)
+                                0xbee (size before relaxing)
+ .rodata.str1.1
+                0x00051004       0x4c libisc_pic.a(stdio.pico)
+ .rodata.str1.1
+                0x00051050      0x156 libisc_pic.a(dir.pico)
+                                0x186 (size before relaxing)
+ .rodata.str1.1
+                0x000511a6      0x4b4 libisc_pic.a(result.pico)
+                                0x4fe (size before relaxing)
+ .rodata.str1.1
+                0x0005165a       0xbc libisc_pic.a(lib.pico)
+ *fill*         0x00051716        0x2 
+ .rodata        0x00051718      0x104 libisc_pic.a(errno2result.pico)
+ .rodata.str1.1
+                0x0005181c       0x2e libisc_pic.a(errno2result.pico)
+ .rodata.str1.1
+                0x0005184a       0x94 libisc_pic.a(backtrace.pico)
+ *fill*         0x000518de        0x2 
+ .rodata        0x000518e0        0x4 libisc_pic.a(backtrace-emptytbl.pico)
+                0x000518e0                isc__backtrace_nsymbols
+ .rodata.str1.1
+                0x00000000        0x1 libisc_pic.a(backtrace-emptytbl.pico)
+ .rodata.str1.1
+                0x000518e4      0x400 libisc_pic.a(app.pico)
+                                0x4ba (size before relaxing)
+ .rodata.str1.1
+                0x00051ce4      0x72e libisc_pic.a(timer.pico)
+                                0x911 (size before relaxing)
+ .rodata.str1.1
+                0x00052412      0x187 libisc_pic.a(heap.pico)
+                                0x19d (size before relaxing)
+ *fill*         0x00052599        0x3 
+ .rodata        0x0005259c       0x10 libisc_pic.a(time.pico)
+ .rodata.str1.1
+                0x000525ac      0x1ec libisc_pic.a(time.pico)
+                                0x248 (size before relaxing)
+ .rodata.str1.1
+                0x00052798       0xac libisc_pic.a(strerror.pico)
+                                 0xc2 (size before relaxing)
+ .rodata        0x00052844      0x180 libisc_pic.a(tm.pico)
+ .rodata.str1.1
+                0x000529c4      0x150 libisc_pic.a(tm.pico)
+                                0x16c (size before relaxing)
+ .rodata.str1.1
+                0x00052b14      0xa19 libisc_pic.a(task.pico)
+                                0xd78 (size before relaxing)
+ .rodata.str1.1
+                0x0005352d       0x6c libisc_pic.a(stdtime.pico)
+                                 0xaa (size before relaxing)
+ .rodata.str1.1
+                0x00053599       0x51 libisc_pic.a(event.pico)
+                                 0x92 (size before relaxing)
+ .rodata.str1.1
+                0x000535ea      0xd48 libisc_pic.a(mem.pico)
+                                0xf6c (size before relaxing)
+ .rodata.str1.1
+                0x00054332       0x35 libisc_pic.a(error.pico)
+                                 0x3c (size before relaxing)
+ .rodata.str1.1
+                0x00054367      0x153 libisc_pic.a(ondestroy.pico)
+                                0x17d (size before relaxing)
+ .rodata.str1.1
+                0x000544ba       0x65 libisc_pic.a(assertions.pico)
+                                 0x6e (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00054520     0x1ac4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00054520     0x1ac4 libisc_pic.a(aes.pico)
+
+.eh_frame       0x00055fe4     0x66c8
+ *(.eh_frame)
+ .eh_frame      0x00055fe4       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00056020        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00056020       0x78 libisc_pic.a(aes.pico)
+ .eh_frame      0x00056098       0x1c libisc_pic.a(thread.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000560b4       0x1c libisc_pic.a(mutex.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000560d0       0x1c libisc_pic.a(condition.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000560ec       0x20 libisc_pic.a(syslog.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0005610c       0x58 libisc_pic.a(resource.pico)
+                                 0x70 (size before relaxing)
+ .eh_frame      0x00056164       0x1c libisc_pic.a(os.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00056180       0xdc libisc_pic.a(interfaceiter.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x0005625c       0x60 libisc_pic.a(fsaccess.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x000562bc       0xdc libisc_pic.a(taskpool.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x00056398       0xbc libisc_pic.a(symtab.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x00056454       0x20 libisc_pic.a(strtoul.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056474       0xa8 libisc_pic.a(serial.pico)
+                                 0xc0 (size before relaxing)
+ .eh_frame      0x0005651c       0xcc libisc_pic.a(rwlock.pico)
+                                 0xe4 (size before relaxing)
+ .eh_frame      0x000565e8       0x20 libisc_pic.a(region.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056608       0x20 libisc_pic.a(regex.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056628      0x178 libisc_pic.a(ratelimiter.pico)
+                                0x190 (size before relaxing)
+ .eh_frame      0x000567a0       0xe0 libisc_pic.a(radix.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00056880       0xf8 libisc_pic.a(quota.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x00056978       0xf4 libisc_pic.a(portset.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x00056a6c       0xbc libisc_pic.a(pool.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x00056b28       0x20 libisc_pic.a(netscope.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056b48       0x38 libisc_pic.a(mutexblock.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00056b80       0x80 libisc_pic.a(lfsr.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00056c00       0x20 libisc_pic.a(iterated_hash.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056c20       0x20 libisc_pic.a(inet_aton.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00056c40      0x220 libisc_pic.a(httpd.pico)
+                                0x238 (size before relaxing)
+ .eh_frame      0x00056e60      0x2fc libisc_pic.a(hmacsha.pico)
+                                0x314 (size before relaxing)
+ .eh_frame      0x0005715c       0xbc libisc_pic.a(hmacmd5.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x00057218       0x60 libisc_pic.a(hex.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00057278       0xbc libisc_pic.a(counter.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x00057334       0x58 libisc_pic.a(crc64.pico)
+                                 0x70 (size before relaxing)
+ .eh_frame      0x0005738c       0x20 libisc_pic.a(commandline.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000573ac       0x80 libisc_pic.a(base64.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0005742c      0x1e8 libisc_pic.a(base32.pico)
+                                0x200 (size before relaxing)
+ .eh_frame      0x00057614      0x180 libisc_pic.a(string.pico)
+                                0x198 (size before relaxing)
+ .eh_frame      0x00057794      0x340 libisc_pic.a(sha2.pico)
+                                0x358 (size before relaxing)
+ .eh_frame      0x00057ad4       0x20 libisc_pic.a(safe.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00057af4       0x98 libisc_pic.a(md5.pico)
+                                 0xb0 (size before relaxing)
+ .eh_frame      0x00057b8c      0x264 libisc_pic.a(lex.pico)
+                                0x27c (size before relaxing)
+ .eh_frame      0x00057df0       0x60 libisc_pic.a(parseint.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00057e50       0x60 libisc_pic.a(msgcat.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00057eb0      0xcb0 libisc_pic.a(socket.pico)
+                                0xcc8 (size before relaxing)
+ .eh_frame      0x00058b60      0x180 libisc_pic.a(net.pico)
+                                0x198 (size before relaxing)
+ .eh_frame      0x00058ce0       0xfc libisc_pic.a(stats.pico)
+                                0x114 (size before relaxing)
+ .eh_frame      0x00058ddc      0x2b4 libisc_pic.a(sockaddr.pico)
+                                0x2cc (size before relaxing)
+ .eh_frame      0x00059090      0x244 libisc_pic.a(netaddr.pico)
+                                0x25c (size before relaxing)
+ .eh_frame      0x000592d4      0x150 libisc_pic.a(hash.pico)
+                                0x168 (size before relaxing)
+ .eh_frame      0x00059424       0x38 libisc_pic.a(bufferlist.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x0005945c      0x3cc libisc_pic.a(buffer.pico)
+                                0x3e4 (size before relaxing)
+ .eh_frame      0x00059828      0x300 libisc_pic.a(entropy.pico)
+                                0x318 (size before relaxing)
+ .eh_frame      0x00059b28       0x98 libisc_pic.a(sha1.pico)
+                                 0xb0 (size before relaxing)
+ .eh_frame      0x00059bc0       0x1c libisc_pic.a(refcount.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00059bdc       0x7c libisc_pic.a(keyboard.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x00059c58      0x3a4 libisc_pic.a(file.pico)
+                                0x3bc (size before relaxing)
+ .eh_frame      0x00059ffc       0x5c libisc_pic.a(random.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x0005a058      0x400 libisc_pic.a(log.pico)
+                                0x418 (size before relaxing)
+ .eh_frame      0x0005a458       0xf0 libisc_pic.a(stdio.pico)
+                                0x108 (size before relaxing)
+ .eh_frame      0x0005a548       0xf0 libisc_pic.a(dir.pico)
+                                0x108 (size before relaxing)
+ .eh_frame      0x0005a638       0x80 libisc_pic.a(result.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0005a6b8       0x38 libisc_pic.a(lib.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x0005a6f0       0x20 libisc_pic.a(errno2result.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0005a710       0x7c libisc_pic.a(backtrace.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x0005a78c      0x54c libisc_pic.a(app.pico)
+                                0x564 (size before relaxing)
+ .eh_frame      0x0005acd8      0x2e4 libisc_pic.a(timer.pico)
+                                0x2fc (size before relaxing)
+ .eh_frame      0x0005afbc      0x134 libisc_pic.a(heap.pico)
+                                0x14c (size before relaxing)
+ .eh_frame      0x0005b0f0      0x220 libisc_pic.a(time.pico)
+                                0x238 (size before relaxing)
+ .eh_frame      0x0005b310       0x20 libisc_pic.a(strerror.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0005b330       0x40 libisc_pic.a(tm.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x0005b370      0x6e4 libisc_pic.a(task.pico)
+                                0x6fc (size before relaxing)
+ .eh_frame      0x0005ba54       0x20 libisc_pic.a(stdtime.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0005ba74       0x80 libisc_pic.a(event.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0005baf4      0xa08 libisc_pic.a(mem.pico)
+                                0xa20 (size before relaxing)
+ .eh_frame      0x0005c4fc       0xd8 libisc_pic.a(error.pico)
+                                 0xf0 (size before relaxing)
+ .eh_frame      0x0005c5d4       0x5c libisc_pic.a(ondestroy.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x0005c630       0x78 libisc_pic.a(assertions.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x0005c6a8        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0005c6ac       0x18
+ .note.netbsd.ident
+                0x0005c6ac       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0005c6c4       0x14
+ .note.netbsd.pax
+                0x0005c6c4       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0005c6d8                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0005d000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0005d000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0005d000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0005d004        0x4 /usr/lib/crtendS.o
+                0x0005d004                __CTOR_LIST_END__
+
+.dtors          0x0005d008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0005d008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0005d00c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0005d010        0x4
+ *(.jcr)
+ .jcr           0x0005d010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0005d010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0005d014      0x170
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0005d014       0xa8 libisc_pic.a(syslog.pico)
+ .data.rel.ro.local
+                0x0005d0bc       0x30 libisc_pic.a(regex.pico)
+ .data.rel.ro.local
+                0x0005d0ec       0x18 libisc_pic.a(log.pico)
+ .data.rel.ro.local
+                0x0005d104        0x8 libisc_pic.a(backtrace-emptytbl.pico)
+                0x0005d104                isc__backtrace_symtable
+ .data.rel.ro.local
+                0x0005d10c        0x8 libisc_pic.a(time.pico)
+                0x0005d10c                isc_interval_zero
+                0x0005d110                isc_time_epoch
+ .data.rel.ro.local
+                0x0005d114       0x60 libisc_pic.a(tm.pico)
+ .data.rel.ro.local
+                0x0005d174       0x10 libisc_pic.a(assertions.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0005d184       0xb8
+ *(.dynamic)
+ .dynamic       0x0005d184       0xb8 /usr/lib/crti.o
+                0x0005d184                _DYNAMIC
+
+.got            0x0005d23c      0x170
+ *(.got)
+ .got           0x0005d23c      0x170 /usr/lib/crti.o
+ *(.igot)
+                0x0005d3ac                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0005d3ac      0x5a0
+ *(.got.plt)
+ .got.plt       0x0005d3ac      0x5a0 /usr/lib/crti.o
+                0x0005d3ac                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0005d94c      0x424
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0005d94c        0x0 /usr/lib/crti.o
+ .data          0x0005d94c        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0005d94c       0x26 /usr/lib/crtbeginS.o
+                0x0005d94c                __dso_handle
+ *fill*         0x0005d972        0x2 
+ .data          0x0005d974        0x0 libisc_pic.a(aes.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(thread.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(mutex.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(condition.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(syslog.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(resource.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(os.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(interfaceiter.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(fsaccess.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(version.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(taskpool.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(symtab.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(strtoul.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(serial.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(rwlock.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(region.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(regex.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(ratelimiter.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(radix.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(quota.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(portset.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(pool.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(netscope.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(mutexblock.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(lfsr.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(iterated_hash.pico)
+ .data          0x0005d974        0x0 libisc_pic.a(inet_aton.pico)
+ .data          0x0005d974       0x26 libisc_pic.a(httpd.pico)
+ *fill*         0x0005d99a        0x2 
+ .data          0x0005d99c        0x0 libisc_pic.a(hmacsha.pico)
+ .data          0x0005d99c        0x0 libisc_pic.a(hmacmd5.pico)
+ .data          0x0005d99c        0x0 libisc_pic.a(hex.pico)
+ .data          0x0005d99c        0x0 libisc_pic.a(counter.pico)
+ .data          0x0005d99c        0x0 libisc_pic.a(crc64.pico)
+ .data          0x0005d99c        0xc libisc_pic.a(commandline.pico)
+                0x0005d99c                isc_commandline_index
+                0x0005d9a0                isc_commandline_errprint
+                0x0005d9a4                isc_commandline_reset
+ .data.rel.local
+                0x0005d9a8        0x4 libisc_pic.a(commandline.pico)
+ .data          0x0005d9ac        0x0 libisc_pic.a(base64.pico)
+ .data          0x0005d9ac        0x0 libisc_pic.a(base32.pico)
+ .data          0x0005d9ac       0x24 libisc_pic.a(string.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(sha2.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(safe.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(md5.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(lex.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(parseint.pico)
+ .data          0x0005d9d0        0x0 libisc_pic.a(msgcat.pico)
+ .data          0x0005d9d0        0x8 libisc_pic.a(socket.pico)
+                0x0005d9d0                isc_dscp_check_value
+ .data.rel      0x0005d9d8       0x78 libisc_pic.a(socket.pico)
+ .data          0x0005da50       0x14 libisc_pic.a(net.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(stats.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(sockaddr.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(netaddr.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(hash.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(bufferlist.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(buffer.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(entropy.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(sha1.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(refcount.pico)
+ .data          0x0005da64        0x0 libisc_pic.a(keyboard.pico)
+ .data          0x0005da64       0x3f libisc_pic.a(file.pico)
+ *fill*         0x0005daa3        0x1 
+ .data          0x0005daa4        0x0 libisc_pic.a(random.pico)
+ .data          0x0005daa4        0x0 libisc_pic.a(log.pico)
+ .data.rel.local
+                0x0005daa4       0x50 libisc_pic.a(log.pico)
+                0x0005daa4                isc_categories
+                0x0005dabc                isc_modules
+ .data          0x0005daf4        0x0 libisc_pic.a(stdio.pico)
+ .data          0x0005daf4        0x0 libisc_pic.a(dir.pico)
+ .data          0x0005daf4        0x0 libisc_pic.a(result.pico)
+ .data.rel.local
+                0x0005daf4       0xfc libisc_pic.a(result.pico)
+ .data          0x0005dbf0        0x0 libisc_pic.a(lib.pico)
+ .data          0x0005dbf0        0x0 libisc_pic.a(errno2result.pico)
+ .data          0x0005dbf0        0x0 libisc_pic.a(backtrace.pico)
+ .data          0x0005dbf0        0x0 libisc_pic.a(backtrace-emptytbl.pico)
+ .data          0x0005dbf0        0x0 libisc_pic.a(app.pico)
+ .data.rel      0x0005dbf0       0x44 libisc_pic.a(app.pico)
+ .data          0x0005dc34        0x0 libisc_pic.a(timer.pico)
+ .data.rel      0x0005dc34       0x20 libisc_pic.a(timer.pico)
+ .data          0x0005dc54        0x0 libisc_pic.a(heap.pico)
+ .data          0x0005dc54        0x0 libisc_pic.a(time.pico)
+ .data          0x0005dc54        0x0 libisc_pic.a(strerror.pico)
+ .data          0x0005dc54        0x0 libisc_pic.a(tm.pico)
+ .data          0x0005dc54        0x0 libisc_pic.a(task.pico)
+ .data.rel      0x0005dc54       0x68 libisc_pic.a(task.pico)
+ .data          0x0005dcbc        0x0 libisc_pic.a(stdtime.pico)
+ .data          0x0005dcbc        0x0 libisc_pic.a(event.pico)
+ .data          0x0005dcbc        0x0 libisc_pic.a(mem.pico)
+ .data.rel      0x0005dcbc       0xa4 libisc_pic.a(mem.pico)
+ .data          0x0005dd60        0x0 libisc_pic.a(error.pico)
+ .data.rel.local
+                0x0005dd60        0x8 libisc_pic.a(error.pico)
+ .data          0x0005dd68        0x4 libisc_pic.a(bind9.pico)
+                0x0005dd68                isc_bind9
+ .data          0x0005dd6c        0x0 libisc_pic.a(ondestroy.pico)
+ .data          0x0005dd6c        0x0 libisc_pic.a(assertions.pico)
+ .data.rel.local
+                0x0005dd6c        0x4 libisc_pic.a(assertions.pico)
+ .data          0x0005dd70        0x0 /usr/lib/crtendS.o
+ .data          0x0005dd70        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0005dd70                _edata = .
+                0x0005dd70                PROVIDE (edata, .)
+                0x0005dd70                . = .
+                0x0005dd70                __bss_start = .
+
+.bss            0x0005dd70      0x114
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0005dd70        0x0 /usr/lib/crti.o
+ .bss           0x0005dd70        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0005dd70        0x0 libisc_pic.a(aes.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(thread.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(mutex.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(condition.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(syslog.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(resource.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(os.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(interfaceiter.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(fsaccess.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(version.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(taskpool.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(symtab.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(strtoul.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(serial.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(rwlock.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(region.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(regex.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(ratelimiter.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(radix.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(quota.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(portset.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(pool.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(netscope.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(mutexblock.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(lfsr.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(iterated_hash.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(inet_aton.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(httpd.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(hmacsha.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(hmacmd5.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(hex.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(counter.pico)
+ .bss           0x0005dd70        0x0 libisc_pic.a(crc64.pico)
+ .bss           0x0005dd70        0x1 libisc_pic.a(commandline.pico)
+ *fill*         0x0005dd71        0x3 
+ .bss           0x0005dd74        0x0 libisc_pic.a(base64.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(base32.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(string.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(sha2.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(safe.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(md5.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(lex.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(parseint.pico)
+ .bss           0x0005dd74        0x0 libisc_pic.a(msgcat.pico)
+ .bss           0x0005dd74       0x21 libisc_pic.a(socket.pico)
+ *fill*         0x0005dd95        0x3 
+ .bss           0x0005dd98        0x8 libisc_pic.a(net.pico)
+ .bss           0x0005dda0        0x0 libisc_pic.a(stats.pico)
+ .bss           0x0005dda0        0x0 libisc_pic.a(sockaddr.pico)
+ .bss           0x0005dda0        0x0 libisc_pic.a(netaddr.pico)
+ .bss           0x0005dda0        0xc libisc_pic.a(hash.pico)
+ .bss           0x0005ddac        0x0 libisc_pic.a(bufferlist.pico)
+ .bss           0x0005ddac        0x0 libisc_pic.a(buffer.pico)
+ .bss           0x0005ddac        0x1 libisc_pic.a(entropy.pico)
+ *fill*         0x0005ddad        0x3 
+ .bss           0x0005ddb0        0x0 libisc_pic.a(sha1.pico)
+ .bss           0x0005ddb0        0x0 libisc_pic.a(refcount.pico)
+ .bss           0x0005ddb0        0x0 libisc_pic.a(keyboard.pico)
+ .bss           0x0005ddb0        0x0 libisc_pic.a(file.pico)
+ .bss           0x0005ddb0        0x1 libisc_pic.a(random.pico)
+ *fill*         0x0005ddb1        0x3 
+ .bss           0x0005ddb4       0x14 libisc_pic.a(log.pico)
+                0x0005ddb4                isc_lctx
+ .bss           0x0005ddc8        0x0 libisc_pic.a(stdio.pico)
+ .bss           0x0005ddc8        0x0 libisc_pic.a(dir.pico)
+ .bss           0x0005ddc8        0xd libisc_pic.a(result.pico)
+ *fill*         0x0005ddd5        0x3 
+ .bss           0x0005ddd8        0x6 libisc_pic.a(lib.pico)
+                0x0005ddd8                isc_msgcat
+ *fill*         0x0005ddde        0x2 
+ .bss           0x0005dde0        0x0 libisc_pic.a(errno2result.pico)
+ .bss           0x0005dde0        0x0 libisc_pic.a(backtrace.pico)
+ .bss           0x0005dde0        0x0 libisc_pic.a(backtrace-emptytbl.pico)
+ .bss           0x0005dde0       0x48 libisc_pic.a(app.pico)
+ .bss           0x0005de28       0x10 libisc_pic.a(timer.pico)
+ .bss           0x0005de38        0x0 libisc_pic.a(heap.pico)
+ .bss           0x0005de38        0x0 libisc_pic.a(time.pico)
+ .bss           0x0005de38        0x8 libisc_pic.a(strerror.pico)
+ .bss           0x0005de40        0x0 libisc_pic.a(tm.pico)
+ .bss           0x0005de40       0x10 libisc_pic.a(task.pico)
+ .bss           0x0005de50        0x0 libisc_pic.a(stdtime.pico)
+ .bss           0x0005de50        0x0 libisc_pic.a(event.pico)
+ .bss           0x0005de50       0x28 libisc_pic.a(mem.pico)
+                0x0005de50                isc_mem_debugging
+ .bss           0x0005de78        0x0 libisc_pic.a(error.pico)
+ .bss           0x0005de78        0x0 libisc_pic.a(bind9.pico)
+ .bss           0x0005de78        0x0 libisc_pic.a(ondestroy.pico)
+ .bss           0x0005de78        0x0 libisc_pic.a(assertions.pico)
+ .bss           0x0005de78        0x0 /usr/lib/crtendS.o
+ .bss           0x0005de78        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0005de78        0xc libisc_pic.a(commandline.pico)
+                0x0005de78                isc_commandline_argument
+                0x0005de7c                isc_commandline_option
+                0x0005de80                isc_commandline_progname
+                0x0005de84                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0005de84                . = ALIGN (0x4)
+                0x0005de84                . = ALIGN (0x4)
+                0x0005de84                _end = .
+                0x0005de84                PROVIDE (end, .)
+                0x0005de84                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libisc_pic.a(aes.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libisc_pic.a(thread.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(mutex.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(condition.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(syslog.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(resource.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(os.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(interfaceiter.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(fsaccess.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(version.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(taskpool.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(symtab.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(strtoul.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(serial.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(rwlock.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(region.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(regex.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(ratelimiter.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(radix.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(quota.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(portset.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(pool.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(netscope.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(mutexblock.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(lfsr.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(iterated_hash.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(inet_aton.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(httpd.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(hmacsha.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(hmacmd5.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(hex.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(counter.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(crc64.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(commandline.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(base64.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(base32.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(string.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(sha2.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(safe.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(md5.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(lex.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(parseint.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(msgcat.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(socket.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(net.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(stats.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(sockaddr.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(netaddr.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(hash.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(bufferlist.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(buffer.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(entropy.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(sha1.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(refcount.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(keyboard.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(file.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(random.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(log.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(stdio.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(dir.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(result.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(lib.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(errno2result.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(backtrace.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(backtrace-emptytbl.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(app.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(timer.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(heap.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(time.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(strerror.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(tm.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(task.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(stdtime.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(event.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(mem.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(error.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(bind9.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(ondestroy.pico)
+ .comment       0x00000000       0x30 libisc_pic.a(assertions.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libisc.so.8.2 elf32-i386-minix)

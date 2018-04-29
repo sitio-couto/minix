@@ -1,0 +1,759 @@
+Archive member included because of file (symbol)
+
+libnetpgpverify_pic.a(rsa.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(libverify.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(bufgap.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(bignum.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(b64.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(zlib.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(bzlib.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(pgpsum.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(misc.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(digest.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(tiger.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(rmd160.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(md5c.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(sha2.pico)
+                              (--whole-archive)
+libnetpgpverify_pic.a(sha1.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(rsa.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(libverify.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(bufgap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(bignum.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(b64.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(zlib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(bzlib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(pgpsum.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(misc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(digest.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(tiger.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(rmd160.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(md5c.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(sha2.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgpverify_pic.a(sha1.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libnetpgpverify_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x6d0
+ *(.hash)
+ .hash          0x000000f4      0x6d0 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000007c4      0xed0
+ *(.dynsym)
+ .dynsym        0x000007c4      0xed0 /usr/lib/crti.o
+
+.dynstr         0x00001694      0xad4
+ *(.dynstr)
+ .dynstr        0x00001694      0xad4 /usr/lib/crti.o
+
+.gnu.version    0x00002168        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00002168        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00002168        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00002168      0x218
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00002168      0x188 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000022f0        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000022f8       0x18 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00002310       0x70 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00002380      0x410
+ *(.rel.plt)
+ .rel.plt       0x00002380      0x410 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00002790        0xa
+ *(SORT(.init))
+ .init          0x00002790        0x3 /usr/lib/crti.o
+                0x00002790                _init
+ .init          0x00002793        0x5 /usr/lib/crtbeginS.o
+ .init          0x00002798        0x2 /usr/lib/crtn.o
+
+.plt            0x000027a0      0x830
+ *(.plt)
+ .plt           0x000027a0      0x830 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00002fd0    0x2b6a8
+                0x00002fd0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00002fd0        0x0 /usr/lib/crti.o
+ .text          0x00002fd0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000030bf        0x1 
+ .text          0x000030c0      0xf3a libnetpgpverify_pic.a(rsa.pico)
+                0x000030c0                RSA_size
+                0x000030f0                DSA_size
+                0x00003120                dsa_verify
+                0x00003560                RSA_new
+                0x00003590                RSA_free
+                0x000035c0                RSA_check_key
+                0x000036c0                RSA_generate_key
+                0x00003700                RSA_public_encrypt
+                0x000038a0                RSA_private_decrypt
+                0x00003a40                RSA_private_encrypt
+                0x00003bb0                RSA_public_decrypt
+                0x00003eb0                DSA_new
+                0x00003ee0                DSA_free
+                0x00003f10                DSA_SIG_new
+                0x00003f40                DSA_SIG_free
+                0x00003f70                DSA_do_sign
+                0x00003fb0                DSA_do_verify
+ *fill*         0x00003ffa        0x6 
+ .text          0x00004000     0x7542 libnetpgpverify_pic.a(libverify.pico)
+                0x00004000                pgpv_close
+                0x000040d0                pgpv_get_entry
+                0x00004570                pgpv_get_cursor_element
+                0x00004590                pgpv_verify
+                0x00005610                pgpv_read_pubring
+                0x00005860                pgpv_read_ssh_pubkeys
+                0x00006770                pgpv_get_verified
+                0x00006890                pgpv_dump
+ *fill*         0x0000b542        0xe 
+ .text          0x0000b550     0x203c libnetpgpverify_pic.a(bufgap.pico)
+                0x0000b550                bufgap_open
+                0x0000b840                bufgap_close
+                0x0000b870                bufgap_forwards
+                0x0000ba60                bufgap_backwards
+                0x0000bcb0                bufgap_seek
+                0x0000cf80                bufgap_getstr
+                0x0000cfa0                bufgap_getbin
+                0x0000d000                bufgap_tell
+                0x0000d0a0                bufgap_size
+                0x0000d0e0                bufgap_insert
+                0x0000d270                bufgap_delete
+                0x0000d340                bufgap_peek
+                0x0000d3e0                bufgap_gettext
+                0x0000d500                bufgap_write
+                0x0000d580                bufgap_dirty
+ *fill*         0x0000d58c        0x4 
+ .text          0x0000d590    0x1268b libnetpgpverify_pic.a(bignum.pico)
+                0x0000d590                BN_bin2bn
+                0x0000d770                BN_new
+                0x0000d7f0                BN_bn2bin
+                0x0000e010                BN_init
+                0x0000e070                BN_copy
+                0x0000e180                BN_dup
+                0x0000e210                BN_swap
+                0x0000e280                BN_lshift
+                0x0000e3a0                BN_lshift1
+                0x0000e490                BN_rshift
+                0x0000e570                BN_rshift1
+                0x0000e610                BN_set_word
+                0x0000e680                BN_add
+                0x0000e760                BN_sub
+                0x0000e840                BN_mul
+                0x000122b0                BN_div
+                0x000135c0                BN_bitop
+                0x000136c0                BN_cmp
+                0x000137e0                BN_free
+                0x00013850                BN_clear
+                0x000138c0                BN_clear_free
+                0x00013930                BN_num_bytes
+                0x00013980                BN_num_bits
+                0x000139c0                BN_set_negative
+                0x000139e0                BN_mod_exp
+                0x00013ec0                BN_mod_inverse
+                0x00015b50                BN_mod_mul
+                0x00015c70                BN_CTX_new
+                0x00015ca0                BN_CTX_init
+                0x00015cf0                BN_CTX_get
+                0x00015da0                BN_CTX_start
+                0x00015df0                BN_CTX_free
+                0x00015e90                BN_CTX_end
+                0x00015f30                BN_bn2hex
+                0x000162e0                BN_bn2dec
+                0x00016310                BN_bn2radix
+                0x00016340                BN_print_fp
+                0x000163a0                BN_is_prime
+                0x00016e20                BN_value_one
+                0x00016e40                BN_hex2bn
+                0x00017070                BN_dec2bn
+                0x000170a0                BN_radix2bn
+                0x000170d0                BN_mod_sub
+                0x00017290                BN_is_bit_set
+                0x000172e0                BN_raise
+                0x000175d0                BN_factorial
+ *fill*         0x0001fc1b        0x5 
+ .text          0x0001fc20      0x417 libnetpgpverify_pic.a(b64.pico)
+                0x0001fc20                b64encode
+                0x0001fe40                b64decode
+                0x00020020                b64_encsize
+ *fill*         0x00020037        0x9 
+ .text          0x00020040     0x2d90 libnetpgpverify_pic.a(zlib.pico)
+                0x00020040                zcalloc
+                0x00020070                zcfree
+                0x000200a0                inflateReset
+                0x00020140                inflatePrime
+                0x00020190                inflateInit2_
+                0x00020310                inflateInit_
+                0x00020350                adler32
+                0x00020630                inflate_table
+                0x00020e10                inflate_fast
+                0x00021510                inflate
+                0x00022870                inflateEnd
+                0x000228e0                inflateSetDictionary
+                0x000229c0                inflateGetHeader
+                0x000229f0                inflateSync
+                0x00022c20                inflateSyncPoint
+                0x00022c50                inflateCopy
+ .text          0x00022dd0     0x4e53 libnetpgpverify_pic.a(bzlib.pico)
+                0x00022dd0                BZ2_bz__AssertH__fail
+                0x00022e50                BZ2_bzlibVersion
+                0x00022e70                BZ2_bzDecompressInit
+                0x00022fd0                BZ2_indexIntoF
+                0x00023020                BZ2_bzDecompress
+                0x000240f0                BZ2_decompress
+                0x000269a0                BZ2_bzDecompressEnd
+                0x00026a40                BZ2_bzReadOpen
+                0x00026c60                BZ2_bzReadClose
+                0x00026d70                BZ2_bzRead
+                0x00026fa0                BZ2_bzReadGetUnused
+                0x00027030                BZ2_bzBuffToBuffDecompress
+                0x00027290                BZ2_bzopen
+                0x00027470                BZ2_bzdopen
+                0x000274b0                BZ2_bzread
+                0x00027510                BZ2_bzflush
+                0x00027520                BZ2_bzclose
+                0x00027580                BZ2_bzerror
+                0x000275c0                BZ2_hbCreateDecodeTables
+                0x00027740                BZ2_hbMakeCodeLengths
+                0x00027bd0                BZ2_hbAssignCodes
+ *fill*         0x00027c23        0xd 
+ .text          0x00027c30      0x49a libnetpgpverify_pic.a(pgpsum.pico)
+                0x00027c30                pgpv_digest_file
+                0x00028010                pgpv_digest_memory
+                0x00028090                pgp_ntoh16
+                0x000280a0                pgp_hton16
+                0x000280b0                pgp_ntoh32
+                0x000280c0                pgp_hton32
+ *fill*         0x000280ca        0x6 
+ .text          0x000280d0      0x267 libnetpgpverify_pic.a(misc.pico)
+                0x000280d0                netpgp_allocate
+                0x000280f0                netpgp_deallocate
+                0x00028110                netpgp_hexdump
+ *fill*         0x00028337        0x9 
+ .text          0x00028340      0x599 libnetpgpverify_pic.a(digest.pico)
+                0x00028340                digest_alg_size
+                0x000283b0                digest_init
+                0x00028510                digest_get_alg
+                0x00028570                digest_update
+                0x00028680                digest_final
+                0x00028780                digest_length
+                0x000287e0                digest_get_prefix
+ *fill*         0x000288d9        0x7 
+ .text          0x000288e0     0x144a libnetpgpverify_pic.a(tiger.pico)
+                0x000288e0                TIGER_Init
+                0x00028960                TIGER2_Init
+                0x000289e0                TIGER_Update
+                0x00029590                TIGER_Final
+                0x000296c0                TIGER_End
+                0x00029900                TIGER_File
+                0x00029b90                TIGER_Data
+ *fill*         0x00029d2a        0x6 
+ .text          0x00029d30     0x1681 libnetpgpverify_pic.a(rmd160.pico)
+                0x00029d30                RMD160Init
+                0x00029d70                RMD160Update
+                0x00029e60                RMD160Transform
+                0x0002b110                RMD160Final
+ *fill*         0x0002b3b1        0xf 
+ .text          0x0002b3c0      0xa65 libnetpgpverify_pic.a(md5c.pico)
+                0x0002b3c0                MD5Init
+                0x0002b400                MD5Update
+                0x0002bc60                MD5Final
+ *fill*         0x0002be25        0xb 
+ .text          0x0002be30     0x1488 libnetpgpverify_pic.a(sha2.pico)
+                0x0002be30                SHA256_Init
+                0x0002beb0                SHA256_Transform
+                0x0002c100                SHA256_Update
+                0x0002c300                SHA256_Final
+                0x0002c580                SHA224_Init
+                0x0002c600                SHA224_Update
+                0x0002c640                SHA224_Transform
+                0x0002c660                SHA224_Final
+                0x0002c690                SHA512_Init
+                0x0002c6f0                SHA512_Transform
+                0x0002cc10                SHA512_Update
+                0x0002cf00                SHA512_Final
+                0x0002d160                SHA384_Init
+                0x0002d1c0                SHA384_Update
+                0x0002d200                SHA384_Transform
+                0x0002d220                SHA384_Final
+ *fill*         0x0002d2b8        0x8 
+ .text          0x0002d2c0     0x13b5 libnetpgpverify_pic.a(sha1.pico)
+                0x0002d2c0                SHA1Transform
+                0x0002e280                SHA1Init
+                0x0002e2c0                SHA1Update
+                0x0002e3c0                SHA1Final
+ *fill*         0x0002e675        0x3 
+ .text          0x0002e678        0x0 /usr/lib/crtendS.o
+ .text          0x0002e678        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0002e680        0xa
+ *(SORT(.fini))
+ .fini          0x0002e680        0x3 /usr/lib/crti.o
+                0x0002e680                _fini
+ .fini          0x0002e683        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0002e688        0x2 /usr/lib/crtn.o
+                0x0002e68a                PROVIDE (__etext, .)
+                0x0002e68a                PROVIDE (_etext, .)
+                0x0002e68a                PROVIDE (etext, .)
+
+.rodata         0x0002e690     0x4f6c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.16
+                0x0002e690      0x1a4 libnetpgpverify_pic.a(rsa.pico)
+ .rodata.str1.1
+                0x0002e834       0x76 libnetpgpverify_pic.a(rsa.pico)
+ *fill*         0x0002e8aa        0x2 
+ .rodata        0x0002e8ac      0x1ec libnetpgpverify_pic.a(libverify.pico)
+ .rodata.str1.1
+                0x0002ea98      0xa0a libnetpgpverify_pic.a(libverify.pico)
+                                0xa5e (size before relaxing)
+ *fill*         0x0002f4a2        0xe 
+ .rodata.str1.16
+                0x0002f4b0      0x252 libnetpgpverify_pic.a(libverify.pico)
+                                0x3a2 (size before relaxing)
+ .rodata.str1.1
+                0x0002f702       0x85 libnetpgpverify_pic.a(bufgap.pico)
+                                 0x87 (size before relaxing)
+ .rodata.str1.1
+                0x0002f787       0x41 libnetpgpverify_pic.a(bignum.pico)
+                                 0x44 (size before relaxing)
+ .rodata        0x0002f7c8      0x440 libnetpgpverify_pic.a(bignum.pico)
+ .rodata.str1.1
+                0x0002fc08       0x92 libnetpgpverify_pic.a(b64.pico)
+ *fill*         0x0002fc9a        0x2 
+ .rodata        0x0002fc9c      0xa26 libnetpgpverify_pic.a(zlib.pico)
+ .rodata.str1.1
+                0x000306c2      0x164 libnetpgpverify_pic.a(zlib.pico)
+ *fill*         0x00030826        0x2 
+ .rodata        0x00030828       0xa4 libnetpgpverify_pic.a(bzlib.pico)
+ .rodata.str1.1
+                0x000308cc      0x6cd libnetpgpverify_pic.a(bzlib.pico)
+ .rodata.str1.1
+                0x00030f99       0x4b libnetpgpverify_pic.a(pgpsum.pico)
+                                 0x4d (size before relaxing)
+ .rodata.str1.1
+                0x00030fe4       0x18 libnetpgpverify_pic.a(misc.pico)
+                                 0x1e (size before relaxing)
+ .rodata        0x00030ffc       0xa0 libnetpgpverify_pic.a(digest.pico)
+ .rodata.str1.1
+                0x0003109c       0x4a libnetpgpverify_pic.a(digest.pico)
+                                 0x5a (size before relaxing)
+ *fill*         0x000310e6        0xa 
+ .rodata.str1.16
+                0x000310f0       0x20 libnetpgpverify_pic.a(digest.pico)
+                                 0x18 (size before relaxing)
+ .rodata.str1.1
+                0x00031110       0x25 libnetpgpverify_pic.a(tiger.pico)
+ *fill*         0x00031135        0x3 
+ .rodata        0x00031138     0x2000 libnetpgpverify_pic.a(tiger.pico)
+ .rodata        0x00033138       0x40 libnetpgpverify_pic.a(rmd160.pico)
+ .rodata        0x00033178       0x40 libnetpgpverify_pic.a(md5c.pico)
+ .rodata        0x000331b8      0x440 libnetpgpverify_pic.a(sha2.pico)
+ .rodata.str1.1
+                0x000335f8        0x2 libnetpgpverify_pic.a(sha1.pico)
+ .rodata        0x000335fa        0x2 libnetpgpverify_pic.a(sha1.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000335fc      0x774
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000335fc      0x774 libnetpgpverify_pic.a(rsa.pico)
+
+.eh_frame       0x00033d70     0x1cd0
+ *(.eh_frame)
+ .eh_frame      0x00033d70       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00033dac        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00033dac      0x230 libnetpgpverify_pic.a(rsa.pico)
+ .eh_frame      0x00033fdc      0x2fc libnetpgpverify_pic.a(libverify.pico)
+                                0x314 (size before relaxing)
+ .eh_frame      0x000342d8      0x1cc libnetpgpverify_pic.a(bufgap.pico)
+                                0x1e4 (size before relaxing)
+ .eh_frame      0x000344a4      0x9cc libnetpgpverify_pic.a(bignum.pico)
+                                0x9e4 (size before relaxing)
+ .eh_frame      0x00034e70       0x5c libnetpgpverify_pic.a(b64.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x00034ecc      0x208 libnetpgpverify_pic.a(zlib.pico)
+                                0x220 (size before relaxing)
+ .eh_frame      0x000350d4      0x2dc libnetpgpverify_pic.a(bzlib.pico)
+                                0x2f4 (size before relaxing)
+ .eh_frame      0x000353b0       0xd0 libnetpgpverify_pic.a(pgpsum.pico)
+                                 0xe8 (size before relaxing)
+ .eh_frame      0x00035480       0x58 libnetpgpverify_pic.a(misc.pico)
+                                 0x70 (size before relaxing)
+ .eh_frame      0x000354d8       0xd8 libnetpgpverify_pic.a(digest.pico)
+                                 0xf0 (size before relaxing)
+ .eh_frame      0x000355b0       0xf8 libnetpgpverify_pic.a(tiger.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x000356a8       0x7c libnetpgpverify_pic.a(rmd160.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x00035724       0x7c libnetpgpverify_pic.a(md5c.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x000357a0      0x220 libnetpgpverify_pic.a(sha2.pico)
+                                0x238 (size before relaxing)
+ .eh_frame      0x000359c0       0x7c libnetpgpverify_pic.a(sha1.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x00035a3c        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00035a40       0x18
+ .note.netbsd.ident
+                0x00035a40       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00035a58       0x14
+ .note.netbsd.pax
+                0x00035a58       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00035a6c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00036a6c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00036a6c        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00036a6c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00036a70        0x4 /usr/lib/crtendS.o
+                0x00036a70                __CTOR_LIST_END__
+
+.dtors          0x00036a74        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00036a74        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00036a78        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00036a7c        0x4
+ *(.jcr)
+ .jcr           0x00036a7c        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00036a7c        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00036a80      0x100
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00036a80       0x70 libnetpgpverify_pic.a(libverify.pico)
+ .data.rel.ro.local
+                0x00036af0       0x10 libnetpgpverify_pic.a(bignum.pico)
+ .data.rel.ro.local
+                0x00036b00       0x40 libnetpgpverify_pic.a(bzlib.pico)
+ .data.rel.ro.local
+                0x00036b40       0x40 libnetpgpverify_pic.a(digest.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00036b80       0xb0
+ *(.dynamic)
+ .dynamic       0x00036b80       0xb0 /usr/lib/crti.o
+                0x00036b80                _DYNAMIC
+
+.got            0x00036c30       0x38
+ *(.got)
+ .got           0x00036c30       0x38 /usr/lib/crti.o
+ *(.igot)
+                0x00036c68                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00036c68      0x214
+ *(.got.plt)
+ .got.plt       0x00036c68      0x214 /usr/lib/crti.o
+                0x00036c68                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00036e80      0xcd0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00036e80        0x0 /usr/lib/crti.o
+ .data          0x00036e80        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00036e80       0x26 /usr/lib/crtbeginS.o
+                0x00036e80                __dso_handle
+ *fill*         0x00036ea6        0x2 
+ .data          0x00036ea8        0x0 libnetpgpverify_pic.a(rsa.pico)
+ .data          0x00036ea8        0x0 libnetpgpverify_pic.a(libverify.pico)
+ .data.rel.local
+                0x00036ea8       0x30 libnetpgpverify_pic.a(libverify.pico)
+ .data          0x00036ed8        0x0 libnetpgpverify_pic.a(bufgap.pico)
+ .data          0x00036ed8        0x4 libnetpgpverify_pic.a(bignum.pico)
+ .data          0x00036edc        0x0 libnetpgpverify_pic.a(b64.pico)
+ .data          0x00036edc        0x0 libnetpgpverify_pic.a(zlib.pico)
+ .data          0x00036edc      0xc00 libnetpgpverify_pic.a(bzlib.pico)
+                0x00036edc                BZ2_rNums
+                0x000376dc                BZ2_crc32Table
+ .data          0x00037adc        0x0 libnetpgpverify_pic.a(pgpsum.pico)
+ .data          0x00037adc        0x0 libnetpgpverify_pic.a(misc.pico)
+ *fill*         0x00037adc        0x4 
+ .data          0x00037ae0       0x70 libnetpgpverify_pic.a(digest.pico)
+ .data          0x00037b50        0x0 libnetpgpverify_pic.a(tiger.pico)
+ .data          0x00037b50        0x0 libnetpgpverify_pic.a(rmd160.pico)
+ .data          0x00037b50        0x0 libnetpgpverify_pic.a(md5c.pico)
+ .data          0x00037b50        0x0 libnetpgpverify_pic.a(sha2.pico)
+ .data          0x00037b50        0x0 libnetpgpverify_pic.a(sha1.pico)
+ .data          0x00037b50        0x0 /usr/lib/crtendS.o
+ .data          0x00037b50        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00037b50                _edata = .
+                0x00037b50                PROVIDE (edata, .)
+                0x00037b50                . = .
+                0x00037b50                __bss_start = .
+
+.bss            0x00037b50        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00037b50        0x0 /usr/lib/crti.o
+ .bss           0x00037b50        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(rsa.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(libverify.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(bufgap.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(bignum.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(b64.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(zlib.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(bzlib.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(pgpsum.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(misc.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(digest.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(tiger.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(rmd160.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(md5c.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(sha2.pico)
+ .bss           0x00037b50        0x0 libnetpgpverify_pic.a(sha1.pico)
+ .bss           0x00037b50        0x0 /usr/lib/crtendS.o
+ .bss           0x00037b50        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00037b50                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00037b50                . = ALIGN (0x4)
+                0x00037b50                . = ALIGN (0x4)
+                0x00037b50                _end = .
+                0x00037b50                PROVIDE (end, .)
+                0x00037b50                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libnetpgpverify_pic.a(rsa.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(libverify.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(bufgap.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(bignum.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(b64.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(zlib.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(bzlib.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(pgpsum.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(misc.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(digest.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(tiger.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(rmd160.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(md5c.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(sha2.pico)
+ .comment       0x00000000       0x30 libnetpgpverify_pic.a(sha1.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libnetpgpverify.so.4.0 elf32-i386-minix)

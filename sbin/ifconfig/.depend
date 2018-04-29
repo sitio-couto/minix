@@ -1,0 +1,812 @@
+af_atalk.d af_atalk.ln af_atalk.o: af_atalk.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netatalk/at.h \
+  /usr/include/netdb.h /usr/include/inttypes.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stddef.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/util.h env.h \
+  /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h af_inetany.h parse.h extern.h util.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/ifaddrs.h prog_ops.h
+af_inet.d af_inet.ln af_inet.o: af_inet.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/netinet/in_var.h \
+  /usr/include/netinet6/in6_var.h /usr/include/sys/callout.h \
+  /usr/include/arpa/inet.h /usr/include/assert.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/ifaddrs.h /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/stdio.h /usr/include/util.h env.h \
+  /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h extern.h util.h parse.h \
+  /usr/include/stddef.h af_inetany.h prog_ops.h
+af_inet6.d af_inet6.ln af_inet6.o: af_inet6.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/netinet/in_var.h \
+  /usr/include/netinet6/in6_var.h /usr/include/sys/callout.h \
+  /usr/include/netinet6/nd6.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/ifaddrs.h \
+  /usr/include/netdb.h /usr/include/inttypes.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/stdio.h \
+  /usr/include/util.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h \
+  extern.h util.h parse.h /usr/include/stddef.h af_inetany.h prog_ops.h
+af_inetany.d af_inetany.ln af_inetany.o: af_inetany.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/netinet/in_var.h \
+  /usr/include/netinet6/in6_var.h /usr/include/sys/callout.h \
+  /usr/include/netinet6/nd6.h /usr/include/arpa/inet.h \
+  /usr/include/assert.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/ifaddrs.h \
+  /usr/include/netdb.h /usr/include/inttypes.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/stdio.h \
+  /usr/include/util.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h \
+  extern.h util.h parse.h /usr/include/stddef.h af_inetany.h prog_ops.h
+af_link.d af_link.ln af_link.o: af_link.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/if_dl.h \
+  /usr/include/assert.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/ifaddrs.h \
+  /usr/include/netdb.h /usr/include/inttypes.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/stdio.h \
+  /usr/include/util.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h \
+  extern.h util.h /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  parse.h /usr/include/stddef.h af_inetany.h
+carp.d carp.ln carp.o: carp.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netinet/ip_carp.h \
+  /usr/include/net/route.h /usr/include/net/radix.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/util.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h \
+  parse.h /usr/include/inttypes.h /usr/include/stddef.h extern.h util.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/ifaddrs.h
+env.d env.ln env.o: env.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/sys/featuretest.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/util.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/net/if.h /usr/include/stdbool.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/queue.h /usr/include/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/include/net/dlt.h /usr/include/net/pfil.h \
+  /usr/include/altq/if_altq.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/net/if_arp.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h util.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/ifaddrs.h parse.h /usr/include/inttypes.h \
+  /usr/include/stddef.h prog_ops.h
+ether.d ether.ln ether.o: ether.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/net/if.h /usr/include/stdbool.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/if_ether.h \
+  /usr/include/net/ethertypes.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/util.h env.h \
+  /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h parse.h /usr/include/inttypes.h \
+  /usr/include/stddef.h extern.h util.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/ifaddrs.h prog_ops.h
+ieee80211.d ieee80211.ln ieee80211.o: ieee80211.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/if_ether.h \
+  /usr/include/net/ethertypes.h /usr/include/net/if_media.h \
+  /usr/include/net/route.h /usr/include/net/radix.h \
+  /usr/include/net80211/ieee80211.h \
+  /usr/include/net80211/ieee80211_ioctl.h \
+  /usr/include/net80211/_ieee80211.h \
+  /usr/include/net80211/ieee80211_crypto.h \
+  /usr/include/net80211/ieee80211_netbsd.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/netdb.h \
+  /usr/include/inttypes.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stddef.h /usr/include/stdlib.h /usr/include/stdio.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/util.h \
+  extern.h /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h util.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/ifaddrs.h parse.h env.h \
+  prog_ops.h
+ifconfig.d ifconfig.ln ifconfig.o: ifconfig.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/queue.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/include/net/dlt.h /usr/include/net/pfil.h \
+  /usr/include/altq/if_altq.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/net/if_arp.h /usr/include/net/if_dl.h \
+  /usr/include/net/if_media.h /usr/include/net/if_ether.h \
+  /usr/include/net/ethertypes.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/netinet/in_var.h \
+  /usr/include/netinet6/in6_var.h /usr/include/sys/callout.h \
+  /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/sys/protosw.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/stddef.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/ifaddrs.h \
+  /usr/include/util.h extern.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h util.h \
+  parse.h media.h env.h prog_ops.h
+ifconfig_hostops.d ifconfig_hostops.ln ifconfig_hostops.o: ifconfig_hostops.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h prog_ops.h
+media.d media.ln media.o: media.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/util.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/queue.h /usr/include/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/include/net/dlt.h /usr/include/net/pfil.h \
+  /usr/include/altq/if_altq.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/net/if_arp.h /usr/include/net/if_dl.h \
+  /usr/include/net/if_media.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h env.h \
+  extern.h util.h /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/ifaddrs.h parse.h /usr/include/inttypes.h \
+  /usr/include/stddef.h media.h prog_ops.h
+parse.d parse.ln parse.o: parse.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/netdb.h /usr/include/machine/endian_machdep.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/param.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/if_dl.h \
+  /usr/include/netatalk/at.h env.h /usr/include/prop/proplib.h \
+  /usr/include/prop/prop_array.h /usr/include/prop/prop_object.h \
+  /usr/include/prop/prop_bool.h /usr/include/prop/prop_data.h \
+  /usr/include/prop/prop_dictionary.h /usr/include/prop/prop_number.h \
+  /usr/include/prop/prop_string.h /usr/include/prop/prop_ingest.h \
+  /usr/include/prop/plistref.h parse.h util.h /usr/include/ifaddrs.h
+pfsync.d pfsync.ln pfsync.o: pfsync.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/route.h \
+  /usr/include/net/radix.h /usr/src/sys/dist/pf/net/pfvar.h \
+  /usr/include/sys/tree.h /usr/include/sys/rwlock.h \
+  /usr/include/machine/rwlock.h /usr/include/x86/rwlock.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/netinet/tcp_fsm.h /usr/src/sys/dist/pf/net/if_pfsync.h \
+  /usr/include/arpa/inet.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/util.h \
+  env.h /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h parse.h /usr/include/inttypes.h \
+  /usr/include/stddef.h extern.h util.h /usr/include/ifaddrs.h
+tunnel.d tunnel.ln tunnel.o: tunnel.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/net/if.h \
+  /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/stdio.h /usr/include/util.h env.h \
+  /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h extern.h util.h /usr/include/ifaddrs.h \
+  parse.h /usr/include/stddef.h
+util.d util.ln util.o: util.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ctype.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/netdb.h \
+  /usr/include/machine/endian_machdep.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/util.h /usr/include/sys/param.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/ifaddrs.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/net/if.h /usr/include/stdbool.h /usr/include/sys/queue.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/net/dlt.h \
+  /usr/include/net/pfil.h /usr/include/altq/if_altq.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/net/if_arp.h /usr/include/net/if_dl.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h env.h \
+  /usr/include/prop/proplib.h /usr/include/prop/prop_array.h \
+  /usr/include/prop/prop_object.h /usr/include/prop/prop_bool.h \
+  /usr/include/prop/prop_data.h /usr/include/prop/prop_dictionary.h \
+  /usr/include/prop/prop_number.h /usr/include/prop/prop_string.h \
+  /usr/include/prop/prop_ingest.h extern.h util.h parse.h prog_ops.h

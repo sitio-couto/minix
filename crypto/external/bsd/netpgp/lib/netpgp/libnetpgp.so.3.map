@@ -1,0 +1,952 @@
+Archive member included because of file (symbol)
+
+libnetpgp_pic.a(netpgp.pico)  (--whole-archive)
+libnetpgp_pic.a(ssh2pgp.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(bufgap.pico)  (--whole-archive)
+libnetpgp_pic.a(writer.pico)  (--whole-archive)
+libnetpgp_pic.a(validate.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(symmetric.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(signature.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(reader.pico)  (--whole-archive)
+libnetpgp_pic.a(packet-show.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(packet-print.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(packet-parse.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(compress.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(openssl_crypto.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(misc.pico)    (--whole-archive)
+libnetpgp_pic.a(keyring.pico)
+                              (--whole-archive)
+libnetpgp_pic.a(crypto.pico)  (--whole-archive)
+libnetpgp_pic.a(create.pico)  (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(netpgp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(ssh2pgp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(bufgap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(writer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(validate.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(symmetric.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(signature.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(reader.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(packet-show.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(packet-print.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(packet-parse.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(compress.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(openssl_crypto.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(misc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(keyring.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(crypto.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libnetpgp_pic.a(create.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libnetpgp_pic.a
+LOAD /usr/src/crypto/external/bsd/netpgp/libmj/libmj.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/lib/libz/libz.so
+LOAD /usr/src/lib/libbz2/libbz2.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0xba8
+ *(.hash)
+ .hash          0x000000f4      0xba8 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000c9c     0x1e10
+ *(.dynsym)
+ .dynsym        0x00000c9c     0x1e10 /usr/lib/crti.o
+
+.dynstr         0x00002aac     0x1dcb
+ *(.dynstr)
+ .dynstr        0x00002aac     0x1dcb /usr/lib/crti.o
+
+.gnu.version    0x00004878        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00004878        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00004878        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00004878      0xa90
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00004878      0x300 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00004b78        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00004b80      0x690 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00005210       0xf8 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00005308      0xbe8
+ *(.rel.plt)
+ .rel.plt       0x00005308      0xbe8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00005ef0        0xa
+ *(SORT(.init))
+ .init          0x00005ef0        0x3 /usr/lib/crti.o
+                0x00005ef0                _init
+ .init          0x00005ef3        0x5 /usr/lib/crtbeginS.o
+ .init          0x00005ef8        0x2 /usr/lib/crtn.o
+
+.plt            0x00005f00     0x17e0
+ *(.plt)
+ .plt           0x00005f00     0x17e0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000076e0    0x2ed38
+                0x000076e0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000076e0        0x0 /usr/lib/crti.o
+ .text          0x000076e0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000077cf        0x1 
+ .text          0x000077d0     0x5d01 libnetpgp_pic.a(netpgp.pico)
+                0x000077d0                netpgp_init
+                0x000086b0                netpgp_getvar
+                0x00008910                netpgp_setvar
+                0x00008c80                netpgp_end
+                0x00008d20                netpgp_list_keys
+                0x00008d90                netpgp_list_keys_json
+                0x00008e80                netpgp_match_keys
+                0x00009170                netpgp_match_keys_json
+                0x00009420                netpgp_match_pubkeys
+                0x000094e0                netpgp_find_key
+                0x00009550                netpgp_get_key
+                0x00009730                netpgp_export_key
+                0x00009820                netpgp_import_key
+                0x00009a00                netpgp_generate_key
+                0x0000a170                netpgp_encrypt_file
+                0x0000a3c0                netpgp_decrypt_file
+                0x0000a590                netpgp_sign_file
+                0x0000aca0                netpgp_verify_file
+                0x0000b130                netpgp_sign_memory
+                0x0000b6b0                netpgp_verify_memory
+                0x0000b8d0                netpgp_encrypt_memory
+                0x0000bb10                netpgp_decrypt_memory
+                0x0000bd80                netpgp_set_debug
+                0x0000bda0                netpgp_get_debug
+                0x0000bdc0                netpgp_get_info
+                0x0000bde0                netpgp_list_packets
+                0x0000bff0                netpgp_unsetvar
+                0x0000c090                netpgp_incvar
+                0x0000c150                netpgp_set_homedir
+                0x0000c290                netpgp_validate_sigs
+                0x0000c2d0                netpgp_format_json
+                0x0000cca0                netpgp_write_sshkey
+ *fill*         0x0000d4d1        0xf 
+ .text          0x0000d4e0      0xe2a libnetpgp_pic.a(ssh2pgp.pico)
+                0x0000d4e0                pgp_ssh2pubkey
+                0x0000de40                pgp_ssh2seckey
+                0x0000e010                pgp_ssh2_readkeys
+ *fill*         0x0000e30a        0x6 
+ .text          0x0000e310     0x203c libnetpgp_pic.a(bufgap.pico)
+                0x0000e310                bufgap_open
+                0x0000e600                bufgap_close
+                0x0000e630                bufgap_forwards
+                0x0000e820                bufgap_backwards
+                0x0000ea70                bufgap_seek
+                0x0000fd40                bufgap_getstr
+                0x0000fd60                bufgap_getbin
+                0x0000fdc0                bufgap_tell
+                0x0000fe60                bufgap_size
+                0x0000fea0                bufgap_insert
+                0x00010030                bufgap_delete
+                0x00010100                bufgap_peek
+                0x000101a0                bufgap_gettext
+                0x000102c0                bufgap_write
+                0x00010340                bufgap_dirty
+ *fill*         0x0001034c        0x4 
+ .text          0x00010350     0x3c37 libnetpgp_pic.a(writer.pico)
+                0x00010350                pgp_write
+                0x00010390                pgp_write_scalar
+                0x00010410                pgp_write_mpi
+                0x00010510                pgp_write_ptag
+                0x00010560                pgp_write_length
+                0x00010690                pgp_writer_info_finalise
+                0x00010700                pgp_writer_info_delete
+                0x00010790                pgp_writer_set
+                0x00010800                pgp_writer_push
+                0x000108d0                pgp_writer_pop
+                0x00010980                pgp_writer_close
+                0x000109c0                pgp_writer_get_arg
+                0x000109d0                pgp_writer_passthrough
+                0x00010a10                pgp_writer_push_clearsigned
+                0x00010f70                pgp_writer_use_armored_sig
+                0x000116d0                pgp_writer_push_armor_msg
+                0x00011a90                pgp_writer_push_armoured
+                0x00011d80                pgp_push_enc_crypt
+                0x000120d0                pgp_push_enc_se_ip
+                0x00012530                pgp_write_se_ip_pktset
+                0x00012900                pgp_writer_set_fd
+                0x00012af0                pgp_writer_set_memory
+                0x00012ba0                pgp_push_checksum_writer
+                0x00012e30                pgp_push_stream_enc_se_ip
+ *fill*         0x00013f87        0x9 
+ .text          0x00013f90     0x1c33 libnetpgp_pic.a(validate.pico)
+                0x00013f90                check_binary_sig
+                0x00014180                pgp_validate_key_cb
+                0x000148e0                validate_data_cb
+                0x00014e40                pgp_keydata_reader_set
+                0x00014fc0                pgp_validate_key_sigs
+                0x00015140                pgp_validate_all_sigs
+                0x00015410                pgp_validate_result_free
+                0x00015490                pgp_validate_file
+                0x000157d0                pgp_validate_mem
+ *fill*         0x00015bc3        0xd 
+ .text          0x00015bd0     0x1679 libnetpgp_pic.a(symmetric.pico)
+                0x00015bd0                pgp_crypt_any
+                0x00015cb0                pgp_block_size
+                0x00015d60                pgp_key_size
+                0x00015e10                pgp_encrypt_init
+                0x00015e70                pgp_decrypt_init
+                0x00015ed0                pgp_decrypt_se
+                0x00015fa0                pgp_encrypt_se
+                0x00016070                pgp_is_sa_supported
+                0x000160e0                pgp_encrypt_se_ip
+                0x00016170                pgp_decrypt_se_ip
+ *fill*         0x00017249        0x7 
+ .text          0x00017250     0x2502 libnetpgp_pic.a(signature.pico)
+                0x00017250                pgp_create_sig_new
+                0x00017280                pgp_create_sig_delete
+                0x000172b0                pgp_check_sig
+                0x00017670                pgp_check_useridcert_sig
+                0x000178f0                pgp_check_userattrcert_sig
+                0x00017a60                pgp_check_subkey_sig
+                0x00017c10                pgp_check_direct_sig
+                0x00017d20                pgp_check_hash_sig
+                0x00017d60                pgp_sig_start_key_sig
+                0x00017fc0                pgp_start_sig
+                0x000180a0                pgp_sig_add_data
+                0x000180b0                pgp_end_hashed_subpkts
+                0x00018130                pgp_write_sig
+                0x00018830                pgp_add_time
+                0x000188c0                pgp_add_issuer_keyid
+                0x00018930                pgp_add_primary_userid
+                0x00018990                pgp_sig_get_hash
+                0x000189a0                pgp_sign_file
+                0x00019020                pgp_sign_buf
+                0x000194b0                pgp_sign_detached
+ *fill*         0x00019752        0xe 
+ .text          0x00019760     0x5494 libnetpgp_pic.a(reader.pico)
+                0x00019760                pgp_getpassphrase
+                0x000197f0                pgp_reader_set
+                0x00019810                pgp_reader_push
+                0x000198f0                pgp_reader_pop
+                0x00019930                pgp_reader_get_arg
+                0x00019940                pgp_crc24
+                0x000199d0                pgp_reader_push_dearmour
+                0x0001c530                pgp_reader_pop_dearmour
+                0x0001c580                pgp_reader_push_decrypt
+                0x0001ca60                pgp_reader_pop_decrypt
+                0x0001cac0                pgp_reader_push_se_ip_data
+                0x0001d0b0                pgp_reader_pop_se_ip_data
+                0x0001d0f0                pgp_reader_set_fd
+                0x0001d340                pgp_reader_set_memory
+                0x0001d550                pgp_setup_memory_write
+                0x0001d5a0                pgp_teardown_memory_write
+                0x0001d5e0                pgp_setup_memory_read
+                0x0001d6d0                pgp_teardown_memory_read
+                0x0001d700                pgp_setup_file_write
+                0x0001d780                pgp_teardown_file_write
+                0x0001d7c0                pgp_setup_file_append
+                0x0001d820                pgp_teardown_file_append
+                0x0001d860                pgp_setup_file_read
+                0x0001d910                pgp_reader_set_mmap
+                0x0001da50                pgp_teardown_file_read
+                0x0001da80                pgp_litdata_cb
+                0x0001db30                pgp_pk_sesskey_cb
+                0x0001dc10                pgp_get_seckey_cb
+                0x0001de00                get_passphrase_cb
+                0x0001dee0                pgp_reader_set_accumulate
+                0x0001df00                pgp_reader_push_hash
+                0x0001e080                pgp_reader_pop_hash
+ *fill*         0x0001ebf4        0xc 
+ .text          0x0001ec00      0xc5c libnetpgp_pic.a(packet-show.pico)
+                0x0001ec00                pgp_text_init
+                0x0001ec40                pgp_text_free
+                0x0001ecf0                pgp_show_packet_tag
+                0x0001ed30                pgp_show_ss_type
+                0x0001ed60                pgp_show_ss_rr_code
+                0x0001ed90                pgp_show_sig_type
+                0x0001edc0                pgp_show_pka
+                0x0001edf0                pgp_show_ss_zpref
+                0x0001ee20                pgp_showall_ss_zpref
+                0x0001f0d0                pgp_show_hash_alg
+                0x0001f100                pgp_showall_ss_hashpref
+                0x0001f130                pgp_show_symm_alg
+                0x0001f160                pgp_show_ss_skapref
+                0x0001f190                pgp_showall_ss_skapref
+                0x0001f1c0                pgp_showall_ss_features
+                0x0001f450                pgp_show_ss_key_flag
+                0x0001f4a0                pgp_showall_ss_key_flags
+                0x0001f5c0                pgp_show_keyserv_pref
+                0x0001f610                pgp_show_keyserv_prefs
+                0x0001f730                pgp_showall_notation
+ *fill*         0x0001f85c        0x4 
+ .text          0x0001f860     0x6c70 libnetpgp_pic.a(packet-print.pico)
+                0x0001f860                pgp_sprint_keydata
+                0x000205e0                pgp_sprint_mj
+                0x000212c0                pgp_hkp_sprint_keydata
+                0x00021c50                pgp_print_keydata
+                0x00021cd0                pgp_print_pubkey
+                0x000221f0                pgp_sprint_pubkey
+                0x00022460                pgp_print_packet
+                0x000263c0                pgp_list_packets
+ .text          0x000264d0     0x6502 libnetpgp_pic.a(packet-parse.pico)
+                0x000264d0                pgp_init_subregion
+                0x00026500                pgp_stacked_read
+                0x00026700                pgp_limited_read
+                0x000268b0                pgp_stacked_limited_read
+                0x00026910                pgp_data_free
+                0x00026950                pgp_subpacket_free
+                0x00026980                pgp_parser_content_free
+                0x00026d00                pgp_pubkey_free
+                0x00026e20                pgp_userid_free
+                0x00026e50                pgp_seckey_free
+                0x00026f20                pgp_pk_sesskey_free
+                0x00026fc0                pgp_parse
+                0x000296e0                pgp_parse_options
+                0x000297e0                pgp_stream_delete
+                0x00029850                pgp_readinfo
+                0x00029860                pgp_set_callback
+                0x00029880                pgp_callback_push
+                0x00029920                pgp_callback_arg
+                0x00029930                pgp_callback_errors
+                0x00029940                pgp_callback
+                0x00029960                pgp_stacked_callback
+                0x000299a0                pgp_stream_get_errors
+                0x000299b0                pgp_get_decrypt
+ *fill*         0x0002c9d2        0xe 
+ .text          0x0002c9e0      0xba1 libnetpgp_pic.a(compress.pico)
+                0x0002c9e0                pgp_decompress
+                0x0002d2f0                pgp_writez
+ *fill*         0x0002d581        0xf 
+ .text          0x0002d590     0x1bd7 libnetpgp_pic.a(openssl_crypto.pico)
+                0x0002d590                pgp_hash_md5
+                0x0002d5f0                pgp_hash_sha1
+                0x0002d650                pgp_hash_sha256
+                0x0002d6b0                pgp_hash_sha384
+                0x0002d710                pgp_hash_sha512
+                0x0002d770                pgp_hash_sha224
+                0x0002d7d0                pgp_dsa_verify
+                0x0002d980                pgp_rsa_public_decrypt
+                0x0002da00                pgp_rsa_private_encrypt
+                0x0002db20                pgp_rsa_private_decrypt
+                0x0002dc70                pgp_rsa_public_encrypt
+                0x0002dd20                pgp_crypto_finish
+                0x0002dd50                pgp_text_from_hash
+                0x0002dd60                pgp_rsa_new_selfsign_key
+                0x0002e120                pgp_dsa_sign
+                0x0002e1b0                openssl_read_pem_seckey
+                0x0002e340                pgp_elgamal_public_encrypt
+                0x0002e5d0                pgp_elgamal_private_decrypt
+ *fill*         0x0002f167        0x9 
+ .text          0x0002f170     0x2328 libnetpgp_pic.a(misc.pico)
+                0x0002f170                pgp_parse_and_accumulate
+                0x0002f500                pgp_errcode
+                0x0002f560                pgp_str_from_map
+                0x0002f5b0                pgp_new
+                0x0002f610                pgp_push_error
+                0x0002f6e0                pgp_print_error
+                0x0002f780                pgp_print_errors
+                0x0002f7c0                pgp_has_error
+                0x0002f7f0                pgp_free_errors
+                0x0002f840                pgp_fingerprint
+                0x0002fd70                pgp_memory_new
+                0x0002ff90                pgp_get_debug_level
+                0x00030040                hexdump
+                0x00030200                pgp_mem_len
+                0x00030210                pgp_hash_add_int
+                0x00030280                pgp_mem_data
+                0x00030290                pgp_memory_free
+                0x000302f0                pgp_keyid
+                0x00030410                pgp_hash_any
+                0x000304a0                pgp_hash_size
+                0x00030510                pgp_str_to_hash_alg
+                0x000306f0                netpgp_strcasecmp
+                0x00030760                pgp_hash
+                0x000307f0                pgp_calc_mdc_hash
+                0x00030a10                pgp_is_hash_alg_supported
+                0x00030a30                pgp_str_to_cipher
+                0x00030ae0                pgp_random
+                0x00030b00                pgp_memory_init
+                0x00030ba0                pgp_memory_pad
+                0x00030c80                pgp_memory_add
+                0x00030cd0                pgp_memory_place_int
+                0x00030d50                pgp_memory_clear
+                0x00030d60                pgp_memory_release
+                0x00030db0                pgp_memory_make_packet
+                0x00030e80                pgp_mem_readfile
+                0x00031010                pgp_finish
+                0x00031030                pgp_reader_push_sum16
+                0x00031170                pgp_reader_pop_sum16
+                0x000311c0                pgp_set_debug_level
+                0x000312b0                netpgp_strdup
+                0x00031310                pgp_get_info
+                0x00031370                pgp_asprintf
+                0x00031410                netpgp_log
+ *fill*         0x00031498        0x8 
+ .text          0x000314a0     0x204a libnetpgp_pic.a(keyring.pico)
+                0x000314a0                pgp_keydata_new
+                0x000314d0                pgp_keydata_free
+                0x000315b0                pgp_get_pubkey
+                0x000315c0                pgp_is_key_secret
+                0x000315e0                pgp_get_seckey
+                0x00031600                pgp_get_writable_seckey
+                0x00031620                pgp_forget
+                0x00031660                pgp_decrypt_seckey
+                0x00031940                pgp_set_seckey
+                0x00031960                pgp_get_key_id
+                0x00031970                pgp_get_userid_count
+                0x00031980                pgp_get_userid
+                0x000319a0                pgp_is_key_supported
+                0x000319d0                pgp_add_userid
+                0x00031b20                pgp_add_subpacket
+                0x00031c70                pgp_add_selfsigned_userid
+                0x00031e10                pgp_keydata_init
+                0x00031ea0                pgp_keyring_fileread
+                0x00032510                pgp_keyring_read_from_mem
+                0x000325f0                pgp_keyring_free
+                0x00032630                pgp_getkeybyid
+                0x000327f0                pgp_getkeybyname
+                0x00032b70                pgp_getnextkeybyname
+                0x00032bb0                pgp_keyring_list
+                0x00032ca0                pgp_keyring_json
+                0x00032ea0                pgp_export_key
+                0x00032f50                pgp_add_to_pubring
+                0x00033180                pgp_add_to_secring
+                0x000333b0                pgp_append_keyring
+ *fill*         0x000334ea        0x6 
+ .text          0x000334f0      0xf1b libnetpgp_pic.a(crypto.pico)
+                0x000334f0                pgp_decrypt_decode_mpi
+                0x00033990                pgp_rsa_encrypt_mpi
+                0x00033ad0                pgp_elgamal_encrypt_mpi
+                0x00033c40                pgp_encrypt_file
+                0x00033d30                pgp_encrypt_buf
+                0x00033df0                pgp_decrypt_file
+                0x00034280                pgp_decrypt_buf
+ *fill*         0x0003440b        0x5 
+ .text          0x00034410     0x2008 libnetpgp_pic.a(create.pico)
+                0x00034410                pgp_write_ss_header
+                0x00034470                pgp_fast_create_userid
+                0x00034480                pgp_write_struct_userid
+                0x00034500                pgp_write_userid
+                0x00034580                pgp_fast_create_rsa_pubkey
+                0x000345c0                pgp_write_xfer_pubkey
+                0x00034740                pgp_write_xfer_seckey
+                0x000348a0                pgp_write_struct_seckey
+                0x00035080                pgp_write_rsa_pubkey
+                0x00035120                pgp_build_pubkey
+                0x000351b0                pgp_output_new
+                0x000353d0                pgp_output_delete
+                0x00035400                pgp_fast_create_rsa_seckey
+                0x00035450                pgp_calc_sesskey_checksum
+                0x00035500                encode_m_buf
+                0x00035690                pgp_create_pk_sesskey
+                0x00035b60                pgp_write_pk_sesskey
+                0x00035e10                pgp_write_mdc
+                0x00035e80                pgp_write_litdata
+                0x00035f50                pgp_fileread_litdata
+                0x00035ff0                pgp_filewrite
+                0x00036090                pgp_write_symm_enc_data
+                0x000361c0                pgp_write_one_pass_sig
+ .text          0x00036418        0x0 /usr/lib/crtendS.o
+ .text          0x00036418        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00036420        0xa
+ *(SORT(.fini))
+ .fini          0x00036420        0x3 /usr/lib/crti.o
+                0x00036420                _fini
+ .fini          0x00036423        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00036428        0x2 /usr/lib/crtn.o
+                0x0003642a                PROVIDE (__etext, .)
+                0x0003642a                PROVIDE (_etext, .)
+                0x0003642a                PROVIDE (etext, .)
+
+.rodata         0x00036430     0x6a30
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00036430       0x1c libnetpgp_pic.a(netpgp.pico)
+ .rodata.str1.1
+                0x0003644c      0xd32 libnetpgp_pic.a(netpgp.pico)
+                                0xd97 (size before relaxing)
+ .rodata.str1.1
+                0x0003717e      0x212 libnetpgp_pic.a(ssh2pgp.pico)
+                                0x21a (size before relaxing)
+ .rodata        0x00037390      0x101 libnetpgp_pic.a(ssh2pgp.pico)
+ .rodata.str1.1
+                0x00037491       0x4a libnetpgp_pic.a(bufgap.pico)
+                                 0x87 (size before relaxing)
+ .rodata.str1.1
+                0x000374db      0x541 libnetpgp_pic.a(writer.pico)
+                                0x560 (size before relaxing)
+ .rodata        0x00037a1c      0x168 libnetpgp_pic.a(writer.pico)
+ *fill*         0x00037b84        0xc 
+ .rodata.str1.16
+                0x00037b90       0x22 libnetpgp_pic.a(writer.pico)
+ *fill*         0x00037bb2        0x2 
+ .rodata        0x00037bb4       0xa8 libnetpgp_pic.a(validate.pico)
+ .rodata.str1.1
+                0x00037c5c      0x41e libnetpgp_pic.a(validate.pico)
+                                0x44b (size before relaxing)
+ *fill*         0x0003807a        0x2 
+ .rodata        0x0003807c       0x6c libnetpgp_pic.a(symmetric.pico)
+ .rodata.str1.1
+                0x000380e8      0x258 libnetpgp_pic.a(symmetric.pico)
+                                0x274 (size before relaxing)
+ .rodata.str1.1
+                0x00038340      0x425 libnetpgp_pic.a(signature.pico)
+                                0x439 (size before relaxing)
+ *fill*         0x00038765        0x3 
+ .rodata        0x00038768       0x40 libnetpgp_pic.a(reader.pico)
+ .rodata.str1.1
+                0x000387a8      0xa62 libnetpgp_pic.a(reader.pico)
+                                0xae7 (size before relaxing)
+ *fill*         0x0003920a        0x6 
+ .rodata.str1.16
+                0x00039210       0x1b libnetpgp_pic.a(reader.pico)
+ .rodata.str1.1
+                0x0003922b      0xcde libnetpgp_pic.a(packet-show.pico)
+                                0xe12 (size before relaxing)
+ *fill*         0x00039f09        0x3 
+ .rodata        0x00039f0c      0x100 libnetpgp_pic.a(packet-print.pico)
+ .rodata.str1.1
+                0x0003a00c      0x8e0 libnetpgp_pic.a(packet-print.pico)
+                                0xba1 (size before relaxing)
+ *fill*         0x0003a8ec        0x4 
+ .rodata.str1.16
+                0x0003a8f0      0x109 libnetpgp_pic.a(packet-print.pico)
+ *fill*         0x0003a9f9        0x3 
+ .rodata        0x0003a9fc      0x1e0 libnetpgp_pic.a(packet-parse.pico)
+ .rodata.str1.1
+                0x0003abdc      0xc43 libnetpgp_pic.a(packet-parse.pico)
+                                0xc4b (size before relaxing)
+ *fill*         0x0003b81f        0x1 
+ .rodata.str1.16
+                0x0003b820       0x42 libnetpgp_pic.a(packet-parse.pico)
+ .rodata.str1.1
+                0x0003b862      0x26a libnetpgp_pic.a(compress.pico)
+                                0x26d (size before relaxing)
+ .rodata.str1.1
+                0x0003bacc      0x2e9 libnetpgp_pic.a(openssl_crypto.pico)
+                                0x344 (size before relaxing)
+ *fill*         0x0003bdb5        0xb 
+ .rodata        0x0003bdc0       0x8c libnetpgp_pic.a(misc.pico)
+ .rodata.str1.1
+                0x0003be4c      0x7b1 libnetpgp_pic.a(misc.pico)
+                                0x826 (size before relaxing)
+ .rodata.str1.1
+                0x0003c5fd      0x23b libnetpgp_pic.a(keyring.pico)
+                                0x299 (size before relaxing)
+ .rodata.str1.1
+                0x0003c838      0x1f8 libnetpgp_pic.a(crypto.pico)
+                                0x216 (size before relaxing)
+ .rodata.str1.16
+                0x0003ca30       0x20 libnetpgp_pic.a(crypto.pico)
+                                 0x1c (size before relaxing)
+ .rodata.str1.1
+                0x0003ca50      0x407 libnetpgp_pic.a(create.pico)
+                                0x43c (size before relaxing)
+ .rodata        0x0003ce57        0x9 libnetpgp_pic.a(create.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0003ce60      0xe4c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0003ce60      0xe4c libnetpgp_pic.a(netpgp.pico)
+
+.eh_frame       0x0003dcac     0x3780
+ *(.eh_frame)
+ .eh_frame      0x0003dcac       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0003dce8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0003dce8      0x520 libnetpgp_pic.a(netpgp.pico)
+ .eh_frame      0x0003e208       0x80 libnetpgp_pic.a(ssh2pgp.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0003e288      0x1cc libnetpgp_pic.a(bufgap.pico)
+                                0x1e4 (size before relaxing)
+ .eh_frame      0x0003e454      0x5d8 libnetpgp_pic.a(writer.pico)
+                                0x5f0 (size before relaxing)
+ .eh_frame      0x0003ea2c      0x1b8 libnetpgp_pic.a(validate.pico)
+                                0x1d0 (size before relaxing)
+ .eh_frame      0x0003ebe4      0x4f8 libnetpgp_pic.a(symmetric.pico)
+                                0x510 (size before relaxing)
+ .eh_frame      0x0003f0dc      0x2cc libnetpgp_pic.a(signature.pico)
+                                0x2e4 (size before relaxing)
+ .eh_frame      0x0003f3a8      0x5b8 libnetpgp_pic.a(reader.pico)
+                                0x5d0 (size before relaxing)
+ .eh_frame      0x0003f960      0x28c libnetpgp_pic.a(packet-show.pico)
+                                0x2a4 (size before relaxing)
+ .eh_frame      0x0003fbec      0x19c libnetpgp_pic.a(packet-print.pico)
+                                0x1b4 (size before relaxing)
+ .eh_frame      0x0003fd88      0x43c libnetpgp_pic.a(packet-parse.pico)
+                                0x454 (size before relaxing)
+ .eh_frame      0x000401c4       0x80 libnetpgp_pic.a(compress.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00040244      0x45c libnetpgp_pic.a(openssl_crypto.pico)
+                                0x474 (size before relaxing)
+ .eh_frame      0x000406a0      0x5a8 libnetpgp_pic.a(misc.pico)
+                                0x5c0 (size before relaxing)
+ .eh_frame      0x00040c48      0x3d0 libnetpgp_pic.a(keyring.pico)
+                                0x3e8 (size before relaxing)
+ .eh_frame      0x00041018      0x100 libnetpgp_pic.a(crypto.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x00041118      0x310 libnetpgp_pic.a(create.pico)
+                                0x328 (size before relaxing)
+ .eh_frame      0x00041428        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0004142c       0x18
+ .note.netbsd.ident
+                0x0004142c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00041444       0x14
+ .note.netbsd.pax
+                0x00041444       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00041458                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00042458                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00042458        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00042458        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0004245c        0x4 /usr/lib/crtendS.o
+                0x0004245c                __CTOR_LIST_END__
+
+.dtors          0x00042460        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00042460        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00042464        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00042468        0x4
+ *(.jcr)
+ .jcr           0x00042468        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00042468        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0004246c      0x4c0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0004246c      0x348 libnetpgp_pic.a(symmetric.pico)
+ .data.rel.ro.local
+                0x000427b4       0x90 libnetpgp_pic.a(reader.pico)
+ .data.rel.ro.local
+                0x00042844       0xa8 libnetpgp_pic.a(openssl_crypto.pico)
+ .data.rel.ro.local
+                0x000428ec       0x40 libnetpgp_pic.a(misc.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0004292c       0xd0
+ *(.dynamic)
+ .dynamic       0x0004292c       0xd0 /usr/lib/crti.o
+                0x0004292c                _DYNAMIC
+
+.got            0x000429fc       0x7c
+ *(.got)
+ .got           0x000429fc       0x7c /usr/lib/crti.o
+ *(.igot)
+                0x00042a78                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00042a78      0x600
+ *(.got.plt)
+ .got.plt       0x00042a78      0x600 /usr/lib/crti.o
+                0x00042a78                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00043078      0x85c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00043078        0x0 /usr/lib/crti.o
+ .data          0x00043078        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00043078       0x26 /usr/lib/crtbeginS.o
+                0x00043078                __dso_handle
+ *fill*         0x0004309e        0x2 
+ .data          0x000430a0        0x0 libnetpgp_pic.a(netpgp.pico)
+ .data          0x000430a0        0x0 libnetpgp_pic.a(ssh2pgp.pico)
+ .data.rel.local
+                0x000430a0       0x30 libnetpgp_pic.a(ssh2pgp.pico)
+ .data          0x000430d0        0x0 libnetpgp_pic.a(bufgap.pico)
+ .data          0x000430d0       0xad libnetpgp_pic.a(writer.pico)
+ *fill*         0x0004317d        0x3 
+ .data          0x00043180        0x0 libnetpgp_pic.a(validate.pico)
+ .data          0x00043180        0x0 libnetpgp_pic.a(symmetric.pico)
+ .data.rel.local
+                0x00043180       0x8c libnetpgp_pic.a(symmetric.pico)
+ .data          0x0004320c       0x34 libnetpgp_pic.a(signature.pico)
+ .data          0x00043240        0x0 libnetpgp_pic.a(reader.pico)
+ .data          0x00043240        0x0 libnetpgp_pic.a(packet-show.pico)
+ .data.rel.local
+                0x00043240      0x564 libnetpgp_pic.a(packet-show.pico)
+ .data          0x000437a4        0x0 libnetpgp_pic.a(packet-print.pico)
+ .data          0x000437a4        0x0 libnetpgp_pic.a(packet-parse.pico)
+ .data          0x000437a4        0x0 libnetpgp_pic.a(compress.pico)
+ .data          0x000437a4        0x0 libnetpgp_pic.a(openssl_crypto.pico)
+ .data          0x000437a4        0x0 libnetpgp_pic.a(misc.pico)
+ .data.rel.local
+                0x000437a4      0x130 libnetpgp_pic.a(misc.pico)
+ .data          0x000438d4        0x0 libnetpgp_pic.a(keyring.pico)
+ .data          0x000438d4        0x0 libnetpgp_pic.a(crypto.pico)
+ .data          0x000438d4        0x0 libnetpgp_pic.a(create.pico)
+ .data          0x000438d4        0x0 /usr/lib/crtendS.o
+ .data          0x000438d4        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000438d4                _edata = .
+                0x000438d4                PROVIDE (edata, .)
+                0x000438d4                . = .
+                0x000438d4                __bss_start = .
+
+.bss            0x000438d4       0x98
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000438d4        0x0 /usr/lib/crti.o
+ .bss           0x000438d4        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000438d4       0x11 libnetpgp_pic.a(netpgp.pico)
+ *fill*         0x000438e5        0x3 
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(ssh2pgp.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(bufgap.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(writer.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(validate.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(symmetric.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(signature.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(reader.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(packet-show.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(packet-print.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(packet-parse.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(compress.pico)
+ .bss           0x000438e8        0x0 libnetpgp_pic.a(openssl_crypto.pico)
+ .bss           0x000438e8       0x84 libnetpgp_pic.a(misc.pico)
+ .bss           0x0004396c        0x0 libnetpgp_pic.a(keyring.pico)
+ .bss           0x0004396c        0x0 libnetpgp_pic.a(crypto.pico)
+ .bss           0x0004396c        0x0 libnetpgp_pic.a(create.pico)
+ .bss           0x0004396c        0x0 /usr/lib/crtendS.o
+ .bss           0x0004396c        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x0004396c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0004396c                . = ALIGN (0x4)
+                0x0004396c                . = ALIGN (0x4)
+                0x0004396c                _end = .
+                0x0004396c                PROVIDE (end, .)
+                0x0004396c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libnetpgp_pic.a(netpgp.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(ssh2pgp.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(bufgap.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(writer.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(validate.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(symmetric.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(signature.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(reader.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(packet-show.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(packet-print.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(packet-parse.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(compress.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(openssl_crypto.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(misc.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(keyring.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(crypto.pico)
+ .comment       0x00000000       0x30 libnetpgp_pic.a(create.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libnetpgp.so.3.0 elf32-i386-minix)

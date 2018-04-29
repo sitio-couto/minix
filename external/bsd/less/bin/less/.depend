@@ -1,0 +1,886 @@
+brac.d brac.ln brac.o: /usr/src/external/bsd/less/dist/brac.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h
+ch.d ch.ln ch.o: /usr/src/external/bsd/less/dist/ch.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+charset.d charset.ln charset.o: /usr/src/external/bsd/less/dist/charset.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h /usr/include/locale.h \
+  /usr/include/langinfo.h /usr/include/nl_types.h \
+  /usr/src/external/bsd/less/dist/charset.h
+cmdbuf.d cmdbuf.ln cmdbuf.o: /usr/src/external/bsd/less/dist/cmdbuf.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/cmd.h \
+  /usr/src/external/bsd/less/dist/charset.h /usr/include/errno.h \
+  /usr/include/sys/errno.h
+command.d command.ln command.o: /usr/src/external/bsd/less/dist/command.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h \
+  /usr/src/external/bsd/less/dist/option.h \
+  /usr/src/external/bsd/less/dist/cmd.h
+cvt.d cvt.ln cvt.o: /usr/src/external/bsd/less/dist/cvt.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/charset.h
+decode.d decode.ln decode.o: /usr/src/external/bsd/less/dist/decode.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/cmd.h \
+  /usr/src/external/bsd/less/dist/lesskey.h
+edit.d edit.ln edit.o: /usr/src/external/bsd/less/dist/edit.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+filename.d filename.ln filename.o: /usr/src/external/bsd/less/dist/filename.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/lglob.h
+forwback.d forwback.ln forwback.o: /usr/src/external/bsd/less/dist/forwback.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h
+help.d help.ln help.o: /usr/src/external/bsd/less/dist/help.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+ifile.d ifile.ln ifile.o: /usr/src/external/bsd/less/dist/ifile.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+input.d input.ln input.o: /usr/src/external/bsd/less/dist/input.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+jump.d jump.ln jump.o: /usr/src/external/bsd/less/dist/jump.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h
+line.d line.ln line.o: /usr/src/external/bsd/less/dist/line.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/charset.h
+linenum.d linenum.ln linenum.o: /usr/src/external/bsd/less/dist/linenum.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+lsystem.d lsystem.ln lsystem.o: /usr/src/external/bsd/less/dist/lsystem.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/src/external/bsd/less/dist/position.h
+main.d main.ln main.o: /usr/src/external/bsd/less/dist/main.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+mark.d mark.ln mark.o: /usr/src/external/bsd/less/dist/mark.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+optfunc.d optfunc.ln optfunc.o: /usr/src/external/bsd/less/dist/optfunc.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/option.h
+option.d option.ln option.o: /usr/src/external/bsd/less/dist/option.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/option.h
+opttbl.d opttbl.ln opttbl.o: /usr/src/external/bsd/less/dist/opttbl.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/option.h
+os.d os.ln os.o: /usr/src/external/bsd/less/dist/os.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/setjmp.h /usr/include/machine/setjmp.h \
+  /usr/include/errno.h /usr/include/sys/errno.h
+output.d output.ln output.o: /usr/src/external/bsd/less/dist/output.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+pattern.d pattern.ln pattern.o: /usr/src/external/bsd/less/dist/pattern.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/pattern.h /usr/include/regex.h
+position.d position.ln position.o: /usr/src/external/bsd/less/dist/position.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h
+prompt.d prompt.ln prompt.o: /usr/src/external/bsd/less/dist/prompt.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/position.h
+screen.d screen.ln screen.o: /usr/src/external/bsd/less/dist/screen.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/cmd.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/termios.h /usr/include/sys/ttydefaults.h \
+  /usr/include/termcap.h
+search.d search.ln search.o: /usr/src/external/bsd/less/dist/search.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h \
+  /usr/src/external/bsd/less/dist/pattern.h /usr/include/regex.h \
+  /usr/src/external/bsd/less/dist/position.h \
+  /usr/src/external/bsd/less/dist/charset.h
+signal.d signal.ln signal.o: /usr/src/external/bsd/less/dist/signal.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h
+tags.d tags.ln tags.o: /usr/src/external/bsd/less/dist/tags.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+ttyin.d ttyin.ln ttyin.o: /usr/src/external/bsd/less/dist/ttyin.c \
+  /usr/src/external/bsd/less/dist/less.h \
+  /usr/src/external/bsd/less/dist/defines.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/wctype.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/less/dist/funcs.h
+version.d version.ln version.o: /usr/src/external/bsd/less/dist/version.c

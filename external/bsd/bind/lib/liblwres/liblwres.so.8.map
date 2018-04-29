@@ -1,0 +1,713 @@
+Archive member included because of file (symbol)
+
+liblwres_pic.a(lwres_noop.pico)
+                              (--whole-archive)
+liblwres_pic.a(herror.pico)   (--whole-archive)
+liblwres_pic.a(getrrset.pico)
+                              (--whole-archive)
+liblwres_pic.a(gethost.pico)  (--whole-archive)
+liblwres_pic.a(getaddrinfo.pico)
+                              (--whole-archive)
+liblwres_pic.a(gai_strerror.pico)
+                              (--whole-archive)
+liblwres_pic.a(getnameinfo.pico)
+                              (--whole-archive)
+liblwres_pic.a(getipnode.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwres_grbn.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwres_gnba.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwres_gabn.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwresutil.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwpacket.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwbuffer.pico)
+                              (--whole-archive)
+liblwres_pic.a(context.pico)  (--whole-archive)
+liblwres_pic.a(lwconfig.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwinetntop.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwinetpton.pico)
+                              (--whole-archive)
+liblwres_pic.a(lwinetaton.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+lwres_h_errno       0x4               liblwres_pic.a(herror.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwres_noop.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(herror.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(getrrset.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(gethost.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(getaddrinfo.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(gai_strerror.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(getnameinfo.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(getipnode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwres_grbn.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwres_gnba.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwres_gabn.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwresutil.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwpacket.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwbuffer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(context.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwconfig.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwinetntop.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwinetpton.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblwres_pic.a(lwinetaton.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD liblwres_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x460
+ *(.hash)
+ .hash          0x000000f4      0x460 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000554      0x930
+ *(.dynsym)
+ .dynsym        0x00000554      0x930 /usr/lib/crti.o
+
+.dynstr         0x00000e84      0x96e
+ *(.dynstr)
+ .dynstr        0x00000e84      0x96e /usr/lib/crti.o
+
+.gnu.version    0x000017f2        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000017f4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000017f4        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000017f4      0x108
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x000017f4       0xa0 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00001894        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x0000189c        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000018a4       0x58 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x000018fc      0x2d8
+ *(.rel.plt)
+ .rel.plt       0x000018fc      0x2d8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001be0        0xa
+ *(SORT(.init))
+ .init          0x00001be0        0x3 /usr/lib/crti.o
+                0x00001be0                _init
+ .init          0x00001be3        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001be8        0x2 /usr/lib/crtn.o
+
+.plt            0x00001bf0      0x5c0
+ *(.plt)
+ .plt           0x00001bf0      0x5c0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000021b0     0xbe94
+                0x000021b0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000021b0        0x0 /usr/lib/crti.o
+ .text          0x000021b0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000229f        0x1 
+ .text          0x000022a0      0x8fc liblwres_pic.a(lwres_noop.pico)
+                0x000022a0                lwres_nooprequest_render
+                0x000024d0                lwres_noopresponse_render
+                0x00002700                lwres_nooprequest_parse
+                0x000028b0                lwres_noopresponse_parse
+                0x00002a60                lwres_noopresponse_free
+                0x00002b00                lwres_nooprequest_free
+ *fill*         0x00002b9c        0x4 
+ .text          0x00002ba0       0xa4 liblwres_pic.a(herror.pico)
+                0x00002ba0                lwres_herror
+                0x00002c10                lwres_hstrerror
+ *fill*         0x00002c44        0xc 
+ .text          0x00002c50      0x48e liblwres_pic.a(getrrset.pico)
+                0x00002c50                lwres_getrrsetbyname
+                0x00003030                lwres_freerrset
+ *fill*         0x000030de        0x2 
+ .text          0x000030e0      0x495 liblwres_pic.a(gethost.pico)
+                0x000030e0                lwres_gethostbyname
+                0x00003140                lwres_gethostbyname2
+                0x000031a0                lwres_gethostbyaddr
+                0x00003200                lwres_gethostent
+                0x00003230                lwres_sethostent
+                0x00003240                lwres_endhostent
+                0x00003250                lwres_gethostbyname_r
+                0x000034d0                lwres_gethostbyaddr_r
+                0x00003550                lwres_gethostent_r
+                0x00003560                lwres_sethostent_r
+                0x00003570                lwres_endhostent_r
+ *fill*         0x00003575        0xb 
+ .text          0x00003580     0x1211 liblwres_pic.a(getaddrinfo.pico)
+                0x00003580                lwres_getaddrinfo
+                0x000040a0                lwres_freeaddrinfo
+ *fill*         0x00004791        0xf 
+ .text          0x000047a0       0x28 liblwres_pic.a(gai_strerror.pico)
+                0x000047a0                lwres_gai_strerror
+ *fill*         0x000047c8        0x8 
+ .text          0x000047d0      0x353 liblwres_pic.a(getnameinfo.pico)
+                0x000047d0                lwres_getnameinfo
+ *fill*         0x00004b23        0xd 
+ .text          0x00004b30     0x135c liblwres_pic.a(getipnode.pico)
+                0x00004b30                lwres_getipnodebyname
+                0x000058c0                lwres_freehostent
+                0x00005960                lwres_getipnodebyaddr
+ *fill*         0x00005e8c        0x4 
+ .text          0x00005e90      0xe39 liblwres_pic.a(lwres_grbn.pico)
+                0x00005e90                lwres_grbnrequest_render
+                0x00006150                lwres_grbnresponse_render
+                0x00006510                lwres_grbnrequest_parse
+                0x000066c0                lwres_grbnresponse_parse
+                0x00006af0                lwres_grbnrequest_free
+                0x00006b90                lwres_grbnresponse_free
+ *fill*         0x00006cc9        0x7 
+ .text          0x00006cd0      0xbb8 liblwres_pic.a(lwres_gnba.pico)
+                0x00006cd0                lwres_gnbarequest_render
+                0x00006f90                lwres_gnbaresponse_render
+                0x00007280                lwres_gnbarequest_parse
+                0x00007420                lwres_gnbarequest_free
+                0x000074c0                lwres_gnbaresponse_parse
+                0x00007790                lwres_gnbaresponse_free
+ *fill*         0x00007888        0x8 
+ .text          0x00007890      0xea4 liblwres_pic.a(lwres_gabn.pico)
+                0x00007890                lwres_gabnrequest_render
+                0x00007b40                lwres_gabnresponse_render
+                0x00007f20                lwres_gabnrequest_parse
+                0x000080c0                lwres_gabnresponse_parse
+                0x00008550                lwres_gabnrequest_free
+                0x000085f0                lwres_gabnresponse_free
+ *fill*         0x00008734        0xc 
+ .text          0x00008740      0xdc5 liblwres_pic.a(lwresutil.pico)
+                0x00008740                lwres_data_parse
+                0x00008800                lwres_string_parse
+                0x000088d0                lwres_addr_parse
+                0x00008980                lwres_getaddrsbyname
+                0x00008d70                lwres_getnamebyaddr
+                0x00009130                lwres_getrdatabyname
+ *fill*         0x00009505        0xb 
+ .text          0x00009510      0x23c liblwres_pic.a(lwpacket.pico)
+                0x00009510                lwres_lwpacket_renderheader
+                0x00009640                lwres_lwpacket_parseheader
+ *fill*         0x0000974c        0x4 
+ .text          0x00009750      0x97c liblwres_pic.a(lwbuffer.pico)
+                0x00009750                lwres_buffer_init
+                0x000097d0                lwres_buffer_invalidate
+                0x00009850                lwres_buffer_add
+                0x000098e0                lwres_buffer_subtract
+                0x00009980                lwres_buffer_clear
+                0x000099f0                lwres_buffer_first
+                0x00009a50                lwres_buffer_forward
+                0x00009ae0                lwres_buffer_back
+                0x00009b70                lwres_buffer_getuint8
+                0x00009c10                lwres_buffer_putuint8
+                0x00009cb0                lwres_buffer_getuint16
+                0x00009d60                lwres_buffer_putuint16
+                0x00009e00                lwres_buffer_getuint32
+                0x00009ec0                lwres_buffer_putuint32
+                0x00009f70                lwres_buffer_putmem
+                0x0000a020                lwres_buffer_getmem
+ *fill*         0x0000a0cc        0x4 
+ .text          0x0000a0d0      0x8f8 liblwres_pic.a(context.pico)
+                0x0000a0d0                lwres_context_create
+                0x0000a2b0                lwres_context_destroy
+                0x0000a340                lwres_context_nextserial
+                0x0000a3a0                lwres_context_initserial
+                0x0000a3f0                lwres_context_freemem
+                0x0000a490                lwres_context_allocmem
+                0x0000a4f0                lwres_context_getsocket
+                0x0000a500                lwres_context_send
+                0x0000a750                lwres_context_recv
+                0x0000a880                lwres_context_sendrecv
+ *fill*         0x0000a9c8        0x8 
+ .text          0x0000a9d0     0x29a5 liblwres_pic.a(lwconfig.pico)
+                0x0000a9d0                lwres_conf_init
+                0x0000b0c0                lwres_conf_clear
+                0x0000b790                lwres_conf_parse
+                0x0000cc20                lwres_conf_print
+                0x0000d1c0                lwres_conf_get
+ *fill*         0x0000d375        0xb 
+ .text          0x0000d380      0x4db liblwres_pic.a(lwinetntop.pico)
+                0x0000d380                lwres_net_ntop
+ *fill*         0x0000d85b        0x5 
+ .text          0x0000d860      0x56d liblwres_pic.a(lwinetpton.pico)
+                0x0000d860                lwres_net_pton
+ *fill*         0x0000ddcd        0x3 
+ .text          0x0000ddd0      0x271 liblwres_pic.a(lwinetaton.pico)
+                0x0000ddd0                lwres_net_aton
+ *fill*         0x0000e041        0x3 
+ .text          0x0000e044        0x0 /usr/lib/crtendS.o
+ .text          0x0000e044        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0000e050        0xa
+ *(SORT(.fini))
+ .fini          0x0000e050        0x3 /usr/lib/crti.o
+                0x0000e050                _fini
+ .fini          0x0000e053        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0000e058        0x2 /usr/lib/crtn.o
+                0x0000e05a                PROVIDE (__etext, .)
+                0x0000e05a                PROVIDE (_etext, .)
+                0x0000e05a                PROVIDE (etext, .)
+
+.rodata         0x0000e05c     0x1038
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000e05c      0x1c7 liblwres_pic.a(lwres_noop.pico)
+ .rodata.str1.1
+                0x0000e223       0xae liblwres_pic.a(herror.pico)
+ *fill*         0x0000e2d1        0x3 
+ .rodata        0x0000e2d4       0x10 liblwres_pic.a(getaddrinfo.pico)
+ .rodata.str1.1
+                0x0000e2e4       0x23 liblwres_pic.a(getaddrinfo.pico)
+ .rodata.cst16  0x0000e307       0x10 liblwres_pic.a(getaddrinfo.pico)
+ .rodata.str1.1
+                0x0000e317      0x1b4 liblwres_pic.a(gai_strerror.pico)
+ *fill*         0x0000e4cb        0x1 
+ .rodata        0x0000e4cc       0x24 liblwres_pic.a(getnameinfo.pico)
+ .rodata.str1.1
+                0x0000e4f0       0x4d liblwres_pic.a(getnameinfo.pico)
+                                 0x57 (size before relaxing)
+ .rodata.str1.1
+                0x0000e53d       0x50 liblwres_pic.a(getipnode.pico)
+                                 0x52 (size before relaxing)
+ .rodata        0x0000e58d        0xc liblwres_pic.a(getipnode.pico)
+ .rodata.str1.1
+                0x0000e599       0xfe liblwres_pic.a(lwres_grbn.pico)
+                                0x1fb (size before relaxing)
+ .rodata.str1.1
+                0x0000e697       0xf6 liblwres_pic.a(lwres_gnba.pico)
+                                0x1f3 (size before relaxing)
+ .rodata.str1.1
+                0x0000e78d       0xef liblwres_pic.a(lwres_gabn.pico)
+                                0x220 (size before relaxing)
+ .rodata.str1.1
+                0x0000e87c       0xd3 liblwres_pic.a(lwresutil.pico)
+                                0x151 (size before relaxing)
+ .rodata.str1.1
+                0x0000e94f       0x6c liblwres_pic.a(lwpacket.pico)
+                                 0x90 (size before relaxing)
+ .rodata.str1.1
+                0x0000e9bb      0x2db liblwres_pic.a(lwbuffer.pico)
+                                0x2ec (size before relaxing)
+ .rodata.str1.1
+                0x0000ec96      0x190 liblwres_pic.a(context.pico)
+                                0x1a3 (size before relaxing)
+ .rodata.str1.1
+                0x0000ee26      0x1da liblwres_pic.a(lwconfig.pico)
+                                0x1ef (size before relaxing)
+ .rodata.str1.1
+                0x0000f000        0x3 liblwres_pic.a(lwinetntop.pico)
+ .rodata        0x0000f003        0xc liblwres_pic.a(lwinetntop.pico)
+ .rodata        0x0000f00f       0x2d liblwres_pic.a(lwinetpton.pico)
+ .rodata.str1.1
+                0x0000f03c       0x58 liblwres_pic.a(lwinetaton.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000f094      0x31c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000f094      0x31c liblwres_pic.a(lwres_noop.pico)
+
+.eh_frame       0x0000f3b0      0xc04
+ *(.eh_frame)
+ .eh_frame      0x0000f3b0       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0000f3ec        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0000f3ec       0xd0 liblwres_pic.a(lwres_noop.pico)
+ .eh_frame      0x0000f4bc       0x38 liblwres_pic.a(herror.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x0000f4f4       0x40 liblwres_pic.a(getrrset.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x0000f534      0x168 liblwres_pic.a(gethost.pico)
+                                0x180 (size before relaxing)
+ .eh_frame      0x0000f69c       0x80 liblwres_pic.a(getaddrinfo.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0000f71c       0x1c liblwres_pic.a(gai_strerror.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x0000f738       0x20 liblwres_pic.a(getnameinfo.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0000f758       0xc0 liblwres_pic.a(getipnode.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x0000f818       0xbc liblwres_pic.a(lwres_grbn.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x0000f8d4       0xbc liblwres_pic.a(lwres_gnba.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x0000f990       0xbc liblwres_pic.a(lwres_gabn.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x0000fa4c       0xc0 liblwres_pic.a(lwresutil.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x0000fb0c       0x40 liblwres_pic.a(lwpacket.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x0000fb4c      0x1e0 liblwres_pic.a(lwbuffer.pico)
+                                0x1f8 (size before relaxing)
+ .eh_frame      0x0000fd2c      0x16c liblwres_pic.a(context.pico)
+                                0x184 (size before relaxing)
+ .eh_frame      0x0000fe98       0xb8 liblwres_pic.a(lwconfig.pico)
+                                 0xd0 (size before relaxing)
+ .eh_frame      0x0000ff50       0x20 liblwres_pic.a(lwinetntop.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0000ff70       0x20 liblwres_pic.a(lwinetpton.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0000ff90       0x20 liblwres_pic.a(lwinetaton.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0000ffb0        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0000ffb4       0x18
+ .note.netbsd.ident
+                0x0000ffb4       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0000ffcc       0x14
+ .note.netbsd.pax
+                0x0000ffcc       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000ffe0                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00010000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00010000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00010000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00010004        0x4 /usr/lib/crtendS.o
+                0x00010004                __CTOR_LIST_END__
+
+.dtors          0x00010008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00010008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0001000c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00010010        0x4
+ *(.jcr)
+ .jcr           0x00010010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00010010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00010014       0x50
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00010014       0x14 liblwres_pic.a(herror.pico)
+ .data.rel.ro.local
+                0x00010028       0x3c liblwres_pic.a(gai_strerror.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00010064       0xb8
+ *(.dynamic)
+ .dynamic       0x00010064       0xb8 /usr/lib/crti.o
+                0x00010064                _DYNAMIC
+
+.got            0x0001011c       0x2c
+ *(.got)
+ .got           0x0001011c       0x2c /usr/lib/crti.o
+ *(.igot)
+                0x00010148                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00010148      0x178
+ *(.got.plt)
+ .got.plt       0x00010148      0x178 /usr/lib/crti.o
+                0x00010148                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000102c0       0x34
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000102c0        0x0 /usr/lib/crti.o
+ .data          0x000102c0        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000102c0       0x26 /usr/lib/crtbeginS.o
+                0x000102c0                __dso_handle
+ *fill*         0x000102e6        0x2 
+ .data          0x000102e8        0x0 liblwres_pic.a(lwres_noop.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(herror.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(getrrset.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(gethost.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(getaddrinfo.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(gai_strerror.pico)
+ .data          0x000102e8        0x0 liblwres_pic.a(getnameinfo.pico)
+ .data          0x000102e8        0x4 liblwres_pic.a(getipnode.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwres_grbn.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwres_gnba.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwres_gabn.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwresutil.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwpacket.pico)
+ .data          0x000102ec        0x0 liblwres_pic.a(lwbuffer.pico)
+ .data          0x000102ec        0x2 liblwres_pic.a(context.pico)
+                0x000102ec                lwres_udp_port
+ *fill*         0x000102ee        0x2 
+ .data.rel.local
+                0x000102f0        0x4 liblwres_pic.a(context.pico)
+                0x000102f0                lwres_resolv_conf
+ .data          0x000102f4        0x0 liblwres_pic.a(lwconfig.pico)
+ .data          0x000102f4        0x0 liblwres_pic.a(lwinetntop.pico)
+ .data          0x000102f4        0x0 liblwres_pic.a(lwinetpton.pico)
+ .data          0x000102f4        0x0 liblwres_pic.a(lwinetaton.pico)
+ .data          0x000102f4        0x0 /usr/lib/crtendS.o
+ .data          0x000102f4        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000102f4                _edata = .
+                0x000102f4                PROVIDE (edata, .)
+                0x000102f4                . = .
+                0x000102f4                __bss_start = .
+
+.bss            0x000102f4        0x8
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000102f4        0x0 /usr/lib/crti.o
+ .bss           0x000102f4        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000102f4        0x0 liblwres_pic.a(lwres_noop.pico)
+ .bss           0x000102f4        0x0 liblwres_pic.a(herror.pico)
+ .bss           0x000102f4        0x0 liblwres_pic.a(getrrset.pico)
+ .bss           0x000102f4        0x4 liblwres_pic.a(gethost.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(getaddrinfo.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(gai_strerror.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(getnameinfo.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(getipnode.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwres_grbn.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwres_gnba.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwres_gabn.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwresutil.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwpacket.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwbuffer.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(context.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwconfig.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwinetntop.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwinetpton.pico)
+ .bss           0x000102f8        0x0 liblwres_pic.a(lwinetaton.pico)
+ .bss           0x000102f8        0x0 /usr/lib/crtendS.o
+ .bss           0x000102f8        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x000102f8        0x4 liblwres_pic.a(herror.pico)
+                0x000102f8                lwres_h_errno
+                0x000102fc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000102fc                . = ALIGN (0x4)
+                0x000102fc                . = ALIGN (0x4)
+                0x000102fc                _end = .
+                0x000102fc                PROVIDE (end, .)
+                0x000102fc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f liblwres_pic.a(lwres_noop.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 liblwres_pic.a(herror.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(getrrset.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(gethost.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(getaddrinfo.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(gai_strerror.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(getnameinfo.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(getipnode.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwres_grbn.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwres_gnba.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwres_gabn.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwresutil.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwpacket.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwbuffer.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(context.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwconfig.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwinetntop.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwinetpton.pico)
+ .comment       0x00000000       0x30 liblwres_pic.a(lwinetaton.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(liblwres.so.8.2 elf32-i386-minix)

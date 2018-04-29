@@ -1,0 +1,1505 @@
+Archive member included because of file (symbol)
+
+libarchive_pic.a(archive_write_set_format_by_name.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_ar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_xz.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_program.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_gzip.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_compress.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_open_memory.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_open_filename.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_open_file.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_open_fd.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_raw.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_all.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_program.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_none.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_all.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_open_memory.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_open_filename.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_open_file.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_open_fd.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_extract.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_disk.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_data_into_fd.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry_strmode.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry_stat.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry_copy_stat.pico)
+                              (--whole-archive)
+libarchive_pic.a(filter_fork.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_zip.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_shar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_pax.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_mtree.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_cpio.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_disk.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_zip.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_xar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_tar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_mtree.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_iso9660.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_empty.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_cpio.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_format_ar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_xz.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_uu.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_rpm.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_gzip.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_compress.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_read.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry_link_resolver.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_format_ustar.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_write_set_compression_none.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_virtual.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_check_magic.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_entry_xattr.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_util.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_string_sprintf.pico)
+                              (--whole-archive)
+libarchive_pic.a(archive_string.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_by_name.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_ar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_xz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_program.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_gzip.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_compress.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_open_memory.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_open_filename.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_open_file.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_open_fd.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_raw.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_all.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_program.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_none.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_all.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_open_memory.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_open_filename.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_open_file.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_open_fd.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_extract.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_disk.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_data_into_fd.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry_strmode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry_stat.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry_copy_stat.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(filter_fork.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_zip.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_shar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_pax.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_mtree.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_cpio.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_disk.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_xar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_tar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_mtree.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_empty.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_cpio.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_format_ar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_xz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_gzip.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_read.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry_link_resolver.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_format_ustar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_write_set_compression_none.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_virtual.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_check_magic.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_entry_xattr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_util.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_string_sprintf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libarchive_pic.a(archive_string.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libarchive_pic.a
+LOAD /usr/src/lib/libbz2/libbz2.so
+LOAD /usr/src/external/public-domain/xz/lib/liblzma.so
+LOAD /usr/src/lib/libz/libz.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0xa6c
+ *(.hash)
+ .hash          0x000000f4      0xa6c /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000b60     0x1920
+ *(.dynsym)
+ .dynsym        0x00000b60     0x1920 /usr/lib/crti.o
+
+.dynstr         0x00002480     0x2107
+ *(.dynstr)
+ .dynstr        0x00002480     0x2107 /usr/lib/crti.o
+
+.gnu.version    0x00004588        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00004588        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00004588        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00004588      0x2c8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00004588      0x140 /usr/lib/crti.o
+ .rel.data.rel.ro.local
+                0x000046c8      0x138 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00004800        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00004808       0x48 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00004850      0x968
+ *(.rel.plt)
+ .rel.plt       0x00004850      0x968 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000051c0        0xa
+ *(SORT(.init))
+ .init          0x000051c0        0x3 /usr/lib/crti.o
+                0x000051c0                _init
+ .init          0x000051c3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000051c8        0x2 /usr/lib/crtn.o
+
+.plt            0x000051d0     0x12e0
+ *(.plt)
+ .plt           0x000051d0     0x12e0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000064b0    0x33528
+                0x000064b0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000064b0        0x0 /usr/lib/crti.o
+ .text          0x000064b0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000659f        0x1 
+ .text          0x000065a0      0x1f2 libarchive_pic.a(archive_write_set_format_by_name.pico)
+                0x000065a0                archive_write_set_format_by_name
+ *fill*         0x00006792        0xe 
+ .text          0x000067a0     0x1090 libarchive_pic.a(archive_write_set_format_ar.pico)
+                0x000067a0                archive_write_set_format_ar_bsd
+                0x000068a0                archive_write_set_format_ar_svr4
+ .text          0x00007830       0xdd libarchive_pic.a(archive_write_set_format.pico)
+                0x00007830                archive_write_set_format
+ *fill*         0x0000790d        0x3 
+ .text          0x00007910      0x815 libarchive_pic.a(archive_write_set_compression_xz.pico)
+                0x00007910                archive_write_set_compression_xz
+                0x00007e40                archive_write_set_compression_lzma
+ *fill*         0x00008125        0xb 
+ .text          0x00008130      0x6d0 libarchive_pic.a(archive_write_set_compression_program.pico)
+                0x00008130                archive_write_set_compression_program
+ .text          0x00008800      0x89a libarchive_pic.a(archive_write_set_compression_gzip.pico)
+                0x00008800                archive_write_set_compression_gzip
+ *fill*         0x0000909a        0x6 
+ .text          0x000090a0      0xa35 libarchive_pic.a(archive_write_set_compression_compress.pico)
+                0x000090a0                archive_write_set_compression_compress
+ *fill*         0x00009ad5        0xb 
+ .text          0x00009ae0      0x6e0 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+                0x00009ae0                archive_write_set_compression_bzip2
+ .text          0x0000a1c0      0x1a4 libarchive_pic.a(archive_write_open_memory.pico)
+                0x0000a1c0                archive_write_open_memory
+ *fill*         0x0000a364        0xc 
+ .text          0x0000a370      0x2b0 libarchive_pic.a(archive_write_open_filename.pico)
+                0x0000a370                archive_write_open_file
+                0x0000a390                archive_write_open_filename
+ .text          0x0000a620      0x124 libarchive_pic.a(archive_write_open_file.pico)
+                0x0000a620                archive_write_open_FILE
+ *fill*         0x0000a744        0xc 
+ .text          0x0000a750      0x214 libarchive_pic.a(archive_write_open_fd.pico)
+                0x0000a750                archive_write_open_fd
+ *fill*         0x0000a964        0xc 
+ .text          0x0000a970      0x2fa libarchive_pic.a(archive_read_support_format_raw.pico)
+                0x0000a970                archive_read_support_format_raw
+ *fill*         0x0000ac6a        0x6 
+ .text          0x0000ac70       0x5e libarchive_pic.a(archive_read_support_format_all.pico)
+                0x0000ac70                archive_read_support_format_all
+ *fill*         0x0000acce        0x2 
+ .text          0x0000acd0      0x7b5 libarchive_pic.a(archive_read_support_compression_program.pico)
+                0x0000acd0                archive_read_support_compression_program
+                0x0000ad60                archive_read_support_compression_program_signature
+                0x0000af20                __archive_read_program
+ *fill*         0x0000b485        0xb 
+ .text          0x0000b490        0x7 libarchive_pic.a(archive_read_support_compression_none.pico)
+                0x0000b490                archive_read_support_compression_none
+ *fill*         0x0000b497        0x9 
+ .text          0x0000b4a0       0x5e libarchive_pic.a(archive_read_support_compression_all.pico)
+                0x0000b4a0                archive_read_support_compression_all
+ *fill*         0x0000b4fe        0x2 
+ .text          0x0000b500      0x234 libarchive_pic.a(archive_read_open_memory.pico)
+                0x0000b500                archive_read_open_memory
+                0x0000b5a0                archive_read_open_memory2
+ *fill*         0x0000b734        0xc 
+ .text          0x0000b740      0x448 libarchive_pic.a(archive_read_open_filename.pico)
+                0x0000b740                archive_read_open_file
+                0x0000b760                archive_read_open_filename
+ *fill*         0x0000bb88        0x8 
+ .text          0x0000bb90      0x255 libarchive_pic.a(archive_read_open_file.pico)
+                0x0000bb90                archive_read_open_FILE
+ *fill*         0x0000bde5        0xb 
+ .text          0x0000bdf0      0x321 libarchive_pic.a(archive_read_open_fd.pico)
+                0x0000bdf0                archive_read_open_fd
+ *fill*         0x0000c111        0xf 
+ .text          0x0000c120      0x30a libarchive_pic.a(archive_read_extract.pico)
+                0x0000c120                archive_read_extract
+                0x0000c220                archive_read_extract2
+                0x0000c3b0                archive_read_extract_set_progress_callback
+ *fill*         0x0000c42a        0x6 
+ .text          0x0000c430      0x469 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+                0x0000c430                archive_read_disk_set_standard_lookup
+ *fill*         0x0000c899        0x7 
+ .text          0x0000c8a0      0x1bf libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+                0x0000c8a0                archive_read_disk_entry_from_file
+ *fill*         0x0000ca5f        0x1 
+ .text          0x0000ca60      0x297 libarchive_pic.a(archive_read_disk.pico)
+                0x0000ca60                archive_read_disk_gname
+                0x0000caa0                archive_read_disk_uname
+                0x0000cae0                archive_read_disk_set_gname_lookup
+                0x0000cb50                archive_read_disk_set_uname_lookup
+                0x0000cbc0                archive_read_disk_new
+                0x0000cc60                archive_read_disk_set_symlink_logical
+                0x0000cc70                archive_read_disk_set_symlink_physical
+                0x0000cc80                archive_read_disk_set_symlink_hybrid
+ *fill*         0x0000ccf7        0x9 
+ .text          0x0000cd00      0x183 libarchive_pic.a(archive_read_data_into_fd.pico)
+                0x0000cd00                archive_read_data_into_fd
+ *fill*         0x0000ce83        0xd 
+ .text          0x0000ce90      0x1e4 libarchive_pic.a(archive_entry_strmode.pico)
+                0x0000ce90                archive_entry_strmode
+ *fill*         0x0000d074        0xc 
+ .text          0x0000d080      0x121 libarchive_pic.a(archive_entry_stat.pico)
+                0x0000d080                archive_entry_stat
+ *fill*         0x0000d1a1        0xf 
+ .text          0x0000d1b0      0x123 libarchive_pic.a(archive_entry_copy_stat.pico)
+                0x0000d1b0                archive_entry_copy_stat
+ *fill*         0x0000d2d3        0xd 
+ .text          0x0000d2e0      0x222 libarchive_pic.a(filter_fork.pico)
+                0x0000d2e0                __archive_create_child
+                0x0000d4a0                __archive_check_child
+ *fill*         0x0000d502        0xe 
+ .text          0x0000d510      0xf1b libarchive_pic.a(archive_write_set_format_zip.pico)
+                0x0000d510                archive_write_set_format_zip
+ *fill*         0x0000e42b        0x5 
+ .text          0x0000e430     0x10d3 libarchive_pic.a(archive_write_set_format_shar.pico)
+                0x0000e430                archive_write_set_format_shar
+                0x0000f000                archive_write_set_format_shar_dump
+ *fill*         0x0000f503        0xd 
+ .text          0x0000f510     0x2d7e libarchive_pic.a(archive_write_set_format_pax.pico)
+                0x0000f510                archive_write_set_format_pax_restricted
+                0x0000f630                archive_write_set_format_pax
+ *fill*         0x0001228e        0x2 
+ .text          0x00012290     0x2240 libarchive_pic.a(archive_write_set_format_mtree.pico)
+                0x00012290                archive_write_set_format_mtree
+ .text          0x000144d0      0x86e libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+                0x000144d0                archive_write_set_format_cpio_newc
+ *fill*         0x00014d3e        0x2 
+ .text          0x00014d40      0x8aa libarchive_pic.a(archive_write_set_format_cpio.pico)
+                0x00014d40                archive_write_set_format_cpio
+ *fill*         0x000155ea        0x6 
+ .text          0x000155f0      0x41c libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+                0x000155f0                archive_write_disk_set_standard_lookup
+ *fill*         0x00015a0c        0x4 
+ .text          0x00015a10     0x2697 libarchive_pic.a(archive_write_disk.pico)
+                0x00015a10                archive_write_disk_set_options
+                0x00015a30                archive_write_disk_set_skip_file
+                0x00015a90                archive_write_disk_set_group_lookup
+                0x00015af0                archive_write_disk_set_user_lookup
+                0x00015b50                archive_write_disk_new
+ *fill*         0x000180a7        0x9 
+ .text          0x000180b0      0xa0f libarchive_pic.a(archive_write.pico)
+                0x000180b0                archive_write_new
+                0x000181b0                archive_write_set_format_options
+                0x00018380                archive_write_set_compressor_options
+                0x00018550                archive_write_set_options
+                0x000185c0                archive_write_set_bytes_per_block
+                0x00018610                archive_write_get_bytes_per_block
+                0x00018660                archive_write_set_bytes_in_last_block
+                0x000186b0                archive_write_get_bytes_in_last_block
+                0x00018700                archive_write_set_skip_file
+                0x00018760                archive_write_open
+ *fill*         0x00018abf        0x1 
+ .text          0x00018ac0     0x12fa libarchive_pic.a(archive_read_support_format_zip.pico)
+                0x00018ac0                archive_read_support_format_zip
+ *fill*         0x00019dba        0x6 
+ .text          0x00019dc0       0x3b libarchive_pic.a(archive_read_support_format_xar.pico)
+                0x00019dc0                archive_read_support_format_xar
+ *fill*         0x00019dfb        0x5 
+ .text          0x00019e00     0x9013 libarchive_pic.a(archive_read_support_format_tar.pico)
+                0x00019e00                archive_read_support_format_gnutar
+                0x00019ed0                archive_read_support_format_tar
+ *fill*         0x00022e13        0xd 
+ .text          0x00022e20     0x28ff libarchive_pic.a(archive_read_support_format_mtree.pico)
+                0x00022e20                archive_read_support_format_mtree
+ *fill*         0x0002571f        0x1 
+ .text          0x00025720     0x485a libarchive_pic.a(archive_read_support_format_iso9660.pico)
+                0x00025720                archive_read_support_format_iso9660
+ *fill*         0x00029f7a        0x6 
+ .text          0x00029f80       0xfa libarchive_pic.a(archive_read_support_format_empty.pico)
+                0x00029f80                archive_read_support_format_empty
+ *fill*         0x0002a07a        0x6 
+ .text          0x0002a080     0x211c libarchive_pic.a(archive_read_support_format_cpio.pico)
+                0x0002a080                archive_read_support_format_cpio
+ *fill*         0x0002c19c        0x4 
+ .text          0x0002c1a0     0x11e8 libarchive_pic.a(archive_read_support_format_ar.pico)
+                0x0002c1a0                archive_read_support_format_ar
+ *fill*         0x0002d388        0x8 
+ .text          0x0002d390      0x70c libarchive_pic.a(archive_read_support_compression_xz.pico)
+                0x0002d390                archive_read_support_compression_xz
+                0x0002d4b0                archive_read_support_compression_lzma
+ *fill*         0x0002da9c        0x4 
+ .text          0x0002daa0      0xfe9 libarchive_pic.a(archive_read_support_compression_uu.pico)
+                0x0002daa0                archive_read_support_compression_uu
+ *fill*         0x0002ea89        0x7 
+ .text          0x0002ea90      0x4f7 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+                0x0002ea90                archive_read_support_compression_rpm
+ *fill*         0x0002ef87        0x9 
+ .text          0x0002ef90      0x62a libarchive_pic.a(archive_read_support_compression_gzip.pico)
+                0x0002ef90                archive_read_support_compression_gzip
+ *fill*         0x0002f5ba        0x6 
+ .text          0x0002f5c0      0x60b libarchive_pic.a(archive_read_support_compression_compress.pico)
+                0x0002f5c0                archive_read_support_compression_compress
+ *fill*         0x0002fbcb        0x5 
+ .text          0x0002fbd0      0x461 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+                0x0002fbd0                archive_read_support_compression_bzip2
+ *fill*         0x00030031        0xf 
+ .text          0x00030040     0x215e libarchive_pic.a(archive_read.pico)
+                0x00030040                archive_read_new
+                0x000300c0                archive_read_extract_set_skip_file
+                0x00030120                archive_read_set_format_options
+                0x00030350                archive_read_set_filter_options
+                0x00030510                archive_read_set_options
+                0x00030580                archive_read_open
+                0x000305d0                archive_read_open2
+                0x00030c00                archive_read_next_header2
+                0x00031010                archive_read_data_skip
+                0x00031100                archive_read_next_header
+                0x00031140                archive_read_header_position
+                0x00031190                archive_read_data
+                0x000313e0                archive_read_data_block
+                0x00031460                archive_read_data_into_buffer
+                0x000314a0                __archive_read_register_format
+                0x00031680                __archive_read_get_bidder
+                0x00031780                __archive_read_ahead
+                0x000317c0                __archive_read_filter_ahead
+                0x00031ad0                __archive_read_consume
+                0x00031b10                __archive_read_filter_consume
+                0x00031b40                __archive_read_skip
+                0x00031c10                __archive_read_skip_lenient
+                0x00031c70                __archive_read_filter_skip
+ *fill*         0x0003219e        0x2 
+ .text          0x000321a0      0x667 libarchive_pic.a(archive_entry_link_resolver.pico)
+                0x000321a0                archive_entry_linkresolver_new
+                0x00032240                archive_entry_linkresolver_set_strategy
+                0x000322a0                archive_entry_linkresolver_free
+                0x00032360                archive_entry_linkify
+ *fill*         0x00032807        0x9 
+ .text          0x00032810     0x16f8 libarchive_pic.a(archive_write_set_format_ustar.pico)
+                0x00032810                archive_write_set_format_ustar
+                0x00032c40                __archive_write_format_header_ustar
+ *fill*         0x00033f08        0x8 
+ .text          0x00033f10      0x4ab libarchive_pic.a(archive_write_set_compression_none.pico)
+                0x00033f10                archive_write_set_compression_none
+ *fill*         0x000343bb        0x5 
+ .text          0x000343c0       0x8f libarchive_pic.a(archive_virtual.pico)
+                0x000343c0                archive_write_close
+                0x000343d0                archive_read_close
+                0x000343e0                archive_write_finish
+                0x000343f0                archive_read_finish
+                0x00034400                archive_write_header
+                0x00034420                archive_write_finish_entry
+                0x00034430                archive_write_data
+                0x00034440                archive_write_data_block
+ *fill*         0x0003444f        0x1 
+ .text          0x00034450     0x3c6a libarchive_pic.a(archive_entry.pico)
+                0x00034450                archive_entry_clear
+                0x00034680                archive_entry_acl_clear
+                0x00034740                archive_entry_clone
+                0x00034aa0                archive_entry_free
+                0x00034ad0                archive_entry_new
+                0x00034b20                archive_entry_atime
+                0x00034b30                archive_entry_atime_nsec
+                0x00034b40                archive_entry_atime_is_set
+                0x00034b60                archive_entry_birthtime
+                0x00034b70                archive_entry_birthtime_nsec
+                0x00034b80                archive_entry_birthtime_is_set
+                0x00034ba0                archive_entry_ctime
+                0x00034bb0                archive_entry_ctime_is_set
+                0x00034bd0                archive_entry_ctime_nsec
+                0x00034be0                archive_entry_dev
+                0x00034c20                archive_entry_devmajor
+                0x00034c50                archive_entry_devminor
+                0x00034c80                archive_entry_filetype
+                0x00034c90                archive_entry_fflags
+                0x00034cb0                archive_entry_fflags_text
+                0x00034f60                archive_entry_gid
+                0x00034f70                archive_entry_gname
+                0x00035010                archive_entry_gname_w
+                0x000350f0                archive_entry_hardlink
+                0x000351a0                archive_entry_hardlink_w
+                0x000351d0                archive_entry_ino
+                0x000351e0                archive_entry_ino64
+                0x000351f0                archive_entry_mode
+                0x00035200                archive_entry_mtime
+                0x00035210                archive_entry_mtime_nsec
+                0x00035220                archive_entry_mtime_is_set
+                0x00035240                archive_entry_nlink
+                0x00035250                archive_entry_pathname
+                0x000352f0                archive_entry_pathname_w
+                0x00035310                archive_entry_rdev
+                0x00035350                archive_entry_rdevmajor
+                0x00035380                archive_entry_rdevminor
+                0x000353c0                archive_entry_size
+                0x000353d0                archive_entry_size_is_set
+                0x000353f0                archive_entry_sourcepath
+                0x00035490                archive_entry_symlink
+                0x00035540                archive_entry_symlink_w
+                0x00035570                archive_entry_uid
+                0x00035580                archive_entry_uname
+                0x00035620                archive_entry_uname_w
+                0x00035640                archive_entry_set_filetype
+                0x00035670                archive_entry_set_fflags
+                0x000356f0                archive_entry_copy_fflags_text
+                0x00035920                archive_entry_copy_fflags_text_w
+                0x00035b10                archive_entry_set_gid
+                0x00035b30                archive_entry_set_gname
+                0x00035bd0                archive_entry_copy_gname
+                0x00035c70                archive_entry_copy_gname_w
+                0x00035cb0                archive_entry_update_gname_utf8
+                0x00035d90                archive_entry_set_ino
+                0x00035db0                archive_entry_set_ino64
+                0x00035dd0                archive_entry_set_hardlink
+                0x00035e80                archive_entry_copy_hardlink
+                0x00035f30                archive_entry_copy_hardlink_w
+                0x00035f90                archive_entry_update_hardlink_utf8
+                0x00035fd0                archive_entry_set_atime
+                0x00036000                archive_entry_unset_atime
+                0x00036040                archive_entry_set_birthtime
+                0x00036070                archive_entry_unset_birthtime
+                0x000360b0                archive_entry_set_ctime
+                0x000360e0                archive_entry_unset_ctime
+                0x00036120                archive_entry_set_dev
+                0x00036150                archive_entry_set_devmajor
+                0x00036180                archive_entry_set_devminor
+                0x000361b0                archive_entry_set_link
+                0x000362d0                archive_entry_copy_link
+                0x000363f0                archive_entry_copy_link_w
+                0x00036450                archive_entry_update_link_utf8
+                0x00036490                archive_entry_set_mode
+                0x000364b0                archive_entry_set_mtime
+                0x000364e0                archive_entry_unset_mtime
+                0x00036520                archive_entry_set_nlink
+                0x00036540                archive_entry_set_pathname
+                0x000365e0                archive_entry_copy_pathname
+                0x00036680                archive_entry_copy_pathname_w
+                0x000366c0                archive_entry_update_pathname_utf8
+                0x000366f0                archive_entry_set_perm
+                0x00036720                archive_entry_set_rdev
+                0x00036750                archive_entry_set_rdevmajor
+                0x00036780                archive_entry_set_rdevminor
+                0x000367b0                archive_entry_set_size
+                0x000367e0                archive_entry_unset_size
+                0x00036810                archive_entry_copy_sourcepath
+                0x000368b0                archive_entry_set_symlink
+                0x00036960                archive_entry_copy_symlink
+                0x00036a10                archive_entry_copy_symlink_w
+                0x00036a70                archive_entry_update_symlink_utf8
+                0x00036ab0                archive_entry_set_uid
+                0x00036ad0                archive_entry_set_uname
+                0x00036b70                archive_entry_copy_uname
+                0x00036c10                archive_entry_copy_uname_w
+                0x00036c50                archive_entry_update_uname_utf8
+                0x00036c80                archive_entry_acl_add_entry
+                0x00036e80                archive_entry_acl_add_entry_w
+                0x000370b0                archive_entry_acl_count
+                0x00037100                archive_entry_acl_reset
+                0x00037170                archive_entry_acl_next
+                0x00037360                archive_entry_acl_text_w
+                0x000377e0                __archive_entry_acl_parse_w
+ *fill*         0x000380ba        0x6 
+ .text          0x000380c0      0x555 libarchive_pic.a(archive_check_magic.pico)
+                0x000380c0                __archive_check_magic
+ *fill*         0x00038615        0xb 
+ .text          0x00038620      0x1ad libarchive_pic.a(archive_entry_xattr.pico)
+                0x00038620                archive_entry_xattr_clear
+                0x00038690                archive_entry_xattr_add_entry
+                0x00038720                archive_entry_xattr_count
+                0x00038740                archive_entry_xattr_reset
+                0x00038770                archive_entry_xattr_next
+ *fill*         0x000387cd        0x3 
+ .text          0x000387d0      0x53c libarchive_pic.a(archive_util.pico)
+                0x000387d0                archive_api_feature
+                0x000387e0                archive_api_version
+                0x000387f0                archive_version_stamp
+                0x00038800                archive_version_number
+                0x00038810                archive_version
+                0x00038830                archive_version_string
+                0x00038850                archive_errno
+                0x00038860                archive_error_string
+                0x00038890                archive_file_count
+                0x000388a0                archive_format
+                0x000388b0                archive_format_name
+                0x000388c0                archive_compression
+                0x000388d0                archive_compression_name
+                0x000388e0                archive_position_compressed
+                0x000388f0                archive_position_uncompressed
+                0x00038900                archive_clear_error
+                0x00038920                archive_set_error
+                0x00038970                archive_copy_error
+                0x000389b0                __archive_errx
+                0x00038a30                __archive_parse_options
+ *fill*         0x00038d0c        0x4 
+ .text          0x00038d10      0x398 libarchive_pic.a(archive_string_sprintf.pico)
+                0x00038d10                __archive_string_sprintf
+                0x00038d50                __archive_string_vsprintf
+ *fill*         0x000390a8        0x8 
+ .text          0x000390b0      0x925 libarchive_pic.a(archive_string.pico)
+                0x000390b0                __archive_string_append
+                0x00039190                __archive_string_ensure
+                0x00039230                __archive_string_copy
+                0x00039310                __archive_string_concat
+                0x00039410                __archive_string_free
+                0x00039450                __archive_strncat
+                0x000394b0                __archive_strappend_char
+                0x000394f0                __archive_strappend_w_utf8
+                0x000396f0                __archive_string_utf8_w
+                0x000398d0                __archive_strappend_w_mbs
+ *fill*         0x000399d5        0x3 
+ .text          0x000399d8        0x0 /usr/lib/crtendS.o
+ .text          0x000399d8        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x000399e0        0xa
+ *(SORT(.fini))
+ .fini          0x000399e0        0x3 /usr/lib/crti.o
+                0x000399e0                _fini
+ .fini          0x000399e3        0x5 /usr/lib/crtbeginS.o
+ .fini          0x000399e8        0x2 /usr/lib/crtn.o
+                0x000399ea                PROVIDE (__etext, .)
+                0x000399ea                PROVIDE (_etext, .)
+                0x000399ea                PROVIDE (etext, .)
+
+.rodata         0x000399ec     0x43cc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000399ec       0x48 libarchive_pic.a(archive_write_set_format_by_name.pico)
+                                 0x60 (size before relaxing)
+ .rodata.str1.1
+                0x00039a34      0x216 libarchive_pic.a(archive_write_set_format_ar.pico)
+                                0x21d (size before relaxing)
+ .rodata.str1.1
+                0x00039c4a        0xf libarchive_pic.a(archive_write_set_format.pico)
+ .rodata.str1.1
+                0x00039c59      0x223 libarchive_pic.a(archive_write_set_compression_xz.pico)
+                                0x239 (size before relaxing)
+ .rodata.str1.1
+                0x00039e7c       0xa0 libarchive_pic.a(archive_write_set_compression_program.pico)
+                                0x141 (size before relaxing)
+ .rodata.str1.1
+                0x00039f1c      0x14a libarchive_pic.a(archive_write_set_compression_gzip.pico)
+                                0x240 (size before relaxing)
+ .rodata.str1.1
+                0x0003a066       0x53 libarchive_pic.a(archive_write_set_compression_compress.pico)
+                                 0xfd (size before relaxing)
+ .rodata        0x0003a0b9        0x9 libarchive_pic.a(archive_write_set_compression_compress.pico)
+ .rodata.str1.1
+                0x0003a0c2      0x131 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+                                0x28f (size before relaxing)
+ .rodata.str1.1
+                0x0003a1f3       0x1b libarchive_pic.a(archive_write_open_memory.pico)
+ .rodata.str1.1
+                0x0003a20e       0x33 libarchive_pic.a(archive_write_open_filename.pico)
+                                 0x3d (size before relaxing)
+ .rodata.str1.1
+                0x00000000       0x16 libarchive_pic.a(archive_write_open_file.pico)
+ .rodata.str1.1
+                0x0003a241       0x14 libarchive_pic.a(archive_write_open_fd.pico)
+                                 0x2a (size before relaxing)
+ .rodata.str1.1
+                0x0003a255       0x2a libarchive_pic.a(archive_read_support_format_raw.pico)
+                                 0x2f (size before relaxing)
+ .rodata.str1.1
+                0x0003a27f       0x7d libarchive_pic.a(archive_read_support_compression_program.pico)
+                                 0x9f (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0xa libarchive_pic.a(archive_read_open_memory.pico)
+ .rodata.str1.1
+                0x0003a2fc       0x64 libarchive_pic.a(archive_read_open_filename.pico)
+                                 0x83 (size before relaxing)
+ .rodata.str1.1
+                0x0003a360       0x13 libarchive_pic.a(archive_read_open_file.pico)
+                                 0x1d (size before relaxing)
+ .rodata.str1.1
+                0x0003a373       0x33 libarchive_pic.a(archive_read_open_fd.pico)
+                                 0x3d (size before relaxing)
+ .rodata.str1.1
+                0x0003a3a6        0xe libarchive_pic.a(archive_read_extract.pico)
+                                 0x11 (size before relaxing)
+ .rodata.str1.1
+                0x0003a3b4       0x6a libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+ .rodata.str1.1
+                0x0003a41e       0x33 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+ .rodata.str1.1
+                0x0003a451       0x46 libarchive_pic.a(archive_read_disk.pico)
+ .rodata.str1.1
+                0x0003a497       0x25 libarchive_pic.a(archive_read_data_into_fd.pico)
+                                 0x31 (size before relaxing)
+ .rodata.str1.1
+                0x0003a4bc        0xc libarchive_pic.a(archive_entry_strmode.pico)
+ .rodata.str1.1
+                0x0003a4c8       0xbd libarchive_pic.a(archive_write_set_format_zip.pico)
+                                 0xd5 (size before relaxing)
+ .rodata.str1.1
+                0x0003a585      0x18e libarchive_pic.a(archive_write_set_format_shar.pico)
+                                0x1bd (size before relaxing)
+ .rodata        0x0003a713       0x1a libarchive_pic.a(archive_write_set_format_shar.pico)
+ .rodata.str1.1
+                0x0003a72d      0x2fe libarchive_pic.a(archive_write_set_format_pax.pico)
+                                0x32e (size before relaxing)
+ .rodata        0x0003aa2b       0x40 libarchive_pic.a(archive_write_set_format_pax.pico)
+ *fill*         0x0003aa6b        0x1 
+ .rodata        0x0003aa6c      0x454 libarchive_pic.a(archive_write_set_format_mtree.pico)
+ .rodata.str1.1
+                0x0003aec0      0x252 libarchive_pic.a(archive_write_set_format_mtree.pico)
+                                0x28e (size before relaxing)
+ .rodata.str1.1
+                0x0003b112       0x51 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+                                 0x67 (size before relaxing)
+ .rodata.cst4   0x0003b163        0x4 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+ .rodata.str1.1
+                0x0003b167       0x53 libarchive_pic.a(archive_write_set_format_cpio.pico)
+                                 0x7c (size before relaxing)
+ .rodata.str1.1
+                0x0003b1ba      0x45e libarchive_pic.a(archive_write_disk.pico)
+                                0x460 (size before relaxing)
+ .rodata.str1.1
+                0x0003b618      0x1ab libarchive_pic.a(archive_write.pico)
+                                0x1d9 (size before relaxing)
+ *fill*         0x0003b7c3        0x1 
+ .rodata        0x0003b7c4       0x38 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .rodata.str1.1
+                0x0003b7fc      0x265 libarchive_pic.a(archive_read_support_format_zip.pico)
+                                0x299 (size before relaxing)
+ .rodata.str1.1
+                0x0003ba61       0x23 libarchive_pic.a(archive_read_support_format_xar.pico)
+ .rodata        0x0003ba84       0xbf libarchive_pic.a(archive_read_support_format_tar.pico)
+ .rodata.str1.1
+                0x0003bb43      0x4fa libarchive_pic.a(archive_read_support_format_tar.pico)
+                                0x607 (size before relaxing)
+ *fill*         0x0003c03d        0x3 
+ .rodata        0x0003c040       0xc0 libarchive_pic.a(archive_read_support_format_mtree.pico)
+ .rodata.str1.1
+                0x0003c100      0x19a libarchive_pic.a(archive_read_support_format_mtree.pico)
+                                0x2bb (size before relaxing)
+ *fill*         0x0003c29a        0x2 
+ .rodata        0x0003c29c       0xf8 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+ .rodata.str1.1
+                0x0003c394      0x384 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+                                0x3b2 (size before relaxing)
+ .rodata.str1.1
+                0x0003c718        0xb libarchive_pic.a(archive_read_support_format_empty.pico)
+ .rodata.str1.1
+                0x0003c723       0xf2 libarchive_pic.a(archive_read_support_format_cpio.pico)
+                                0x11b (size before relaxing)
+ .rodata.str1.1
+                0x0003c815       0xc9 libarchive_pic.a(archive_read_support_format_ar.pico)
+                                0x162 (size before relaxing)
+ *fill*         0x0003c8de        0x2 
+ .rodata        0x0003c8e0       0x2c libarchive_pic.a(archive_read_support_compression_xz.pico)
+ .rodata.str1.1
+                0x0003c90c      0x1bd libarchive_pic.a(archive_read_support_compression_xz.pico)
+                                0x20d (size before relaxing)
+ .rodata.str1.1
+                0x0003cac9       0x68 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ *fill*         0x0003cb31        0x3 
+ .rodata        0x0003cb34      0x400 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ .rodata        0x0003cf34       0x14 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+ .rodata.str1.1
+                0x0003cf48       0x35 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+                                 0x39 (size before relaxing)
+ *fill*         0x0003cf7d        0x3 
+ .rodata        0x0003cf80       0x1c libarchive_pic.a(archive_read_support_compression_gzip.pico)
+ .rodata.str1.1
+                0x0003cf9c       0xcd libarchive_pic.a(archive_read_support_compression_gzip.pico)
+                                0x1a9 (size before relaxing)
+ .rodata.str1.1
+                0x0003d069       0x4f libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .rodata        0x0003d0b8       0x44 libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .rodata        0x0003d0fc       0x28 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+ .rodata.str1.1
+                0x0003d124       0xa1 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+                                 0xe6 (size before relaxing)
+ .rodata.str1.1
+                0x0003d1c5      0x348 libarchive_pic.a(archive_read.pico)
+                                0x377 (size before relaxing)
+ .rodata.str1.1
+                0x0003d50d       0xdc libarchive_pic.a(archive_write_set_format_ustar.pico)
+                                0x187 (size before relaxing)
+ .rodata        0x0003d5e9      0x200 libarchive_pic.a(archive_write_set_format_ustar.pico)
+ .rodata.str1.1
+                0x0003d7e9       0x69 libarchive_pic.a(archive_write_set_compression_none.pico)
+                                 0xc0 (size before relaxing)
+ *fill*         0x0003d852        0x2 
+ .rodata        0x0003d854       0x18 libarchive_pic.a(archive_entry.pico)
+ .rodata.str1.1
+                0x0003d86c      0x113 libarchive_pic.a(archive_entry.pico)
+ *fill*         0x0003d97f        0x1 
+ .rodata.str4.4
+                0x0003d980      0x304 libarchive_pic.a(archive_entry.pico)
+ .rodata.str1.1
+                0x0003dc84       0xbf libarchive_pic.a(archive_check_magic.pico)
+                                 0xd3 (size before relaxing)
+ .rodata.str1.1
+                0x0003dd43       0x4c libarchive_pic.a(archive_util.pico)
+                                 0x4e (size before relaxing)
+ *fill*         0x0003dd8f        0x1 
+ .rodata        0x0003dd90       0x28 libarchive_pic.a(archive_string_sprintf.pico)
+ .rodata.str1.1
+                0x00000000       0x1f libarchive_pic.a(archive_string_sprintf.pico)
+ .rodata.str1.1
+                0x00000000        0xe libarchive_pic.a(archive_string.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0003ddb8     0x102c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0003ddb8     0x102c libarchive_pic.a(archive_write_set_format_by_name.pico)
+
+.eh_frame       0x0003ede4     0x3e6c
+ *(.eh_frame)
+ .eh_frame      0x0003ede4       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0003ee20        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0003ee20       0x38 libarchive_pic.a(archive_write_set_format_by_name.pico)
+ .eh_frame      0x0003ee58       0xdc libarchive_pic.a(archive_write_set_format_ar.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x0003ef34       0x1c libarchive_pic.a(archive_write_set_format.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x0003ef50       0xe0 libarchive_pic.a(archive_write_set_compression_xz.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x0003f030       0x80 libarchive_pic.a(archive_write_set_compression_program.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0003f0b0       0xc0 libarchive_pic.a(archive_write_set_compression_gzip.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x0003f170       0xa0 libarchive_pic.a(archive_write_set_compression_compress.pico)
+                                 0xb8 (size before relaxing)
+ .eh_frame      0x0003f210       0xc0 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x0003f2d0       0x7c libarchive_pic.a(archive_write_open_memory.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x0003f34c       0x9c libarchive_pic.a(archive_write_open_filename.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x0003f3e8       0x78 libarchive_pic.a(archive_write_open_file.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x0003f460       0x7c libarchive_pic.a(archive_write_open_fd.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x0003f4dc       0xb8 libarchive_pic.a(archive_read_support_format_raw.pico)
+                                 0xd0 (size before relaxing)
+ .eh_frame      0x0003f594       0x20 libarchive_pic.a(archive_read_support_format_all.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003f5b4      0x11c libarchive_pic.a(archive_read_support_compression_program.pico)
+                                0x134 (size before relaxing)
+ .eh_frame      0x0003f6d0       0x1c libarchive_pic.a(archive_read_support_compression_none.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x0003f6ec       0x20 libarchive_pic.a(archive_read_support_compression_all.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003f70c       0xb4 libarchive_pic.a(archive_read_open_memory.pico)
+                                 0xcc (size before relaxing)
+ .eh_frame      0x0003f7c0       0x9c libarchive_pic.a(archive_read_open_filename.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x0003f85c       0x80 libarchive_pic.a(archive_read_open_file.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0003f8dc       0x80 libarchive_pic.a(archive_read_open_fd.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0003f95c       0x9c libarchive_pic.a(archive_read_extract.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x0003f9f8       0x80 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x0003fa78       0x20 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003fa98      0x160 libarchive_pic.a(archive_read_disk.pico)
+                                0x178 (size before relaxing)
+ .eh_frame      0x0003fbf8       0x20 libarchive_pic.a(archive_read_data_into_fd.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003fc18       0x20 libarchive_pic.a(archive_entry_strmode.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003fc38       0x20 libarchive_pic.a(archive_entry_stat.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003fc58       0x20 libarchive_pic.a(archive_entry_copy_stat.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003fc78       0x3c libarchive_pic.a(filter_fork.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x0003fcb4      0x100 libarchive_pic.a(archive_write_set_format_zip.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x0003fdb4      0x140 libarchive_pic.a(archive_write_set_format_shar.pico)
+                                0x158 (size before relaxing)
+ .eh_frame      0x0003fef4      0x140 libarchive_pic.a(archive_write_set_format_pax.pico)
+                                0x158 (size before relaxing)
+ .eh_frame      0x00040034      0x120 libarchive_pic.a(archive_write_set_format_mtree.pico)
+                                0x138 (size before relaxing)
+ .eh_frame      0x00040154       0xe0 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00040234       0xe0 libarchive_pic.a(archive_write_set_format_cpio.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00040314       0x80 libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00040394      0x214 libarchive_pic.a(archive_write_disk.pico)
+                                0x22c (size before relaxing)
+ .eh_frame      0x000405a8      0x1e0 libarchive_pic.a(archive_write.pico)
+                                0x1f8 (size before relaxing)
+ .eh_frame      0x00040788       0xc0 libarchive_pic.a(archive_read_support_format_zip.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x00040848       0x1c libarchive_pic.a(archive_read_support_format_xar.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00040864      0x1e0 libarchive_pic.a(archive_read_support_format_tar.pico)
+                                0x1f8 (size before relaxing)
+ .eh_frame      0x00040a44      0x11c libarchive_pic.a(archive_read_support_format_mtree.pico)
+                                0x134 (size before relaxing)
+ .eh_frame      0x00040b60      0x1bc libarchive_pic.a(archive_read_support_format_iso9660.pico)
+                                0x1d4 (size before relaxing)
+ .eh_frame      0x00040d1c       0x70 libarchive_pic.a(archive_read_support_format_empty.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00040d8c      0x120 libarchive_pic.a(archive_read_support_format_cpio.pico)
+                                0x138 (size before relaxing)
+ .eh_frame      0x00040eac       0xdc libarchive_pic.a(archive_read_support_format_ar.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x00040f88      0x114 libarchive_pic.a(archive_read_support_compression_xz.pico)
+                                0x12c (size before relaxing)
+ .eh_frame      0x0004109c       0xc0 libarchive_pic.a(archive_read_support_compression_uu.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x0004115c       0x98 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+                                 0xb0 (size before relaxing)
+ .eh_frame      0x000411f4       0xb8 libarchive_pic.a(archive_read_support_compression_gzip.pico)
+                                 0xd0 (size before relaxing)
+ .eh_frame      0x000412ac       0xf4 libarchive_pic.a(archive_read_support_compression_compress.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x000413a0       0xb8 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+                                 0xd0 (size before relaxing)
+ .eh_frame      0x00041458      0x370 libarchive_pic.a(archive_read.pico)
+                                0x388 (size before relaxing)
+ .eh_frame      0x000417c8       0xbc libarchive_pic.a(archive_entry_link_resolver.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x00041884       0xe0 libarchive_pic.a(archive_write_set_format_ustar.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00041964       0x80 libarchive_pic.a(archive_write_set_compression_none.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x000419e4       0xe0 libarchive_pic.a(archive_virtual.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00041ac4      0xcdc libarchive_pic.a(archive_entry.pico)
+                                0xcf4 (size before relaxing)
+ .eh_frame      0x000427a0       0x3c libarchive_pic.a(archive_check_magic.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x000427dc       0x98 libarchive_pic.a(archive_entry_xattr.pico)
+                                 0xb0 (size before relaxing)
+ .eh_frame      0x00042874      0x240 libarchive_pic.a(archive_util.pico)
+                                0x258 (size before relaxing)
+ .eh_frame      0x00042ab4       0x5c libarchive_pic.a(archive_string_sprintf.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x00042b10      0x13c libarchive_pic.a(archive_string.pico)
+                                0x154 (size before relaxing)
+ .eh_frame      0x00042c4c        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00042c50       0x18
+ .note.netbsd.ident
+                0x00042c50       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00042c68       0x14
+ .note.netbsd.pax
+                0x00042c68       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00042c7c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00043000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00043000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00043000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00043004        0x4 /usr/lib/crtendS.o
+                0x00043004                __CTOR_LIST_END__
+
+.dtors          0x00043008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00043008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0004300c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00043010        0x4
+ *(.jcr)
+ .jcr           0x00043010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00043010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00043014      0x204
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00043014       0x24 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .data.rel.ro.local
+                0x00043038      0x100 libarchive_pic.a(archive_entry.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00043138       0x78 libarchive_pic.a(archive_write_set_format_by_name.pico)
+ .data.rel.ro   0x000431b0       0x68 libarchive_pic.a(archive_write_set_format.pico)
+
+.dynamic        0x00043218       0xc8
+ *(.dynamic)
+ .dynamic       0x00043218       0xc8 /usr/lib/crti.o
+                0x00043218                _DYNAMIC
+
+.got            0x000432e0       0x24
+ *(.got)
+ .got           0x000432e0       0x24 /usr/lib/crti.o
+ *(.igot)
+                0x00043304                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00043304      0x4c0
+ *(.got.plt)
+ .got.plt       0x00043304      0x4c0 /usr/lib/crti.o
+                0x00043304                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000437c4       0x28
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000437c4        0x0 /usr/lib/crti.o
+ .data          0x000437c4        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000437c4       0x26 /usr/lib/crtbeginS.o
+                0x000437c4                __dso_handle
+ *fill*         0x000437ea        0x2 
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_by_name.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_ar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_xz.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_program.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_gzip.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_compress.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_open_memory.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_open_filename.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_open_file.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_open_fd.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_raw.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_all.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_program.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_none.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_all.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_open_memory.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_open_filename.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_open_file.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_open_fd.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_extract.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_disk.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_data_into_fd.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry_strmode.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry_stat.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry_copy_stat.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(filter_fork.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_zip.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_shar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_pax.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_mtree.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_cpio.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_disk.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_xar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_tar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_mtree.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_empty.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_cpio.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_ar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_xz.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_gzip.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_read.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry_link_resolver.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_ustar.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_none.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_virtual.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_check_magic.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_entry_xattr.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_util.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_string_sprintf.pico)
+ .data          0x000437ec        0x0 libarchive_pic.a(archive_string.pico)
+ .data          0x000437ec        0x0 /usr/lib/crtendS.o
+ .data          0x000437ec        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000437ec                _edata = .
+                0x000437ec                PROVIDE (edata, .)
+                0x000437ec                . = .
+                0x000437ec                __bss_start = .
+
+.bss            0x000437ec       0xf0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000437ec        0x0 /usr/lib/crti.o
+ .bss           0x000437ec        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_by_name.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_format_ar.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_format.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_xz.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_program.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_gzip.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_compress.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_open_memory.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_open_filename.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_open_file.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_write_open_fd.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_raw.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_support_format_all.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_program.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_none.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_support_compression_all.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_open_memory.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_open_filename.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_open_file.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_open_fd.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_extract.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+ .bss           0x000437ec        0x0 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+ .bss           0x000437ec       0x18 libarchive_pic.a(archive_read_disk.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_read_data_into_fd.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_entry_strmode.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_entry_stat.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_entry_copy_stat.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(filter_fork.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_zip.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_shar.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_pax.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_mtree.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_set_format_cpio.pico)
+ .bss           0x00043804        0x0 libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+ .bss           0x00043804       0x19 libarchive_pic.a(archive_write_disk.pico)
+ *fill*         0x0004381d        0x3 
+ .bss           0x00043820       0x18 libarchive_pic.a(archive_write.pico)
+ .bss           0x00043838        0x0 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .bss           0x00043838        0x0 libarchive_pic.a(archive_read_support_format_xar.pico)
+ .bss           0x00043838       0x88 libarchive_pic.a(archive_read_support_format_tar.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_format_mtree.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_format_empty.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_format_cpio.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_format_ar.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_compression_xz.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+ .bss           0x000438c0        0x0 libarchive_pic.a(archive_read_support_compression_gzip.pico)
+ .bss           0x000438c0        0x4 libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .bss           0x000438c4        0x0 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+ .bss           0x000438c4       0x18 libarchive_pic.a(archive_read.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_entry_link_resolver.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_write_set_format_ustar.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_write_set_compression_none.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_virtual.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_entry.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_check_magic.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_entry_xattr.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_util.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_string_sprintf.pico)
+ .bss           0x000438dc        0x0 libarchive_pic.a(archive_string.pico)
+ .bss           0x000438dc        0x0 /usr/lib/crtendS.o
+ .bss           0x000438dc        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x000438dc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000438dc                . = ALIGN (0x4)
+                0x000438dc                . = ALIGN (0x4)
+                0x000438dc                _end = .
+                0x000438dc                PROVIDE (end, .)
+                0x000438dc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libarchive_pic.a(archive_write_set_format_by_name.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_ar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_xz.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_program.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_gzip.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_compress.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_bzip2.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_open_memory.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_open_filename.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_open_file.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_open_fd.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_raw.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_all.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_program.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_none.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_all.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_open_memory.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_open_filename.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_open_file.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_open_fd.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_extract.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_disk_set_standard_lookup.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_disk_entry_from_file.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_disk.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_data_into_fd.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry_strmode.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry_stat.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry_copy_stat.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(filter_fork.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_zip.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_shar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_pax.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_mtree.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_cpio_newc.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_cpio.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_disk_set_standard_lookup.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_disk.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_zip.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_xar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_tar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_mtree.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_iso9660.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_empty.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_cpio.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_format_ar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_xz.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_uu.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_rpm.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_gzip.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_compress.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read_support_compression_bzip2.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_read.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry_link_resolver.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_format_ustar.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_write_set_compression_none.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_virtual.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_check_magic.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_entry_xattr.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_util.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_string_sprintf.pico)
+ .comment       0x00000000       0x30 libarchive_pic.a(archive_string.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libarchive.so.3.1 elf32-i386-minix)

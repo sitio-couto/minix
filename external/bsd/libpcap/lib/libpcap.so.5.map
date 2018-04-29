@@ -1,0 +1,870 @@
+Archive member included because of file (symbol)
+
+libpcap_pic.a(version.pico)   (--whole-archive)
+libpcap_pic.a(bpf_dump.pico)  (--whole-archive)
+libpcap_pic.a(bpf_image.pico)
+                              (--whole-archive)
+libpcap_pic.a(etherent.pico)  (--whole-archive)
+libpcap_pic.a(sf-pcap.pico)   (--whole-archive)
+libpcap_pic.a(sf-pcap-ng.pico)
+                              (--whole-archive)
+libpcap_pic.a(pcap-common.pico)
+                              (--whole-archive)
+libpcap_pic.a(fad-getad.pico)
+                              (--whole-archive)
+libpcap_pic.a(gencode.pico)   (--whole-archive)
+libpcap_pic.a(grammar.pico)   (--whole-archive)
+libpcap_pic.a(scanner.pico)   (--whole-archive)
+libpcap_pic.a(nametoaddr.pico)
+                              (--whole-archive)
+libpcap_pic.a(inet.pico)      (--whole-archive)
+libpcap_pic.a(optimize.pico)  (--whole-archive)
+libpcap_pic.a(pcap-bpf.pico)  (--whole-archive)
+libpcap_pic.a(pcap.pico)      (--whole-archive)
+libpcap_pic.a(savefile.pico)  (--whole-archive)
+libpcap_pic.a(bpf_filter.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+pcap_errflag        0x4               libpcap_pic.a(grammar.pico)
+pcap_nerrs          0x4               libpcap_pic.a(grammar.pico)
+pcap_char           0x4               libpcap_pic.a(grammar.pico)
+next_vnode          0x4               libpcap_pic.a(optimize.pico)
+vnode_base          0x4               libpcap_pic.a(optimize.pico)
+no_optimize         0x4               libpcap_pic.a(gencode.pico)
+vmap                0x4               libpcap_pic.a(optimize.pico)
+edges               0x4               libpcap_pic.a(optimize.pico)
+pcap_debug          0x4               libpcap_pic.a(grammar.pico)
+pcap_text           0x4               libpcap_pic.a(scanner.pico)
+levels              0x4               libpcap_pic.a(optimize.pico)
+pcap_lval           0x10              libpcap_pic.a(grammar.pico)
+space               0x4               libpcap_pic.a(optimize.pico)
+pcap_val            0x10              libpcap_pic.a(grammar.pico)
+pcap_leng           0x4               libpcap_pic.a(scanner.pico)
+blocks              0x4               libpcap_pic.a(optimize.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(version.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(bpf_dump.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(bpf_image.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(etherent.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(sf-pcap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(sf-pcap-ng.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(pcap-common.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(fad-getad.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(gencode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(grammar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(scanner.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(nametoaddr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(inet.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(optimize.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(pcap-bpf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(pcap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(savefile.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpcap_pic.a(bpf_filter.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libpcap_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x8c4
+ *(.hash)
+ .hash          0x000000f4      0x8c4 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000009b8     0x1280
+ *(.dynsym)
+ .dynsym        0x000009b8     0x1280 /usr/lib/crti.o
+
+.dynstr         0x00001c38      0xfe8
+ *(.dynstr)
+ .dynstr        0x00001c38      0xfe8 /usr/lib/crti.o
+
+.gnu.version    0x00002c20        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00002c20        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00002c20        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00002c20      0xc78
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00002c20      0xa80 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000036a0        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000036a8       0xa0 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00003748      0x150 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00003898      0x568
+ *(.rel.plt)
+ .rel.plt       0x00003898      0x568 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00003e00        0xa
+ *(SORT(.init))
+ .init          0x00003e00        0x3 /usr/lib/crti.o
+                0x00003e00                _init
+ .init          0x00003e03        0x5 /usr/lib/crtbeginS.o
+ .init          0x00003e08        0x2 /usr/lib/crtn.o
+
+.plt            0x00003e10      0xae0
+ *(.plt)
+ .plt           0x00003e10      0xae0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000048f0    0x23cc8
+                0x000048f0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000048f0        0x0 /usr/lib/crti.o
+ .text          0x000048f0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000049df        0x1 
+ .text          0x000049e0        0x0 libpcap_pic.a(version.pico)
+ .text          0x000049e0      0x107 libpcap_pic.a(bpf_dump.pico)
+                0x000049e0                bpf_dump
+ *fill*         0x00004ae7        0x9 
+ .text          0x00004af0      0x54d libpcap_pic.a(bpf_image.pico)
+                0x00004af0                bpf_image
+ *fill*         0x0000503d        0x3 
+ .text          0x00005040      0x3d6 libpcap_pic.a(etherent.pico)
+                0x00005040                pcap_next_etherent
+ *fill*         0x00005416        0xa 
+ .text          0x00005420      0xe08 libpcap_pic.a(sf-pcap.pico)
+                0x00005420                pcap_check_header
+                0x00005a80                pcap_dump
+                0x00005b00                pcap_dump_open
+                0x00005ce0                pcap_dump_fopen
+                0x00005d60                pcap_dump_open_append
+                0x000061b0                pcap_dump_file
+                0x000061c0                pcap_dump_ftell
+                0x000061e0                pcap_dump_flush
+                0x00006210                pcap_dump_close
+ *fill*         0x00006228        0x8 
+ .text          0x00006230      0xecf libpcap_pic.a(sf-pcap-ng.pico)
+                0x00006230                pcap_ng_check_header
+ *fill*         0x000070ff        0x1 
+ .text          0x00007100      0x456 libpcap_pic.a(pcap-common.pico)
+                0x00007100                dlt_to_linktype
+                0x00007230                linktype_to_dlt
+                0x00007350                swap_pseudo_headers
+ *fill*         0x00007556        0xa 
+ .text          0x00007560      0x1f5 libpcap_pic.a(fad-getad.pico)
+                0x00007560                pcap_findalldevs_interfaces
+ *fill*         0x00007755        0xb 
+ .text          0x00007760    0x14535 libpcap_pic.a(gencode.pico)
+                0x00007760                bpf_error
+                0x000077c0                sdup
+                0x000078d0                pcap_compile
+                0x00008560                pcap_compile_nopcap
+                0x000085d0                pcap_freecode
+                0x00008610                finish_parse
+                0x00009180                gen_and
+                0x00009230                gen_or
+                0x000092d0                gen_not
+                0x000092f0                gen_llc
+                0x00009630                gen_atmtype_abbrev
+                0x00009fd0                gen_llc_i
+                0x0000a650                gen_llc_s
+                0x0000a770                gen_llc_u
+                0x0000a890                gen_llc_s_subtype
+                0x0000a9b0                gen_llc_u_subtype
+                0x0000aad0                gen_proto_abbrev
+                0x0000e500                gen_portop
+                0x0000ea30                gen_portop6
+                0x0000eda0                gen_portrangeop
+                0x0000f2e0                gen_portrangeop6
+                0x0000fbe0                gen_scode
+                0x000144a0                gen_mcode
+                0x000145c0                gen_ncode
+                0x00014940                gen_mcode6
+                0x00014b20                gen_ecode
+                0x00014d00                sappend
+                0x00014d20                gen_load
+                0x000158e0                gen_relation
+                0x00015b50                gen_loadlen
+                0x00015bc0                gen_loadi
+                0x00015c30                gen_neg
+                0x00015ce0                gen_arth
+                0x00015e00                gen_greater
+                0x00015e50                gen_less
+                0x00015eb0                gen_byteop
+                0x00015fe0                gen_broadcast
+                0x00016430                gen_multicast
+                0x00016e10                gen_inbound
+                0x00017180                gen_pf_ifname
+                0x00017580                gen_pf_ruleset
+                0x00017600                gen_pf_rnr
+                0x00017670                gen_pf_srnr
+                0x000176e0                gen_pf_reason
+                0x00017750                gen_pf_action
+                0x000177c0                gen_p80211_type
+                0x00017870                gen_p80211_fcdir
+                0x00017920                gen_acode
+                0x00017bd0                gen_vlan
+                0x00017e50                gen_mpls
+                0x00018060                gen_pppoed
+                0x00018080                gen_pppoes
+                0x00018260                gen_geneve
+                0x00018f40                gen_atmfield_code
+                0x00019130                gen_mtp2type_abbrev
+                0x00019710                gen_mtp3field_code
+                0x00019a80                gen_atmmulti_abbrev
+ *fill*         0x0001bc95        0xb 
+ .text          0x0001bca0     0x1eed libpcap_pic.a(grammar.pico)
+                0x0001bca0                pcap_parse
+ *fill*         0x0001db8d        0x3 
+ .text          0x0001db90     0x1ecc libpcap_pic.a(scanner.pico)
+                0x0001db90                pcap_lex
+                0x0001ef40                pcap__create_buffer
+                0x0001efb0                pcap_wrap
+                0x0001efc0                pcap_restart
+                0x0001f210                pcap__switch_to_buffer
+                0x0001f2d0                pcap_alloc
+                0x0001f2f0                pcap__delete_buffer
+                0x0001f360                pcap_free
+                0x0001f380                pcap__flush_buffer
+                0x0001f420                pcap_push_buffer_state
+                0x0001f4f0                pcap_pop_buffer_state
+                0x0001f5b0                pcap__scan_buffer
+                0x0001f650                pcap__scan_string
+                0x0001f690                pcap__scan_bytes
+                0x0001f770                pcap_get_lineno
+                0x0001f790                pcap_get_in
+                0x0001f7b0                pcap_get_out
+                0x0001f7d0                pcap_get_leng
+                0x0001f7f0                pcap_get_text
+                0x0001f810                pcap_set_lineno
+                0x0001f830                pcap_set_in
+                0x0001f850                pcap_set_out
+                0x0001f870                pcap_get_debug
+                0x0001f890                pcap_set_debug
+                0x0001f8b0                pcap_lex_destroy
+                0x0001f990                pcap_realloc
+                0x0001f9b0                lex_init
+                0x0001f9f0                lex_cleanup
+ *fill*         0x0001fa5c        0x4 
+ .text          0x0001fa60      0x778 libpcap_pic.a(nametoaddr.pico)
+                0x0001fa60                pcap_nametoaddr
+                0x0001fac0                pcap_nametoaddrinfo
+                0x0001fb60                pcap_nametonetaddr
+                0x0001fb90                pcap_nametoport
+                0x0001fc40                pcap_nametoportrange
+                0x0001fe30                pcap_nametoproto
+                0x0001fe60                pcap_nametoeproto
+                0x0001fec0                pcap_nametollc
+                0x0001ff60                __pcap_atoin
+                0x0001ffd0                __pcap_atodn
+                0x00020050                pcap_ether_aton
+                0x00020150                pcap_ether_hostton
+                0x000201b0                __pcap_nametodnaddr
+ *fill*         0x000201d8        0x8 
+ .text          0x000201e0      0xaf5 libpcap_pic.a(inet.pico)
+                0x000201e0                dup_sockaddr
+                0x00020230                add_or_find_if
+                0x00020520                add_addr_to_iflist
+                0x000205d0                add_addr_to_dev
+                0x000208b0                pcap_add_if
+                0x00020900                pcap_freealldevs
+                0x000209d0                pcap_lookupdev
+                0x00020a60                pcap_lookupnet
+ *fill*         0x00020cd5        0xb 
+ .text          0x00020ce0     0x371b libpcap_pic.a(optimize.pico)
+                0x00020ce0                bpf_optimize
+                0x000238c0                icode_to_fcode
+                0x00023d80                install_bpf_program
+ *fill*         0x000243fb        0x5 
+ .text          0x00024400     0x175a libpcap_pic.a(pcap-bpf.pico)
+                0x00024400                pcap_create_interface
+                0x00024ef0                pcap_platform_finddevs
+ *fill*         0x00025b5a        0x6 
+ .text          0x00025b60     0x1d97 libpcap_pic.a(pcap.pico)
+                0x00025b60                pcap_not_initialized
+                0x00025b70                pcap_can_set_rfmon
+                0x00025b80                pcap_list_tstamp_types
+                0x00025c30                pcap_strerror
+                0x00025c50                pcap_free_tstamp_types
+                0x00025c70                pcap_oneshot
+                0x00025cb0                pcap_next
+                0x00025d10                pcap_dispatch
+                0x00025d20                pcap_next_ex
+                0x00025db0                pcap_findalldevs
+                0x00025e60                pcap_create
+                0x00025ee0                pcap_create_common
+                0x000260b0                pcap_set_snaplen
+                0x00026100                pcap_check_activated
+                0x00026150                pcap_set_promisc
+                0x000261a0                pcap_set_rfmon
+                0x000261f0                pcap_set_timeout
+                0x00026240                pcap_set_tstamp_type
+                0x000262e0                pcap_set_immediate_mode
+                0x00026330                pcap_set_buffer_size
+                0x00026380                pcap_set_tstamp_precision
+                0x00026420                pcap_get_tstamp_precision
+                0x00026430                pcap_activate
+                0x00026570                pcap_statustostr
+                0x000265d0                pcap_open_live
+                0x000267a0                pcap_close
+                0x000267e0                pcap_open_offline_common
+                0x000268e0                pcap_read
+                0x000268f0                pcap_loop
+                0x00026990                pcap_breakloop
+                0x000269a0                pcap_datalink
+                0x000269c0                pcap_datalink_ext
+                0x000269e0                pcap_list_datalinks
+                0x00026ab0                pcap_free_datalinks
+                0x00026ad0                pcap_set_datalink
+                0x00026be0                pcap_datalink_val_to_name
+                0x00026c30                pcap_strcasecmp
+                0x00026c80                pcap_datalink_name_to_val
+                0x00026d10                pcap_datalink_val_to_description
+                0x00026d50                pcap_tstamp_type_name_to_val
+                0x00027070                pcap_tstamp_type_val_to_name
+                0x000270d0                pcap_tstamp_type_val_to_description
+                0x00027120                pcap_snapshot
+                0x00027140                pcap_is_swapped
+                0x00027160                pcap_major_version
+                0x00027180                pcap_minor_version
+                0x000271a0                pcap_file
+                0x000271b0                pcap_fileno
+                0x000271c0                pcap_get_selectable_fd
+                0x000271d0                pcap_perror
+                0x00027220                pcap_geterr
+                0x00027230                pcap_getnonblock
+                0x00027290                pcap_getnonblock_fd
+                0x00027310                pcap_setnonblock
+                0x00027370                pcap_setnonblock_fd
+                0x00027430                pcap_setfilter
+                0x00027440                pcap_setdirection
+                0x000274a0                pcap_stats
+                0x000274b0                pcap_do_addexit
+                0x00027580                pcap_add_to_pcaps_to_close
+                0x000275b0                pcap_remove_from_pcaps_to_close
+                0x00027600                pcap_cleanup_live_common
+                0x000276d0                pcap_open_dead_with_tstamp_precision
+                0x000277b0                pcap_open_dead
+                0x00027840                pcap_sendpacket
+                0x00027880                pcap_inject
+                0x00027890                pcap_offline_filter
+                0x000278e0                pcap_lib_version
+ *fill*         0x000278f7        0x9 
+ .text          0x00027900      0x523 libpcap_pic.a(savefile.pico)
+                0x00027900                sf_cleanup
+                0x00027950                pcap_open_offline_with_tstamp_precision
+                0x00027a00                pcap_fopen_offline_with_tstamp_precision
+                0x00027bc0                pcap_open_offline
+                0x00027c00                pcap_offline_read
+                0x00027df0                pcap_fopen_offline
+ *fill*         0x00027e23        0xd 
+ .text          0x00027e30      0x786 libpcap_pic.a(bpf_filter.pico)
+                0x00027e30                bpf_filter
+                0x00028340                bpf_validate
+ *fill*         0x000285b6        0x2 
+ .text          0x000285b8        0x0 /usr/lib/crtendS.o
+ .text          0x000285b8        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x000285c0        0xa
+ *(SORT(.fini))
+ .fini          0x000285c0        0x3 /usr/lib/crti.o
+                0x000285c0                _fini
+ .fini          0x000285c3        0x5 /usr/lib/crtbeginS.o
+ .fini          0x000285c8        0x2 /usr/lib/crtn.o
+                0x000285ca                PROVIDE (__etext, .)
+                0x000285ca                PROVIDE (_etext, .)
+                0x000285ca                PROVIDE (etext, .)
+
+.rodata         0x000285d0    0x138bc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000285d0       0x2c libpcap_pic.a(bpf_dump.pico)
+ .rodata        0x000285fc       0xc4 libpcap_pic.a(bpf_image.pico)
+ .rodata.str1.1
+                0x000286c0       0xba libpcap_pic.a(bpf_image.pico)
+                                 0xd7 (size before relaxing)
+ .rodata.str1.1
+                0x0002877a      0x393 libpcap_pic.a(sf-pcap.pico)
+                                0x3a3 (size before relaxing)
+ *fill*         0x00028b0d        0x3 
+ .rodata        0x00028b10       0x18 libpcap_pic.a(sf-pcap-ng.pico)
+ .rodata.str1.1
+                0x00028b28      0x501 libpcap_pic.a(sf-pcap-ng.pico)
+                                0x54c (size before relaxing)
+ *fill*         0x00029029        0x3 
+ .rodata        0x0002902c       0xa8 libpcap_pic.a(pcap-common.pico)
+ .rodata.str1.1
+                0x000290d4        0xf libpcap_pic.a(fad-getad.pico)
+ *fill*         0x000290e3        0xd 
+ .rodata        0x000290f0      0xa60 libpcap_pic.a(gencode.pico)
+ .rodata.str1.1
+                0x00029b50     0x1ab9 libpcap_pic.a(gencode.pico)
+                               0x1b1d (size before relaxing)
+ *fill*         0x0002b609        0x3 
+ .rodata        0x0002b60c     0x4234 libpcap_pic.a(grammar.pico)
+ .rodata.str1.1
+                0x0002f840      0x384 libpcap_pic.a(grammar.pico)
+                                0x43a (size before relaxing)
+ .rodata        0x0002fbc4     0xa1f6 libpcap_pic.a(scanner.pico)
+ .rodata.str1.1
+                0x00039dba      0x213 libpcap_pic.a(scanner.pico)
+                                0x21e (size before relaxing)
+ .rodata.str1.1
+                0x00039fcd       0xe3 libpcap_pic.a(nametoaddr.pico)
+                                 0xf8 (size before relaxing)
+ .rodata.str1.1
+                0x0003a0b0       0x8c libpcap_pic.a(inet.pico)
+                                 0x97 (size before relaxing)
+ .rodata        0x0003a13c       0xdd libpcap_pic.a(optimize.pico)
+ .rodata.str1.1
+                0x0003a219       0x83 libpcap_pic.a(optimize.pico)
+                                 0x95 (size before relaxing)
+ .rodata.str1.1
+                0x0003a29c      0x34c libpcap_pic.a(pcap-bpf.pico)
+                                0x357 (size before relaxing)
+ .rodata        0x0003a5e8        0x9 libpcap_pic.a(pcap-bpf.pico)
+ .rodata.str1.1
+                0x0003a5f1     0x157f libpcap_pic.a(pcap.pico)
+                               0x163a (size before relaxing)
+ .rodata        0x0003bb70      0x116 libpcap_pic.a(pcap.pico)
+ .rodata.str1.1
+                0x0003bc86       0xcb libpcap_pic.a(savefile.pico)
+                                0x137 (size before relaxing)
+ *fill*         0x0003bd51        0x3 
+ .rodata        0x0003bd54      0x138 libpcap_pic.a(bpf_filter.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0003be8c      0x8dc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0003be8c      0x8dc libpcap_pic.a(bpf_dump.pico)
+
+.eh_frame       0x0003c768     0x2224
+ *(.eh_frame)
+ .eh_frame      0x0003c768       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0003c7a4        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0003c7a4       0x38 libpcap_pic.a(bpf_dump.pico)
+ .eh_frame      0x0003c7dc       0x20 libpcap_pic.a(bpf_image.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003c7fc       0x20 libpcap_pic.a(etherent.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003c81c      0x150 libpcap_pic.a(sf-pcap.pico)
+                                0x168 (size before relaxing)
+ .eh_frame      0x0003c96c       0xbc libpcap_pic.a(sf-pcap-ng.pico)
+                                 0xd4 (size before relaxing)
+ .eh_frame      0x0003ca28       0x78 libpcap_pic.a(pcap-common.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x0003caa0       0x20 libpcap_pic.a(fad-getad.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0003cac0      0xac8 libpcap_pic.a(gencode.pico)
+                                0xae0 (size before relaxing)
+ .eh_frame      0x0003d588       0x5c libpcap_pic.a(grammar.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x0003d5e4      0x3a0 libpcap_pic.a(scanner.pico)
+                                0x3b8 (size before relaxing)
+ .eh_frame      0x0003d984      0x190 libpcap_pic.a(nametoaddr.pico)
+                                0x1a8 (size before relaxing)
+ .eh_frame      0x0003db14      0x120 libpcap_pic.a(inet.pico)
+                                0x138 (size before relaxing)
+ .eh_frame      0x0003dc34      0x1a0 libpcap_pic.a(optimize.pico)
+                                0x1b8 (size before relaxing)
+ .eh_frame      0x0003ddd4      0x1d0 libpcap_pic.a(pcap-bpf.pico)
+                                0x1e8 (size before relaxing)
+ .eh_frame      0x0003dfa4      0x860 libpcap_pic.a(pcap.pico)
+                                0x878 (size before relaxing)
+ .eh_frame      0x0003e804      0x144 libpcap_pic.a(savefile.pico)
+                                0x15c (size before relaxing)
+ .eh_frame      0x0003e948       0x40 libpcap_pic.a(bpf_filter.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x0003e988        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0003e98c       0x18
+ .note.netbsd.ident
+                0x0003e98c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0003e9a4       0x14
+ .note.netbsd.pax
+                0x0003e9a4       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0003e9b8                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0003f9b8                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0003f9b8        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0003f9b8        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0003f9bc        0x4 /usr/lib/crtendS.o
+                0x0003f9bc                __CTOR_LIST_END__
+
+.dtors          0x0003f9c0        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0003f9c0        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0003f9c4        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0003f9c8        0x4
+ *(.jcr)
+ .jcr           0x0003f9c8        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0003f9c8        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0003f9d0      0x8a0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0003f9d0      0x218 libpcap_pic.a(grammar.pico)
+ .data.rel.ro.local
+                0x0003fbe8       0x28 libpcap_pic.a(nametoaddr.pico)
+ .data.rel.ro.local
+                0x0003fc10      0x660 libpcap_pic.a(pcap.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00040270       0xb0
+ *(.dynamic)
+ .dynamic       0x00040270       0xb0 /usr/lib/crti.o
+                0x00040270                _DYNAMIC
+
+.got            0x00040320       0xa8
+ *(.got)
+ .got           0x00040320       0xa8 /usr/lib/crti.o
+ *(.igot)
+                0x000403c8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x000403c8      0x2c0
+ *(.got.plt)
+ .got.plt       0x000403c8      0x2c0 /usr/lib/crti.o
+                0x000403c8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00040688       0xec
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00040688        0x0 /usr/lib/crti.o
+ .data          0x00040688        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00040688       0x26 /usr/lib/crtbeginS.o
+                0x00040688                __dso_handle
+ *fill*         0x000406ae        0x2 
+ .data          0x000406b0        0x6 libpcap_pic.a(version.pico)
+                0x000406b0                pcap_version
+ *fill*         0x000406b6        0x2 
+ .data          0x000406b8        0x0 libpcap_pic.a(bpf_dump.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(bpf_image.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(etherent.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(sf-pcap.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(sf-pcap-ng.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(pcap-common.pico)
+ .data          0x000406b8        0x0 libpcap_pic.a(fad-getad.pico)
+ .data          0x000406b8       0x10 libpcap_pic.a(gencode.pico)
+ .data          0x000406c8        0x0 libpcap_pic.a(grammar.pico)
+ .data          0x000406c8        0x4 libpcap_pic.a(scanner.pico)
+                0x000406c8                pcap_lineno
+ .data          0x000406cc        0x0 libpcap_pic.a(nametoaddr.pico)
+ .data.rel.local
+                0x000406cc       0xa8 libpcap_pic.a(nametoaddr.pico)
+                0x000406cc                eproto_db
+ .data          0x00040774        0x0 libpcap_pic.a(inet.pico)
+ .data          0x00040774        0x0 libpcap_pic.a(optimize.pico)
+ .data          0x00040774        0x0 libpcap_pic.a(pcap-bpf.pico)
+ .data          0x00040774        0x0 libpcap_pic.a(pcap.pico)
+ .data          0x00040774        0x0 libpcap_pic.a(savefile.pico)
+ .data          0x00040774        0x0 libpcap_pic.a(bpf_filter.pico)
+ .data          0x00040774        0x0 /usr/lib/crtendS.o
+ .data          0x00040774        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00040774                _edata = .
+                0x00040774                PROVIDE (edata, .)
+                0x00040774                . = .
+                0x00040774                __bss_start = .
+
+.bss            0x00040774      0x788
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00040774        0x0 /usr/lib/crti.o
+ .bss           0x00040774        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00040774        0x0 libpcap_pic.a(version.pico)
+ .bss           0x00040774        0x0 libpcap_pic.a(bpf_dump.pico)
+ .bss           0x00040774      0x100 libpcap_pic.a(bpf_image.pico)
+ .bss           0x00040874       0x80 libpcap_pic.a(etherent.pico)
+ .bss           0x000408f4        0x8 libpcap_pic.a(sf-pcap.pico)
+ .bss           0x000408fc        0x0 libpcap_pic.a(sf-pcap-ng.pico)
+ .bss           0x000408fc        0x0 libpcap_pic.a(pcap-common.pico)
+ .bss           0x000408fc        0x0 libpcap_pic.a(fad-getad.pico)
+ .bss           0x000408fc      0x194 libpcap_pic.a(gencode.pico)
+ .bss           0x00040a90       0x1c libpcap_pic.a(grammar.pico)
+                0x00040a90                n_errors
+ .bss           0x00040aac       0x34 libpcap_pic.a(scanner.pico)
+                0x00040aac                pcap_in
+                0x00040ab0                pcap_out
+                0x00040ab4                pcap__flex_debug
+ .bss           0x00040ae0        0x0 libpcap_pic.a(nametoaddr.pico)
+ .bss           0x00040ae0       0x11 libpcap_pic.a(inet.pico)
+ *fill*         0x00040af1        0x3 
+ .bss           0x00040af4      0x388 libpcap_pic.a(optimize.pico)
+ .bss           0x00040e7c        0x0 libpcap_pic.a(pcap-bpf.pico)
+ .bss           0x00040e7c       0x28 libpcap_pic.a(pcap.pico)
+                0x00040e7c                capture_source_types
+ .bss           0x00040ea4        0x0 libpcap_pic.a(savefile.pico)
+ .bss           0x00040ea4        0x0 libpcap_pic.a(bpf_filter.pico)
+ .bss           0x00040ea4        0x0 /usr/lib/crtendS.o
+ .bss           0x00040ea4        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x00040ea4        0x4 libpcap_pic.a(gencode.pico)
+                0x00040ea4                no_optimize
+ COMMON         0x00040ea8       0x30 libpcap_pic.a(grammar.pico)
+                0x00040ea8                pcap_errflag
+                0x00040eac                pcap_nerrs
+                0x00040eb0                pcap_char
+                0x00040eb4                pcap_debug
+                0x00040eb8                pcap_lval
+                0x00040ec8                pcap_val
+ COMMON         0x00040ed8        0x8 libpcap_pic.a(scanner.pico)
+                0x00040ed8                pcap_text
+                0x00040edc                pcap_leng
+ COMMON         0x00040ee0       0x1c libpcap_pic.a(optimize.pico)
+                0x00040ee0                next_vnode
+                0x00040ee4                vnode_base
+                0x00040ee8                vmap
+                0x00040eec                edges
+                0x00040ef0                levels
+                0x00040ef4                space
+                0x00040ef8                blocks
+                0x00040efc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00040efc                . = ALIGN (0x4)
+                0x00040efc                . = ALIGN (0x4)
+                0x00040efc                _end = .
+                0x00040efc                PROVIDE (end, .)
+                0x00040efc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libpcap_pic.a(version.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libpcap_pic.a(bpf_dump.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(bpf_image.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(etherent.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(sf-pcap.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(sf-pcap-ng.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(pcap-common.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(fad-getad.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(gencode.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(grammar.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(scanner.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(nametoaddr.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(inet.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(optimize.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(pcap-bpf.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(pcap.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(savefile.pico)
+ .comment       0x00000000       0x30 libpcap_pic.a(bpf_filter.pico)
+
+.ident          0x00000000      0x4e5
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x3d libpcap_pic.a(bpf_dump.pico)
+ .ident         0x000000ad       0x3e libpcap_pic.a(bpf_image.pico)
+ .ident         0x000000eb       0x3d libpcap_pic.a(etherent.pico)
+ .ident         0x00000128       0x3c libpcap_pic.a(sf-pcap.pico)
+ .ident         0x00000164       0x3f libpcap_pic.a(sf-pcap-ng.pico)
+ .ident         0x000001a3       0x3d libpcap_pic.a(pcap-common.pico)
+ .ident         0x000001e0       0x3e libpcap_pic.a(fad-getad.pico)
+ .ident         0x0000021e       0x3c libpcap_pic.a(gencode.pico)
+ .ident         0x0000025a       0x3c libpcap_pic.a(grammar.pico)
+ .ident         0x00000296       0x3c libpcap_pic.a(scanner.pico)
+ .ident         0x000002d2       0x3f libpcap_pic.a(nametoaddr.pico)
+ .ident         0x00000311       0x39 libpcap_pic.a(inet.pico)
+ .ident         0x0000034a       0x3d libpcap_pic.a(optimize.pico)
+ .ident         0x00000387       0x3d libpcap_pic.a(pcap-bpf.pico)
+ .ident         0x000003c4       0x39 libpcap_pic.a(pcap.pico)
+ .ident         0x000003fd       0x3d libpcap_pic.a(savefile.pico)
+ .ident         0x0000043a       0x3d libpcap_pic.a(bpf_filter.pico)
+ .ident         0x00000477       0x38 /usr/lib/crtendS.o
+ .ident         0x000004af       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libpcap.so.5.1 elf32-i386-minix)

@@ -1,0 +1,381 @@
+Archive member included because of file (symbol)
+
+libevent_openssl_pic.a(bufferevent_openssl.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libevent_openssl_pic.a(bufferevent_openssl.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libevent_openssl_pic.a
+LOAD /usr/src/external/bsd/libevent/lib/libevent/libevent.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libssl/libssl.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x258
+ *(.hash)
+ .hash          0x000000f4      0x258 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000034c      0x510
+ *(.dynsym)
+ .dynsym        0x0000034c      0x510 /usr/lib/crti.o
+
+.dynstr         0x0000085c      0x634
+ *(.dynstr)
+ .dynstr        0x0000085c      0x634 /usr/lib/crti.o
+
+.gnu.version    0x00000e90        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00000e90        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00000e90        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00000e90       0xa0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00000e90       0x38 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00000ec8        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00000ed0       0x38 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000f08       0x28 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00000f30      0x228
+ *(.rel.plt)
+ .rel.plt       0x00000f30      0x228 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001160        0xa
+ *(SORT(.init))
+ .init          0x00001160        0x3 /usr/lib/crti.o
+                0x00001160                _init
+ .init          0x00001163        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001168        0x2 /usr/lib/crtn.o
+
+.plt            0x00001170      0x460
+ *(.plt)
+ .plt           0x00001170      0x460 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000015d0     0x2370
+                0x000015d0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000015d0        0x0 /usr/lib/crti.o
+ .text          0x000015d0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000016bf        0x1 
+ .text          0x000016c0     0x227d libevent_openssl_pic.a(bufferevent_openssl.pico)
+                0x00001c80                bufferevent_ssl_renegotiate
+                0x000020e0                bufferevent_openssl_get_ssl
+                0x00002110                bufferevent_openssl_filter_new
+                0x00002410                bufferevent_openssl_socket_new
+                0x000024f0                bufferevent_get_openssl_error
+ *fill*         0x0000393d        0x3 
+ .text          0x00003940        0x0 /usr/lib/crtendS.o
+ .text          0x00003940        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00003940        0xa
+ *(SORT(.fini))
+ .fini          0x00003940        0x3 /usr/lib/crti.o
+                0x00003940                _fini
+ .fini          0x00003943        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00003948        0x2 /usr/lib/crtn.o
+                0x0000394a                PROVIDE (__etext, .)
+                0x0000394a                PROVIDE (_etext, .)
+                0x0000394a                PROVIDE (etext, .)
+
+.rodata         0x0000394c      0x132
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000394c       0x30 libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .rodata.str1.1
+                0x0000397c      0x102 libevent_openssl_pic.a(bufferevent_openssl.pico)
+                                0x104 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00003a80      0x124
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00003a80      0x124 libevent_openssl_pic.a(bufferevent_openssl.pico)
+
+.eh_frame       0x00003ba4      0x478
+ *(.eh_frame)
+ .eh_frame      0x00003ba4       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00003be0        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00003be0      0x438 libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .eh_frame      0x00004018        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0000401c       0x18
+ .note.netbsd.ident
+                0x0000401c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00004034       0x14
+ .note.netbsd.pax
+                0x00004034       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00004048                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00005048                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00005048        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00005048        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000504c        0x4 /usr/lib/crtendS.o
+                0x0000504c                __CTOR_LIST_END__
+
+.dtors          0x00005050        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00005050        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00005054        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00005058        0x4
+ *(.jcr)
+ .jcr           0x00005058        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00005058        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0000505c       0x24
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000505c       0x24 libevent_openssl_pic.a(bufferevent_openssl.pico)
+                0x0000505c                bufferevent_ops_openssl
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00005080       0xc8
+ *(.dynamic)
+ .dynamic       0x00005080       0xc8 /usr/lib/crti.o
+                0x00005080                _DYNAMIC
+
+.got            0x00005148       0x14
+ *(.got)
+ .got           0x00005148       0x14 /usr/lib/crti.o
+ *(.igot)
+                0x0000515c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000515c      0x120
+ *(.got.plt)
+ .got.plt       0x0000515c      0x120 /usr/lib/crti.o
+                0x0000515c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000527c       0x50
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000527c        0x0 /usr/lib/crti.o
+ .data          0x0000527c        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0000527c       0x26 /usr/lib/crtbeginS.o
+                0x0000527c                __dso_handle
+ *fill*         0x000052a2        0x2 
+ .data          0x000052a4        0x0 libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .data.rel.local
+                0x000052a4       0x28 libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .data          0x000052cc        0x0 /usr/lib/crtendS.o
+ .data          0x000052cc        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000052cc                _edata = .
+                0x000052cc                PROVIDE (edata, .)
+                0x000052cc                . = .
+                0x000052cc                __bss_start = .
+
+.bss            0x000052cc        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000052cc        0x0 /usr/lib/crti.o
+ .bss           0x000052cc        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000052cc        0x0 libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .bss           0x000052cc        0x0 /usr/lib/crtendS.o
+ .bss           0x000052cc        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x000052cc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000052cc                . = ALIGN (0x4)
+                0x000052cc                . = ALIGN (0x4)
+                0x000052cc                _end = .
+                0x000052cc                PROVIDE (end, .)
+                0x000052cc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libevent_openssl_pic.a(bufferevent_openssl.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000      0x12a
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x4c libevent_openssl_pic.a(bufferevent_openssl.pico)
+ .ident         0x000000bc       0x38 /usr/lib/crtendS.o
+ .ident         0x000000f4       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libevent_openssl.so.4.0 elf32-i386-minix)

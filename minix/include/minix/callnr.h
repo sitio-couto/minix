@@ -136,4 +136,17 @@
 
 #define NR_VFS_CALLS		64	/* highest number from base plus one */
 
+/*===========================================================================*
+ *				Calls to SPADMON			     *
+ *===========================================================================*/
+
+#define SPM_BASE			0x200
+
+#define IS_SPM_CALL(type)	(((type) & ~0xff) == SPM_BASE)
+
+/* Message type 0 is traditionally reserved. */
+#define SPM_TEST			(SPM_BASE + 1)
+
+#define NR_SPM_CALLS		6
+
 #endif /* !_MINIX_CALLNR_H */

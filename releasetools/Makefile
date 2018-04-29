@@ -25,6 +25,7 @@ PROGRAMS+= ${PROGROOT}/minix/servers/vm/vm
 PROGRAMS+= ${PROGROOT}/minix/fs/pfs/pfs
 PROGRAMS+= ${PROGROOT}/minix/fs/mfs/mfs
 PROGRAMS+= ${PROGROOT}/sbin/init/init
+PROGRAMS+= ${PROGROOT}/minix/servers/spm/spm
 
 all usage help:
 	@echo " " >&2
@@ -71,7 +72,7 @@ drivers: libraries
 
 services: kernel servers drivers sbin
 
-do-hdboot: 
+do-hdboot:
 	@rm -rf ${DESTDIR}/boot/minix/.temp/
 	${INSTALL_DIR} ${DESTDIR}/boot/minix/.temp
 # mod_0 is used to make alphabetical order equal to the boot order

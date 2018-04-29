@@ -1,0 +1,472 @@
+Archive member included because of file (symbol)
+
+libexpat_pic.a(xmlparse.pico)
+                              (--whole-archive)
+libexpat_pic.a(xmltok.pico)   (--whole-archive)
+libexpat_pic.a(xmlrole.pico)  (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libexpat_pic.a(xmlparse.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libexpat_pic.a(xmltok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libexpat_pic.a(xmlrole.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libexpat_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x328
+ *(.hash)
+ .hash          0x000000f4      0x328 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000041c      0x670
+ *(.dynsym)
+ .dynsym        0x0000041c      0x670 /usr/lib/crti.o
+
+.dynstr         0x00000a8c      0x81a
+ *(.dynstr)
+ .dynstr        0x00000a8c      0x81a /usr/lib/crti.o
+
+.gnu.version    0x000012a6        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000012a8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000012a8        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000012a8      0xad8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x000012a8      0xa68 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00001d10        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00001d18       0x68 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001d80       0xc8
+ *(.rel.plt)
+ .rel.plt       0x00001d80       0xc8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001e50        0xa
+ *(SORT(.init))
+ .init          0x00001e50        0x3 /usr/lib/crti.o
+                0x00001e50                _init
+ .init          0x00001e53        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001e58        0x2 /usr/lib/crtn.o
+
+.plt            0x00001e60      0x1a0
+ *(.plt)
+ .plt           0x00001e60      0x1a0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00002000    0x1a7fc
+                0x00002000                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00002000        0x0 /usr/lib/crti.o
+ .text          0x00002000       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000020ef        0x1 
+ .text          0x000020f0     0xc6eb libexpat_pic.a(xmlparse.pico)
+                0x000020f0                XML_ParserCreate
+                0x00002130                XML_ParserCreate_MM
+                0x00002170                XML_ParserCreateNS
+                0x00002570                XML_ParserReset
+                0x00002c90                XML_SetEncoding
+                0x00002d50                XML_ExternalEntityParserCreate
+                0x00003800                XML_ParserFree
+                0x00003e10                XML_UseParserAsHandlerArg
+                0x00003e20                XML_UseForeignDTD
+                0x00003e50                XML_SetReturnNSTriplet
+                0x00003e80                XML_SetUserData
+                0x00003ea0                XML_SetBase
+                0x00003f30                XML_GetBase
+                0x00003f40                XML_GetSpecifiedAttributeCount
+                0x00003f50                XML_GetIdAttributeIndex
+                0x00003f60                XML_SetElementHandler
+                0x00003f80                XML_SetStartElementHandler
+                0x00003f90                XML_SetEndElementHandler
+                0x00003fa0                XML_SetCharacterDataHandler
+                0x00003fb0                XML_SetProcessingInstructionHandler
+                0x00003fc0                XML_SetCommentHandler
+                0x00003fd0                XML_SetCdataSectionHandler
+                0x00003ff0                XML_SetStartCdataSectionHandler
+                0x00004000                XML_SetEndCdataSectionHandler
+                0x00004010                XML_SetDefaultHandler
+                0x00004030                XML_SetDefaultHandlerExpand
+                0x00004050                XML_SetDoctypeDeclHandler
+                0x00004070                XML_SetStartDoctypeDeclHandler
+                0x00004080                XML_SetEndDoctypeDeclHandler
+                0x00004090                XML_SetUnparsedEntityDeclHandler
+                0x000040a0                XML_SetNotationDeclHandler
+                0x000040b0                XML_SetNamespaceDeclHandler
+                0x000040d0                XML_SetStartNamespaceDeclHandler
+                0x000040e0                XML_SetEndNamespaceDeclHandler
+                0x000040f0                XML_SetNotStandaloneHandler
+                0x00004100                XML_SetExternalEntityRefHandler
+                0x00004110                XML_SetExternalEntityRefHandlerArg
+                0x00004130                XML_SetSkippedEntityHandler
+                0x00004140                XML_SetUnknownEncodingHandler
+                0x00004160                XML_SetElementDeclHandler
+                0x00004180                XML_SetAttlistDeclHandler
+                0x000041a0                XML_SetEntityDeclHandler
+                0x000041c0                XML_SetXmlDeclHandler
+                0x000041e0                XML_SetParamEntityParsing
+                0x00004210                XML_SetHashSalt
+                0x00004240                XML_Parse
+                0x00004430                XML_GetBuffer
+                0x000045f0                XML_ParseBuffer
+                0x000047a0                XML_StopParser
+                0x00004820                XML_ResumeParser
+                0x00004920                XML_GetParsingStatus
+                0x00004980                XML_GetErrorCode
+                0x00004990                XML_GetCurrentByteIndex
+                0x000049b0                XML_GetCurrentByteCount
+                0x000049e0                XML_GetInputContext
+                0x00004a20                XML_GetCurrentLineNumber
+                0x00004a90                XML_GetCurrentColumnNumber
+                0x00004b00                XML_FreeContentModel
+                0x00004b30                XML_MemMalloc
+                0x00004b60                XML_MemRealloc
+                0x00004b90                XML_MemFree
+                0x00004bc0                XML_DefaultCurrent
+                0x00004d60                XML_ErrorString
+                0x00004d90                XML_ExpatVersion
+                0x00004db0                XML_ExpatVersionInfo
+                0x00004dd0                XML_GetFeatureList
+ *fill*         0x0000e7db        0x5 
+ .text          0x0000e7e0     0xc292 libexpat_pic.a(xmltok.pico)
+                0x0000e7e0                XmlUtf8Encode
+                0x0000e8b0                XmlUtf16Encode
+                0x0000e900                XmlSizeOfUnknownEncoding
+                0x0000e910                XmlInitUnknownEncoding
+                0x0000efc0                XmlGetUtf8InternalEncoding
+                0x0000efe0                XmlGetUtf16InternalEncoding
+                0x0000f000                XmlInitEncoding
+                0x0000f3b0                XmlParseXmlDecl
+                0x0000f8b0                XmlGetUtf8InternalEncodingNS
+                0x0000f8d0                XmlGetUtf16InternalEncodingNS
+                0x0000f8f0                XmlInitEncodingNS
+                0x0000f9f0                XmlParseXmlDeclNS
+                0x0000fb50                XmlInitUnknownEncodingNS
+ *fill*         0x0001aa72        0xe 
+ .text          0x0001aa80     0x1d79 libexpat_pic.a(xmlrole.pico)
+                0x0001aa80                XmlPrologStateInit
+                0x0001abb0                XmlPrologStateInitExternalEntity
+ *fill*         0x0001c7f9        0x3 
+ .text          0x0001c7fc        0x0 /usr/lib/crtendS.o
+ .text          0x0001c7fc        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0001c800        0xa
+ *(SORT(.fini))
+ .fini          0x0001c800        0x3 /usr/lib/crti.o
+                0x0001c800                _fini
+ .fini          0x0001c803        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0001c808        0x2 /usr/lib/crtn.o
+                0x0001c80a                PROVIDE (__etext, .)
+                0x0001c80a                PROVIDE (_etext, .)
+                0x0001c80a                PROVIDE (etext, .)
+
+.rodata         0x0001c810     0x2b83
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0001c810      0x298 libexpat_pic.a(xmlparse.pico)
+ .rodata.str1.1
+                0x0001caa8      0x5dc libexpat_pic.a(xmlparse.pico)
+ *fill*         0x0001d084        0xc 
+ .rodata        0x0001d090     0x21e4 libexpat_pic.a(xmltok.pico)
+ .rodata        0x0001f274      0x11f libexpat_pic.a(xmlrole.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0001f394      0x854
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0001f394      0x854 libexpat_pic.a(xmlparse.pico)
+
+.eh_frame       0x0001fbe8     0x1f90
+ *(.eh_frame)
+ .eh_frame      0x0001fbe8       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0001fc24        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0001fc24      0xc60 libexpat_pic.a(xmlparse.pico)
+ .eh_frame      0x00020884      0xcf0 libexpat_pic.a(xmltok.pico)
+                                0xd08 (size before relaxing)
+ .eh_frame      0x00021574      0x600 libexpat_pic.a(xmlrole.pico)
+                                0x618 (size before relaxing)
+ .eh_frame      0x00021b74        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00021b78       0x18
+ .note.netbsd.ident
+                0x00021b78       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00021b90       0x14
+ .note.netbsd.pax
+                0x00021b90       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00021ba4                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00022000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00022000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00022000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00022004        0x4 /usr/lib/crtendS.o
+                0x00022004                __CTOR_LIST_END__
+
+.dtors          0x00022008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00022008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0002200c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00022010        0x4
+ *(.jcr)
+ .jcr           0x00022010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00022010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00022014     0x1544
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00022014       0xec libexpat_pic.a(xmlparse.pico)
+ .data.rel.ro.local
+                0x00022100     0x1458 libexpat_pic.a(xmltok.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00023558       0xb0
+ *(.dynamic)
+ .dynamic       0x00023558       0xb0 /usr/lib/crti.o
+                0x00023558                _DYNAMIC
+
+.got            0x00023608       0x34
+ *(.got)
+ .got           0x00023608       0x34 /usr/lib/crti.o
+ *(.igot)
+                0x0002363c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0002363c       0x70
+ *(.got.plt)
+ .got.plt       0x0002363c       0x70 /usr/lib/crti.o
+                0x0002363c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000236ac       0x28
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000236ac        0x0 /usr/lib/crti.o
+ .data          0x000236ac        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000236ac       0x26 /usr/lib/crtbeginS.o
+                0x000236ac                __dso_handle
+ *fill*         0x000236d2        0x2 
+ .data          0x000236d4        0x0 libexpat_pic.a(xmlparse.pico)
+ .data          0x000236d4        0x0 libexpat_pic.a(xmltok.pico)
+ .data          0x000236d4        0x0 libexpat_pic.a(xmlrole.pico)
+ .data          0x000236d4        0x0 /usr/lib/crtendS.o
+ .data          0x000236d4        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000236d4                _edata = .
+                0x000236d4                PROVIDE (edata, .)
+                0x000236d4                . = .
+                0x000236d4                __bss_start = .
+
+.bss            0x000236d4        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000236d4        0x0 /usr/lib/crti.o
+ .bss           0x000236d4        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000236d4        0x0 libexpat_pic.a(xmlparse.pico)
+ .bss           0x000236d4        0x0 libexpat_pic.a(xmltok.pico)
+ .bss           0x000236d4        0x0 libexpat_pic.a(xmlrole.pico)
+ .bss           0x000236d4        0x0 /usr/lib/crtendS.o
+ .bss           0x000236d4        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x000236d4                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000236d4                . = ALIGN (0x4)
+                0x000236d4                . = ALIGN (0x4)
+                0x000236d4                _end = .
+                0x000236d4                PROVIDE (end, .)
+                0x000236d4                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libexpat_pic.a(xmlparse.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libexpat_pic.a(xmltok.pico)
+ .comment       0x00000000       0x30 libexpat_pic.a(xmlrole.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libexpat.so.2.1 elf32-i386-minix)

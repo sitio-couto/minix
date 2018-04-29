@@ -1,0 +1,652 @@
+Archive member included because of file (symbol)
+
+libsaslc_pic.a(saslc.pico)    (--whole-archive)
+libsaslc_pic.a(mech_plain.pico)
+                              (--whole-archive)
+libsaslc_pic.a(mech_login.pico)
+                              (--whole-archive)
+libsaslc_pic.a(mech_external.pico)
+                              (--whole-archive)
+libsaslc_pic.a(mech_digestmd5.pico)
+                              (--whole-archive)
+libsaslc_pic.a(mech_crammd5.pico)
+                              (--whole-archive)
+libsaslc_pic.a(mech_anonymous.pico)
+                              (--whole-archive)
+libsaslc_pic.a(buffer.pico)   (--whole-archive)
+libsaslc_pic.a(xsess.pico)    (--whole-archive)
+libsaslc_pic.a(parser.pico)   (--whole-archive)
+libsaslc_pic.a(mech.pico)     (--whole-archive)
+libsaslc_pic.a(list.pico)     (--whole-archive)
+libsaslc_pic.a(error.pico)    (--whole-archive)
+libsaslc_pic.a(dict.pico)     (--whole-archive)
+libsaslc_pic.a(crypto.pico)   (--whole-archive)
+libsaslc_pic.a(msg.pico)      (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(saslc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_plain.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_login.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_external.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_digestmd5.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_crammd5.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech_anonymous.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(buffer.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(xsess.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(parser.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(mech.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(list.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(error.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(dict.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(crypto.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libsaslc_pic.a(msg.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libsaslc_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libssl/libssl.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x370
+ *(.hash)
+ .hash          0x000000f4      0x370 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000464      0x790
+ *(.dynsym)
+ .dynsym        0x00000464      0x790 /usr/lib/crti.o
+
+.dynstr         0x00000bf4      0x738
+ *(.dynstr)
+ .dynstr        0x00000bf4      0x738 /usr/lib/crti.o
+
+.gnu.version    0x0000132c        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x0000132c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x0000132c        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x0000132c      0x238
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000132c      0x108 /usr/lib/crti.o
+ .rel.data.rel.ro.local
+                0x00001434       0xe0 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00001514        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000151c       0x48 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001564      0x2b0
+ *(.rel.plt)
+ .rel.plt       0x00001564      0x2b0 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001820        0xa
+ *(SORT(.init))
+ .init          0x00001820        0x3 /usr/lib/crti.o
+                0x00001820                _init
+ .init          0x00001823        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001828        0x2 /usr/lib/crtn.o
+
+.plt            0x00001830      0x570
+ *(.plt)
+ .plt           0x00001830      0x570 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00001da0     0x55ac
+                0x00001da0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00001da0        0x0 /usr/lib/crti.o
+ .text          0x00001da0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00001e8f        0x1 
+ .text          0x00001e90      0x21b libsaslc_pic.a(saslc.pico)
+                0x00001e90                saslc_alloc
+                0x00001ee0                saslc_init
+                0x00002010                saslc_strerror
+                0x00002040                saslc_end
+ *fill*         0x000020ab        0x5 
+ .text          0x000020b0      0x19e libsaslc_pic.a(mech_plain.pico)
+ *fill*         0x0000224e        0x2 
+ .text          0x00002250       0xb1 libsaslc_pic.a(mech_login.pico)
+ *fill*         0x00002301        0xf 
+ .text          0x00002310       0x48 libsaslc_pic.a(mech_external.pico)
+ *fill*         0x00002358        0x8 
+ .text          0x00002360     0x2559 libsaslc_pic.a(mech_digestmd5.pico)
+ *fill*         0x000048b9        0x7 
+ .text          0x000048c0      0x13e libsaslc_pic.a(mech_crammd5.pico)
+ *fill*         0x000049fe        0x2 
+ .text          0x00004a00       0x48 libsaslc_pic.a(mech_anonymous.pico)
+ *fill*         0x00004a48        0x8 
+ .text          0x00004a50      0x348 libsaslc_pic.a(buffer.pico)
+                0x00004a50                saslc__buffer_destroy
+                0x00004a70                saslc__buffer_create
+                0x00004ae0                saslc__buffer_fetch
+                0x00004bb0                saslc__buffer32_destroy
+                0x00004bd0                saslc__buffer32_create
+                0x00004c50                saslc__buffer32_fetch
+ *fill*         0x00004d98        0x8 
+ .text          0x00004da0      0xb12 libsaslc_pic.a(xsess.pico)
+                0x00004da0                saslc_sess_init
+                0x00005040                saslc_sess_getmech
+                0x00005050                saslc_sess_end
+                0x00005090                saslc_sess_setprop
+                0x00005160                saslc_sess_getprop
+                0x000052b0                saslc_sess_cont
+                0x00005540                saslc_sess_encode
+                0x00005760                saslc_sess_decode
+                0x000057b0                saslc_sess_strerror
+ *fill*         0x000058b2        0xe 
+ .text          0x000058c0      0x658 libsaslc_pic.a(parser.pico)
+                0x000058c0                saslc__parser_is_true
+                0x00005950                saslc__parser_config
+ *fill*         0x00005f18        0x8 
+ .text          0x00005f20      0x330 libsaslc_pic.a(mech.pico)
+                0x00005f20                saslc__mech_list_create
+                0x00006060                saslc__mech_list_destroy
+                0x000060c0                saslc__mech_list_get
+                0x00006120                saslc__mech_strdup
+                0x000061d0                saslc__mech_generic_create
+                0x00006220                saslc__mech_generic_destroy
+ .text          0x00006250      0x44e libsaslc_pic.a(list.pico)
+                0x00006250                saslc__list_free
+                0x000062a0                saslc__list_parse
+                0x000064c0                saslc__list_append
+                0x00006580                saslc__list_flags
+                0x00006610                saslc__list_log
+ *fill*         0x0000669e        0x2 
+ .text          0x000066a0       0x3b libsaslc_pic.a(error.pico)
+                0x000066a0                saslc__error_get_strerror
+ *fill*         0x000066db        0x5 
+ .text          0x000066e0      0x62b libsaslc_pic.a(dict.pico)
+                0x000066e0                saslc__dict_destroy
+                0x00006770                saslc__dict_remove
+                0x00006880                saslc__dict_get
+                0x00006910                saslc__dict_get_len
+                0x000069a0                saslc__dict_create
+                0x000069f0                saslc__dict_insert
+ *fill*         0x00006d0b        0x5 
+ .text          0x00006d10      0x5c4 libsaslc_pic.a(crypto.pico)
+                0x00006d10                saslc__crypto_encode_base64
+                0x00006e70                saslc__crypto_decode_base64
+                0x00006fa0                saslc__crypto_nonce
+                0x00006ff0                saslc__crypto_hash_to_hex
+                0x00007060                saslc__crypto_md5_hash
+                0x000070c0                saslc__crypto_md5_hex
+                0x00007140                saslc__crypto_hmac_md5_hash
+                0x00007200                saslc__crypto_hmac_md5_hex
+ *fill*         0x000072d4        0xc 
+ .text          0x000072e0       0x6b libsaslc_pic.a(msg.pico)
+                0x000072e0                saslc__msg_syslog
+ *fill*         0x0000734b        0x1 
+ .text          0x0000734c        0x0 /usr/lib/crtendS.o
+ .text          0x0000734c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00007350        0xa
+ *(SORT(.fini))
+ .fini          0x00007350        0x3 /usr/lib/crti.o
+                0x00007350                _fini
+ .fini          0x00007353        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00007358        0x2 /usr/lib/crtn.o
+                0x0000735a                PROVIDE (__etext, .)
+                0x0000735a                PROVIDE (_etext, .)
+                0x0000735a                PROVIDE (etext, .)
+
+.rodata         0x0000735c     0x11cc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000735c       0x56 libsaslc_pic.a(saslc.pico)
+ .rodata.str1.1
+                0x000073b2      0x143 libsaslc_pic.a(mech_plain.pico)
+                                0x144 (size before relaxing)
+ .rodata.str1.1
+                0x000074f5       0x60 libsaslc_pic.a(mech_login.pico)
+                                 0xc4 (size before relaxing)
+ .rodata.str1.1
+                0x00007555       0x33 libsaslc_pic.a(mech_external.pico)
+                                 0x3b (size before relaxing)
+ .rodata        0x00007588       0x20 libsaslc_pic.a(mech_digestmd5.pico)
+ .rodata.str1.1
+                0x000075a8      0x9f9 libsaslc_pic.a(mech_digestmd5.pico)
+                                0xa8a (size before relaxing)
+ .rodata.str1.1
+                0x00007fa1        0xf libsaslc_pic.a(mech_crammd5.pico)
+                                 0x71 (size before relaxing)
+ .rodata.str1.1
+                0x00007fb0        0xa libsaslc_pic.a(mech_anonymous.pico)
+                                 0x3c (size before relaxing)
+ .rodata.str1.1
+                0x00007fba       0xa9 libsaslc_pic.a(buffer.pico)
+                                 0xab (size before relaxing)
+ *fill*         0x00008063        0x1 
+ .rodata        0x00008064       0x18 libsaslc_pic.a(xsess.pico)
+ .rodata.str1.1
+                0x0000807c      0x20d libsaslc_pic.a(xsess.pico)
+                                0x21c (size before relaxing)
+ .rodata.str1.1
+                0x00008289       0xb8 libsaslc_pic.a(parser.pico)
+                                 0xd0 (size before relaxing)
+ .rodata.str1.1
+                0x00008341       0x33 libsaslc_pic.a(mech.pico)
+                                 0x38 (size before relaxing)
+ .rodata.str1.1
+                0x00008374        0xf libsaslc_pic.a(list.pico)
+                                 0x19 (size before relaxing)
+ .rodata.str1.1
+                0x00008383       0x28 libsaslc_pic.a(error.pico)
+ .rodata.str1.1
+                0x000083ab       0xb3 libsaslc_pic.a(dict.pico)
+                                 0xc1 (size before relaxing)
+ .rodata.str1.1
+                0x0000845e       0xbd libsaslc_pic.a(crypto.pico)
+ .rodata.str1.1
+                0x0000851b        0xd libsaslc_pic.a(msg.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00008528      0x214
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00008528      0x214 libsaslc_pic.a(saslc.pico)
+
+.eh_frame       0x0000873c      0x834
+ *(.eh_frame)
+ .eh_frame      0x0000873c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00008778        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00008778       0x90 libsaslc_pic.a(saslc.pico)
+ .eh_frame      0x00008808       0x20 libsaslc_pic.a(mech_plain.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00008828       0x20 libsaslc_pic.a(mech_login.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00008848       0x20 libsaslc_pic.a(mech_external.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00008868      0x100 libsaslc_pic.a(mech_digestmd5.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x00008968       0x20 libsaslc_pic.a(mech_crammd5.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00008988       0x20 libsaslc_pic.a(mech_anonymous.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000089a8       0xb8 libsaslc_pic.a(buffer.pico)
+                                 0xd0 (size before relaxing)
+ .eh_frame      0x00008a60      0x158 libsaslc_pic.a(xsess.pico)
+                                0x170 (size before relaxing)
+ .eh_frame      0x00008bb8       0x60 libsaslc_pic.a(parser.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00008c18       0xc0 libsaslc_pic.a(mech.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x00008cd8       0xa0 libsaslc_pic.a(list.pico)
+                                 0xb8 (size before relaxing)
+ .eh_frame      0x00008d78       0x1c libsaslc_pic.a(error.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00008d94       0xc0 libsaslc_pic.a(dict.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x00008e54       0xfc libsaslc_pic.a(crypto.pico)
+                                0x114 (size before relaxing)
+ .eh_frame      0x00008f50       0x1c libsaslc_pic.a(msg.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00008f6c        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00008f70       0x18
+ .note.netbsd.ident
+                0x00008f70       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00008f88       0x14
+ .note.netbsd.pax
+                0x00008f88       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00008f9c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00009000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00009000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00009000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00009004        0x4 /usr/lib/crtendS.o
+                0x00009004                __CTOR_LIST_END__
+
+.dtors          0x00009008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00009008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000900c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00009010        0x4
+ *(.jcr)
+ .jcr           0x00009010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00009010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00009014      0x204
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00009014       0x94 libsaslc_pic.a(mech_digestmd5.pico)
+                0x00009014                saslc__mech_digestmd5
+ .data.rel.ro.local
+                0x000090a8       0x30 libsaslc_pic.a(xsess.pico)
+ .data.rel.ro.local
+                0x000090d8       0x20 libsaslc_pic.a(mech.pico)
+                0x000090d8                saslc__mech_qop_tbl
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000090f8       0x1c libsaslc_pic.a(mech_plain.pico)
+                0x000090f8                saslc__mech_plain
+ .data.rel.ro   0x00009114       0x1c libsaslc_pic.a(mech_login.pico)
+                0x00009114                saslc__mech_login
+ .data.rel.ro   0x00009130       0x1c libsaslc_pic.a(mech_external.pico)
+                0x00009130                saslc__mech_external
+ .data.rel.ro   0x0000914c       0x78 libsaslc_pic.a(mech_digestmd5.pico)
+ .data.rel.ro   0x000091c4       0x1c libsaslc_pic.a(mech_crammd5.pico)
+                0x000091c4                saslc__mech_crammd5
+ .data.rel.ro   0x000091e0       0x1c libsaslc_pic.a(mech_anonymous.pico)
+                0x000091e0                saslc__mech_anonymous
+ .data.rel.ro   0x000091fc       0x1c libsaslc_pic.a(mech.pico)
+
+.dynamic        0x00009218       0xc0
+ *(.dynamic)
+ .dynamic       0x00009218       0xc0 /usr/lib/crti.o
+                0x00009218                _DYNAMIC
+
+.got            0x000092d8       0x24
+ *(.got)
+ .got           0x000092d8       0x24 /usr/lib/crti.o
+ *(.igot)
+                0x000092fc                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x000092fc      0x164
+ *(.got.plt)
+ .got.plt       0x000092fc      0x164 /usr/lib/crti.o
+                0x000092fc                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00009460       0x28
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00009460        0x0 /usr/lib/crti.o
+ .data          0x00009460        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00009460       0x26 /usr/lib/crtbeginS.o
+                0x00009460                __dso_handle
+ *fill*         0x00009486        0x2 
+ .data          0x00009488        0x0 libsaslc_pic.a(saslc.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_plain.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_login.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_external.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_digestmd5.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_crammd5.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech_anonymous.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(buffer.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(xsess.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(parser.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(mech.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(list.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(error.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(dict.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(crypto.pico)
+ .data          0x00009488        0x0 libsaslc_pic.a(msg.pico)
+ .data          0x00009488        0x0 /usr/lib/crtendS.o
+ .data          0x00009488        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00009488                _edata = .
+                0x00009488                PROVIDE (edata, .)
+                0x00009488                . = .
+                0x00009488                __bss_start = .
+
+.bss            0x00009488        0x4
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00009488        0x0 /usr/lib/crti.o
+ .bss           0x00009488        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00009488        0x0 libsaslc_pic.a(saslc.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_plain.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_login.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_external.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_digestmd5.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_crammd5.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech_anonymous.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(buffer.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(xsess.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(parser.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(mech.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(list.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(error.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(dict.pico)
+ .bss           0x00009488        0x0 libsaslc_pic.a(crypto.pico)
+ .bss           0x00009488        0x1 libsaslc_pic.a(msg.pico)
+                0x00009488                saslc_debug
+ *fill*         0x00009489        0x3 
+ .bss           0x0000948c        0x0 /usr/lib/crtendS.o
+ .bss           0x0000948c        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x0000948c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000948c                . = ALIGN (0x4)
+                0x0000948c                . = ALIGN (0x4)
+                0x0000948c                _end = .
+                0x0000948c                PROVIDE (end, .)
+                0x0000948c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libsaslc_pic.a(saslc.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_plain.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_login.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_external.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_digestmd5.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_crammd5.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech_anonymous.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(buffer.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(xsess.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(parser.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(mech.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(list.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(error.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(dict.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(crypto.pico)
+ .comment       0x00000000       0x30 libsaslc_pic.a(msg.pico)
+
+.ident          0x00000000      0x499
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x3a libsaslc_pic.a(saslc.pico)
+ .ident         0x000000aa       0x3f libsaslc_pic.a(mech_plain.pico)
+ .ident         0x000000e9       0x3f libsaslc_pic.a(mech_login.pico)
+ .ident         0x00000128       0x42 libsaslc_pic.a(mech_external.pico)
+ .ident         0x0000016a       0x41 libsaslc_pic.a(mech_digestmd5.pico)
+ .ident         0x000001ab       0x41 libsaslc_pic.a(mech_crammd5.pico)
+ .ident         0x000001ec       0x43 libsaslc_pic.a(mech_anonymous.pico)
+ .ident         0x0000022f       0x3b libsaslc_pic.a(buffer.pico)
+ .ident         0x0000026a       0x35 libsaslc_pic.a(xsess.pico)
+ .ident         0x0000029f       0x36 libsaslc_pic.a(parser.pico)
+ .ident         0x000002d5       0x36 libsaslc_pic.a(mech.pico)
+ .ident         0x0000030b       0x39 libsaslc_pic.a(list.pico)
+ .ident         0x00000344       0x3a libsaslc_pic.a(error.pico)
+ .ident         0x0000037e       0x3a libsaslc_pic.a(dict.pico)
+ .ident         0x000003b8       0x3b libsaslc_pic.a(crypto.pico)
+ .ident         0x000003f3       0x38 libsaslc_pic.a(msg.pico)
+ .ident         0x0000042b       0x38 /usr/lib/crtendS.o
+ .ident         0x00000463       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libsaslc.so.0.0 elf32-i386-minix)

@@ -1,0 +1,1693 @@
+buf.d buf.ln buf.o: /usr/src/usr.sbin/makefs/ffs/buf.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/assert.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stddef.h
+cd9660.d cd9660.ln cd9660.o: cd9660.c /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/time.h /usr/src/sys/sys/null.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/uio.h /usr/src/sys/sys/ucred.h /usr/include/limits.h \
+  /usr/src/sys/sys/fstypes.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/rwlock.h /usr/include/machine/rwlock.h \
+  /usr/include/x86/rwlock.h /usr/src/sys/sys/statvfs.h \
+  /usr/src/sys/sys/specificdata.h /usr/src/sys/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/src/sys/sys/condvar.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/ctype.h \
+  /usr/src/sys/sys/ctype_inline.h /usr/src/sys/sys/ctype_bits.h \
+  /usr/include/util.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/usr.sbin/makefs/cd9660.h /usr/include/assert.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/fcntl.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/usr.sbin/makefs/cd9660/iso9660_rrip.h \
+  /usr/src/sys/fs/cd9660/cd9660_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_archimedes.h
+cd9660_archimedes.d cd9660_archimedes.ln cd9660_archimedes.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_archimedes.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/null.h \
+  /usr/include/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/util.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/makefs/cd9660.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/fcntl.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/signal.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/src/sys/fs/cd9660/iso.h /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_archimedes.h
+cd9660_conversion.d cd9660_conversion.ln cd9660_conversion.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_conversion.c \
+  /usr/src/usr.sbin/makefs/cd9660.h /usr/include/assert.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/null.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h /usr/include/stdarg.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h
+cd9660_debug.d cd9660_debug.ln cd9660_debug.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_debug.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/src/sys/sys/uio.h /usr/src/sys/sys/ucred.h \
+  /usr/include/limits.h /usr/src/sys/sys/fstypes.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/sys/rwlock.h \
+  /usr/include/machine/rwlock.h /usr/include/x86/rwlock.h \
+  /usr/src/sys/sys/statvfs.h /usr/src/sys/sys/specificdata.h \
+  /usr/src/sys/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/src/sys/sys/condvar.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/makefs/cd9660.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/usr.sbin/makefs/cd9660/iso9660_rrip.h \
+  /usr/src/sys/fs/cd9660/cd9660_rrip.h
+cd9660_eltorito.d cd9660_eltorito.ln cd9660_eltorito.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.c \
+  /usr/src/usr.sbin/makefs/cd9660.h /usr/include/assert.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/null.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h /usr/include/stdarg.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/sys/sys/bootblock.h /usr/include/stdint.h /usr/include/util.h
+cd9660_strings.d cd9660_strings.ln cd9660_strings.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_strings.c \
+  /usr/src/sys/sys/mount.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/time.h /usr/src/sys/sys/null.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/uio.h /usr/src/sys/sys/ucred.h /usr/include/limits.h \
+  /usr/src/sys/sys/fstypes.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/rwlock.h /usr/include/machine/rwlock.h \
+  /usr/include/x86/rwlock.h /usr/src/sys/sys/statvfs.h \
+  /usr/src/sys/sys/specificdata.h /usr/src/sys/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/src/sys/sys/condvar.h /usr/include/ctype.h \
+  /usr/src/sys/sys/ctype_inline.h /usr/src/sys/sys/ctype_bits.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/makefs/cd9660.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h
+cd9660_write.d cd9660_write.ln cd9660_write.o: /usr/src/usr.sbin/makefs/cd9660/cd9660_write.c \
+  /usr/src/usr.sbin/makefs/cd9660.h /usr/include/assert.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/null.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h /usr/include/stdarg.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/usr.sbin/makefs/cd9660/iso9660_rrip.h \
+  /usr/src/sys/fs/cd9660/cd9660_rrip.h /usr/include/util.h
+chfs.d chfs.ln chfs.o: chfs.c /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/assert.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/makefs/chfs_makefs.h \
+  /usr/src/usr.sbin/makefs/chfs/chfs_mkfs.h /usr/src/sys/ufs/chfs/chfs.h \
+  /usr/src/sys/ufs/chfs/ebh.h /usr/src/sys/ufs/chfs/ebh_media.h \
+  /usr/src/sys/ufs/chfs/media.h /usr/src/sys/ufs/chfs/chfs_inode.h
+chfs_mkfs.d chfs_mkfs.ln chfs_mkfs.o: /usr/src/usr.sbin/makefs/chfs/chfs_mkfs.c \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h /usr/include/assert.h \
+  /usr/include/fcntl.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/zlib.h \
+  /usr/include/zconf.h /usr/include/util.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/usr.sbin/makefs/chfs_makefs.h /usr/src/sys/ufs/chfs/media.h \
+  /usr/src/sys/ufs/chfs/ebh.h /usr/src/sys/ufs/chfs/ebh_media.h \
+  /usr/src/usr.sbin/makefs/chfs/chfs_mkfs.h /usr/src/sys/ufs/chfs/chfs.h \
+  /usr/src/sys/ufs/chfs/chfs_inode.h
+clock_subr.d clock_subr.ln clock_subr.o: /usr/src/sys/dev/clock_subr.c /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/src/sys/dev/../sys/clock.h \
+  /usr/src/sys/dev/clock_subr.h
+ffs.d ffs.ln ffs.o: ffs.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/src/sys/sys/uio.h /usr/src/sys/sys/ucred.h \
+  /usr/include/limits.h /usr/src/sys/sys/fstypes.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/sys/rwlock.h \
+  /usr/include/machine/rwlock.h /usr/include/x86/rwlock.h \
+  /usr/src/sys/sys/statvfs.h /usr/src/sys/sys/specificdata.h \
+  /usr/src/sys/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/src/sys/sys/condvar.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/src/usr.sbin/makefs/ffs.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ffs/fs.h /usr/src/sys/ufs/ufs/dir.h \
+  /usr/src/sys/ufs/ufs/ufs_bswap.h \
+  /usr/src/usr.sbin/makefs/ffs/ufs_inode.h \
+  /usr/src/usr.sbin/makefs/ffs/newfs_extern.h \
+  /usr/src/usr.sbin/makefs/ffs/ffs_extern.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/include/stddef.h
+ffs_alloc.d ffs_alloc.ln ffs_alloc.o: /usr/src/usr.sbin/makefs/ffs/ffs_alloc.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ufs/ufs_bswap.h /usr/src/sys/ufs/ffs/fs.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/usr.sbin/makefs/ffs/ufs_inode.h \
+  /usr/src/usr.sbin/makefs/ffs/ffs_extern.h
+ffs_balloc.d ffs_balloc.ln ffs_balloc.o: /usr/src/usr.sbin/makefs/ffs/ffs_balloc.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/assert.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ufs/ufs_bswap.h /usr/src/sys/ufs/ffs/fs.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/stddef.h /usr/src/usr.sbin/makefs/ffs/ufs_inode.h \
+  /usr/src/usr.sbin/makefs/ffs/ffs_extern.h
+ffs_bswap.d ffs_bswap.ln ffs_bswap.o: /usr/src/sys/ufs/ffs/ffs_bswap.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ufs/quota.h /usr/src/sys/sys/quota.h \
+  /usr/src/sys/ufs/ufs/ufs_bswap.h /usr/src/sys/ufs/ffs/fs.h \
+  /usr/src/sys/ufs/ffs/ffs_extern.h /usr/include/stddef.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h
+ffs_subr.d ffs_subr.ln ffs_subr.o: /usr/src/sys/ufs/ffs/ffs_subr.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/ufs/ffs/fs.h \
+  /usr/src/sys/ufs/ffs/ffs_extern.h /usr/src/sys/ufs/ufs/ufs_bswap.h \
+  /usr/src/sys/ufs/ufs/dinode.h
+ffs_tables.d ffs_tables.ln ffs_tables.o: /usr/src/sys/ufs/ffs/ffs_tables.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h
+getid.d getid.ln getid.o: /usr/src/usr.sbin/mtree/getid.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/grp.h /usr/include/limits.h \
+  /usr/include/pwd.h /usr/include/stdlib.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/usr.sbin/mtree/extern.h \
+  /usr/src/usr.sbin/mtree/mtree.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/include/fts.h /usr/include/util.h \
+  /usr/include/stdbool.h
+iso9660_rrip.d iso9660_rrip.ln iso9660_rrip.o: /usr/src/usr.sbin/makefs/cd9660/iso9660_rrip.c \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/time.h /usr/src/sys/sys/null.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/makefs/cd9660.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/signal.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/src/sys/fs/cd9660/iso.h /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h \
+  /usr/src/usr.sbin/makefs/cd9660/iso9660_rrip.h \
+  /usr/src/sys/fs/cd9660/cd9660_rrip.h /usr/include/util.h
+main.d main.ln main.o: /usr/src/sbin/newfs_v7fs/main.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h \
+  /usr/src/sys/fs/v7fs/v7fs_superblock.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h \
+  /usr/src/sbin/newfs_v7fs/newfs_v7fs.h /usr/src/sbin/fsck/progress.h
+makefs.d makefs.ln makefs.o: makefs.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/null.h \
+  /usr/include/ctype.h /usr/src/sys/sys/ctype_inline.h \
+  /usr/src/sys/sys/ctype_bits.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/syslimits.h \
+  /usr/include/stdio.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/stdlib.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/include/stdbool.h /usr/include/util.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/mtree/mtree.h \
+  /usr/src/usr.sbin/makefs/cd9660.h /usr/include/fcntl.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/src/sys/fs/cd9660/iso.h \
+  /usr/src/sys/fs/cd9660/iso_rrip.h \
+  /usr/src/usr.sbin/makefs/cd9660/cd9660_eltorito.h
+misc.d misc.ln misc.o: /usr/src/usr.sbin/mtree/misc.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/types.h /usr/src/sys/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/sys/sys/null.h /usr/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.sbin/mtree/extern.h /usr/src/usr.sbin/mtree/mtree.h \
+  /usr/include/err.h /usr/include/fts.h /usr/include/util.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/include/stdbool.h
+mkfs.d mkfs.ln mkfs.o: /usr/src/usr.sbin/makefs/ffs/mkfs.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/src/sys/sys/resource.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/usr.sbin/makefs/ffs.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ffs/fs.h /usr/src/sys/ufs/ufs/ufs_bswap.h \
+  /usr/src/usr.sbin/makefs/ffs/ufs_inode.h \
+  /usr/src/usr.sbin/makefs/ffs/ffs_extern.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/stddef.h /usr/src/usr.sbin/makefs/ffs/newfs_extern.h
+mkfs_msdos.d mkfs_msdos.ln mkfs_msdos.o: /usr/src/sbin/newfs_msdos/mkfs_msdos.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h /usr/include/ctype.h \
+  /usr/src/sys/sys/ctype_inline.h /usr/src/sys/sys/ctype_bits.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/fcntl.h /usr/include/paths.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/signal.h /usr/include/util.h /usr/include/disktab.h \
+  /usr/src/sbin/newfs_msdos/mkfs_msdos.h /usr/include/stdbool.h
+msdos.d msdos.ln msdos.o: msdos.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/src/sys/sys/uio.h /usr/src/sys/sys/ucred.h \
+  /usr/include/limits.h /usr/src/sys/sys/fstypes.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/sys/rwlock.h \
+  /usr/include/machine/rwlock.h /usr/include/x86/rwlock.h \
+  /usr/src/sys/sys/statvfs.h /usr/src/sys/sys/specificdata.h \
+  /usr/src/sys/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/src/sys/sys/condvar.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/dirent.h \
+  /usr/src/sys/sys/dirent.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/include/stddef.h \
+  /usr/include/err.h /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/usr.sbin/makefs/msdos.h \
+  /usr/src/sbin/newfs_msdos/mkfs_msdos.h /usr/include/stdbool.h
+msdosfs_conv.d msdosfs_conv.ln msdosfs_conv.o: /usr/src/sys/fs/msdosfs/msdosfs_conv.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/dirent.h /usr/src/sys/sys/dirent.h \
+  /usr/src/sys/sys/queue.h /usr/src/sys/dev/clock_subr.h \
+  /usr/src/sys/sys/clock.h /usr/src/sys/fs/msdosfs/direntry.h \
+  /usr/src/sys/fs/msdosfs/denode.h
+msdosfs_denode.d msdosfs_denode.ln msdosfs_denode.o: /usr/src/usr.sbin/makefs/msdos/msdosfs_denode.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/usr.sbin/makefs/ffs/buf.h \
+  /usr/src/sys/sys/queue.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/stddef.h /usr/include/stdlib.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/fs/msdosfs/bpb.h \
+  /usr/src/sys/fs/msdosfs/msdosfsmount.h \
+  /usr/src/sys/fs/msdosfs/direntry.h /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/sys/fs/msdosfs/fat.h /usr/include/util.h
+msdosfs_fat.d msdosfs_fat.ln msdosfs_fat.o: /usr/src/sys/fs/msdosfs/msdosfs_fat.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/file.h \
+  /usr/src/sys/sys/fcntl.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h \
+  /usr/src/sys/sys/unistd.h /usr/src/usr.sbin/makefs/ffs/buf.h \
+  /usr/src/sys/sys/queue.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/stddef.h /usr/include/stdlib.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/fs/msdosfs/bpb.h \
+  /usr/src/sys/fs/msdosfs/msdosfsmount.h \
+  /usr/src/sys/fs/msdosfs/direntry.h /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/sys/fs/msdosfs/fat.h
+msdosfs_lookup.d msdosfs_lookup.ln msdosfs_lookup.o: /usr/src/sys/fs/msdosfs/msdosfs_lookup.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/usr.sbin/makefs/ffs/buf.h \
+  /usr/src/sys/sys/queue.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/stddef.h /usr/include/stdlib.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/fs/msdosfs/bpb.h \
+  /usr/src/sys/fs/msdosfs/direntry.h /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/sys/fs/msdosfs/msdosfsmount.h /usr/src/sys/fs/msdosfs/fat.h
+msdosfs_vfsops.d msdosfs_vfsops.ln msdosfs_vfsops.o: /usr/src/usr.sbin/makefs/msdos/msdosfs_vfsops.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/usr.sbin/makefs/ffs/buf.h \
+  /usr/src/sys/sys/queue.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/stddef.h /usr/include/stdlib.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/fs/msdosfs/bpb.h \
+  /usr/src/sys/fs/msdosfs/bootsect.h /usr/src/sys/fs/msdosfs/direntry.h \
+  /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/sys/fs/msdosfs/msdosfsmount.h /usr/src/sys/fs/msdosfs/fat.h \
+  /usr/include/util.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/src/sys/sys/stat.h /usr/src/usr.sbin/makefs/msdos.h \
+  /usr/src/sbin/newfs_msdos/mkfs_msdos.h /usr/include/stdbool.h
+msdosfs_vnops.d msdosfs_vnops.ln msdosfs_vnops.o: /usr/src/usr.sbin/makefs/msdos/msdosfs_vnops.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/mman.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/stddef.h \
+  /usr/include/stdlib.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/sys/fs/msdosfs/bpb.h /usr/src/sys/fs/msdosfs/direntry.h \
+  /usr/src/sys/fs/msdosfs/denode.h \
+  /usr/src/sys/fs/msdosfs/msdosfsmount.h /usr/src/sys/fs/msdosfs/fat.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/usr.sbin/makefs/msdos.h
+pack_dev.d pack_dev.ln pack_dev.o: /usr/src/sbin/mknod/pack_dev.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/types.h /usr/src/sys/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/sys/sys/null.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/syslimits.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/src/sbin/mknod/pack_dev.h
+progress.d progress.ln progress.o: /usr/src/sbin/fsck/progress.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/tty.h \
+  /usr/src/sys/sys/termios.h /usr/src/sys/sys/ttycom.h \
+  /usr/src/sys/sys/ioccom.h /usr/src/sys/sys/ttydefaults.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/selinfo.h \
+  /usr/src/sys/sys/event.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/ioctl.h /usr/src/sys/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/src/sys/sys/filio.h \
+  /usr/src/sys/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/src/sys/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/src/sys/dev/vndvar.h \
+  /usr/src/sys/dev/i2c/i2c_io.h /usr/src/sys/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/src/sys/sys/condvar.h /usr/src/sys/sys/callout.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/src/sbin/fsck/progress.h
+spec.d spec.ln spec.o: /usr/src/usr.sbin/mtree/spec.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/src/sys/sys/ctype_inline.h \
+  /usr/src/sys/sys/ctype_bits.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/grp.h /usr/include/pwd.h \
+  /usr/include/stdarg.h /usr/include/stdio.h /usr/include/stdint.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/vis.h \
+  /usr/include/util.h /usr/src/usr.sbin/mtree/extern.h \
+  /usr/src/usr.sbin/mtree/mtree.h /usr/include/err.h /usr/include/fts.h \
+  /usr/include/stdbool.h /usr/src/sbin/mknod/pack_dev.h
+udf.d udf.ln udf.o: udf.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/assert.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/include/unistd.h /usr/src/sys/sys/unistd.h \
+  /usr/include/fcntl.h /usr/src/sys/sys/stat.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/util.h /usr/src/sys/sys/cdio.h /usr/src/sys/sys/ioccom.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sbin/newfs_udf/udf_create.h \
+  /usr/src/sys/fs/udf/ecma167-udf.h /usr/src/sys/fs/udf/udf_bswap.h \
+  /usr/src/sys/fs/udf/udf_osta.h /usr/include/stdbool.h \
+  /usr/src/sbin/newfs_udf/udf_write.h \
+  /usr/src/sbin/newfs_udf/newfs_udf.h
+udf_create.d udf_create.ln udf_create.o: /usr/src/sbin/newfs_udf/udf_create.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/stddef.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/time.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/assert.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/signal.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sbin/newfs_udf/unicode.h \
+  /usr/src/sbin/newfs_udf/udf_create.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/fs/udf/ecma167-udf.h /usr/src/sys/fs/udf/udf_bswap.h \
+  /usr/src/sys/fs/udf/udf_osta.h /usr/include/stdbool.h
+udf_osta.d udf_osta.ln udf_osta.o: /usr/src/sys/fs/udf/udf_osta.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/fs/udf/udf_osta.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/stdbool.h /usr/include/ctype.h \
+  /usr/src/sys/sys/ctype_inline.h /usr/src/sys/sys/ctype_bits.h
+udf_write.d udf_write.ln udf_write.o: /usr/src/sbin/newfs_udf/udf_write.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/stdio.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/src/sys/sys/null.h /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/time.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/assert.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/src/sys/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/src/sys/sys/cdio.h /usr/src/sys/sys/ioccom.h \
+  /usr/src/sbin/newfs_udf/udf_create.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/fs/udf/ecma167-udf.h /usr/src/sys/fs/udf/udf_bswap.h \
+  /usr/src/sys/fs/udf/udf_osta.h /usr/include/stdbool.h \
+  /usr/src/sbin/newfs_udf/udf_write.h \
+  /usr/src/sbin/newfs_udf/newfs_udf.h
+ufs_bmap.d ufs_bmap.ln ufs_bmap.o: /usr/src/usr.sbin/makefs/ffs/ufs_bmap.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/include/time.h /usr/include/assert.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/strings.h /usr/include/string.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/src/sys/sys/stat.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/ufs/ufs/dinode.h \
+  /usr/src/sys/ufs/ufs/ufs_bswap.h /usr/src/sys/ufs/ffs/fs.h \
+  /usr/src/usr.sbin/makefs/ffs/ufs_inode.h \
+  /usr/src/usr.sbin/makefs/ffs/ffs_extern.h \
+  /usr/src/usr.sbin/makefs/ffs/buf.h /usr/src/sys/sys/queue.h \
+  /usr/include/stdio.h /usr/include/stddef.h /usr/include/stdlib.h
+v7fs.d v7fs.ln v7fs.o: v7fs.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/fcntl.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/util.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h \
+  /usr/src/usr.sbin/makefs/v7fs_makefs.h \
+  /usr/src/sbin/newfs_v7fs/newfs_v7fs.h /usr/src/sbin/fsck/progress.h
+v7fs_datablock.d v7fs_datablock.ln v7fs_datablock.o: /usr/src/sys/fs/v7fs/v7fs_datablock.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/stdio.h /usr/src/sys/sys/null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/src/sys/fs/v7fs/v7fs.h /usr/include/inttypes.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h \
+  /usr/src/sys/fs/v7fs/v7fs_superblock.h
+v7fs_dirent.d v7fs_dirent.ln v7fs_dirent.o: /usr/src/sys/fs/v7fs/v7fs_dirent.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/sys/fs/v7fs/v7fs.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_endian.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h /usr/src/sys/fs/v7fs/v7fs_dirent.h
+v7fs_endian.d v7fs_endian.ln v7fs_endian.o: /usr/src/sys/fs/v7fs/v7fs_endian.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/src/sys/sys/types.h /usr/src/sys/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h /usr/src/sys/sys/null.h
+v7fs_estimate.d v7fs_estimate.ln v7fs_estimate.o: /usr/src/usr.sbin/makefs/v7fs/v7fs_estimate.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/stat.h /usr/src/sys/sys/time.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/signal.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/uio.h \
+  /usr/src/sys/sys/ucred.h /usr/include/limits.h \
+  /usr/src/sys/sys/fstypes.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/rwlock.h /usr/include/machine/rwlock.h \
+  /usr/include/x86/rwlock.h /usr/src/sys/sys/statvfs.h \
+  /usr/src/sys/sys/specificdata.h /usr/src/sys/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/src/sys/sys/condvar.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h \
+  /usr/src/usr.sbin/makefs/v7fs_makefs.h
+v7fs_file.d v7fs_file.ln v7fs_file.o: /usr/src/sys/fs/v7fs/v7fs_file.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/null.h \
+  /usr/src/sys/sys/inttypes.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_dirent.h /usr/src/sys/fs/v7fs/v7fs_file.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h
+v7fs_file_util.d v7fs_file_util.ln v7fs_file_util.o: /usr/src/sys/fs/v7fs/v7fs_file_util.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_endian.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h /usr/src/sys/fs/v7fs/v7fs_dirent.h \
+  /usr/src/sys/fs/v7fs/v7fs_file.h /usr/src/sys/fs/v7fs/v7fs_datablock.h
+v7fs_inode.d v7fs_inode.ln v7fs_inode.o: /usr/src/sys/fs/v7fs/v7fs_inode.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/stdio.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/src/sys/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/time.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_endian.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_superblock.h
+v7fs_inode_util.d v7fs_inode_util.ln v7fs_inode_util.o: /usr/src/sys/fs/v7fs/v7fs_inode_util.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/time.h /usr/src/sys/sys/time.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_inode.h
+v7fs_io.d v7fs_io.ln v7fs_io.o: /usr/src/sys/fs/v7fs/v7fs_io.c /usr/src/sys/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/src/sys/sys/cdefs_elf.h \
+  /usr/include/stdio.h /usr/src/sys/sys/featuretest.h \
+  /usr/src/sys/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/src/sys/sys/common_int_types.h \
+  /usr/src/sys/sys/null.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/fs/v7fs/v7fs.h /usr/include/inttypes.h \
+  /usr/src/sys/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h
+v7fs_io_user.d v7fs_io_user.ln v7fs_io_user.o: /usr/src/sys/fs/v7fs/v7fs_io_user.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/include/err.h /usr/include/stdarg.h \
+  /usr/src/sys/sys/mman.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h /usr/src/sys/fs/v7fs/v7fs_impl.h \
+  /usr/include/stdbool.h /usr/include/assert.h
+v7fs_populate.d v7fs_populate.ln v7fs_populate.o: /usr/src/usr.sbin/makefs/v7fs/v7fs_populate.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/stdlib.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/src/sys/sys/unistd.h /usr/include/fcntl.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/src/sys/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/errno.h /usr/src/sys/sys/errno.h \
+  /usr/include/err.h /usr/include/stdarg.h /usr/src/sys/sys/mount.h \
+  /usr/src/sys/sys/param.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/sys/syslimits.h /usr/src/sys/sys/signal.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/uio.h \
+  /usr/src/sys/sys/ucred.h /usr/include/limits.h \
+  /usr/src/sys/sys/fstypes.h /usr/src/sys/sys/queue.h \
+  /usr/src/sys/sys/rwlock.h /usr/include/machine/rwlock.h \
+  /usr/include/x86/rwlock.h /usr/src/sys/sys/statvfs.h \
+  /usr/src/sys/sys/specificdata.h /usr/src/sys/sys/mutex.h \
+  /usr/include/machine/mutex.h /usr/include/x86/mutex.h \
+  /usr/src/sys/sys/condvar.h /usr/src/usr.sbin/makefs/makefs.h \
+  /usr/src/sys/fs/v7fs/v7fs.h /usr/include/inttypes.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_superblock.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h \
+  /usr/src/sys/fs/v7fs/v7fs_endian.h /usr/src/sys/fs/v7fs/v7fs_file.h \
+  /usr/src/usr.sbin/makefs/v7fs_makefs.h \
+  /usr/src/sbin/newfs_v7fs/newfs_v7fs.h
+v7fs_superblock.d v7fs_superblock.ln v7fs_superblock.o: /usr/src/sys/fs/v7fs/v7fs_superblock.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/src/sys/sys/errno.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/src/sys/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_endian.h \
+  /usr/src/sys/fs/v7fs/v7fs_superblock.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h \
+  /usr/src/sys/fs/v7fs/v7fs_datablock.h
+v7fs_superblock_util.d v7fs_superblock_util.ln v7fs_superblock_util.o: /usr/src/sys/fs/v7fs/v7fs_superblock_util.c \
+  /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/src/sys/sys/featuretest.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h /usr/src/sys/sys/null.h \
+  /usr/include/time.h /usr/src/sys/sys/time.h /usr/src/sys/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/src/sys/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/src/sys/sys/bswap.h /usr/src/sys/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/src/sys/sys/fd_set.h \
+  /usr/src/sys/sys/timespec.h /usr/src/sys/sys/select.h \
+  /usr/src/sys/sys/sigtypes.h /usr/src/sys/fs/v7fs/v7fs.h \
+  /usr/include/inttypes.h /usr/src/sys/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/common_int_fmtio.h \
+  /usr/src/sys/fs/v7fs/v7fs_impl.h /usr/include/stdbool.h \
+  /usr/include/assert.h /usr/src/sys/fs/v7fs/v7fs_superblock.h \
+  /usr/src/sys/fs/v7fs/v7fs_inode.h
+walk.d walk.ln walk.o: walk.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/src/sys/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/src/sys/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/src/sys/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/src/sys/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/src/sys/sys/common_int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/timespec.h \
+  /usr/src/sys/sys/select.h /usr/include/time.h /usr/include/assert.h \
+  /usr/include/errno.h /usr/src/sys/sys/errno.h /usr/include/fcntl.h \
+  /usr/include/stdio.h /usr/include/dirent.h /usr/src/sys/sys/dirent.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/src/sys/sys/unistd.h /usr/include/util.h \
+  /usr/src/usr.sbin/makefs/makefs.h /usr/include/err.h \
+  /usr/include/stdarg.h /usr/src/usr.sbin/mtree/mtree.h

@@ -1,0 +1,419 @@
+Archive member included because of file (symbol)
+
+libirs_pic.a(version.pico)    (--whole-archive)
+libirs_pic.a(context.pico)    (--whole-archive)
+libirs_pic.a(resconf.pico)    (--whole-archive)
+libirs_pic.a(dnsconf.pico)    (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libirs_pic.a(version.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libirs_pic.a(context.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libirs_pic.a(resconf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libirs_pic.a(dnsconf.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libirs_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x320
+ *(.hash)
+ .hash          0x000000f4      0x320 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000414      0x650
+ *(.dynsym)
+ .dynsym        0x00000414      0x650 /usr/lib/crti.o
+
+.dynstr         0x00000a64      0x698
+ *(.dynstr)
+ .dynstr        0x00000a64      0x698 /usr/lib/crti.o
+
+.gnu.version    0x000010fc        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000010fc        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000010fc        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000010fc       0x48
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000010fc        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00001104       0x40 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001144      0x258
+ *(.rel.plt)
+ .rel.plt       0x00001144      0x258 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000013a0        0xa
+ *(SORT(.init))
+ .init          0x000013a0        0x3 /usr/lib/crti.o
+                0x000013a0                _init
+ .init          0x000013a3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000013a8        0x2 /usr/lib/crtn.o
+
+.plt            0x000013b0      0x4c0
+ *(.plt)
+ .plt           0x000013b0      0x4c0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00001870     0x2fd4
+                0x00001870                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00001870        0x0 /usr/lib/crti.o
+ .text          0x00001870       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000195f        0x1 
+ .text          0x00001960        0x0 libirs_pic.a(version.pico)
+ .text          0x00001960      0x8c3 libirs_pic.a(context.pico)
+                0x00001960                irs_context_get
+                0x000019d0                irs_context_create
+                0x00001df0                irs_context_destroy
+                0x00001f30                irs_context_getmctx
+                0x00001f90                irs_context_getappctx
+                0x00001ff0                irs_context_gettaskmgr
+                0x00002050                irs_context_gettimermgr
+                0x000020b0                irs_context_gettask
+                0x00002110                irs_context_getdnsclient
+                0x00002170                irs_context_getresconf
+                0x000021d0                irs_context_getdnsconf
+ *fill*         0x00002223        0xd 
+ .text          0x00002230     0x1d67 libirs_pic.a(resconf.pico)
+                0x00002230                irs_resconf_load
+                0x00003a40                irs_resconf_destroy
+                0x00003e80                irs_resconf_getnameservers
+                0x00003ee0                irs_resconf_getsearchlist
+                0x00003f40                irs_resconf_getndots
+ *fill*         0x00003f97        0x9 
+ .text          0x00003fa0      0x8a3 libirs_pic.a(dnsconf.pico)
+                0x00003fa0                irs_dnsconf_load
+                0x00004610                irs_dnsconf_destroy
+                0x000047f0                irs_dnsconf_gettrustedkeys
+ *fill*         0x00004843        0x1 
+ .text          0x00004844        0x0 /usr/lib/crtendS.o
+ .text          0x00004844        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00004850        0xa
+ *(SORT(.fini))
+ .fini          0x00004850        0x3 /usr/lib/crti.o
+                0x00004850                _fini
+ .fini          0x00004853        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00004858        0x2 /usr/lib/crtn.o
+                0x0000485a                PROVIDE (__etext, .)
+                0x0000485a                PROVIDE (_etext, .)
+                0x0000485a                PROVIDE (etext, .)
+
+.rodata         0x0000485c      0x547
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000485c       0x18 libirs_pic.a(version.pico)
+                0x0000485c                irs_version
+                0x00004868                irs_libinterface
+                0x0000486c                irs_librevision
+                0x00004870                irs_libage
+ .rodata.str1.1
+                0x00004874      0x11e libirs_pic.a(context.pico)
+ .rodata.str1.1
+                0x00004992      0x2ba libirs_pic.a(resconf.pico)
+                                0x2bc (size before relaxing)
+ .rodata.str1.1
+                0x00004c4c      0x157 libirs_pic.a(dnsconf.pico)
+                                0x19a (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00004da4       0xb4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00004da4       0xb4 libirs_pic.a(context.pico)
+
+.eh_frame       0x00004e58      0x2a8
+ *(.eh_frame)
+ .eh_frame      0x00004e58       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00004e94        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00004e94      0x158 libirs_pic.a(context.pico)
+ .eh_frame      0x00004fec       0xb4 libirs_pic.a(resconf.pico)
+                                 0xcc (size before relaxing)
+ .eh_frame      0x000050a0       0x5c libirs_pic.a(dnsconf.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x000050fc        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00005100       0x18
+ .note.netbsd.ident
+                0x00005100       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00005118       0x14
+ .note.netbsd.pax
+                0x00005118       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000512c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000612c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000612c        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0000612c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00006130        0x4 /usr/lib/crtendS.o
+                0x00006130                __CTOR_LIST_END__
+
+.dtors          0x00006134        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00006134        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00006138        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0000613c        0x4
+ *(.jcr)
+ .jcr           0x0000613c        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0000613c        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00006140       0xb8
+ *(.dynamic)
+ .dynamic       0x00006140       0xb8 /usr/lib/crti.o
+                0x00006140                _DYNAMIC
+
+.got            0x000061f8       0x20
+ *(.got)
+ .got           0x000061f8       0x20 /usr/lib/crti.o
+ *(.igot)
+                0x00006218                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00006218      0x138
+ *(.got.plt)
+ .got.plt       0x00006218      0x138 /usr/lib/crti.o
+                0x00006218                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00006350       0x28
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00006350        0x0 /usr/lib/crti.o
+ .data          0x00006350        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00006350       0x26 /usr/lib/crtbeginS.o
+                0x00006350                __dso_handle
+ *fill*         0x00006376        0x2 
+ .data          0x00006378        0x0 libirs_pic.a(version.pico)
+ .data          0x00006378        0x0 libirs_pic.a(context.pico)
+ .data          0x00006378        0x0 libirs_pic.a(resconf.pico)
+ .data          0x00006378        0x0 libirs_pic.a(dnsconf.pico)
+ .data          0x00006378        0x0 /usr/lib/crtendS.o
+ .data          0x00006378        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00006378                _edata = .
+                0x00006378                PROVIDE (edata, .)
+                0x00006378                . = .
+                0x00006378                __bss_start = .
+
+.bss            0x00006378        0x4
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00006378        0x0 /usr/lib/crti.o
+ .bss           0x00006378        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00006378        0x0 libirs_pic.a(version.pico)
+ .bss           0x00006378        0x4 libirs_pic.a(context.pico)
+                0x00006378                irs_g_context
+ .bss           0x0000637c        0x0 libirs_pic.a(resconf.pico)
+ .bss           0x0000637c        0x0 libirs_pic.a(dnsconf.pico)
+ .bss           0x0000637c        0x0 /usr/lib/crtendS.o
+ .bss           0x0000637c        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x0000637c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000637c                . = ALIGN (0x4)
+                0x0000637c                . = ALIGN (0x4)
+                0x0000637c                _end = .
+                0x0000637c                PROVIDE (end, .)
+                0x0000637c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libirs_pic.a(version.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libirs_pic.a(context.pico)
+ .comment       0x00000000       0x30 libirs_pic.a(resconf.pico)
+ .comment       0x00000000       0x30 libirs_pic.a(dnsconf.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libirs.so.8.2 elf32-i386-minix)

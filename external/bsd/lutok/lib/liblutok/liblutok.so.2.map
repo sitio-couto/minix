@@ -1,0 +1,693 @@
+Archive member included because of file (symbol)
+
+liblutok_pic.a(operations.pico)
+                              (--whole-archive)
+liblutok_pic.a(debug.pico)    (--whole-archive)
+liblutok_pic.a(stack_cleaner.pico)
+                              (--whole-archive)
+liblutok_pic.a(state.pico)    (--whole-archive)
+liblutok_pic.a(exceptions.pico)
+                              (--whole-archive)
+liblutok_pic.a(c_gate.pico)   (--whole-archive)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 liblutok_pic.a(operations.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(operations.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(operations.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(operations.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(operations.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(debug.pico)
+ .text.__clang_call_terminate
+                0x00000000       0x21 liblutok_pic.a(debug.pico)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x4 liblutok_pic.a(debug.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(debug.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(stack_cleaner.pico)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x4 liblutok_pic.a(stack_cleaner.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(stack_cleaner.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(state.pico)
+ .text.__clang_call_terminate
+                0x00000000       0x21 liblutok_pic.a(state.pico)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x4 liblutok_pic.a(state.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(state.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(exceptions.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(exceptions.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(exceptions.pico)
+ .group         0x00000000        0x8 liblutok_pic.a(exceptions.pico)
+ .text.__clang_call_terminate
+                0x00000000       0x21 liblutok_pic.a(exceptions.pico)
+ .text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+                0x00000000       0xb2 liblutok_pic.a(exceptions.pico)
+ .text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+                0x00000000       0xae liblutok_pic.a(exceptions.pico)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x4 liblutok_pic.a(exceptions.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(exceptions.pico)
+ .note.GNU-stack
+                0x00000000        0x0 liblutok_pic.a(c_gate.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD liblutok_pic.a
+LOAD /usr/src/external/mit/lua/lib/liblua/liblua.so
+LOAD /usr/src/lib/libm/libm.so
+LOAD /usr/lib/libc++.so
+LOAD /usr/src/lib/libm/libm.so
+LOAD /usr/lib/libmthread.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x654
+ *(.hash)
+ .hash          0x000000f4      0x654 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000748      0xce0
+ *(.dynsym)
+ .dynsym        0x00000748      0xce0 /usr/lib/crti.o
+
+.dynstr         0x00001428     0x1edb
+ *(.dynstr)
+ .dynstr        0x00001428     0x1edb /usr/lib/crti.o
+
+.gnu.version    0x00003304        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00003304        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00003304        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00003304      0x208
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x00000000        0x0 /usr/lib/crti.o
+ .rel.text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+                0x00000000        0x0 /usr/lib/crti.o
+ .rel.text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+                0x00000000        0x0 /usr/lib/crti.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro._ZTVNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x00003304       0x30 /usr/lib/crti.o
+ .rel.data.rel.ro._ZTINSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x00003334       0x18 /usr/lib/crti.o
+ .rel.data.rel.ro._ZTVNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000334c       0x30 /usr/lib/crti.o
+ .rel.data.rel.ro._ZTINSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000337c       0x18 /usr/lib/crti.o
+ .rel.data.rel.ro
+                0x00003394       0xa8 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000343c       0x18 /usr/lib/crti.o
+ .rel.data.DW.ref.__gxx_personality_v0
+                0x00003454        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000345c       0xb0 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+ .rel.eh_frame  0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x0000350c      0x2d8
+ *(.rel.plt)
+ .rel.plt       0x0000350c      0x2d8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000037f0        0xa
+ *(SORT(.init))
+ .init          0x000037f0        0x3 /usr/lib/crti.o
+                0x000037f0                _init
+ .init          0x000037f3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000037f8        0x2 /usr/lib/crtn.o
+
+.plt            0x00003800      0x5c0
+ *(.plt)
+ .plt           0x00003800      0x5c0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00003dc0     0x3498
+                0x00003dc0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00003dc0        0x0 /usr/lib/crti.o
+ .text          0x00003dc0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00003eaf        0x1 
+ .text          0x00003eb0      0x6b6 liblutok_pic.a(operations.pico)
+                0x00003eb0                lutok::create_module(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(lutok::state&), std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const, int (*)(lutok::state&)> > > const&)
+                0x00003fc0                lutok::do_file(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int)
+                0x00004240                lutok::do_string(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int)
+                0x000044c0                lutok::eval(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int)
+ *fill*         0x00004566        0xa 
+ .text          0x00004570      0x566 liblutok_pic.a(debug.pico)
+                0x00004570                lutok::debug::debug()
+                0x00004570                lutok::debug::debug()
+                0x000045f0                lutok::debug::~debug()
+                0x000045f0                lutok::debug::~debug()
+                0x00004620                lutok::debug::get_info(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00004770                lutok::debug::get_stack(lutok::state&, int)
+                0x000047f0                lutok::debug::event() const
+                0x00004800                lutok::debug::name() const
+                0x00004890                lutok::debug::name_what() const
+                0x00004920                lutok::debug::what() const
+                0x000049b0                lutok::debug::source() const
+                0x00004a40                lutok::debug::current_line() const
+                0x00004a50                lutok::debug::n_ups() const
+                0x00004a60                lutok::debug::line_defined() const
+                0x00004a70                lutok::debug::last_line_defined() const
+                0x00004a80                lutok::debug::short_src() const
+ *fill*         0x00004ad6        0xa 
+ .text          0x00004ae0      0x11d liblutok_pic.a(stack_cleaner.pico)
+                0x00004ae0                lutok::stack_cleaner::stack_cleaner(lutok::state&)
+                0x00004ae0                lutok::stack_cleaner::stack_cleaner(lutok::state&)
+                0x00004b30                lutok::stack_cleaner::~stack_cleaner()
+                0x00004b30                lutok::stack_cleaner::~stack_cleaner()
+                0x00004bd0                lutok::stack_cleaner::forget()
+ *fill*         0x00004bfd        0x3 
+ .text          0x00004c00     0x1df9 liblutok_pic.a(state.pico)
+                0x00004c00                lutok::state::state()
+                0x00004c00                lutok::state::state()
+                0x00004d70                lutok::state::state(void*)
+                0x00004d70                lutok::state::state(void*)
+                0x00004df0                lutok::state::~state()
+                0x00004df0                lutok::state::~state()
+                0x00004ea0                lutok::state::close()
+                0x00004f40                lutok::state::get_global(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x000050f0                lutok::state::get_global_table()
+                0x00005190                lutok::state::get_metafield(int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x000051e0                lutok::state::get_metatable(int)
+                0x00005220                lutok::state::get_table(int)
+                0x00005440                lutok::state::get_top()
+                0x00005470                lutok::state::insert(int)
+                0x000054b0                lutok::state::is_boolean(int)
+                0x000054f0                lutok::state::is_function(int)
+                0x00005530                lutok::state::is_nil(int)
+                0x00005570                lutok::state::is_number(int)
+                0x000055b0                lutok::state::is_string(int)
+                0x000055f0                lutok::state::is_table(int)
+                0x00005630                lutok::state::is_userdata(int)
+                0x00005670                lutok::state::load_file(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x000057e0                lutok::state::load_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x000058f0                lutok::state::new_table()
+                0x00005930                lutok::state::new_userdata_voidp(unsigned int)
+                0x00005960                lutok::state::next(int)
+                0x00005c00                lutok::state::open_base()
+                0x00005d40                lutok::state::open_string()
+                0x00005da0                lutok::state::open_table()
+                0x00005e00                lutok::state::pcall(int, int, int)
+                0x00005f20                lutok::state::pop(int)
+                0x00005fd0                lutok::state::push_boolean(bool)
+                0x00006000                lutok::state::push_cxx_closure(int (*)(lutok::state&), int)
+                0x00006120                lutok::state::push_cxx_function(int (*)(lutok::state&))
+                0x00006200                lutok::state::push_integer(int)
+                0x00006240                lutok::state::push_nil()
+                0x00006270                lutok::state::push_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x000062b0                lutok::state::push_value(int)
+                0x000062e0                lutok::state::raw_get(int)
+                0x00006310                lutok::state::raw_set(int)
+                0x00006340                lutok::state::set_global(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006510                lutok::state::set_metatable(int)
+                0x00006540                lutok::state::set_table(int)
+                0x00006700                lutok::state::to_boolean(int)
+                0x00006780                lutok::state::to_integer(int)
+                0x00006800                lutok::state::to_userdata_voidp(int)
+                0x00006830                lutok::state::to_string(int)
+                0x000068e0                lutok::state::upvalue_index(int)
+                0x000068f0                lutok::state::raw_state()
+ *fill*         0x000069f9        0x7 
+ .text          0x00006a00      0x4bb liblutok_pic.a(exceptions.pico)
+                0x00006a00                lutok::error::error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006a00                lutok::error::error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006a40                lutok::error::~error()
+                0x00006a40                lutok::error::~error()
+                0x00006a60                lutok::error::~error()
+                0x00006a90                lutok::api_error::api_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006a90                lutok::api_error::api_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006af0                lutok::api_error::~api_error()
+                0x00006af0                lutok::api_error::~api_error()
+                0x00006b40                lutok::api_error::~api_error()
+                0x00006ba0                lutok::api_error::from_stack(lutok::state&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006d00                lutok::api_error::api_function() const
+                0x00006d10                lutok::file_not_found_error::file_not_found_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006d10                lutok::file_not_found_error::file_not_found_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                0x00006e00                lutok::file_not_found_error::~file_not_found_error()
+                0x00006e00                lutok::file_not_found_error::~file_not_found_error()
+                0x00006e50                lutok::file_not_found_error::~file_not_found_error()
+                0x00006eb0                lutok::file_not_found_error::filename() const
+ *fill*         0x00006ebb        0x5 
+ .text          0x00006ec0       0x74 liblutok_pic.a(c_gate.pico)
+                0x00006ec0                lutok::state_c_gate::state_c_gate(lutok::state&)
+                0x00006ec0                lutok::state_c_gate::state_c_gate(lutok::state&)
+                0x00006ed0                lutok::state_c_gate::~state_c_gate()
+                0x00006ed0                lutok::state_c_gate::~state_c_gate()
+                0x00006ee0                lutok::state_c_gate::connect(lua_State*)
+                0x00006f10                lutok::state_c_gate::c_state()
+ .text          0x00006f34        0x0 /usr/lib/crtendS.o
+ .text          0x00006f34        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x00006f34        0xc 
+ .text.__clang_call_terminate
+                0x00006f40       0x21 liblutok_pic.a(operations.pico)
+                0x00006f40                __clang_call_terminate
+ *fill*         0x00006f61        0xf 
+ .text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+                0x00006f70       0xb2 liblutok_pic.a(operations.pico)
+                0x00006f70                std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const*)
+ *fill*         0x00007022        0xe 
+ .text._ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+                0x00007030       0xae liblutok_pic.a(operations.pico)
+                0x00007030                std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+ *fill*         0x000070de        0x2 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEED0Ev
+                0x000070e0       0x3f liblutok_pic.a(debug.pico)
+                0x000070e0                std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >::~__shared_ptr_pointer()
+ *fill*         0x0000711f        0x1 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
+                0x00007120       0x29 liblutok_pic.a(debug.pico)
+                0x00007120                std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >::__on_zero_shared()
+ *fill*         0x00007149        0x7 
+ .text._ZNKSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info
+                0x00007150       0x27 liblutok_pic.a(debug.pico)
+                0x00007150                std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >::__get_deleter(std::type_info const&) const
+ *fill*         0x00007177        0x9 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+                0x00007180       0x18 liblutok_pic.a(debug.pico)
+                0x00007180                std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >::__on_zero_shared_weak()
+ *fill*         0x00007198        0x8 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEED0Ev
+                0x000071a0       0x3f liblutok_pic.a(state.pico)
+                0x000071a0                std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >::~__shared_ptr_pointer()
+ *fill*         0x000071df        0x1 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
+                0x000071e0       0x29 liblutok_pic.a(state.pico)
+                0x000071e0                std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >::__on_zero_shared()
+ *fill*         0x00007209        0x7 
+ .text._ZNKSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info
+                0x00007210       0x27 liblutok_pic.a(state.pico)
+                0x00007210                std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >::__get_deleter(std::type_info const&) const
+ *fill*         0x00007237        0x9 
+ .text._ZNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+                0x00007240       0x18 liblutok_pic.a(state.pico)
+                0x00007240                std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >::__on_zero_shared_weak()
+ *(.gnu.warning)
+
+.fini           0x00007260        0xa
+ *(SORT(.fini))
+ .fini          0x00007260        0x3 /usr/lib/crti.o
+                0x00007260                _fini
+ .fini          0x00007263        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00007268        0x2 /usr/lib/crtn.o
+                0x0000726a                PROVIDE (__etext, .)
+                0x0000726a                PROVIDE (_etext, .)
+                0x0000726a                PROVIDE (etext, .)
+
+.rodata         0x00007270      0x8ef
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00007270      0x1ad liblutok_pic.a(operations.pico)
+ .rodata.str1.1
+                0x0000741d      0x15c liblutok_pic.a(debug.pico)
+ *fill*         0x00007579        0x7 
+ .rodata._ZTSNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x00007580       0x61 liblutok_pic.a(debug.pico)
+                0x00007580                typeinfo name for std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >
+ *fill*         0x000075e1        0xf 
+ .rodata._ZTSNSt3__114default_deleteIN5lutok5debug4implEEE
+                0x000075f0       0x2e liblutok_pic.a(debug.pico)
+                0x000075f0                typeinfo name for std::__1::default_delete<lutok::debug::impl>
+ .rodata.str1.1
+                0x0000761e       0x82 liblutok_pic.a(stack_cleaner.pico)
+ .rodata        0x000076a0        0x4 liblutok_pic.a(state.pico)
+                0x000076a0                lutok::registry_index
+ .rodata.str1.1
+                0x000076a4      0x308 liblutok_pic.a(state.pico)
+                                0x315 (size before relaxing)
+ *fill*         0x000079ac        0x4 
+ .rodata._ZTSNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x000079b0       0x61 liblutok_pic.a(state.pico)
+                0x000079b0                typeinfo name for std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >
+ *fill*         0x00007a11        0xf 
+ .rodata._ZTSNSt3__114default_deleteIN5lutok5state4implEEE
+                0x00007a20       0x2e liblutok_pic.a(state.pico)
+                0x00007a20                typeinfo name for std::__1::default_delete<lutok::state::impl>
+ .rodata.str1.1
+                0x00007a4e       0xb9 liblutok_pic.a(exceptions.pico)
+ *fill*         0x00007b07        0x9 
+ .rodata        0x00007b10       0x4f liblutok_pic.a(exceptions.pico)
+                0x00007b10                typeinfo name for lutok::error
+                0x00007b20                typeinfo name for lutok::api_error
+                0x00007b40                typeinfo name for lutok::file_not_found_error
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00007b60      0x33c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00007b60      0x33c liblutok_pic.a(operations.pico)
+
+.eh_frame       0x00007e9c      0xcec
+ *(.eh_frame)
+ .eh_frame      0x00007e9c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00007ed8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00007ed8       0xf8 liblutok_pic.a(operations.pico)
+ .eh_frame      0x00007fd0      0x244 liblutok_pic.a(debug.pico)
+                                0x264 (size before relaxing)
+ .eh_frame      0x00008214       0x68 liblutok_pic.a(stack_cleaner.pico)
+                                 0xa0 (size before relaxing)
+ .eh_frame      0x0000827c      0x70c liblutok_pic.a(state.pico)
+                                0x744 (size before relaxing)
+ .eh_frame      0x00008988      0x18c liblutok_pic.a(exceptions.pico)
+                                0x20c (size before relaxing)
+ .eh_frame      0x00008b14       0x70 liblutok_pic.a(c_gate.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00008b84        0x4 /usr/lib/crtendS.o
+
+.gcc_except_table
+                0x00008b88      0xb58
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x00008b88      0x304 liblutok_pic.a(operations.pico)
+ .gcc_except_table
+                0x00008e8c      0x118 liblutok_pic.a(debug.pico)
+ .gcc_except_table
+                0x00008fa4       0x4c liblutok_pic.a(stack_cleaner.pico)
+ .gcc_except_table
+                0x00008ff0      0x4b8 liblutok_pic.a(state.pico)
+ .gcc_except_table
+                0x000094a8      0x238 liblutok_pic.a(exceptions.pico)
+
+.note.netbsd.ident
+                0x000096e0       0x18
+ .note.netbsd.ident
+                0x000096e0       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x000096f8       0x14
+ .note.netbsd.pax
+                0x000096f8       0x14 /usr/lib/crti.o
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000970c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000a70c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000a70c        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0000a70c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000a710        0x4 /usr/lib/crtendS.o
+                0x0000a710                __CTOR_LIST_END__
+
+.dtors          0x0000a714        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0000a714        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000a718        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0000a71c        0x4
+ *(.jcr)
+ .jcr           0x0000a71c        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0000a71c        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0000a720       0xc4
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTVNSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000a720       0x1c liblutok_pic.a(debug.pico)
+                0x0000a720                vtable for std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >
+ *fill*         0x0000a73c        0x4 
+ .data.rel.ro._ZTINSt3__120__shared_ptr_pointerIPN5lutok5debug4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000a740        0xc liblutok_pic.a(debug.pico)
+                0x0000a740                typeinfo for std::__1::__shared_ptr_pointer<lutok::debug::impl*, std::__1::default_delete<lutok::debug::impl>, std::__1::allocator<lutok::debug::impl> >
+ .data.rel.ro._ZTVNSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000a74c       0x1c liblutok_pic.a(state.pico)
+                0x0000a74c                vtable for std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >
+ .data.rel.ro._ZTINSt3__120__shared_ptr_pointerIPN5lutok5state4implENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+                0x0000a768        0xc liblutok_pic.a(state.pico)
+                0x0000a768                typeinfo for std::__1::__shared_ptr_pointer<lutok::state::impl*, std::__1::default_delete<lutok::state::impl>, std::__1::allocator<lutok::state::impl> >
+ *fill*         0x0000a774        0x4 
+ .data.rel.ro   0x0000a778       0x6c liblutok_pic.a(exceptions.pico)
+                0x0000a778                vtable for lutok::error
+                0x0000a78c                vtable for lutok::api_error
+                0x0000a7a0                vtable for lutok::file_not_found_error
+                0x0000a7b8                typeinfo for lutok::error
+                0x0000a7c8                typeinfo for lutok::api_error
+                0x0000a7d8                typeinfo for lutok::file_not_found_error
+
+.dynamic        0x0000a7e4       0xd0
+ *(.dynamic)
+ .dynamic       0x0000a7e4       0xd0 /usr/lib/crti.o
+                0x0000a7e4                _DYNAMIC
+
+.got            0x0000a8b4       0x58
+ *(.got)
+ .got           0x0000a8b4       0x58 /usr/lib/crti.o
+ *(.igot)
+                0x0000a90c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000a90c      0x178
+ *(.got.plt)
+ .got.plt       0x0000a90c      0x178 /usr/lib/crti.o
+                0x0000a90c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000aa84       0x34
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000aa84        0x0 /usr/lib/crti.o
+ .data          0x0000aa84        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0000aa84       0x26 /usr/lib/crtbeginS.o
+                0x0000aa84                __dso_handle
+ *fill*         0x0000aaaa        0x2 
+ .data          0x0000aaac        0x0 liblutok_pic.a(operations.pico)
+ .data.DW.ref.__gxx_personality_v0
+                0x0000aaac        0x4 liblutok_pic.a(operations.pico)
+                0x0000aaac                DW.ref.__gxx_personality_v0
+ .data.rel      0x0000aab0        0x4 liblutok_pic.a(operations.pico)
+ .data          0x0000aab4        0x0 liblutok_pic.a(debug.pico)
+ .data          0x0000aab4        0x0 liblutok_pic.a(stack_cleaner.pico)
+ .data          0x0000aab4        0x0 liblutok_pic.a(state.pico)
+ .data.rel      0x0000aab4        0x4 liblutok_pic.a(state.pico)
+ .data          0x0000aab8        0x0 liblutok_pic.a(exceptions.pico)
+ .data          0x0000aab8        0x0 liblutok_pic.a(c_gate.pico)
+ .data          0x0000aab8        0x0 /usr/lib/crtendS.o
+ .data          0x0000aab8        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0000aab8                _edata = .
+                0x0000aab8                PROVIDE (edata, .)
+                0x0000aab8                . = .
+                0x0000aab8                __bss_start = .
+
+.bss            0x0000aab8        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000aab8        0x0 /usr/lib/crti.o
+ .bss           0x0000aab8        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0000aab8        0x0 liblutok_pic.a(operations.pico)
+ .bss           0x0000aab8        0x0 liblutok_pic.a(debug.pico)
+ .bss           0x0000aab8        0x0 liblutok_pic.a(stack_cleaner.pico)
+ .bss           0x0000aab8        0x0 liblutok_pic.a(state.pico)
+ .bss           0x0000aab8        0x0 liblutok_pic.a(exceptions.pico)
+ .bss           0x0000aab8        0x0 liblutok_pic.a(c_gate.pico)
+ .bss           0x0000aab8        0x0 /usr/lib/crtendS.o
+ .bss           0x0000aab8        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x0000aab8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000aab8                . = ALIGN (0x4)
+                0x0000aab8                . = ALIGN (0x4)
+                0x0000aab8                _end = .
+                0x0000aab8                PROVIDE (end, .)
+                0x0000aab8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f liblutok_pic.a(operations.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 liblutok_pic.a(debug.pico)
+ .comment       0x00000000       0x30 liblutok_pic.a(stack_cleaner.pico)
+ .comment       0x00000000       0x30 liblutok_pic.a(state.pico)
+ .comment       0x00000000       0x30 liblutok_pic.a(exceptions.pico)
+ .comment       0x00000000       0x30 liblutok_pic.a(c_gate.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(liblutok.so.2.0 elf32-i386-minix)

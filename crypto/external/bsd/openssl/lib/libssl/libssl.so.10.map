@@ -1,0 +1,1557 @@
+Archive member included because of file (symbol)
+
+libssl_pic.a(ssl_txt.pico)    (--whole-archive)
+libssl_pic.a(ssl_utst.pico)   (--whole-archive)
+libssl_pic.a(ssl_stat.pico)   (--whole-archive)
+libssl_pic.a(ssl_err2.pico)   (--whole-archive)
+libssl_pic.a(ssl_err.pico)    (--whole-archive)
+libssl_pic.a(ssl_algs.pico)   (--whole-archive)
+libssl_pic.a(kssl.pico)       (--whole-archive)
+libssl_pic.a(d1_meth.pico)    (--whole-archive)
+libssl_pic.a(d1_clnt.pico)    (--whole-archive)
+libssl_pic.a(bio_ssl.pico)    (--whole-archive)
+libssl_pic.a(d1_srvr.pico)    (--whole-archive)
+libssl_pic.a(tls_srp.pico)    (--whole-archive)
+libssl_pic.a(t1_srvr.pico)    (--whole-archive)
+libssl_pic.a(t1_meth.pico)    (--whole-archive)
+libssl_pic.a(t1_lib.pico)     (--whole-archive)
+libssl_pic.a(t1_reneg.pico)   (--whole-archive)
+libssl_pic.a(d1_srtp.pico)    (--whole-archive)
+libssl_pic.a(t1_enc.pico)     (--whole-archive)
+libssl_pic.a(t1_clnt.pico)    (--whole-archive)
+libssl_pic.a(ssl_sess.pico)   (--whole-archive)
+libssl_pic.a(ssl_rsa.pico)    (--whole-archive)
+libssl_pic.a(ssl_lib.pico)    (--whole-archive)
+libssl_pic.a(s3_srvr.pico)    (--whole-archive)
+libssl_pic.a(ssl_asn1.pico)   (--whole-archive)
+libssl_pic.a(s3_pkt.pico)     (--whole-archive)
+libssl_pic.a(s3_meth.pico)    (--whole-archive)
+libssl_pic.a(s3_lib.pico)     (--whole-archive)
+libssl_pic.a(s23_meth.pico)   (--whole-archive)
+libssl_pic.a(s2_meth.pico)    (--whole-archive)
+libssl_pic.a(s23_srvr.pico)   (--whole-archive)
+libssl_pic.a(s2_srvr.pico)    (--whole-archive)
+libssl_pic.a(s3_clnt.pico)    (--whole-archive)
+libssl_pic.a(s23_clnt.pico)   (--whole-archive)
+libssl_pic.a(s2_clnt.pico)    (--whole-archive)
+libssl_pic.a(ssl_cert.pico)   (--whole-archive)
+libssl_pic.a(s23_pkt.pico)    (--whole-archive)
+libssl_pic.a(s23_lib.pico)    (--whole-archive)
+libssl_pic.a(d1_pkt.pico)     (--whole-archive)
+libssl_pic.a(s3_both.pico)    (--whole-archive)
+libssl_pic.a(d1_lib.pico)     (--whole-archive)
+libssl_pic.a(d1_enc.pico)     (--whole-archive)
+libssl_pic.a(d1_both.pico)    (--whole-archive)
+libssl_pic.a(s3_enc.pico)     (--whole-archive)
+libssl_pic.a(s3_cbc.pico)     (--whole-archive)
+libssl_pic.a(s2_pkt.pico)     (--whole-archive)
+libssl_pic.a(s2_enc.pico)     (--whole-archive)
+libssl_pic.a(s2_lib.pico)     (--whole-archive)
+libssl_pic.a(ssl_ciph.pico)   (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_txt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_utst.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_stat.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_err2.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_err.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_algs.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(kssl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_meth.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_clnt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(bio_ssl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_srvr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(tls_srp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_srvr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_meth.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_reneg.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_srtp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_enc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(t1_clnt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_sess.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_rsa.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_srvr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_asn1.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_pkt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_meth.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s23_meth.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_meth.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s23_srvr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_srvr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_clnt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s23_clnt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_clnt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_cert.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s23_pkt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s23_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_pkt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_both.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_enc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(d1_both.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_enc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s3_cbc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_pkt.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_enc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(s2_lib.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libssl_pic.a(ssl_ciph.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libssl_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4     0x16b8
+ *(.hash)
+ .hash          0x000000f4     0x16b8 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000017ac     0x3a30
+ *(.dynsym)
+ .dynsym        0x000017ac     0x3a30 /usr/lib/crti.o
+
+.dynstr         0x000051dc     0x4409
+ *(.dynstr)
+ .dynstr        0x000051dc     0x4409 /usr/lib/crti.o
+
+.gnu.version    0x000095e6        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000095e8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000095e8        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000095e8     0x2db0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x000095e8     0x1220 /usr/lib/crti.o
+ .rel.data.rel.ro.local
+                0x0000a808      0x318 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000ab20      0x158 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x0000ac78     0x1510 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000c188      0x210 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x0000c398     0x1310
+ *(.rel.plt)
+ .rel.plt       0x0000c398     0x1310 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x0000d6b0        0xa
+ *(SORT(.init))
+ .init          0x0000d6b0        0x3 /usr/lib/crti.o
+                0x0000d6b0                _init
+ .init          0x0000d6b3        0x5 /usr/lib/crtbeginS.o
+ .init          0x0000d6b8        0x2 /usr/lib/crtn.o
+
+.plt            0x0000d6c0     0x2630
+ *(.plt)
+ .plt           0x0000d6c0     0x2630 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x0000fcf0    0x3e1d4
+                0x0000fcf0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x0000fcf0        0x0 /usr/lib/crti.o
+ .text          0x0000fcf0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000fddf        0x1 
+ .text          0x0000fde0      0x629 libssl_pic.a(ssl_txt.pico)
+                0x0000fde0                SSL_SESSION_print_fp
+                0x0000fe80                SSL_SESSION_print
+ *fill*         0x00010409        0x7 
+ .text          0x00010410       0x17 libssl_pic.a(ssl_utst.pico)
+                0x00010410                SSL_test_functions
+ *fill*         0x00010427        0x9 
+ .text          0x00010430     0x18f1 libssl_pic.a(ssl_stat.pico)
+                0x00010430                SSL_state_string_long
+                0x00010f20                SSL_rstate_string_long
+                0x00010f60                SSL_state_string
+                0x00011930                SSL_alert_type_string_long
+                0x00011970                SSL_alert_type_string
+                0x000119b0                SSL_alert_desc_string
+                0x00011b50                SSL_alert_desc_string_long
+                0x00011cf0                SSL_rstate_string
+ *fill*         0x00011d21        0xf 
+ .text          0x00011d30       0x1f libssl_pic.a(ssl_err2.pico)
+                0x00011d30                SSL_load_error_strings
+ *fill*         0x00011d4f        0x1 
+ .text          0x00011d50       0x57 libssl_pic.a(ssl_err.pico)
+                0x00011d50                ERR_load_SSL_strings
+ *fill*         0x00011da7        0x9 
+ .text          0x00011db0      0x230 libssl_pic.a(ssl_algs.pico)
+                0x00011db0                SSL_library_init
+ .text          0x00011fe0        0x0 libssl_pic.a(kssl.pico)
+ .text          0x00011fe0       0x44 libssl_pic.a(d1_meth.pico)
+                0x00011fe0                DTLSv1_method
+ *fill*         0x00012024        0xc 
+ .text          0x00012030     0x216a libssl_pic.a(d1_clnt.pico)
+                0x00012030                DTLSv1_client_method
+                0x00012050                dtls1_connect
+                0x00012d30                dtls1_client_hello
+                0x00013150                dtls1_send_client_certificate
+                0x00013380                dtls1_send_client_key_exchange
+                0x00013f50                dtls1_send_client_verify
+ *fill*         0x0001419a        0x6 
+ .text          0x000141a0      0xd22 libssl_pic.a(bio_ssl.pico)
+                0x000141a0                BIO_f_ssl
+                0x000141c0                BIO_new_buffer_ssl_connect
+                0x00014230                BIO_new_ssl_connect
+                0x000142e0                BIO_new_ssl
+                0x00014370                BIO_ssl_copy_session_id
+                0x000143f0                BIO_ssl_shutdown
+ *fill*         0x00014ec2        0xe 
+ .text          0x00014ed0     0x2855 libssl_pic.a(d1_srvr.pico)
+                0x00014ed0                DTLSv1_server_method
+                0x00014ef0                dtls1_accept
+                0x00015e00                dtls1_send_hello_request
+                0x00015e80                dtls1_send_server_hello
+                0x000160c0                dtls1_send_server_certificate
+                0x00016190                dtls1_send_server_key_exchange
+                0x00016fb0                dtls1_send_certificate_request
+                0x00017220                dtls1_send_server_done
+                0x000172b0                dtls1_send_newsession_ticket
+ *fill*         0x00017725        0xb 
+ .text          0x00017730     0x1123 libssl_pic.a(tls_srp.pico)
+                0x00017730                SSL_CTX_SRP_CTX_free
+                0x00017880                SSL_SRP_CTX_free
+                0x000179d0                SSL_SRP_CTX_init
+                0x00017cb0                SSL_CTX_SRP_CTX_init
+                0x00017d70                SSL_srp_server_param_with_username
+                0x00017e90                SSL_set_srp_server_param_pw
+                0x00017f70                SSL_set_srp_server_param
+                0x00018110                SRP_generate_server_master_secret
+                0x00018280                SRP_generate_client_master_secret
+                0x000184a0                srp_verify_server_param
+                0x00018580                SRP_Calc_A_param
+                0x00018620                SSL_get_srp_g
+                0x00018640                SSL_get_srp_N
+                0x00018660                SSL_get_srp_username
+                0x00018680                SSL_get_srp_userinfo
+                0x000186a0                SSL_CTX_set_srp_username
+                0x000186e0                SSL_CTX_set_srp_password
+                0x00018720                SSL_CTX_set_srp_strength
+                0x00018760                SSL_CTX_set_srp_verify_param_callback
+                0x000187a0                SSL_CTX_set_srp_cb_arg
+                0x000187e0                SSL_CTX_set_srp_username_callback
+                0x00018820                SSL_CTX_set_srp_client_pwd_callback
+ *fill*         0x00018853        0xd 
+ .text          0x00018860       0x87 libssl_pic.a(t1_srvr.pico)
+                0x00018860                TLSv1_2_server_method
+                0x000188b0                TLSv1_1_server_method
+                0x000188d0                TLSv1_server_method
+ *fill*         0x000188e7        0x9 
+ .text          0x000188f0       0x87 libssl_pic.a(t1_meth.pico)
+                0x000188f0                TLSv1_2_method
+                0x00018940                TLSv1_1_method
+                0x00018960                TLSv1_method
+ *fill*         0x00018977        0x9 
+ .text          0x00018980     0x34cc libssl_pic.a(t1_lib.pico)
+                0x00018980                tls1_default_timeout
+                0x00018990                tls1_new
+                0x000189d0                tls1_free
+                0x00018a10                tls1_clear
+                0x00018a40                tls1_ec_curve_id2nid
+                0x00018a70                tls1_ec_nid2curve_id
+                0x00018b60                tls12_get_req_sig_algs
+                0x00018bb0                ssl_add_clienthello_tlsext
+                0x00019580                ssl_add_serverhello_tlsext
+                0x00019a70                ssl_parse_clienthello_tlsext
+                0x0001a570                tls1_process_sigalgs
+                0x0001a6d0                ssl_parse_serverhello_tlsext
+                0x0001aca0                ssl_prepare_clienthello_tlsext
+                0x0001af10                ssl_prepare_serverhello_tlsext
+                0x0001b000                ssl_check_clienthello_tlsext_early
+                0x0001b0d0                ssl_check_clienthello_tlsext_late
+                0x0001b1b0                ssl_check_serverhello_tlsext
+                0x0001b3a0                tls1_process_ticket
+                0x0001b8f0                tls12_get_sigandhash
+                0x0001b9d0                tls12_get_sigid
+                0x0001ba20                tls12_get_hash
+                0x0001ba80                tls1_process_heartbeat
+                0x0001bc70                tls1_heartbeat
+ *fill*         0x0001be4c        0x4 
+ .text          0x0001be50      0x490 libssl_pic.a(t1_reneg.pico)
+                0x0001be50                ssl_add_clienthello_renegotiate_ext
+                0x0001bef0                ssl_parse_clienthello_renegotiate_ext
+                0x0001c000                ssl_add_serverhello_renegotiate_ext
+                0x0001c0e0                ssl_parse_serverhello_renegotiate_ext
+ .text          0x0001c2e0      0x7b5 libssl_pic.a(d1_srtp.pico)
+                0x0001c2e0                SSL_CTX_set_tlsext_use_srtp
+                0x0001c4c0                SSL_set_tlsext_use_srtp
+                0x0001c4f0                SSL_get_srtp_profiles
+                0x0001c520                SSL_get_selected_srtp_profile
+                0x0001c530                ssl_add_clienthello_use_srtp_ext
+                0x0001c660                ssl_parse_clienthello_use_srtp_ext
+                0x0001c830                ssl_add_serverhello_use_srtp_ext
+                0x0001c8e0                ssl_parse_serverhello_use_srtp_ext
+ *fill*         0x0001ca95        0xb 
+ .text          0x0001caa0     0x2283 libssl_pic.a(t1_enc.pico)
+                0x0001caa0                tls1_change_cipher_state
+                0x0001d9c0                tls1_setup_key_block
+                0x0001dc70                tls1_enc
+                0x0001e180                tls1_cert_verify_mac
+                0x0001e350                tls1_final_finish_mac
+                0x0001e5b0                tls1_mac
+                0x0001e8a0                tls1_generate_master_secret
+                0x0001e960                tls1_export_keying_material
+                0x0001eca0                tls1_alert_code
+ *fill*         0x0001ed23        0xd 
+ .text          0x0001ed30       0x87 libssl_pic.a(t1_clnt.pico)
+                0x0001ed30                TLSv1_2_client_method
+                0x0001ed80                TLSv1_1_client_method
+                0x0001eda0                TLSv1_client_method
+ *fill*         0x0001edb7        0x9 
+ .text          0x0001edc0     0x2017 libssl_pic.a(ssl_sess.pico)
+                0x0001edc0                SSL_get_session
+                0x0001edd0                SSL_get1_session
+                0x0001ee50                SSL_SESSION_get_ex_new_index
+                0x0001eea0                SSL_SESSION_set_ex_data
+                0x0001eee0                SSL_SESSION_get_ex_data
+                0x0001ef10                SSL_SESSION_new
+                0x0001f060                ssl_session_dup
+                0x0001f340                SSL_SESSION_free
+                0x0001f4d0                SSL_SESSION_get_id
+                0x0001f4f0                SSL_SESSION_get_compress_id
+                0x0001f500                ssl_get_new_session
+                0x0001fc10                ssl_get_prev_session
+                0x00020070                SSL_CTX_add_session
+                0x00020310                SSL_CTX_remove_session
+                0x000204e0                SSL_set_session
+                0x00020620                SSL_SESSION_set_timeout
+                0x00020640                SSL_SESSION_get_timeout
+                0x00020660                SSL_SESSION_get_time
+                0x00020680                SSL_SESSION_set_time
+                0x000206a0                SSL_SESSION_get0_peer
+                0x000206b0                SSL_SESSION_set1_id_context
+                0x00020730                SSL_CTX_set_timeout
+                0x00020750                SSL_CTX_get_timeout
+                0x00020770                SSL_set_session_secret_cb
+                0x000207a0                SSL_set_session_ticket_ext_cb
+                0x000207d0                SSL_set_session_ticket_ext
+                0x000208b0                SSL_CTX_flush_sessions
+                0x00020a70                ssl_clear_bad_session
+                0x00020ae0                SSL_CTX_sess_set_new_cb
+                0x00020af0                SSL_CTX_sess_get_new_cb
+                0x00020b00                SSL_CTX_sess_set_remove_cb
+                0x00020b10                SSL_CTX_sess_get_remove_cb
+                0x00020b20                SSL_CTX_sess_set_get_cb
+                0x00020b30                SSL_CTX_sess_get_get_cb
+                0x00020b40                SSL_CTX_set_info_callback
+                0x00020b60                SSL_CTX_get_info_callback
+                0x00020b70                SSL_CTX_set_client_cert_cb
+                0x00020b80                SSL_CTX_get_client_cert_cb
+                0x00020b90                SSL_CTX_set_client_cert_engine
+                0x00020c40                SSL_CTX_set_cookie_generate_cb
+                0x00020c50                SSL_CTX_set_cookie_verify_cb
+                0x00020c60                PEM_read_bio_SSL_SESSION
+                0x00020cb0                PEM_read_SSL_SESSION
+                0x00020d00                PEM_write_bio_SSL_SESSION
+                0x00020d70                PEM_write_SSL_SESSION
+ *fill*         0x00020dd7        0x9 
+ .text          0x00020de0     0x17b9 libssl_pic.a(ssl_rsa.pico)
+                0x00020de0                SSL_use_certificate
+                0x00021000                SSL_use_certificate_file
+                0x000211c0                SSL_use_certificate_ASN1
+                0x000212a0                SSL_use_RSAPrivateKey
+                0x000214e0                SSL_use_RSAPrivateKey_file
+                0x00021650                SSL_use_RSAPrivateKey_ASN1
+                0x000216e0                SSL_use_PrivateKey
+                0x00021770                SSL_use_PrivateKey_file
+                0x00021930                SSL_use_PrivateKey_ASN1
+                0x00021a10                SSL_CTX_use_certificate
+                0x00021aa0                SSL_CTX_use_certificate_file
+                0x00021c60                SSL_CTX_use_certificate_ASN1
+                0x00021d40                SSL_CTX_use_RSAPrivateKey
+                0x00021e30                SSL_CTX_use_RSAPrivateKey_file
+                0x00021fa0                SSL_CTX_use_RSAPrivateKey_ASN1
+                0x00022030                SSL_CTX_use_PrivateKey
+                0x000220c0                SSL_CTX_use_PrivateKey_file
+                0x00022280                SSL_CTX_use_PrivateKey_ASN1
+                0x00022360                SSL_CTX_use_certificate_chain_file
+ *fill*         0x00022599        0x7 
+ .text          0x000225a0     0x4e53 libssl_pic.a(ssl_lib.pico)
+                0x000225a0                ssl_undefined_function
+                0x000225f0                SSL_clear
+                0x00022790                ssl_clear_cipher_ctx
+                0x00022840                ssl_clear_hash_ctx
+                0x00022870                SSL_CTX_set_ssl_version
+                0x00022910                SSL_new
+                0x00022c90                SSL_free
+                0x00022f10                SSL_CTX_set_session_id_context
+                0x00022f90                SSL_set_session_id_context
+                0x00023010                SSL_CTX_set_generate_session_id
+                0x00023090                SSL_set_generate_session_id
+                0x00023110                SSL_has_matching_session_id
+                0x00023210                SSL_CTX_set_purpose
+                0x00023250                SSL_set_purpose
+                0x00023280                SSL_CTX_set_trust
+                0x000232c0                SSL_set_trust
+                0x000232f0                SSL_CTX_set1_param
+                0x00023330                SSL_set1_param
+                0x00023360                SSL_CTX_free
+                0x00023540                SSL_set_bio
+                0x000235c0                SSL_get_rbio
+                0x000235d0                SSL_get_wbio
+                0x000235e0                SSL_get_fd
+                0x00023650                SSL_get_rfd
+                0x000236c0                SSL_get_wfd
+                0x00023730                SSL_set_fd
+                0x00023810                SSL_set_wfd
+                0x00023960                SSL_set_rfd
+                0x00023af0                SSL_get_finished
+                0x00023b50                SSL_get_peer_finished
+                0x00023bb0                SSL_get_verify_mode
+                0x00023bc0                SSL_get_verify_depth
+                0x00023bf0                SSL_get_verify_callback
+                0x00023c00                SSL_CTX_get_verify_mode
+                0x00023c10                SSL_CTX_get_verify_depth
+                0x00023c40                SSL_CTX_get_verify_callback
+                0x00023c50                SSL_set_verify
+                0x00023c70                SSL_set_verify_depth
+                0x00023ca0                SSL_set_read_ahead
+                0x00023cb0                SSL_get_read_ahead
+                0x00023cc0                SSL_pending
+                0x00023cd0                SSL_get_peer_certificate
+                0x00023d40                SSL_get_peer_cert_chain
+                0x00023d70                SSL_copy_session_id
+                0x00023e80                SSL_CTX_check_private_key
+                0x00023f20                SSL_check_private_key
+                0x00023ff0                SSL_accept
+                0x00024080                SSL_set_accept_state
+                0x00024100                SSL_connect
+                0x00024190                SSL_set_connect_state
+                0x00024210                SSL_get_default_timeout
+                0x00024220                SSL_read
+                0x000242a0                SSL_peek
+                0x00024310                SSL_write
+                0x000243a0                SSL_shutdown
+                0x00024410                SSL_state
+                0x00024420                SSL_renegotiate
+                0x00024450                SSL_renegotiate_abbreviated
+                0x00024480                SSL_renegotiate_pending
+                0x000244a0                SSL_ctrl
+                0x000245b0                SSL_callback_ctrl
+                0x000245e0                SSL_CTX_sessions
+                0x000245f0                SSL_CTX_ctrl
+                0x00024750                SSL_CTX_callback_ctrl
+                0x00024780                ssl_cipher_id_cmp
+                0x000247b0                ssl_cipher_ptr_id_cmp
+                0x000247e0                SSL_get_ciphers
+                0x00024810                ssl_get_ciphers_by_id
+                0x00024840                SSL_get_cipher_list
+                0x000248b0                SSL_CTX_set_cipher_list
+                0x00024940                SSL_set_cipher_list
+                0x000249d0                SSL_get_shared_ciphers
+                0x00024ac0                ssl_cipher_list_to_bytes
+                0x00024c00                ssl_bytes_to_cipher_list
+                0x00024f30                SSL_get_servername
+                0x00024f60                SSL_get_servername_type
+                0x00024f90                SSL_select_next_proto
+                0x00025070                SSL_get0_next_proto_negotiated
+                0x000250a0                SSL_CTX_set_next_protos_advertised_cb
+                0x000250c0                SSL_CTX_set_next_proto_select_cb
+                0x000250e0                SSL_export_keying_material
+                0x00025110                SSL_CTX_new
+                0x00025710                SSL_CTX_set_default_passwd_cb
+                0x00025720                SSL_CTX_set_default_passwd_cb_userdata
+                0x00025730                SSL_CTX_set_cert_verify_callback
+                0x00025750                SSL_CTX_set_verify
+                0x00025770                SSL_CTX_set_verify_depth
+                0x000257b0                ssl_set_cert_masks
+                0x00025bc0                ssl_check_srvr_ecc_cert_and_alg
+                0x00025db0                ssl_get_server_send_pkey
+                0x00025e90                ssl_get_server_send_cert
+                0x00025ec0                ssl_get_sign_pkey
+                0x00025f70                ssl_update_cache
+                0x00026090                SSL_get_ssl_method
+                0x000260a0                SSL_set_ssl_method
+                0x00026130                SSL_get_error
+                0x000262a0                SSL_want
+                0x000262b0                SSL_do_handshake
+                0x00026330                ssl_undefined_void_function
+                0x00026380                ssl_undefined_const_function
+                0x000263d0                ssl_bad_method
+                0x00026420                SSL_get_version
+                0x00026490                SSL_dup
+                0x000267f0                SSL_get_SSL_CTX
+                0x00026800                SSL_set_info_callback
+                0x00026820                SSL_get_info_callback
+                0x00026830                SSL_get_certificate
+                0x00026850                SSL_get_privatekey
+                0x00026870                SSL_get_current_cipher
+                0x00026890                SSL_get_current_compression
+                0x000268b0                SSL_get_current_expansion
+                0x000268d0                ssl_init_wbio_buffer
+                0x000269e0                ssl_free_wbio_buffer
+                0x00026a30                SSL_CTX_set_quiet_shutdown
+                0x00026a50                SSL_CTX_get_quiet_shutdown
+                0x00026a60                SSL_set_quiet_shutdown
+                0x00026a70                SSL_get_quiet_shutdown
+                0x00026a80                SSL_set_shutdown
+                0x00026a90                SSL_get_shutdown
+                0x00026aa0                SSL_version
+                0x00026ab0                SSL_set_SSL_CTX
+                0x00026c60                SSL_CTX_set_default_verify_paths
+                0x00026c90                SSL_CTX_load_verify_locations
+                0x00026cd0                SSL_set_state
+                0x00026ce0                SSL_set_verify_result
+                0x00026d00                SSL_get_verify_result
+                0x00026d10                SSL_get_ex_new_index
+                0x00026d60                SSL_set_ex_data
+                0x00026da0                SSL_get_ex_data
+                0x00026dd0                SSL_CTX_get_ex_new_index
+                0x00026e20                SSL_CTX_set_ex_data
+                0x00026e60                SSL_CTX_get_ex_data
+                0x00026e90                ssl_ok
+                0x00026ea0                SSL_CTX_get_cert_store
+                0x00026eb0                SSL_CTX_set_cert_store
+                0x00026ef0                SSL_CTX_set_tmp_rsa_callback
+                0x00026f30                SSL_set_tmp_rsa_callback
+                0x00026f70                SSL_CTX_set_tmp_dh_callback
+                0x00026fb0                SSL_set_tmp_dh_callback
+                0x00026ff0                SSL_CTX_set_tmp_ecdh_callback
+                0x00027030                SSL_set_tmp_ecdh_callback
+                0x00027070                SSL_CTX_use_psk_identity_hint
+                0x00027120                SSL_use_psk_identity_hint
+                0x00027200                SSL_get_psk_identity_hint
+                0x00027220                SSL_get_psk_identity
+                0x00027240                SSL_set_psk_client_callback
+                0x00027260                SSL_CTX_set_psk_client_callback
+                0x00027280                SSL_set_psk_server_callback
+                0x000272a0                SSL_CTX_set_psk_server_callback
+                0x000272c0                SSL_CTX_set_msg_callback
+                0x000272e0                SSL_set_msg_callback
+                0x000272f0                ssl_replace_hash
+                0x00027350                SSL_set_debug
+                0x00027370                SSL_cache_hit
+                0x00027380                OBJ_bsearch_ssl_cipher_id
+ *fill*         0x000273f3        0xd 
+ .text          0x00027400     0x5a66 libssl_pic.a(s3_srvr.pico)
+                0x00027400                SSLv3_server_method
+                0x00027420                ssl3_accept
+                0x000283d0                ssl3_send_hello_request
+                0x00028430                ssl3_get_client_hello
+                0x00029110                ssl3_send_server_hello
+                0x00029300                ssl3_send_server_certificate
+                0x000293d0                ssl3_send_server_key_exchange
+                0x0002a2c0                ssl3_send_certificate_request
+                0x0002a5b0                ssl3_send_server_done
+                0x0002a610                ssl3_check_client_hello
+                0x0002a730                ssl3_get_client_certificate
+                0x0002aca0                ssl3_get_client_key_exchange
+                0x0002bf10                ssl3_get_cert_verify
+                0x0002c650                ssl3_get_next_proto
+                0x0002c7f0                ssl3_send_newsession_ticket
+                0x0002cd70                ssl3_send_cert_status
+ *fill*         0x0002ce66        0xa 
+ .text          0x0002ce70     0x2600 libssl_pic.a(ssl_asn1.pico)
+                0x0002ce70                i2d_SSL_SESSION
+                0x0002da00                d2i_SSL_SESSION
+ .text          0x0002f470     0x250f libssl_pic.a(s3_pkt.pico)
+                0x0002f470                ssl3_read_n
+                0x0002f850                ssl3_do_uncompress
+                0x0002f8d0                ssl3_do_compress
+                0x0002f950                ssl3_write_bytes
+                0x0002ffb0                ssl3_write_pending
+                0x00030140                ssl3_read_bytes
+                0x00031680                ssl3_send_alert
+                0x00031740                ssl3_do_change_cipher_spec
+                0x00031860                ssl3_dispatch_alert
+ *fill*         0x0003197f        0x1 
+ .text          0x00031980       0x44 libssl_pic.a(s3_meth.pico)
+                0x00031980                SSLv3_method
+ *fill*         0x000319c4        0xc 
+ .text          0x000319d0     0x1d14 libssl_pic.a(s3_lib.pico)
+                0x000319d0                ssl3_default_timeout
+                0x000319e0                ssl3_num_ciphers
+                0x000319f0                ssl3_get_cipher
+                0x00031a20                ssl3_pending
+                0x00031a50                ssl3_new
+                0x00031ad0                ssl3_free
+                0x00031be0                ssl3_clear
+                0x00031da0                ssl3_ctrl
+                0x00032410                ssl3_callback_ctrl
+                0x000324d0                ssl3_ctx_ctrl
+                0x00032a90                ssl3_ctx_callback_ctrl
+                0x00032b50                ssl3_get_cipher_by_char
+                0x00032bc0                ssl3_put_cipher_by_char
+                0x00032c00                ssl3_choose_cipher
+                0x000331d0                ssl3_get_req_cert_type
+                0x00033270                ssl3_shutdown
+                0x00033370                ssl3_write
+                0x00033490                ssl3_renegotiate_check
+                0x00033510                ssl3_read
+                0x00033640                ssl3_peek
+                0x00033680                ssl3_renegotiate
+                0x000336b0                ssl_get_algorithm2
+ *fill*         0x000336e4        0xc 
+ .text          0x000336f0       0x86 libssl_pic.a(s23_meth.pico)
+                0x000336f0                SSLv23_method
+ *fill*         0x00033776        0xa 
+ .text          0x00033780       0x41 libssl_pic.a(s2_meth.pico)
+                0x00033780                SSLv2_method
+ *fill*         0x000337c1        0xf 
+ .text          0x000337d0      0xb82 libssl_pic.a(s23_srvr.pico)
+                0x000337d0                SSLv23_server_method
+                0x000337f0                ssl23_accept
+                0x00033ad0                ssl23_get_client_hello
+ *fill*         0x00034352        0xe 
+ .text          0x00034360     0x1ec1 libssl_pic.a(s2_srvr.pico)
+                0x00034360                SSLv2_server_method
+                0x00034380                ssl2_accept
+ *fill*         0x00036221        0xf 
+ .text          0x00036230     0x607a libssl_pic.a(s3_clnt.pico)
+                0x00036230                SSLv3_client_method
+                0x00036250                ssl3_connect
+                0x00036ff0                ssl3_client_hello
+                0x00037380                ssl3_get_server_hello
+                0x00037af0                ssl3_get_server_certificate
+                0x00038100                ssl3_get_key_exchange
+                0x000397b0                ssl3_check_cert_and_algorithm
+                0x00039cd0                ssl3_get_certificate_request
+                0x0003a230                ssl3_get_server_done
+                0x0003a2f0                ssl3_send_client_certificate
+                0x0003a580                ssl3_send_client_key_exchange
+                0x0003b5f0                ssl3_send_client_verify
+                0x0003bbf0                ssl3_send_next_proto
+                0x0003bcc0                ssl3_get_new_session_ticket
+                0x0003bfb0                ssl3_get_cert_status
+                0x0003c220                ssl_do_client_cert_cb
+ *fill*         0x0003c2aa        0x6 
+ .text          0x0003c2b0     0x103b libssl_pic.a(s23_clnt.pico)
+                0x0003c2b0                SSLv23_client_method
+                0x0003c2d0                ssl23_connect
+                0x0003d270                ssl_fill_hello_random
+ *fill*         0x0003d2eb        0x5 
+ .text          0x0003d2f0     0x1c56 libssl_pic.a(s2_clnt.pico)
+                0x0003d2f0                SSLv2_client_method
+                0x0003d310                ssl2_connect
+                0x0003ece0                ssl2_set_certificate
+ *fill*         0x0003ef46        0xa 
+ .text          0x0003ef50     0x1314 libssl_pic.a(ssl_cert.pico)
+                0x0003ef50                SSL_get_ex_data_X509_STORE_CTX_idx
+                0x0003f070                ssl_cert_new
+                0x0003f130                ssl_cert_dup
+                0x0003f500                ssl_cert_free
+                0x0003f690                ssl_cert_inst
+                0x0003f720                ssl_sess_cert_new
+                0x0003f7b0                ssl_sess_cert_free
+                0x0003f8d0                ssl_set_peer_cert_type
+                0x0003f8f0                ssl_verify_cert_chain
+                0x0003fa40                SSL_dup_CA_list
+                0x0003fae0                SSL_set_client_CA_list
+                0x0003fb30                SSL_CTX_set_client_CA_list
+                0x0003fb80                SSL_CTX_get_client_CA_list
+                0x0003fb90                SSL_get_client_CA_list
+                0x0003fbe0                SSL_add_client_CA
+                0x0003fc80                SSL_CTX_add_client_CA
+                0x0003fcb0                SSL_load_client_CA_file
+                0x0003ff00                SSL_add_file_cert_subjects_to_stack
+                0x00040090                SSL_add_dir_cert_subjects_to_stack
+ *fill*         0x00040264        0xc 
+ .text          0x00040270      0x11d libssl_pic.a(s23_pkt.pico)
+                0x00040270                ssl23_write_bytes
+                0x00040310                ssl23_read_bytes
+ *fill*         0x0004038d        0x3 
+ .text          0x00040390      0x2e3 libssl_pic.a(s23_lib.pico)
+                0x00040390                ssl23_default_timeout
+                0x000403a0                ssl23_num_ciphers
+                0x000403d0                ssl23_get_cipher
+                0x00040410                ssl23_get_cipher_by_char
+                0x00040450                ssl23_put_cipher_by_char
+                0x000404a0                ssl23_read
+                0x00040540                ssl23_peek
+                0x000405e0                ssl23_write
+ *fill*         0x00040673        0xd 
+ .text          0x00040680     0x1fcd libssl_pic.a(d1_pkt.pico)
+                0x00040680                dtls1_get_record
+                0x00041240                dtls1_read_bytes
+                0x00041ef0                dtls1_reset_seq_numbers
+                0x00041f90                dtls1_write_app_data_bytes
+                0x00042060                dtls1_write_bytes
+                0x000420e0                do_dtls1_write
+                0x00042400                dtls1_dispatch_alert
+ *fill*         0x0004264d        0x3 
+ .text          0x00042650     0x11ea libssl_pic.a(s3_both.pico)
+                0x00042650                ssl3_do_write
+                0x00042720                ssl3_send_finished
+                0x00042890                ssl3_get_finished
+                0x00042ab0                ssl3_send_change_cipher_spec
+                0x00042b90                ssl3_output_cert_chain
+                0x00042eb0                ssl3_get_message
+                0x000432c0                ssl_cert_type
+                0x00043360                ssl_verify_alarm_type
+                0x00043390                ssl3_setup_read_buffer
+                0x00043560                ssl3_setup_write_buffer
+                0x00043650                ssl3_setup_buffers
+                0x00043690                ssl3_release_write_buffer
+                0x000437e0                ssl3_release_read_buffer
+ *fill*         0x0004383a        0x6 
+ .text          0x00043840      0xdc4 libssl_pic.a(d1_lib.pico)
+                0x00043840                dtls1_default_timeout
+                0x00043850                dtls1_new
+                0x000439c0                dtls1_free
+                0x00043bb0                dtls1_clear
+                0x00043cd0                dtls1_ctrl
+                0x00043e30                dtls1_get_timeout
+                0x00043f40                dtls1_handle_timeout
+                0x00044100                dtls1_listen
+                0x00044190                dtls1_get_cipher
+                0x000441d0                dtls1_start_timer
+                0x00044280                dtls1_is_timer_expired
+                0x000443c0                dtls1_double_timeout
+                0x00044490                dtls1_stop_timer
+                0x00044530                dtls1_check_timeout_num
+ *fill*         0x00044604        0xc 
+ .text          0x00044610      0x2e1 libssl_pic.a(d1_enc.pico)
+                0x00044610                dtls1_enc
+ *fill*         0x000448f1        0xf 
+ .text          0x00044900     0x2946 libssl_pic.a(d1_both.pico)
+                0x00044900                dtls1_hm_fragment_free
+                0x00044960                dtls1_do_write
+                0x00045070                dtls1_min_mtu
+                0x000450c0                dtls1_get_message
+                0x00045b10                dtls1_send_finished
+                0x00045cd0                dtls1_set_message_header
+                0x00045d40                dtls1_buffer_message
+                0x00045f40                dtls1_send_change_cipher_spec
+                0x00046020                dtls1_output_cert_chain
+                0x00046350                dtls1_read_failed
+                0x00046400                dtls1_get_queue_priority
+                0x00046410                dtls1_retransmit_buffered_messages
+                0x000464e0                dtls1_retransmit_message
+                0x00046860                dtls1_clear_record_buffer
+                0x000468c0                dtls1_link_min_mtu
+                0x000468d0                dtls1_get_message_header
+                0x00046990                dtls1_get_ccs_header
+                0x000469b0                dtls1_shutdown
+                0x000469d0                dtls1_process_heartbeat
+                0x00046bd0                dtls1_heartbeat
+ *fill*         0x00047246        0xa 
+ .text          0x00047250     0x1ae7 libssl_pic.a(s3_enc.pico)
+                0x00047250                ssl3_change_cipher_state
+                0x00047840                ssl3_setup_key_block
+                0x00047ca0                ssl3_cleanup_key_block
+                0x00047d10                ssl3_enc
+                0x00047ec0                ssl3_init_finished_mac
+                0x00047f40                ssl3_free_digest_list
+                0x00048020                ssl3_finish_mac
+                0x00048160                ssl3_digest_cached_records
+                0x00048350                ssl3_cert_verify_mac
+                0x000486b0                ssl3_final_finish_mac
+                0x00048720                n_ssl3_mac
+                0x00048a90                ssl3_record_sequence_update
+                0x00048ac0                ssl3_generate_master_secret
+                0x00048c70                ssl3_alert_code
+ *fill*         0x00048d37        0x9 
+ .text          0x00048d40     0x10d7 libssl_pic.a(s3_cbc.pico)
+                0x00048d40                ssl3_cbc_remove_padding
+                0x00048da0                tls1_cbc_remove_padding
+                0x00048f60                ssl3_cbc_copy_mac
+                0x000491f0                ssl3_cbc_record_digest_supported
+                0x00049240                ssl3_cbc_digest_record
+ *fill*         0x00049e17        0x9 
+ .text          0x00049e20      0xd5f libssl_pic.a(s2_pkt.pico)
+                0x00049e20                ssl2_read
+                0x0004a2f0                ssl2_peek
+                0x0004a330                ssl2_write
+                0x0004a6f0                ssl2_part_read
+                0x0004a7b0                ssl2_do_write
+ *fill*         0x0004ab7f        0x1 
+ .text          0x0004ab80      0x41c libssl_pic.a(s2_enc.pico)
+                0x0004ab80                ssl2_enc_init
+                0x0004ae10                ssl2_enc
+                0x0004ae90                ssl2_mac
+ *fill*         0x0004af9c        0x4 
+ .text          0x0004afa0      0x6f4 libssl_pic.a(s2_lib.pico)
+                0x0004afa0                ssl2_default_timeout
+                0x0004afb0                ssl2_num_ciphers
+                0x0004afc0                ssl2_get_cipher
+                0x0004aff0                ssl2_pending
+                0x0004b030                ssl2_new
+                0x0004b150                ssl2_clear
+                0x0004b1c0                ssl2_free
+                0x0004b230                ssl2_ctrl
+                0x0004b280                ssl2_callback_ctrl
+                0x0004b290                ssl2_ctx_ctrl
+                0x0004b2a0                ssl2_ctx_callback_ctrl
+                0x0004b2b0                ssl2_get_cipher_by_char
+                0x0004b320                ssl2_put_cipher_by_char
+                0x0004b370                ssl2_generate_key_material
+                0x0004b570                ssl2_return_error
+                0x0004b5b0                ssl2_write_error
+                0x0004b680                ssl2_shutdown
+ *fill*         0x0004b694        0xc 
+ .text          0x0004b6a0     0x2823 libssl_pic.a(ssl_ciph.pico)
+                0x0004b6a0                ssl_load_ciphers
+                0x0004b970                ssl_cipher_get_evp
+                0x0004be80                ssl_get_handshake_digest
+                0x0004bed0                ssl_create_cipher_list
+                0x0004d650                SSL_CIPHER_description
+                0x0004dbe0                SSL_CIPHER_get_version
+                0x0004dc30                SSL_CIPHER_get_name
+                0x0004dc60                SSL_CIPHER_get_bits
+                0x0004dc80                SSL_CIPHER_get_id
+                0x0004dc90                ssl3_comp_find
+                0x0004dd00                SSL_COMP_get_compression_methods
+                0x0004dd20                SSL_COMP_add_compression_method
+                0x0004de90                SSL_COMP_get_name
+ *fill*         0x0004dec3        0x1 
+ .text          0x0004dec4        0x0 /usr/lib/crtendS.o
+ .text          0x0004dec4        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0004ded0        0xa
+ *(SORT(.fini))
+ .fini          0x0004ded0        0x3 /usr/lib/crti.o
+                0x0004ded0                _fini
+ .fini          0x0004ded3        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0004ded8        0x2 /usr/lib/crtn.o
+                0x0004deda                PROVIDE (__etext, .)
+                0x0004deda                PROVIDE (_etext, .)
+                0x0004deda                PROVIDE (etext, .)
+
+.rodata         0x0004dee0     0x672c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0004dee0       0x10 libssl_pic.a(ssl_txt.pico)
+ .rodata.str1.1
+                0x0004def0      0x225 libssl_pic.a(ssl_txt.pico)
+                                0x244 (size before relaxing)
+ *fill*         0x0004e115        0x3 
+ .rodata        0x0004e118      0x1f8 libssl_pic.a(ssl_stat.pico)
+ .rodata.str1.1
+                0x0004e310     0x10ba libssl_pic.a(ssl_stat.pico)
+                               0x12c6 (size before relaxing)
+ .rodata.str1.1
+                0x0004f3ca     0x2de5 libssl_pic.a(ssl_err.pico)
+                               0x2f50 (size before relaxing)
+ .rodata.str1.1
+                0x000521af       0x50 libssl_pic.a(ssl_algs.pico)
+                                 0x59 (size before relaxing)
+ .rodata.str1.1
+                0x000521ff       0x38 libssl_pic.a(d1_clnt.pico)
+ *fill*         0x00052237        0x1 
+ .rodata        0x00052238       0xa4 libssl_pic.a(bio_ssl.pico)
+ .rodata.str1.1
+                0x000522dc       0x3c libssl_pic.a(bio_ssl.pico)
+ .rodata        0x00052318       0x4c libssl_pic.a(d1_srvr.pico)
+ .rodata.str1.1
+                0x00052364       0x38 libssl_pic.a(d1_srvr.pico)
+ .rodata.str1.1
+                0x0005239c       0x38 libssl_pic.a(tls_srp.pico)
+ .rodata        0x000523d4      0x2a4 libssl_pic.a(t1_lib.pico)
+                0x00052514                tls1_version_str
+ .rodata.str1.1
+                0x00052678       0x57 libssl_pic.a(t1_lib.pico)
+ .rodata.str1.1
+                0x000526cf       0xa3 libssl_pic.a(t1_reneg.pico)
+ .rodata.str1.1
+                0x00052772       0x66 libssl_pic.a(d1_srtp.pico)
+ .rodata        0x000527d8        0x1 libssl_pic.a(t1_enc.pico)
+ .rodata.str1.1
+                0x000527d9       0xbd libssl_pic.a(t1_enc.pico)
+                                 0xdd (size before relaxing)
+ *fill*         0x00052896        0x2 
+ .rodata        0x00052898       0x10 libssl_pic.a(ssl_sess.pico)
+ .rodata.str1.1
+                0x000528a8       0x50 libssl_pic.a(ssl_sess.pico)
+ .rodata.str1.1
+                0x000528f8       0x38 libssl_pic.a(ssl_rsa.pico)
+ .rodata        0x00052930      0x134 libssl_pic.a(ssl_lib.pico)
+ .rodata.str1.1
+                0x00052a64       0xc6 libssl_pic.a(ssl_lib.pico)
+                                0x10c (size before relaxing)
+ .rodata.str1.1
+                0x00052b2a       0x54 libssl_pic.a(s3_srvr.pico)
+ .rodata.str1.1
+                0x00052b7e       0x39 libssl_pic.a(ssl_asn1.pico)
+ .rodata.str1.1
+                0x00052bb7       0x7c libssl_pic.a(s3_pkt.pico)
+                                 0x7f (size before relaxing)
+ *fill*         0x00052c33        0x1 
+ .rodata        0x00052c34      0x11c libssl_pic.a(s3_lib.pico)
+                0x00052d28                ssl3_version_str
+ .rodata.str1.1
+                0x00052d50      0x924 libssl_pic.a(s3_lib.pico)
+                                0xb42 (size before relaxing)
+ .rodata        0x00053674       0x10 libssl_pic.a(s23_meth.pico)
+ .rodata        0x00053684       0x20 libssl_pic.a(s23_srvr.pico)
+ .rodata.str1.1
+                0x000536a4       0x6d libssl_pic.a(s23_srvr.pico)
+                                 0x75 (size before relaxing)
+ .rodata.str1.1
+                0x00053711       0x38 libssl_pic.a(s2_srvr.pico)
+ .rodata.str1.1
+                0x00053749       0x38 libssl_pic.a(s3_clnt.pico)
+ *fill*         0x00053781        0x3 
+ .rodata        0x00053784       0x20 libssl_pic.a(s23_clnt.pico)
+ .rodata.str1.1
+                0x000537a4       0x39 libssl_pic.a(s23_clnt.pico)
+                                 0x57 (size before relaxing)
+ .rodata.str1.1
+                0x000537dd       0x38 libssl_pic.a(s2_clnt.pico)
+ .rodata.str1.1
+                0x00053815       0x89 libssl_pic.a(ssl_cert.pico)
+ .rodata.str1.1
+                0x0005389e       0x38 libssl_pic.a(s23_lib.pico)
+ *fill*         0x000538d6        0x2 
+ .rodata        0x000538d8       0x14 libssl_pic.a(d1_pkt.pico)
+ .rodata.str1.1
+                0x000538ec       0x57 libssl_pic.a(d1_pkt.pico)
+                                 0x8a (size before relaxing)
+ .rodata.str1.1
+                0x00053943       0x4d libssl_pic.a(s3_both.pico)
+ .rodata        0x00053990       0xc4 libssl_pic.a(s3_both.pico)
+ .rodata        0x00053a54       0x29 libssl_pic.a(d1_lib.pico)
+                0x00053a54                dtls1_version_str
+ .rodata.str1.1
+                0x00053a7d       0x37 libssl_pic.a(d1_lib.pico)
+                                 0x57 (size before relaxing)
+ .rodata.str1.1
+                0x00053ab4       0x45 libssl_pic.a(d1_enc.pico)
+                                 0x65 (size before relaxing)
+ .rodata.str1.1
+                0x00053af9      0x240 libssl_pic.a(d1_both.pico)
+                                0x255 (size before relaxing)
+ .rodata.cst8   0x00053d39       0x10 libssl_pic.a(d1_both.pico)
+ *fill*         0x00053d49        0x3 
+ .rodata        0x00053d4c       0x48 libssl_pic.a(s3_enc.pico)
+ .rodata.str1.1
+                0x00053d94       0x3e libssl_pic.a(s3_enc.pico)
+                                 0x42 (size before relaxing)
+ *fill*         0x00053dd2        0x2 
+ .rodata        0x00053dd4       0x19 libssl_pic.a(s3_cbc.pico)
+ .rodata.str1.1
+                0x00053ded       0xba libssl_pic.a(s3_cbc.pico)
+                                 0xbc (size before relaxing)
+ .rodata.str1.1
+                0x00053ea7       0x50 libssl_pic.a(s2_pkt.pico)
+ *fill*         0x00053ef7        0x9 
+ .rodata        0x00053f00       0x18 libssl_pic.a(s2_pkt.pico)
+ .rodata.str1.1
+                0x00053f18       0x9e libssl_pic.a(s2_enc.pico)
+ .rodata        0x00053fb6       0x28 libssl_pic.a(s2_lib.pico)
+                0x00053fb6                ssl2_version_str
+ .rodata.str1.1
+                0x00053fde       0xf0 libssl_pic.a(s2_lib.pico)
+                                0x120 (size before relaxing)
+ *fill*         0x000540ce        0x2 
+ .rodata        0x000540d0       0xd8 libssl_pic.a(ssl_ciph.pico)
+ .rodata.str1.1
+                0x000541a8      0x464 libssl_pic.a(ssl_ciph.pico)
+                                0x532 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0005460c     0x133c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0005460c     0x133c libssl_pic.a(ssl_txt.pico)
+
+.eh_frame       0x00055948     0x48b4
+ *(.eh_frame)
+ .eh_frame      0x00055948       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00055984        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00055984       0x58 libssl_pic.a(ssl_txt.pico)
+ .eh_frame      0x000559dc       0x1c libssl_pic.a(ssl_utst.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000559f8       0xe0 libssl_pic.a(ssl_stat.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00055ad8       0x1c libssl_pic.a(ssl_err2.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00055af4       0x1c libssl_pic.a(ssl_err.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00055b10       0x20 libssl_pic.a(ssl_algs.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00055b30       0x38 libssl_pic.a(d1_meth.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00055b68       0xd8 libssl_pic.a(d1_clnt.pico)
+                                 0xf0 (size before relaxing)
+ .eh_frame      0x00055c40      0x194 libssl_pic.a(bio_ssl.pico)
+                                0x1ac (size before relaxing)
+ .eh_frame      0x00055dd4      0x138 libssl_pic.a(d1_srvr.pico)
+                                0x150 (size before relaxing)
+ .eh_frame      0x00055f0c      0x290 libssl_pic.a(tls_srp.pico)
+                                0x2a8 (size before relaxing)
+ .eh_frame      0x0005619c       0x70 libssl_pic.a(t1_srvr.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x0005620c       0x70 libssl_pic.a(t1_meth.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x0005627c      0x2c4 libssl_pic.a(t1_lib.pico)
+                                0x2dc (size before relaxing)
+ .eh_frame      0x00056540       0x80 libssl_pic.a(t1_reneg.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x000565c0      0x10c libssl_pic.a(d1_srtp.pico)
+                                0x124 (size before relaxing)
+ .eh_frame      0x000566cc      0x13c libssl_pic.a(t1_enc.pico)
+                                0x154 (size before relaxing)
+ .eh_frame      0x00056808       0x70 libssl_pic.a(t1_clnt.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00056878      0x588 libssl_pic.a(ssl_sess.pico)
+                                0x5a0 (size before relaxing)
+ .eh_frame      0x00056e00      0x2a0 libssl_pic.a(ssl_rsa.pico)
+                                0x2b8 (size before relaxing)
+ .eh_frame      0x000570a0     0x1210 libssl_pic.a(ssl_lib.pico)
+                               0x1228 (size before relaxing)
+ .eh_frame      0x000582b0      0x210 libssl_pic.a(s3_srvr.pico)
+                                0x228 (size before relaxing)
+ .eh_frame      0x000584c0       0x40 libssl_pic.a(ssl_asn1.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00058500      0x140 libssl_pic.a(s3_pkt.pico)
+                                0x158 (size before relaxing)
+ .eh_frame      0x00058640       0x38 libssl_pic.a(s3_meth.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00058678      0x2d4 libssl_pic.a(s3_lib.pico)
+                                0x2ec (size before relaxing)
+ .eh_frame      0x0005894c       0x38 libssl_pic.a(s23_meth.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00058984       0x38 libssl_pic.a(s2_meth.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x000589bc       0x78 libssl_pic.a(s23_srvr.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x00058a34       0x58 libssl_pic.a(s2_srvr.pico)
+                                 0x70 (size before relaxing)
+ .eh_frame      0x00058a8c      0x234 libssl_pic.a(s3_clnt.pico)
+                                0x24c (size before relaxing)
+ .eh_frame      0x00058cc0       0x78 libssl_pic.a(s23_clnt.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x00058d38       0x78 libssl_pic.a(s2_clnt.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x00058db0      0x288 libssl_pic.a(ssl_cert.pico)
+                                0x2a0 (size before relaxing)
+ .eh_frame      0x00059038       0x40 libssl_pic.a(s23_pkt.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00059078       0xf4 libssl_pic.a(s23_lib.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x0005916c      0x140 libssl_pic.a(d1_pkt.pico)
+                                0x158 (size before relaxing)
+ .eh_frame      0x000592ac      0x1fc libssl_pic.a(s3_both.pico)
+                                0x214 (size before relaxing)
+ .eh_frame      0x000594a8      0x1d8 libssl_pic.a(d1_lib.pico)
+                                0x1f0 (size before relaxing)
+ .eh_frame      0x00059680       0x20 libssl_pic.a(d1_enc.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000596a0      0x308 libssl_pic.a(d1_both.pico)
+                                0x320 (size before relaxing)
+ .eh_frame      0x000599a8      0x1d4 libssl_pic.a(s3_enc.pico)
+                                0x1ec (size before relaxing)
+ .eh_frame      0x00059b7c      0x10c libssl_pic.a(s3_cbc.pico)
+                                0x124 (size before relaxing)
+ .eh_frame      0x00059c88       0xf8 libssl_pic.a(s2_pkt.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x00059d80       0x60 libssl_pic.a(s2_enc.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00059de0      0x1f4 libssl_pic.a(s2_lib.pico)
+                                0x20c (size before relaxing)
+ .eh_frame      0x00059fd4      0x224 libssl_pic.a(ssl_ciph.pico)
+                                0x23c (size before relaxing)
+ .eh_frame      0x0005a1f8        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0005a1fc       0x18
+ .note.netbsd.ident
+                0x0005a1fc       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0005a214       0x14
+ .note.netbsd.pax
+                0x0005a214       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0005a228                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0005b228                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0005b228        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0005b228        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0005b22c        0x4 /usr/lib/crtendS.o
+                0x0005b22c                __CTOR_LIST_END__
+
+.dtors          0x0005b230        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0005b230        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0005b234        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0005b238        0x4
+ *(.jcr)
+ .jcr           0x0005b238        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0005b238        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0005b23c     0x190c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0005b23c       0x18 libssl_pic.a(ssl_stat.pico)
+ .data.rel.ro.local
+                0x0005b254        0xc libssl_pic.a(t1_srvr.pico)
+ .data.rel.ro.local
+                0x0005b260        0xc libssl_pic.a(t1_meth.pico)
+ .data.rel.ro.local
+                0x0005b26c        0xc libssl_pic.a(t1_clnt.pico)
+ .data.rel.ro.local
+                0x0005b278        0xc libssl_pic.a(s3_enc.pico)
+ .data.rel.ro.local
+                0x0005b284      0x150 libssl_pic.a(s2_lib.pico)
+                0x0005b284                ssl2_ciphers
+ .data.rel.ro.local
+                0x0005b3d4      0xde0 libssl_pic.a(ssl_ciph.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0005c1b4       0x10 libssl_pic.a(ssl_utst.pico)
+ .data.rel.ro   0x0005c1c4       0x74 libssl_pic.a(d1_meth.pico)
+ .data.rel.ro   0x0005c238       0x74 libssl_pic.a(d1_clnt.pico)
+ .data.rel.ro   0x0005c2ac       0x74 libssl_pic.a(d1_srvr.pico)
+ .data.rel.ro   0x0005c320      0x15c libssl_pic.a(t1_srvr.pico)
+ .data.rel.ro   0x0005c47c      0x15c libssl_pic.a(t1_meth.pico)
+ .data.rel.ro   0x0005c5d8      0x15c libssl_pic.a(t1_clnt.pico)
+ .data.rel.ro   0x0005c734       0x74 libssl_pic.a(s3_srvr.pico)
+ .data.rel.ro   0x0005c7a8       0x74 libssl_pic.a(s3_meth.pico)
+ .data.rel.ro   0x0005c81c       0x74 libssl_pic.a(s23_meth.pico)
+ .data.rel.ro   0x0005c890       0x74 libssl_pic.a(s2_meth.pico)
+ .data.rel.ro   0x0005c904       0x74 libssl_pic.a(s23_srvr.pico)
+ .data.rel.ro   0x0005c978       0x74 libssl_pic.a(s2_srvr.pico)
+ .data.rel.ro   0x0005c9ec       0x74 libssl_pic.a(s3_clnt.pico)
+ .data.rel.ro   0x0005ca60       0x74 libssl_pic.a(s23_clnt.pico)
+ .data.rel.ro   0x0005cad4       0x74 libssl_pic.a(s2_clnt.pico)
+
+.dynamic        0x0005cb48       0xb8
+ *(.dynamic)
+ .dynamic       0x0005cb48       0xb8 /usr/lib/crti.o
+                0x0005cb48                _DYNAMIC
+
+.got            0x0005cc00      0x108
+ *(.got)
+ .got           0x0005cc00      0x108 /usr/lib/crti.o
+ *(.igot)
+                0x0005cd08                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0005cd08      0x994
+ *(.got.plt)
+ .got.plt       0x0005cd08      0x994 /usr/lib/crti.o
+                0x0005cd08                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0005d69c     0x2d18
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0005d69c        0x0 /usr/lib/crti.o
+ .data          0x0005d69c        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0005d69c       0x26 /usr/lib/crtbeginS.o
+                0x0005d69c                __dso_handle
+ *fill*         0x0005d6c2        0x2 
+ .data          0x0005d6c4        0x0 libssl_pic.a(ssl_txt.pico)
+ .data          0x0005d6c4        0x0 libssl_pic.a(ssl_utst.pico)
+ .data          0x0005d6c4        0x0 libssl_pic.a(ssl_stat.pico)
+ .data          0x0005d6c4        0x0 libssl_pic.a(ssl_err2.pico)
+ .data          0x0005d6c4        0x0 libssl_pic.a(ssl_err.pico)
+ .data.rel.local
+                0x0005d6c4     0x1068 libssl_pic.a(ssl_err.pico)
+ .data          0x0005e72c        0x0 libssl_pic.a(ssl_algs.pico)
+ .data          0x0005e72c        0x0 libssl_pic.a(kssl.pico)
+ .data          0x0005e72c        0x0 libssl_pic.a(d1_meth.pico)
+ .data          0x0005e72c        0x0 libssl_pic.a(d1_clnt.pico)
+ .data          0x0005e72c        0x0 libssl_pic.a(bio_ssl.pico)
+ .data.rel.local
+                0x0005e72c       0x28 libssl_pic.a(bio_ssl.pico)
+ .data          0x0005e754        0x0 libssl_pic.a(d1_srvr.pico)
+ .data          0x0005e754        0x0 libssl_pic.a(tls_srp.pico)
+ .data          0x0005e754        0x0 libssl_pic.a(t1_srvr.pico)
+ .data          0x0005e754        0x0 libssl_pic.a(t1_meth.pico)
+ .data          0x0005e754       0x48 libssl_pic.a(t1_lib.pico)
+ .data.rel      0x0005e79c       0x38 libssl_pic.a(t1_lib.pico)
+                0x0005e79c                TLSv1_enc_data
+ .data          0x0005e7d4        0x0 libssl_pic.a(t1_reneg.pico)
+ .data          0x0005e7d4        0x0 libssl_pic.a(d1_srtp.pico)
+ .data.rel.local
+                0x0005e7d4       0x18 libssl_pic.a(d1_srtp.pico)
+ .data          0x0005e7ec        0x0 libssl_pic.a(t1_enc.pico)
+ .data          0x0005e7ec        0x0 libssl_pic.a(t1_clnt.pico)
+ .data          0x0005e7ec        0x0 libssl_pic.a(ssl_sess.pico)
+ .data          0x0005e7ec        0x0 libssl_pic.a(ssl_rsa.pico)
+ .data          0x0005e7ec       0x60 libssl_pic.a(ssl_lib.pico)
+ .data.rel.local
+                0x0005e84c        0x4 libssl_pic.a(ssl_lib.pico)
+                0x0005e84c                SSL_version_str
+ .data.rel      0x0005e850       0x38 libssl_pic.a(ssl_lib.pico)
+                0x0005e850                ssl3_undef_enc_method
+ .data          0x0005e888        0x0 libssl_pic.a(s3_srvr.pico)
+ .data          0x0005e888        0x0 libssl_pic.a(ssl_asn1.pico)
+ .data          0x0005e888        0x0 libssl_pic.a(s3_pkt.pico)
+ .data          0x0005e888        0x0 libssl_pic.a(s3_meth.pico)
+ .data          0x0005e888        0x0 libssl_pic.a(s3_lib.pico)
+ .data.rel.local
+                0x0005e888     0x1a40 libssl_pic.a(s3_lib.pico)
+                0x0005e888                ssl3_ciphers
+ .data.rel      0x000602c8       0x38 libssl_pic.a(s3_lib.pico)
+                0x000602c8                SSLv3_enc_data
+ .data          0x00060300        0x0 libssl_pic.a(s23_meth.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s2_meth.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s23_srvr.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s2_srvr.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s3_clnt.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s23_clnt.pico)
+ .data          0x00060300        0x0 libssl_pic.a(s2_clnt.pico)
+ .data          0x00060300        0x4 libssl_pic.a(ssl_cert.pico)
+ .data          0x00060304        0x0 libssl_pic.a(s23_pkt.pico)
+ .data          0x00060304        0x0 libssl_pic.a(s23_lib.pico)
+ .data          0x00060304        0x0 libssl_pic.a(d1_pkt.pico)
+ .data          0x00060304        0x0 libssl_pic.a(s3_both.pico)
+ .data          0x00060304        0x0 libssl_pic.a(d1_lib.pico)
+ .data.rel      0x00060304       0x38 libssl_pic.a(d1_lib.pico)
+                0x00060304                DTLSv1_enc_data
+ .data          0x0006033c        0x0 libssl_pic.a(d1_enc.pico)
+ .data          0x0006033c        0x0 libssl_pic.a(d1_both.pico)
+ .data          0x0006033c       0x60 libssl_pic.a(s3_enc.pico)
+ .data          0x0006039c        0x0 libssl_pic.a(s3_cbc.pico)
+ .data          0x0006039c        0x0 libssl_pic.a(s2_pkt.pico)
+ .data          0x0006039c        0x0 libssl_pic.a(s2_enc.pico)
+ .data          0x0006039c        0x0 libssl_pic.a(s2_lib.pico)
+ .data          0x0006039c       0x18 libssl_pic.a(ssl_ciph.pico)
+ .data          0x000603b4        0x0 /usr/lib/crtendS.o
+ .data          0x000603b4        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000603b4                _edata = .
+                0x000603b4                PROVIDE (edata, .)
+                0x000603b4                . = .
+                0x000603b4                __bss_start = .
+
+.bss            0x000603b4       0x6c
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000603b4        0x0 /usr/lib/crti.o
+ .bss           0x000603b4        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_txt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_utst.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_stat.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_err2.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_err.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_algs.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(kssl.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_meth.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_clnt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(bio_ssl.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_srvr.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(tls_srp.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_srvr.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_meth.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_lib.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_reneg.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_srtp.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_enc.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(t1_clnt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_sess.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_rsa.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_lib.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_srvr.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_asn1.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_pkt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_meth.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_lib.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s23_meth.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_meth.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s23_srvr.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_srvr.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_clnt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s23_clnt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_clnt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(ssl_cert.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s23_pkt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s23_lib.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_pkt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_both.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_lib.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_enc.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(d1_both.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_enc.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s3_cbc.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_pkt.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_enc.pico)
+ .bss           0x000603b4        0x0 libssl_pic.a(s2_lib.pico)
+ .bss           0x000603b4       0x6c libssl_pic.a(ssl_ciph.pico)
+ .bss           0x00060420        0x0 /usr/lib/crtendS.o
+ .bss           0x00060420        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00060420                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00060420                . = ALIGN (0x4)
+                0x00060420                . = ALIGN (0x4)
+                0x00060420                _end = .
+                0x00060420                PROVIDE (end, .)
+                0x00060420                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libssl_pic.a(ssl_txt.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_utst.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_stat.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_err2.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_err.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_algs.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(kssl.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_meth.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_clnt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(bio_ssl.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_srvr.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(tls_srp.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_srvr.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_meth.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_reneg.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_srtp.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_enc.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(t1_clnt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_sess.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_rsa.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_srvr.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_asn1.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_pkt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_meth.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s23_meth.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_meth.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s23_srvr.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_srvr.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_clnt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s23_clnt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_clnt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_cert.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s23_pkt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s23_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_pkt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_both.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_enc.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(d1_both.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_enc.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s3_cbc.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_pkt.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_enc.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(s2_lib.pico)
+ .comment       0x00000000       0x30 libssl_pic.a(ssl_ciph.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libssl.so.10.5 elf32-i386-minix)

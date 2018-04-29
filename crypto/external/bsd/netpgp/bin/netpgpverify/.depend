@@ -1,0 +1,443 @@
+b64.d b64.ln b64.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/b64.c \
+  /usr/include/inttypes.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/machine/ansi.h \
+  /usr/include/stdio.h /usr/include/sys/ansi.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/b64.h
+bignum.d bignum.ln bignum.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bignum.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/stdarg.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bn.h \
+  /usr/include/inttypes.h
+bufgap.d bufgap.ln bufgap.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bufgap.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bufgap.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/defs.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h
+bzlib.d bzlib.ln bzlib.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bzlib.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bzlib_private.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bzlib.h
+digest.d digest.ln digest.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/digest.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslog.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/inttypes.h /usr/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/digest.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.h
+libverify.d libverify.ln libverify.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/libverify.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/mman.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/inttypes.h /usr/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bzlib.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/zlib.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/array.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/b64.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bn.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bufgap.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/digest.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/misc.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/pgpsum.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rsa.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/verify.h
+main.d main.ln main.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/main.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/verify.h
+md5c.d md5c.ln md5c.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5c.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h
+misc.d misc.ln misc.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/misc.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslog.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/inttypes.h \
+  /usr/include/stdarg.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/misc.h
+pgpsum.d pgpsum.ln pgpsum.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/pgpsum.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/sys/mman.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/digest.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/pgpsum.h
+rmd160.d rmd160.ln rmd160.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/param.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.h \
+  /usr/include/inttypes.h
+rsa.d rsa.ln rsa.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rsa.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/syslog.h /usr/include/stdio.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/misc.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/digest.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/md5.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rmd160.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/rsa.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/bn.h
+sha1.d sha1.ln sha1.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha1.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h
+sha2.d sha2.ln sha2.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/string.h /usr/include/sys/null.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/sha2.h
+tiger.d tiger.ln tiger.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/tiger.h
+zlib.d zlib.ln zlib.o: \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/zlib.c \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/netpgp/bin/netpgpverify/../../dist/src/netpgpverify/zlib.h

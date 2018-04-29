@@ -1,0 +1,512 @@
+Archive member included because of file (symbol)
+
+libfetch_pic.a(file.pico)     (--whole-archive)
+libfetch_pic.a(http.pico)     (--whole-archive)
+libfetch_pic.a(ftp.pico)      (--whole-archive)
+libfetch_pic.a(common.pico)   (--whole-archive)
+libfetch_pic.a(fetch.pico)    (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+fetchTimeout        0x4               libfetch_pic.a(fetch.pico)
+fetchAuthMethod     0x4               libfetch_pic.a(fetch.pico)
+fetchLastErrString  0x100             libfetch_pic.a(fetch.pico)
+fetchDebug          0x4               libfetch_pic.a(fetch.pico)
+fetchLastErrCode    0x4               libfetch_pic.a(fetch.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libfetch_pic.a(file.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libfetch_pic.a(http.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libfetch_pic.a(ftp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libfetch_pic.a(common.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libfetch_pic.a(fetch.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libfetch_pic.a
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libssl/libssl.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libssl/libssl.so
+LOAD /usr/src/crypto/external/bsd/openssl/lib/libcrypto/libcrypto.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x4b4
+ *(.hash)
+ .hash          0x000000f4      0x4b4 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000005a8      0xa80
+ *(.dynsym)
+ .dynsym        0x000005a8      0xa80 /usr/lib/crti.o
+
+.dynstr         0x00001028      0x7d9
+ *(.dynstr)
+ .dynstr        0x00001028      0x7d9 /usr/lib/crti.o
+
+.gnu.version    0x00001802        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00001804        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00001804        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00001804      0x400
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00001804       0x38 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000183c        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00001844      0x2f0 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00001b34       0xd0 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001c04      0x400
+ *(.rel.plt)
+ .rel.plt       0x00001c04      0x400 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00002010        0xa
+ *(SORT(.init))
+ .init          0x00002010        0x3 /usr/lib/crti.o
+                0x00002010                _init
+ .init          0x00002013        0x5 /usr/lib/crtbeginS.o
+ .init          0x00002018        0x2 /usr/lib/crtn.o
+
+.plt            0x00002020      0x810
+ *(.plt)
+ .plt           0x00002020      0x810 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00002830     0x88d8
+                0x00002830                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00002830        0x0 /usr/lib/crti.o
+ .text          0x00002830       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000291f        0x1 
+ .text          0x00002920      0x5e8 libfetch_pic.a(file.pico)
+                0x00002920                fetchXGetFile
+                0x00002c00                fetchGetFile
+                0x00002c40                fetchPutFile
+                0x00002d60                fetchStatFile
+                0x00002e50                fetchListFile
+ *fill*         0x00002f08        0x8 
+ .text          0x00002f10     0x2a39 libfetch_pic.a(http.pico)
+                0x00002f10                http_request
+                0x00004b70                fetchXGetHTTP
+                0x00004ca0                fetchGetHTTP
+                0x00004cf0                fetchPutHTTP
+                0x00004d40                fetchStatHTTP
+                0x00004db0                fetchListHTTP
+ *fill*         0x00005949        0x7 
+ .text          0x00005950     0x29aa libfetch_pic.a(ftp.pico)
+                0x00005950                ftp_request
+                0x00007920                fetchXGetFTP
+                0x00007ac0                fetchGetFTP
+                0x00007b20                fetchPutFTP
+                0x00007ba0                fetchStatFTP
+                0x00007c10                fetchListFTP
+ *fill*         0x000082fa        0x6 
+ .text          0x00008300     0x1de1 libfetch_pic.a(common.pico)
+                0x00008300                fetch_seterr
+                0x00008370                fetch_syserr
+                0x000084f0                fetch_info
+                0x00008540                fetch_default_port
+                0x000085c0                fetch_default_proxy_port
+                0x00008620                fetch_reopen
+                0x00008680                fetch_bind
+                0x00008770                fetch_connect
+                0x00008ad0                fetchConnectionCacheInit
+                0x00008b20                fetchConnectionCacheClose
+                0x00008b60                fetch_cache_get
+                0x00008c60                fetch_cache_put
+                0x00008d80                fetch_ssl
+                0x00008f70                fetch_read
+                0x000091b0                fetch_getln
+                0x00009310                fetch_write
+                0x00009590                fetch_close
+                0x000095f0                fetch_add_entry
+                0x00009930                fetchInitURLList
+                0x00009950                fetchAppendURLList
+                0x00009a90                fetchFreeURLList
+                0x00009b10                fetch_netrc_auth
+                0x00009ec0                fetch_no_proxy_match
+                0x00009fd0                fetchIO_close
+                0x0000a000                fetchIO_unopen
+                0x0000a050                fetchIO_read
+                0x0000a0a0                fetchIO_write
+ *fill*         0x0000a0e1        0xf 
+ .text          0x0000a0f0     0x1017 libfetch_pic.a(fetch.pico)
+                0x0000a0f0                fetchXGet
+                0x0000a1d0                fetchGet
+                0x0000a210                fetchPut
+                0x0000a2c0                fetchStat
+                0x0000a3a0                fetchList
+                0x0000a450                fetchXGetURL
+                0x0000a4c0                fetchParseURL
+                0x0000a9d0                fetchFreeURL
+                0x0000aa00                fetchGetURL
+                0x0000aa70                fetchPutURL
+                0x0000aad0                fetchStatURL
+                0x0000ab40                fetchListURL
+                0x0000abb0                fetchMakeURL
+                0x0000ad10                fetch_urlpath_safe
+                0x0000ad60                fetchCopyURL
+                0x0000ade0                fetchUnquotePath
+                0x0000af00                fetchUnquoteFilename
+                0x0000af60                fetchStringifyURL
+ *fill*         0x0000b107        0x1 
+ .text          0x0000b108        0x0 /usr/lib/crtendS.o
+ .text          0x0000b108        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0000b110        0xa
+ *(SORT(.fini))
+ .fini          0x0000b110        0x3 /usr/lib/crti.o
+                0x0000b110                _fini
+ .fini          0x0000b113        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0000b118        0x2 /usr/lib/crtn.o
+                0x0000b11a                PROVIDE (__etext, .)
+                0x0000b11a                PROVIDE (_etext, .)
+                0x0000b11a                PROVIDE (etext, .)
+
+.rodata         0x0000b11c     0x1075
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000b11c        0xa libfetch_pic.a(file.pico)
+ *fill*         0x0000b126        0x2 
+ .rodata        0x0000b128       0x97 libfetch_pic.a(http.pico)
+ .rodata.str1.1
+                0x0000b1bf      0x563 libfetch_pic.a(http.pico)
+                                0x57a (size before relaxing)
+ .rodata.str1.1
+                0x0000b722      0x771 libfetch_pic.a(ftp.pico)
+                                0x7c1 (size before relaxing)
+ *fill*         0x0000be93        0x1 
+ .rodata        0x0000be94       0x70 libfetch_pic.a(common.pico)
+ .rodata.str1.1
+                0x0000bf04      0x1fa libfetch_pic.a(common.pico)
+                                0x233 (size before relaxing)
+ .rodata.str1.1
+                0x0000c0fe       0x93 libfetch_pic.a(fetch.pico)
+                                 0xac (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000c194      0x294
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000c194      0x294 libfetch_pic.a(file.pico)
+
+.eh_frame       0x0000c428      0xa18
+ *(.eh_frame)
+ .eh_frame      0x0000c428       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0000c464        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0000c464      0x10c libfetch_pic.a(file.pico)
+ .eh_frame      0x0000c570      0x198 libfetch_pic.a(http.pico)
+                                0x1b0 (size before relaxing)
+ .eh_frame      0x0000c708      0x1bc libfetch_pic.a(ftp.pico)
+                                0x1d4 (size before relaxing)
+ .eh_frame      0x0000c8c4      0x344 libfetch_pic.a(common.pico)
+                                0x35c (size before relaxing)
+ .eh_frame      0x0000cc08      0x234 libfetch_pic.a(fetch.pico)
+                                0x24c (size before relaxing)
+ .eh_frame      0x0000ce3c        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0000ce40       0x18
+ .note.netbsd.ident
+                0x0000ce40       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0000ce58       0x14
+ .note.netbsd.pax
+                0x0000ce58       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000ce6c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000d000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000d000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0000d000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000d004        0x4 /usr/lib/crtendS.o
+                0x0000d004                __CTOR_LIST_END__
+
+.dtors          0x0000d008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0000d008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000d00c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0000d010        0x4
+ *(.jcr)
+ .jcr           0x0000d010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0000d010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0000d014       0x40
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000d014       0x40 libfetch_pic.a(http.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000d054       0xc0
+ *(.dynamic)
+ .dynamic       0x0000d054       0xc0 /usr/lib/crti.o
+                0x0000d054                _DYNAMIC
+
+.got            0x0000d114       0x68
+ *(.got)
+ .got           0x0000d114       0x68 /usr/lib/crti.o
+ *(.igot)
+                0x0000d17c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000d17c      0x20c
+ *(.got.plt)
+ .got.plt       0x0000d17c      0x20c /usr/lib/crti.o
+                0x0000d17c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000d388      0x494
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000d388        0x0 /usr/lib/crti.o
+ .data          0x0000d388        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0000d388       0x26 /usr/lib/crtbeginS.o
+                0x0000d388                __dso_handle
+ *fill*         0x0000d3ae        0x2 
+ .data          0x0000d3b0        0x0 libfetch_pic.a(file.pico)
+ .data          0x0000d3b0        0x0 libfetch_pic.a(http.pico)
+ .data.rel.local
+                0x0000d3b0      0x1f8 libfetch_pic.a(http.pico)
+ .data          0x0000d5a8        0x0 libfetch_pic.a(ftp.pico)
+ .data.rel.local
+                0x0000d5a8      0x204 libfetch_pic.a(ftp.pico)
+ .data          0x0000d7ac        0x0 libfetch_pic.a(common.pico)
+ .data.rel.local
+                0x0000d7ac       0x3c libfetch_pic.a(common.pico)
+ .data          0x0000d7e8        0x4 libfetch_pic.a(fetch.pico)
+                0x0000d7e8                fetchRestartCalls
+ .data.rel.local
+                0x0000d7ec       0x30 libfetch_pic.a(fetch.pico)
+ .data          0x0000d81c        0x0 /usr/lib/crtendS.o
+ .data          0x0000d81c        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0000d81c                _edata = .
+                0x0000d81c                PROVIDE (edata, .)
+                0x0000d81c                . = .
+                0x0000d81c                __bss_start = .
+
+.bss            0x0000d81c      0x520
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000d81c        0x0 /usr/lib/crti.o
+ .bss           0x0000d81c        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0000d81c        0x0 libfetch_pic.a(file.pico)
+ .bss           0x0000d81c        0x4 libfetch_pic.a(http.pico)
+ .bss           0x0000d820        0x0 libfetch_pic.a(ftp.pico)
+ .bss           0x0000d820      0x40c libfetch_pic.a(common.pico)
+ .bss           0x0000dc2c        0x0 libfetch_pic.a(fetch.pico)
+ .bss           0x0000dc2c        0x0 /usr/lib/crtendS.o
+ .bss           0x0000dc2c        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0000dc2c      0x110 libfetch_pic.a(fetch.pico)
+                0x0000dc2c                fetchTimeout
+                0x0000dc30                fetchAuthMethod
+                0x0000dc34                fetchLastErrString
+                0x0000dd34                fetchDebug
+                0x0000dd38                fetchLastErrCode
+                0x0000dd3c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000dd3c                . = ALIGN (0x4)
+                0x0000dd3c                . = ALIGN (0x4)
+                0x0000dd3c                _end = .
+                0x0000dd3c                PROVIDE (end, .)
+                0x0000dd3c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libfetch_pic.a(file.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libfetch_pic.a(http.pico)
+ .comment       0x00000000       0x30 libfetch_pic.a(ftp.pico)
+ .comment       0x00000000       0x30 libfetch_pic.a(common.pico)
+ .comment       0x00000000       0x30 libfetch_pic.a(fetch.pico)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libfetch.so.3.0 elf32-i386-minix)

@@ -1,0 +1,693 @@
+Archive member included because of file (symbol)
+
+libmagic_pic.a(apptype.pico)  (--whole-archive)
+libmagic_pic.a(encoding.pico)
+                              (--whole-archive)
+libmagic_pic.a(readcdf.pico)  (--whole-archive)
+libmagic_pic.a(cdf.pico)      (--whole-archive)
+libmagic_pic.a(funcs.pico)    (--whole-archive)
+libmagic_pic.a(readelf.pico)  (--whole-archive)
+libmagic_pic.a(is_tar.pico)   (--whole-archive)
+libmagic_pic.a(ascmagic.pico)
+                              (--whole-archive)
+libmagic_pic.a(softmagic.pico)
+                              (--whole-archive)
+libmagic_pic.a(fsmagic.pico)  (--whole-archive)
+libmagic_pic.a(print.pico)    (--whole-archive)
+libmagic_pic.a(cdf_time.pico)
+                              (--whole-archive)
+libmagic_pic.a(apprentice.pico)
+                              (--whole-archive)
+libmagic_pic.a(magic.pico)    (--whole-archive)
+libmagic_pic.a(compress.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+file_names          0xc0              libmagic_pic.a(apprentice.pico)
+file_formats        0xc0              libmagic_pic.a(apprentice.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(apptype.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(encoding.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(readcdf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(cdf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(funcs.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(readelf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(is_tar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(ascmagic.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(softmagic.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(fsmagic.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(print.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(cdf_time.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(apprentice.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(magic.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libmagic_pic.a(compress.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libmagic_pic.a
+LOAD /usr/src/lib/libz/libz.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x498
+ *(.hash)
+ .hash          0x000000f4      0x498 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000058c      0xa10
+ *(.dynsym)
+ .dynsym        0x0000058c      0xa10 /usr/lib/crti.o
+
+.dynstr         0x00000f9c      0x6b6
+ *(.dynstr)
+ .dynstr        0x00000f9c      0x6b6 /usr/lib/crti.o
+
+.gnu.version    0x00001652        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00001654        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00001654        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00001654      0x410
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x00000000        0x0 /usr/lib/crti.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00001654      0x3a0 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000019f4        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000019fc       0x68 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001a64      0x3c8
+ *(.rel.plt)
+ .rel.plt       0x00001a64      0x3c8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001e30        0xa
+ *(SORT(.init))
+ .init          0x00001e30        0x3 /usr/lib/crti.o
+                0x00001e30                _init
+ .init          0x00001e33        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001e38        0x2 /usr/lib/crtn.o
+
+.plt            0x00001e40      0x7a0
+ *(.plt)
+ .plt           0x00001e40      0x7a0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000025e0    0x14894
+                0x000025e0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000025e0        0x0 /usr/lib/crti.o
+ .text          0x000025e0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000026cf        0x1 
+ .text          0x000026d0        0x0 libmagic_pic.a(apptype.pico)
+ .text          0x000026d0      0x60e libmagic_pic.a(encoding.pico)
+                0x000026d0                file_encoding
+                0x00002b30                file_looks_utf8
+ *fill*         0x00002cde        0x2 
+ .text          0x00002ce0      0xec4 libmagic_pic.a(readcdf.pico)
+                0x00002ce0                file_trycdf
+ *fill*         0x00003ba4        0xc 
+ .text          0x00003bb0     0x2299 libmagic_pic.a(cdf.pico)
+                0x00003bb0                cdf_tole2
+                0x00003be0                cdf_tole4
+                0x00003c10                cdf_tole8
+                0x00003c40                cdf_swap_header
+                0x00003d60                cdf_unpack_header
+                0x00003e20                cdf_swap_dir
+                0x00003f20                cdf_swap_class
+                0x00003f80                cdf_unpack_dir
+                0x00004030                cdf_read_header
+                0x000041d0                cdf_read_sector
+                0x000042c0                cdf_read_short_sector
+                0x00004370                cdf_read_sat
+                0x00004660                cdf_count_chain
+                0x000046f0                cdf_read_long_sector_chain
+                0x00004890                cdf_read_short_sector_chain
+                0x00004a90                cdf_read_sector_chain
+                0x00004b10                cdf_read_dir
+                0x00004e30                cdf_read_ssat
+                0x00004fb0                cdf_read_short_stream
+                0x00005070                cdf_read_summary_info
+                0x000050d0                cdf_read_user_stream
+                0x00005230                cdf_read_property_info
+                0x00005720                cdf_unpack_summary_info
+                0x00005880                cdf_unpack_catalog
+                0x00005a50                cdf_print_classid
+                0x00005b10                cdf_print_property_name
+                0x00005c50                cdf_print_elapsed_time
+                0x00005e10                cdf_u16tos8
+ *fill*         0x00005e49        0x7 
+ .text          0x00005e50      0xead libmagic_pic.a(funcs.pico)
+                0x00005e50                file_vprintf
+                0x00005f10                file_error
+                0x00005f80                file_printf
+                0x00005fc0                file_magerror
+                0x00006040                file_oomem
+                0x00006090                file_badseek
+                0x000060d0                file_badread
+                0x00006110                file_buffer
+                0x00006500                file_reset
+                0x00006580                file_getbuffer
+                0x000067d0                file_check_mem
+                0x00006880                file_printedlen
+                0x000068b0                file_replace
+                0x00006a40                file_regcomp
+                0x00006a80                file_regerror
+                0x00006af0                file_regexec
+                0x00006b70                file_regfree
+                0x00006ba0                file_push_buffer
+                0x00006c00                file_pop_buffer
+                0x00006c60                file_printable
+ *fill*         0x00006cfd        0x3 
+ .text          0x00006d00     0x2fe4 libmagic_pic.a(readelf.pico)
+                0x00006d00                file_tryelf
+ *fill*         0x00009ce4        0xc 
+ .text          0x00009cf0      0x2dd libmagic_pic.a(is_tar.pico)
+                0x00009cf0                file_is_tar
+ *fill*         0x00009fcd        0x3 
+ .text          0x00009fd0      0x93f libmagic_pic.a(ascmagic.pico)
+                0x00009fd0                file_ascmagic
+                0x0000a0c0                file_ascmagic_with_encoding
+ *fill*         0x0000a90f        0x1 
+ .text          0x0000a910     0x4836 libmagic_pic.a(softmagic.pico)
+                0x0000a910                file_softmagic
+ *fill*         0x0000f146        0xa 
+ .text          0x0000f150      0xb5b libmagic_pic.a(fsmagic.pico)
+                0x0000f150                file_fsmagic
+ *fill*         0x0000fcab        0x5 
+ .text          0x0000fcb0      0x856 libmagic_pic.a(print.pico)
+                0x0000fcb0                file_mdump
+                0x00010360                file_fmttime
+                0x00010450                file_magwarn
+ *fill*         0x00010506        0xa 
+ .text          0x00010510      0x42c libmagic_pic.a(cdf_time.pico)
+                0x00010510                cdf_timestamp_to_timespec
+                0x000108d0                cdf_timespec_to_timestamp
+                0x000108e0                cdf_ctime
+ *fill*         0x0001093c        0x4 
+ .text          0x00010940     0x4fb6 libmagic_pic.a(apprentice.pico)
+                0x00010940                file_ms_free
+                0x00010ab0                file_ms_alloc
+                0x00010b90                buffer_apprentice
+                0x00011090                file_apprentice
+                0x00011c70                file_signextend
+                0x00011cf0                file_showstr
+                0x00011e50                file_pstring_length_size
+                0x00011ec0                file_pstring_get_length
+                0x00011ff0                file_magicfind
+ *fill*         0x000158f6        0xa 
+ .text          0x00015900      0xab2 libmagic_pic.a(magic.pico)
+                0x00015900                magic_getpath
+                0x00015b00                magic_open
+                0x00015b10                magic_close
+                0x00015b30                magic_load
+                0x00015b70                magic_load_buffers
+                0x00015b90                magic_compile
+                0x00015bd0                magic_check
+                0x00015c10                magic_list
+                0x00015c50                magic_descriptor
+                0x000160b0                magic_file
+                0x000160f0                magic_buffer
+                0x00016160                magic_error
+                0x00016190                magic_errno
+                0x000161b0                magic_setflags
+                0x000161d0                magic_version
+                0x000161e0                magic_setparam
+                0x00016260                magic_getparam
+ *fill*         0x000163b2        0xe 
+ .text          0x000163c0      0xab2 libmagic_pic.a(compress.pico)
+                0x000163c0                file_zmagic
+                0x00016a60                sread
+                0x00016c70                file_pipe2file
+ *fill*         0x00016e72        0x2 
+ .text          0x00016e74        0x0 /usr/lib/crtendS.o
+ .text          0x00016e74        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00016e80        0xa
+ *(SORT(.fini))
+ .fini          0x00016e80        0x3 /usr/lib/crti.o
+                0x00016e80                _fini
+ .fini          0x00016e83        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00016e88        0x2 /usr/lib/crtn.o
+                0x00016e8a                PROVIDE (__etext, .)
+                0x00016e8a                PROVIDE (_etext, .)
+                0x00016e8a                PROVIDE (etext, .)
+
+.rodata         0x00016e90     0x35e8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00016e90       0xe7 libmagic_pic.a(encoding.pico)
+                                 0xf4 (size before relaxing)
+ .rodata        0x00016f77      0x200 libmagic_pic.a(encoding.pico)
+ *fill*         0x00017177        0x1 
+ .rodata        0x00017178       0x14 libmagic_pic.a(readcdf.pico)
+ .rodata.str1.1
+                0x0001718c      0x376 libmagic_pic.a(readcdf.pico)
+                                0x392 (size before relaxing)
+ *fill*         0x00017502        0x2 
+ .rodata        0x00017504       0x50 libmagic_pic.a(cdf.pico)
+ .rodata.str1.1
+                0x00017554      0x1c1 libmagic_pic.a(cdf.pico)
+                                0x1c4 (size before relaxing)
+ .rodata.str1.1
+                0x00017715      0x161 libmagic_pic.a(funcs.pico)
+                                0x17d (size before relaxing)
+ *fill*         0x00017876        0x2 
+ .rodata        0x00017878       0x70 libmagic_pic.a(readelf.pico)
+ .rodata.str1.1
+                0x000178e8      0x487 libmagic_pic.a(readelf.pico)
+                                0x4f0 (size before relaxing)
+ .rodata.str1.1
+                0x00017d6f       0x20 libmagic_pic.a(is_tar.pico)
+                                 0x23 (size before relaxing)
+ .rodata        0x00017d8f       0x60 libmagic_pic.a(is_tar.pico)
+ .rodata.str1.1
+                0x00017def       0xa3 libmagic_pic.a(ascmagic.pico)
+                                 0xb6 (size before relaxing)
+ *fill*         0x00017e92        0x6 
+ .rodata.cst8   0x00017e98        0x8 libmagic_pic.a(softmagic.pico)
+ .rodata        0x00017ea0      0x81c libmagic_pic.a(softmagic.pico)
+ .rodata.str1.1
+                0x000186bc      0x322 libmagic_pic.a(softmagic.pico)
+                                0x332 (size before relaxing)
+ .rodata.str1.1
+                0x000189de      0x17d libmagic_pic.a(fsmagic.pico)
+                                0x1ca (size before relaxing)
+ *fill*         0x00018b5b        0x1 
+ .rodata        0x00018b5c       0xb8 libmagic_pic.a(print.pico)
+ .rodata.str1.1
+                0x00018c14       0x92 libmagic_pic.a(print.pico)
+                                 0xa9 (size before relaxing)
+ .rodata.str1.1
+                0x00018ca6       0x13 libmagic_pic.a(cdf_time.pico)
+ *fill*         0x00018cb9        0x7 
+ .rodata        0x00018cc0      0xbe0 libmagic_pic.a(apprentice.pico)
+                0x00019240                file_nformats
+                0x00019244                file_nnames
+ .rodata.str1.1
+                0x000198a0      0x99f libmagic_pic.a(apprentice.pico)
+                                0x9d8 (size before relaxing)
+ *fill*         0x0001a23f        0x1 
+ .rodata        0x0001a240       0x3a libmagic_pic.a(magic.pico)
+ .rodata.str1.1
+                0x0001a27a       0xc2 libmagic_pic.a(magic.pico)
+                                 0xc8 (size before relaxing)
+ .rodata.str1.1
+                0x0001a33c      0x12d libmagic_pic.a(compress.pico)
+                                0x12f (size before relaxing)
+ *fill*         0x0001a469        0x3 
+ .rodata        0x0001a46c        0xc libmagic_pic.a(compress.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0001a478      0x3c4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0001a478      0x3c4 libmagic_pic.a(encoding.pico)
+
+.eh_frame       0x0001a83c      0xea8
+ *(.eh_frame)
+ .eh_frame      0x0001a83c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0001a878        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x0001a878       0x58 libmagic_pic.a(encoding.pico)
+ .eh_frame      0x0001a8d0       0x20 libmagic_pic.a(readcdf.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0001a8f0      0x364 libmagic_pic.a(cdf.pico)
+                                0x37c (size before relaxing)
+ .eh_frame      0x0001ac54      0x274 libmagic_pic.a(funcs.pico)
+                                0x28c (size before relaxing)
+ .eh_frame      0x0001aec8       0xa0 libmagic_pic.a(readelf.pico)
+                                 0xb8 (size before relaxing)
+ .eh_frame      0x0001af68       0x20 libmagic_pic.a(is_tar.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0001af88       0x40 libmagic_pic.a(ascmagic.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x0001afc8      0x120 libmagic_pic.a(softmagic.pico)
+                                0x138 (size before relaxing)
+ .eh_frame      0x0001b0e8       0x20 libmagic_pic.a(fsmagic.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x0001b108       0x60 libmagic_pic.a(print.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x0001b168       0x5c libmagic_pic.a(cdf_time.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x0001b1c4      0x298 libmagic_pic.a(apprentice.pico)
+                                0x2b0 (size before relaxing)
+ .eh_frame      0x0001b45c      0x224 libmagic_pic.a(magic.pico)
+                                0x23c (size before relaxing)
+ .eh_frame      0x0001b680       0x60 libmagic_pic.a(compress.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x0001b6e0        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0001b6e4       0x18
+ .note.netbsd.ident
+                0x0001b6e4       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0001b6fc       0x14
+ .note.netbsd.pax
+                0x0001b6fc       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0001b710                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0001c000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0001c000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0001c000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0001c004        0x4 /usr/lib/crtendS.o
+                0x0001c004                __CTOR_LIST_END__
+
+.dtors          0x0001c008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0001c008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0001c00c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0001c010        0x4
+ *(.jcr)
+ .jcr           0x0001c010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0001c010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0001c014      0x478
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0001c014       0x90 libmagic_pic.a(readcdf.pico)
+ .data.rel.ro.local
+                0x0001c0a4       0xa0 libmagic_pic.a(cdf.pico)
+ .data.rel.ro.local
+                0x0001c144      0x1c8 libmagic_pic.a(readelf.pico)
+ .data.rel.ro.local
+                0x0001c30c       0x30 libmagic_pic.a(apprentice.pico)
+ .data.rel.ro.local
+                0x0001c33c      0x150 libmagic_pic.a(compress.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0001c48c       0xb8
+ *(.dynamic)
+ .dynamic       0x0001c48c       0xb8 /usr/lib/crti.o
+                0x0001c48c                _DYNAMIC
+
+.got            0x0001c544       0x34
+ *(.got)
+ .got           0x0001c544       0x34 /usr/lib/crti.o
+ *(.igot)
+                0x0001c578                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0001c578      0x1f0
+ *(.got.plt)
+ .got.plt       0x0001c578      0x1f0 /usr/lib/crti.o
+                0x0001c578                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0001c768       0x2c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0001c768        0x0 /usr/lib/crti.o
+ .data          0x0001c768        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0001c768       0x26 /usr/lib/crtbeginS.o
+                0x0001c768                __dso_handle
+ *fill*         0x0001c78e        0x2 
+ .data          0x0001c790        0x0 libmagic_pic.a(apptype.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(encoding.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(readcdf.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(cdf.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(funcs.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(readelf.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(is_tar.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(ascmagic.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(softmagic.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(fsmagic.pico)
+ .data          0x0001c790        0x0 libmagic_pic.a(print.pico)
+ .data          0x0001c790        0x4 libmagic_pic.a(cdf_time.pico)
+ .data          0x0001c794        0x0 libmagic_pic.a(apprentice.pico)
+ .data          0x0001c794        0x0 libmagic_pic.a(magic.pico)
+ .data          0x0001c794        0x0 libmagic_pic.a(compress.pico)
+ .data          0x0001c794        0x0 /usr/lib/crtendS.o
+ .data          0x0001c794        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0001c794                _edata = .
+                0x0001c794                PROVIDE (edata, .)
+                0x0001c794                . = .
+                0x0001c794                __bss_start = .
+
+.bss            0x0001c794      0x190
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0001c794        0x0 /usr/lib/crti.o
+ .bss           0x0001c794        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0001c794        0x0 libmagic_pic.a(apptype.pico)
+ .bss           0x0001c794        0x0 libmagic_pic.a(encoding.pico)
+ .bss           0x0001c794        0x0 libmagic_pic.a(readcdf.pico)
+ .bss           0x0001c794        0x4 libmagic_pic.a(cdf.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(funcs.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(readelf.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(is_tar.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(ascmagic.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(softmagic.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(fsmagic.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(print.pico)
+ .bss           0x0001c798        0x0 libmagic_pic.a(cdf_time.pico)
+ .bss           0x0001c798        0x8 libmagic_pic.a(apprentice.pico)
+ .bss           0x0001c7a0        0x4 libmagic_pic.a(magic.pico)
+ .bss           0x0001c7a4        0x0 libmagic_pic.a(compress.pico)
+ .bss           0x0001c7a4        0x0 /usr/lib/crtendS.o
+ .bss           0x0001c7a4        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0001c7a4      0x180 libmagic_pic.a(apprentice.pico)
+                0x0001c7a4                file_names
+                0x0001c864                file_formats
+                0x0001c924                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0001c924                . = ALIGN (0x4)
+                0x0001c924                . = ALIGN (0x4)
+                0x0001c924                _end = .
+                0x0001c924                PROVIDE (end, .)
+                0x0001c924                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libmagic_pic.a(apptype.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libmagic_pic.a(encoding.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(readcdf.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(cdf.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(funcs.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(readelf.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(is_tar.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(ascmagic.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(softmagic.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(fsmagic.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(print.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(cdf_time.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(apprentice.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(magic.pico)
+ .comment       0x00000000       0x30 libmagic_pic.a(compress.pico)
+
+.ident          0x00000000      0x475
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x40 libmagic_pic.a(apptype.pico)
+ .ident         0x000000b0       0x3d libmagic_pic.a(encoding.pico)
+ .ident         0x000000ed       0x3d libmagic_pic.a(readcdf.pico)
+ .ident         0x0000012a       0x39 libmagic_pic.a(cdf.pico)
+ .ident         0x00000163       0x3b libmagic_pic.a(funcs.pico)
+ .ident         0x0000019e       0x3d libmagic_pic.a(readelf.pico)
+ .ident         0x000001db       0x3f libmagic_pic.a(is_tar.pico)
+ .ident         0x0000021a       0x41 libmagic_pic.a(ascmagic.pico)
+ .ident         0x0000025b       0x3f libmagic_pic.a(softmagic.pico)
+ .ident         0x0000029a       0x3d libmagic_pic.a(fsmagic.pico)
+ .ident         0x000002d7       0x3a libmagic_pic.a(print.pico)
+ .ident         0x00000311       0x3d libmagic_pic.a(cdf_time.pico)
+ .ident         0x0000034e       0x40 libmagic_pic.a(apprentice.pico)
+ .ident         0x0000038e       0x3b libmagic_pic.a(magic.pico)
+ .ident         0x000003c9       0x3e libmagic_pic.a(compress.pico)
+ .ident         0x00000407       0x38 /usr/lib/crtendS.o
+ .ident         0x0000043f       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libmagic.so.5.1 elf32-i386-minix)

@@ -1,0 +1,377 @@
+Archive member included because of file (symbol)
+
+libmj_pic.a(mj.pico)          (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libmj_pic.a(mj.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libmj_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x13c
+ *(.hash)
+ .hash          0x000000f4      0x13c /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000230      0x280
+ *(.dynsym)
+ .dynsym        0x00000230      0x280 /usr/lib/crti.o
+
+.dynstr         0x000004b0      0x1a6
+ *(.dynstr)
+ .dynstr        0x000004b0      0x1a6 /usr/lib/crti.o
+
+.gnu.version    0x00000656        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00000658        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00000658        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00000658       0x30
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00000658        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000660       0x28 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00000688       0xd8
+ *(.rel.plt)
+ .rel.plt       0x00000688       0xd8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00000760        0xa
+ *(SORT(.init))
+ .init          0x00000760        0x3 /usr/lib/crti.o
+                0x00000760                _init
+ .init          0x00000763        0x5 /usr/lib/crtbeginS.o
+ .init          0x00000768        0x2 /usr/lib/crtn.o
+
+.plt            0x00000770      0x1c0
+ *(.plt)
+ .plt           0x00000770      0x1c0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00000930     0x21d8
+                0x00000930                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00000930        0x0 /usr/lib/crti.o
+ .text          0x00000930       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00000a1f        0x1 
+ .text          0x00000a20     0x20e8 libmj_pic.a(mj.pico)
+                0x00000a20                mj_arraycount
+                0x00000a30                mj_create
+                0x00000df0                mj_snprint
+                0x000011e0                mj_asprint
+                0x00001250                mj_string_size
+                0x000013c0                mj_parse
+                0x00001d20                mj_object_find
+                0x00001da0                mj_get_atom
+                0x00001e50                mj_deepcopy
+                0x00002040                mj_delete
+                0x000020b0                mj_append
+                0x00002310                mj_append_field
+                0x00002580                mj_lint
+                0x000026f0                mj_pretty
+                0x00002ac0                mj_string_rep
+ .text          0x00002b08        0x0 /usr/lib/crtendS.o
+ .text          0x00002b08        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00002b10        0xa
+ *(SORT(.fini))
+ .fini          0x00002b10        0x3 /usr/lib/crti.o
+                0x00002b10                _fini
+ .fini          0x00002b13        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00002b18        0x2 /usr/lib/crtn.o
+                0x00002b1a                PROVIDE (__etext, .)
+                0x00002b1a                PROVIDE (_etext, .)
+                0x00002b1a                PROVIDE (etext, .)
+
+.rodata         0x00002b1c      0x3c2
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00002b1c       0x90 libmj_pic.a(mj.pico)
+ .rodata.str1.1
+                0x00002bac      0x332 libmj_pic.a(mj.pico)
+                                0x345 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00002ee0       0xa4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00002ee0       0xa4 libmj_pic.a(mj.pico)
+
+.eh_frame       0x00002f84      0x290
+ *(.eh_frame)
+ .eh_frame      0x00002f84       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00002fc0        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00002fc0      0x250 libmj_pic.a(mj.pico)
+ .eh_frame      0x00003210        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00003214       0x18
+ .note.netbsd.ident
+                0x00003214       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0000322c       0x14
+ .note.netbsd.pax
+                0x0000322c       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00003240                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00004240                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00004240        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00004240        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00004244        0x4 /usr/lib/crtendS.o
+                0x00004244                __CTOR_LIST_END__
+
+.dtors          0x00004248        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00004248        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000424c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00004250        0x4
+ *(.jcr)
+ .jcr           0x00004250        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00004250        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00004254       0xb0
+ *(.dynamic)
+ .dynamic       0x00004254       0xb0 /usr/lib/crti.o
+                0x00004254                _DYNAMIC
+
+.got            0x00004304       0x14
+ *(.got)
+ .got           0x00004304       0x14 /usr/lib/crti.o
+ *(.igot)
+                0x00004318                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00004318       0x78
+ *(.got.plt)
+ .got.plt       0x00004318       0x78 /usr/lib/crti.o
+                0x00004318                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00004390       0x28
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00004390        0x0 /usr/lib/crti.o
+ .data          0x00004390        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00004390       0x26 /usr/lib/crtbeginS.o
+                0x00004390                __dso_handle
+ *fill*         0x000043b6        0x2 
+ .data          0x000043b8        0x0 libmj_pic.a(mj.pico)
+ .data          0x000043b8        0x0 /usr/lib/crtendS.o
+ .data          0x000043b8        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000043b8                _edata = .
+                0x000043b8                PROVIDE (edata, .)
+                0x000043b8                . = .
+                0x000043b8                __bss_start = .
+
+.bss            0x000043b8       0x14
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000043b8        0x0 /usr/lib/crti.o
+ .bss           0x000043b8        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000043b8       0x11 libmj_pic.a(mj.pico)
+ *fill*         0x000043c9        0x3 
+ .bss           0x000043cc        0x0 /usr/lib/crtendS.o
+ .bss           0x000043cc        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x000043cc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000043cc                . = ALIGN (0x4)
+                0x000043cc                . = ALIGN (0x4)
+                0x000043cc                _end = .
+                0x000043cc                PROVIDE (end, .)
+                0x000043cc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libmj_pic.a(mj.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000       0xde
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 /usr/lib/crtendS.o
+ .ident         0x000000a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libmj.so.1.0 elf32-i386-minix)

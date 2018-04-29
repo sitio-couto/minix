@@ -1,0 +1,2598 @@
+app_rand.d app_rand.ln app_rand.o: /usr/src/crypto/external/bsd/openssl/dist/apps/app_rand.c \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/include/openssl/bio.h /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h
+apps.d apps.ln apps.o: /usr/src/crypto/external/bsd/openssl/dist/apps/apps.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/include/openssl/err.h /usr/include/openssl/e_os2.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/x509v3.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/pkcs12.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/ocsp.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/sys/times.h /usr/include/sys/stat.h
+asn1pars.d asn1pars.ln asn1pars.o: /usr/src/crypto/external/bsd/openssl/dist/apps/asn1pars.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+ca.d ca.ln ca.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ca.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/bio.h \
+  /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/x509v3.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/sys/file.h /usr/include/sys/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/unistd.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h /usr/include/unistd.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h
+ciphers.d ciphers.ln ciphers.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ciphers.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+cms.d cms.ln cms.o: /usr/src/crypto/external/bsd/openssl/dist/apps/cms.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/cms.h
+crl.d crl.ln crl.o: /usr/src/crypto/external/bsd/openssl/dist/apps/crl.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+crl2p7.d crl2p7.ln crl2p7.o: /usr/src/crypto/external/bsd/openssl/dist/apps/crl2p7.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+dgst.d dgst.ln dgst.o: /usr/src/crypto/external/bsd/openssl/dist/apps/dgst.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h
+dh.d dh.ln dh.o: /usr/src/crypto/external/bsd/openssl/dist/apps/dh.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+dhparam.d dhparam.ln dhparam.o: /usr/src/crypto/external/bsd/openssl/dist/apps/dhparam.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+dsa.d dsa.ln dsa.o: /usr/src/crypto/external/bsd/openssl/dist/apps/dsa.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+dsaparam.d dsaparam.ln dsaparam.o: /usr/src/crypto/external/bsd/openssl/dist/apps/dsaparam.c \
+  /usr/include/openssl/opensslconf.h /usr/include/assert.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+ec.d ec.ln ec.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ec.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+ecparam.d ecparam.ln ecparam.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ecparam.c \
+  /usr/include/openssl/opensslconf.h /usr/include/assert.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+enc.d enc.ln enc.o: /usr/src/crypto/external/bsd/openssl/dist/apps/enc.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/comp.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h
+engine.d engine.ln engine.o: /usr/src/crypto/external/bsd/openssl/dist/apps/engine.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+errstr.d errstr.ln errstr.o: /usr/src/crypto/external/bsd/openssl/dist/apps/errstr.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+gendh.d gendh.ln gendh.o: /usr/src/crypto/external/bsd/openssl/dist/apps/gendh.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+gendsa.d gendsa.ln gendsa.o: /usr/src/crypto/external/bsd/openssl/dist/apps/gendsa.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+genpkey.d genpkey.ln genpkey.o: /usr/src/crypto/external/bsd/openssl/dist/apps/genpkey.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+genrsa.d genrsa.ln genrsa.o: /usr/src/crypto/external/bsd/openssl/dist/apps/genrsa.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+nseq.d nseq.ln nseq.o: /usr/src/crypto/external/bsd/openssl/dist/apps/nseq.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+ocsp.d ocsp.ln ocsp.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ocsp.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/netdb.h \
+  /usr/include/inttypes.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/arpa/inet.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+openssl.d openssl.ln openssl.o: /usr/src/crypto/external/bsd/openssl/dist/apps/openssl.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/progs.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h
+passwd.d passwd.ln passwd.o: /usr/src/crypto/external/bsd/openssl/dist/apps/passwd.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/des.h \
+  /usr/include/openssl/md5.h
+pkcs12.d pkcs12.ln pkcs12.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkcs12.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h /usr/include/openssl/pkcs12.h
+pkcs7.d pkcs7.ln pkcs7.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkcs7.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+pkcs8.d pkcs8.ln pkcs8.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkcs8.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/pkcs12.h
+pkey.d pkey.ln pkey.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkey.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+pkeyparam.d pkeyparam.ln pkeyparam.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkeyparam.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+pkeyutl.d pkeyutl.ln pkeyutl.o: /usr/src/crypto/external/bsd/openssl/dist/apps/pkeyutl.c \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/include/openssl/bio.h /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+prime.d prime.ln prime.o: /usr/src/crypto/external/bsd/openssl/dist/apps/prime.c \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h
+rand.d rand.ln rand.o: /usr/src/crypto/external/bsd/openssl/dist/apps/rand.c \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/include/openssl/bio.h /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/string.h /usr/include/strings.h
+req.d req.ln req.o: /usr/src/crypto/external/bsd/openssl/dist/apps/req.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+rsa.d rsa.ln rsa.o: /usr/src/crypto/external/bsd/openssl/dist/apps/rsa.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+rsautl.d rsautl.ln rsautl.o: /usr/src/crypto/external/bsd/openssl/dist/apps/rsautl.c \
+  /usr/include/openssl/opensslconf.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/include/openssl/bio.h /usr/include/stdio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+s_cb.d s_cb.ln s_cb.o: /usr/src/crypto/external/bsd/openssl/dist/apps/s_cb.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h /usr/include/netdb.h \
+  /usr/include/inttypes.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/arpa/inet.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h
+s_client.d s_client.ln s_client.o: /usr/src/crypto/external/bsd/openssl/dist/apps/s_client.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/arpa/inet.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/openssl/ssl.h \
+  /usr/include/openssl/comp.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h /usr/include/openssl/hmac.h \
+  /usr/include/openssl/kssl.h /usr/include/openssl/ssl2.h \
+  /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
+  /usr/include/openssl/dtls1.h /usr/include/openssl/pqueue.h \
+  /usr/include/openssl/ssl23.h /usr/include/openssl/srtp.h \
+  /usr/include/openssl/srp.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/timeouts.h
+s_server.d s_server.ln s_server.o: /usr/src/crypto/external/bsd/openssl/dist/apps/s_server.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/bn.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/netdb.h /usr/include/inttypes.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/arpa/inet.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h /usr/include/openssl/ssl.h \
+  /usr/include/openssl/comp.h /usr/include/openssl/hmac.h \
+  /usr/include/openssl/kssl.h /usr/include/openssl/ssl2.h \
+  /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
+  /usr/include/openssl/dtls1.h /usr/include/openssl/pqueue.h \
+  /usr/include/openssl/ssl23.h /usr/include/openssl/srtp.h \
+  /usr/include/openssl/srp.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/timeouts.h
+s_socket.d s_socket.ln s_socket.o: /usr/src/crypto/external/bsd/openssl/dist/apps/s_socket.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/sys/timespec.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/../e_os2.h \
+  /usr/include/openssl/opensslconf.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/e_os2.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/common_int_fmtio.h /usr/include/sys/syslimits.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/netdb.h /usr/include/inttypes.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/arpa/inet.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+s_time.d s_time.ln s_time.o: /usr/src/crypto/external/bsd/openssl/dist/apps/s_time.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/inttypes.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/common_int_fmtio.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/time.h /usr/include/netdb.h \
+  /usr/include/inttypes.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/arpa/inet.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
+  /usr/include/openssl/opensslv.h /usr/include/openssl/ossl_typ.h \
+  /usr/include/openssl/symhacks.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/buffer.h /usr/include/stddef.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/s_apps.h
+sess_id.d sess_id.ln sess_id.o: /usr/src/crypto/external/bsd/openssl/dist/apps/sess_id.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/ssl.h /usr/include/openssl/comp.h \
+  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
+  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+  /usr/include/openssl/srtp.h
+smime.d smime.ln smime.o: /usr/src/crypto/external/bsd/openssl/dist/apps/smime.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/bio.h \
+  /usr/include/stdarg.h /usr/include/openssl/crypto.h \
+  /usr/include/stdlib.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+speed.d speed.ln speed.o: /usr/src/crypto/external/bsd/openssl/dist/apps/speed.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/des.h /usr/include/openssl/aes.h \
+  /usr/include/openssl/camellia.h /usr/include/openssl/md2.h \
+  /usr/include/openssl/mdc2.h /usr/include/openssl/md4.h \
+  /usr/include/openssl/md5.h /usr/include/openssl/hmac.h \
+  /usr/include/openssl/ripemd.h /usr/include/openssl/whrlpool.h \
+  /usr/include/openssl/rc4.h /usr/include/openssl/rc2.h \
+  /usr/include/openssl/idea.h /usr/include/openssl/seed.h \
+  /usr/include/openssl/blowfish.h /usr/include/openssl/cast.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/./testrsa.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/./testdsa.h \
+  /usr/include/openssl/modes.h
+spkac.d spkac.ln spkac.o: /usr/src/crypto/external/bsd/openssl/dist/apps/spkac.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/openssl/bn.h \
+  /usr/include/openssl/ec.h /usr/include/openssl/ecdsa.h \
+  /usr/include/openssl/ecdh.h /usr/include/openssl/rsa.h \
+  /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
+  /usr/include/openssl/sha.h /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/txt_db.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/ocsp.h /usr/include/openssl/x509v3.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/openssl/pem.h \
+  /usr/include/openssl/pem2.h
+srp.d srp.ln srp.o: /usr/src/crypto/external/bsd/openssl/dist/apps/srp.c \
+  /usr/include/openssl/opensslconf.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/common_int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/openssl/conf.h /usr/include/openssl/bio.h \
+  /usr/include/openssl/e_os2.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/lhash.h /usr/include/openssl/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/srp.h \
+  /usr/include/openssl/bn.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/openssl/x509.h \
+  /usr/include/openssl/evp.h /usr/include/openssl/objects.h \
+  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+  /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
+  /usr/include/openssl/ui.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h
+ts.d ts.ln ts.o: /usr/src/crypto/external/bsd/openssl/dist/apps/ts.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
+  /usr/include/openssl/ts.h
+verify.d verify.ln verify.o: /usr/src/crypto/external/bsd/openssl/dist/apps/verify.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
+version.d version.ln version.o: /usr/src/crypto/external/bsd/openssl/dist/apps/version.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/md2.h /usr/include/openssl/rc4.h \
+  /usr/include/openssl/des.h /usr/include/openssl/idea.h \
+  /usr/include/openssl/blowfish.h
+x509.d x509.ln x509.o: /usr/src/crypto/external/bsd/openssl/dist/apps/x509.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/common_int_types.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/sys/common_int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/sys/common_int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/sys/common_int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/crypto/external/bsd/openssl/dist/apps/apps.h \
+  /usr/src/crypto/external/bsd/openssl/dist/e_os.h \
+  /usr/include/openssl/opensslconf.h /usr/include/openssl/e_os2.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/openssl/bio.h /usr/include/stdarg.h \
+  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+  /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+  /usr/include/stddef.h /usr/include/openssl/evp.h \
+  /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/asn1.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+  /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+  /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+  /usr/include/openssl/pkcs7.h /usr/include/openssl/conf.h \
+  /usr/include/openssl/txt_db.h /usr/include/openssl/engine.h \
+  /usr/include/openssl/rand.h /usr/include/openssl/ui.h \
+  /usr/include/openssl/err.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/openssl/ocsp.h \
+  /usr/include/openssl/x509v3.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h
